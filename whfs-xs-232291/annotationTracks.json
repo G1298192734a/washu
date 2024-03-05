@@ -1,0 +1,18 @@
+
+{
+    "Ruler": [
+        {
+            "type": "ruler",
+            "label": "Ruler",
+            "name": "Ruler"
+        }
+    ],
+    "Genes": [
+        {
+            "name": "gene",
+            "label": "Slividans_1326 genes",
+            "filetype": "geneAnnotation"
+        }
+    ]
+}
+        
