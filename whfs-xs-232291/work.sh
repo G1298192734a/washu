@@ -3,10 +3,10 @@ faToTwoBit /work/frasergen/backup/3d/project/Interactome/232291_lianmeijun_20240
 twoBitInfo genome.2bit genome.size
 
 # gene annotation
-ln -s /work/frasergen/backup/3d/project/Interactome/232291_lianmeijun_20240118/00.ref/Slividans_1326.gff
-python3 format_gff.py Slividans_1326.gff
-/public/frasergen/PUB/software/samtools/samtools-1.13/htslib-1.13/bgzip Slividans_1326.gff.refbed
-/public/frasergen/PUB/software/samtools/samtools-1.13/htslib-1.13/tabix -p bed Slividans_1326.gff.refbed.gz
+ln -s /work/frasergen/backup/3d/project/Interactome/232291_lianmeijun_20240118/00.ref/Slividans_1326.gff genome
+python3 format_gff.py genome
+/public/frasergen/PUB/software/samtools/samtools-1.13/htslib-1.13/bgzip genome.refbed
+/public/frasergen/PUB/software/samtools/samtools-1.13/htslib-1.13/tabix -p bed genome.refbed.gz
 
 # gc bw
 hgGcPercent -win=1000 -file=genome.GC -wigOut genome genome.2bit -noDots

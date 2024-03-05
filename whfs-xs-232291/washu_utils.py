@@ -46,7 +46,7 @@ class Washu(object):
             for i in glob.glob(os.path.join(jsons,"*json"))
         ))
         twobit=os.path.join(self._u,project,"genome.2bit")
-        gene_annot=os.path.join(self._u,project,"genome.refbed")
+        gene_annot=os.path.join(self._u,project,"genome.refbed.gz")
         gc=os.path.join(self._u,project,"genome.gc.bigwig")
         species=self._s.replace("_","").upper()
         if not outfile:outfile=f"{self._r}.js"
