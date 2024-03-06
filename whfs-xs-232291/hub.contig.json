@@ -1,9 +1,30 @@
 [
 
     {
-    "name": "Slividans_1326.gff.refbed",
-    "type": "refbed",
-    "url": "https://raw.githubusercontent.com/G1298192734a/washu/master/whfs-xs-232291/./Slividans_1326.gff.refbed.gz",
+    "name": "Slividans_1326.1k.TAD.sorted",
+    "type": "bed",
+    "url": "https://raw.githubusercontent.com/G1298192734a/washu/master/whfs-xs-232291/./Slividans_1326.1k.TAD.sorted.gz",
+    "showOnHubLoad":"true",
+    },
+
+    {
+    "name": "Slividans_1326.100k.Compartment.sorted",
+    "type": "bed",
+    "url": "https://raw.githubusercontent.com/G1298192734a/washu/master/whfs-xs-232291/./Slividans_1326.100k.Compartment.sorted.gz",
+    "showOnHubLoad":"true",
+    },
+
+    {
+    "name": "Slividans_1326_1k_cis.Interaction.sorted",
+    "type": "longrange",
+    "url": "https://raw.githubusercontent.com/G1298192734a/washu/master/whfs-xs-232291/./Slividans_1326_1k_cis.Interaction.sorted.gz",
+    "showOnHubLoad":"true",
+    },
+
+    {
+    "name": "Slividans_1326.5k.Heatmap.sorted",
+    "type": "longrange",
+    "url": "https://raw.githubusercontent.com/G1298192734a/washu/master/whfs-xs-232291/./Slividans_1326.5k.Heatmap.sorted.gz",
     "showOnHubLoad":"true",
     }
 ]
