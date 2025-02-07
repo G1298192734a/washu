@@ -1,0 +1,77 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+atac_bw                1              1              1
+atac_diff_tsv          1              1              1
+atac_merg_bed          1              1              1
+cpt_atac               1              1              1
+cpt_motif              1              1              1
+cpt_switch_atac        1              1              1
+loop_peak              1              1              1
+tad_peak               1              1              1
+tad_rna                1              1              1
+total                 10              1              1
+
+
+[Sat Oct 12 10:39:30 2024]
+rule tad_rna:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control.DEseq2.before-filter.xls, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control_biorep.txt
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/02.TAD_RNA/work.sh
+    jobid: 7
+    wildcards: diff=CapHiC-test.minus.CapHiC-control
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 10151428'.
+
+[Sat Oct 12 10:39:31 2024]
+rule atac_bw:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/01.QC/01.analysis/CTCF-test/CTCF-test.CPM.bw, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/01.QC/01.analysis/CTCF-control/CTCF-control.CPM.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/02.atac_bw
+    jobid: 14
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 10151429'.
+
+[Sat Oct 12 10:39:31 2024]
+rule atac_merg_bed:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/00.prepare/group_peak/CTCF-test.merge_peak.bed, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/00.prepare/group_peak/CTCF-control.merge_peak.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/00.merg_bed
+    jobid: 9
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 10151430'.
+
+[Sat Oct 12 10:39:31 2024]
+rule atac_diff_tsv:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/01.DP/CTCF-control-vs-CTCF-test/CTCF-control-vs-CTCF-test.DP.tsv, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/01.DP/CTCF-control-vs-CTCF-test/CTCF-control-vs-CTCF-test.Gain.DP.tsv, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/01.DP/CTCF-control-vs-CTCF-test/CTCF-control-vs-CTCF-test.Loss.DP.tsv
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/01.diff_tsv
+    jobid: 11
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 10151432'.
+[Sat Oct 12 10:40:10 2024]
+Error in rule atac_bw:
+    jobid: 14
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/02.atac_bw
+    cluster_jobid: Submitted batch job 10151429
+
+Error executing rule atac_bw on cluster (jobid: 14, external: Submitted batch job 10151429, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.yh27_xak/snakejob.atac_bw.14.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sat Oct 12 10:40:10 2024]
+Finished job 9.
+1 of 10 steps (10%) done
+[Sat Oct 12 10:40:10 2024]
+Finished job 11.
+2 of 10 steps (20%) done
+[Sat Oct 12 10:40:40 2024]
+Finished job 7.
+3 of 10 steps (30%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-10-12T103836.903545.snakemake.log

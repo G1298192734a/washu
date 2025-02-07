@@ -1,0 +1,6 @@
+ValueError in line 188 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py:
+Unknown format code 's' for object of type 'int'
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py", line 188, in <module>
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/string.py", line 190, in vformat
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/string.py", line 243, in _vformat
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/string.py", line 260, in format_field

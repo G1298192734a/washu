@@ -1,0 +1,47 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+pml          3              1              1
+total        3              1              1
+
+
+[Tue Apr 23 19:00:28 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    jobid: 37
+    wildcards: sample=AC
+    resources: tmpdir=/tmp
+
+[Tue Apr 23 19:01:08 2024]
+Finished job 37.
+1 of 106 steps (1%) done
+
+[Tue Apr 23 19:01:08 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    jobid: 5
+    wildcards: sample=AA
+    resources: tmpdir=/tmp
+
+[Tue Apr 23 19:01:47 2024]
+Finished job 5.
+2 of 106 steps (2%) done
+
+[Tue Apr 23 19:01:47 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    jobid: 69
+    wildcards: sample=AG
+    resources: tmpdir=/tmp
+
+[Tue Apr 23 19:02:24 2024]
+Finished job 69.
+3 of 106 steps (3%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-04-23T190019.164725.snakemake.log

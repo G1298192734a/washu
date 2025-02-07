@@ -1,0 +1,15 @@
+Dir: analysis_HiC_ATAC_RNA
+HiC: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/03.HiC
+Gene_bed: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/03.HiC/01.ref/genome_gene.bed
+Fpkm: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/02.RNA_ATAC/whfs-xs-241026_Result_20240607/03.expression/gene_tpm.xls
+DEG: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/02.RNA_ATAC/whfs-xs-241026_Result_20240607/05.diff_expression/Control-vs-test.GeneDiff_fpkm.matrix.xls
+Filter_before: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/02.RNA_ATAC/whfs-xs-241026_Result_20240607/05.diff_expression/Control-vs-test.total.Gene_fpkm.matrix.xls
+Spl_vs: Control-vs-test
+Spls:
+  CapHiC-control: Control
+  CapHiC-test: test
+ATAC:
+  HiC_CUT_CTCF:
+  - /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff
+  - CTCF-control-vs-CTCF-test
+YAML: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/04.HiC_diff/05.multi_report/report.yaml

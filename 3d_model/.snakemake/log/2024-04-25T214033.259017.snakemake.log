@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 7
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+gif          3              1              1
+total        4              1              1
+
+
+[Thu Apr 25 21:40:41 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/AG.gif
+    jobid: 105
+    wildcards: sample=AG
+    resources: tmpdir=/tmp
+
+[Thu Apr 25 21:40:41 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/pngs
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/AA.gif
+    jobid: 103
+    wildcards: sample=AA
+    resources: tmpdir=/tmp
+
+[Thu Apr 25 21:40:41 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/AC.gif
+    jobid: 104
+    wildcards: sample=AC
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-04-25T214033.259017.snakemake.log

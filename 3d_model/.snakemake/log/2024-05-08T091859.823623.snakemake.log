@@ -1,0 +1,910 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+chrom           12              1              1
+gif              2              1              1
+mp4              2              1              1
+pml              2              1              1
+png             48              1              1
+split_pml        2              1              1
+total           69              1              1
+
+
+[Wed May  8 09:19:06 2024]
+rule pml:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pdb
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    jobid: 12
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7593220'.
+
+[Wed May  8 09:19:06 2024]
+rule pml:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pdb
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    jobid: 2
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7593223'.
+[Wed May  8 09:19:36 2024]
+Finished job 12.
+1 of 69 steps (1%) done
+
+[Wed May  8 09:19:36 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr2/chr2.pml
+    jobid: 15
+    wildcards: sample=Root, chrom=chr2
+    resources: tmpdir=/tmp
+
+[Wed May  8 09:19:36 2024]
+Finished job 2.
+2 of 69 steps (3%) done
+Submitted job 15 with external jobid 'Submitted batch job 7593283'.
+
+[Wed May  8 09:19:36 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr4/chr4.pml
+    jobid: 17
+    wildcards: sample=Root, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7593285'.
+
+[Wed May  8 09:19:36 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr6/chr6.pml
+    jobid: 19
+    wildcards: sample=Root, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 7593286'.
+
+[Wed May  8 09:19:36 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr1/chr1.pml
+    jobid: 11
+    wildcards: sample=Root, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7593287'.
+
+[Wed May  8 09:19:36 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr3/chr3.pml
+    jobid: 16
+    wildcards: sample=Root, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7593288'.
+
+[Wed May  8 09:19:36 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr5/chr5.pml
+    jobid: 18
+    wildcards: sample=Root, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7593289'.
+
+[Wed May  8 09:19:37 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_231.pml
+    jobid: 48
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 48 with external jobid 'Submitted batch job 7593290'.
+
+[Wed May  8 09:19:37 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr6/chr6.pml
+    jobid: 10
+    wildcards: sample=Leaf, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7593292'.
+
+[Wed May  8 09:19:37 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_231.pml
+    jobid: 22
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7593294'.
+
+[Wed May  8 09:19:37 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr3/chr3.pml
+    jobid: 7
+    wildcards: sample=Leaf, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7593295'.
+
+[Wed May  8 09:19:37 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr5/chr5.pml
+    jobid: 9
+    wildcards: sample=Leaf, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7593296'.
+
+[Wed May  8 09:19:38 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr1/chr1.pml
+    jobid: 1
+    wildcards: sample=Leaf, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7593297'.
+
+[Wed May  8 09:19:38 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr2/chr2.pml
+    jobid: 6
+    wildcards: sample=Leaf, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7593298'.
+
+[Wed May  8 09:19:38 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr4/chr4.pml
+    jobid: 8
+    wildcards: sample=Leaf, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7593299'.
+[Wed May  8 09:19:47 2024]
+Finished job 48.
+3 of 69 steps (4%) done
+
+[Wed May  8 09:19:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_071.png
+    jobid: 55
+    wildcards: sample=Root, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 55 with external jobid 'Submitted batch job 7593320'.
+
+[Wed May  8 09:19:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_211.png
+    jobid: 69
+    wildcards: sample=Root, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 69 with external jobid 'Submitted batch job 7593321'.
+
+[Wed May  8 09:19:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_011.png
+    jobid: 49
+    wildcards: sample=Root, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 49 with external jobid 'Submitted batch job 7593322'.
+
+[Wed May  8 09:19:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_151.png
+    jobid: 63
+    wildcards: sample=Root, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 63 with external jobid 'Submitted batch job 7593323'.
+
+[Wed May  8 09:19:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_081.png
+    jobid: 56
+    wildcards: sample=Root, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 56 with external jobid 'Submitted batch job 7593324'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_221.png
+    jobid: 70
+    wildcards: sample=Root, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 70 with external jobid 'Submitted batch job 7593325'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_161.png
+    jobid: 64
+    wildcards: sample=Root, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 64 with external jobid 'Submitted batch job 7593326'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_021.png
+    jobid: 50
+    wildcards: sample=Root, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 50 with external jobid 'Submitted batch job 7593328'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_091.png
+    jobid: 57
+    wildcards: sample=Root, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 57 with external jobid 'Submitted batch job 7593330'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_231.png
+    jobid: 71
+    wildcards: sample=Root, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 71 with external jobid 'Submitted batch job 7593331'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_031.png
+    jobid: 51
+    wildcards: sample=Root, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 7593332'.
+
+[Wed May  8 09:19:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_171.png
+    jobid: 65
+    wildcards: sample=Root, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 65 with external jobid 'Submitted batch job 7593333'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_101.png
+    jobid: 58
+    wildcards: sample=Root, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 58 with external jobid 'Submitted batch job 7593334'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_041.png
+    jobid: 52
+    wildcards: sample=Root, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 7593335'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_181.png
+    jobid: 66
+    wildcards: sample=Root, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 66 with external jobid 'Submitted batch job 7593336'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_111.png
+    jobid: 59
+    wildcards: sample=Root, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 59 with external jobid 'Submitted batch job 7593337'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_051.png
+    jobid: 53
+    wildcards: sample=Root, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 53 with external jobid 'Submitted batch job 7593339'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_191.png
+    jobid: 67
+    wildcards: sample=Root, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 67 with external jobid 'Submitted batch job 7593341'.
+
+[Wed May  8 09:19:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_121.png
+    jobid: 60
+    wildcards: sample=Root, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 60 with external jobid 'Submitted batch job 7593342'.
+
+[Wed May  8 09:19:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_061.png
+    jobid: 54
+    wildcards: sample=Root, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 54 with external jobid 'Submitted batch job 7593343'.
+
+[Wed May  8 09:19:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_201.png
+    jobid: 68
+    wildcards: sample=Root, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 68 with external jobid 'Submitted batch job 7593344'.
+
+[Wed May  8 09:19:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_001.png
+    jobid: 47
+    wildcards: sample=Root, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 7593345'.
+
+[Wed May  8 09:19:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_131.png
+    jobid: 61
+    wildcards: sample=Root, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 61 with external jobid 'Submitted batch job 7593346'.
+
+[Wed May  8 09:19:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_141.png
+    jobid: 62
+    wildcards: sample=Root, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid 'Submitted batch job 7593347'.
+[Wed May  8 09:19:57 2024]
+Finished job 15.
+4 of 69 steps (6%) done
+[Wed May  8 09:19:57 2024]
+Finished job 17.
+5 of 69 steps (7%) done
+[Wed May  8 09:19:57 2024]
+Finished job 19.
+6 of 69 steps (9%) done
+[Wed May  8 09:19:57 2024]
+Finished job 16.
+7 of 69 steps (10%) done
+[Wed May  8 09:19:57 2024]
+Finished job 18.
+8 of 69 steps (12%) done
+[Wed May  8 09:19:57 2024]
+Finished job 10.
+9 of 69 steps (13%) done
+[Wed May  8 09:19:58 2024]
+Finished job 22.
+10 of 69 steps (14%) done
+[Wed May  8 09:19:58 2024]
+Finished job 7.
+11 of 69 steps (16%) done
+
+[Wed May  8 09:19:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_161.png
+    jobid: 38
+    wildcards: sample=Leaf, batch=161
+    resources: tmpdir=/tmp
+
+[Wed May  8 09:19:58 2024]
+Finished job 9.
+12 of 69 steps (17%) done
+[Wed May  8 09:19:58 2024]
+Finished job 1.
+13 of 69 steps (19%) done
+Submitted job 38 with external jobid 'Submitted batch job 7593366'.
+
+[Wed May  8 09:19:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_181.png
+    jobid: 40
+    wildcards: sample=Leaf, batch=181
+    resources: tmpdir=/tmp
+
+[Wed May  8 09:19:58 2024]
+Finished job 6.
+14 of 69 steps (20%) done
+[Wed May  8 09:19:58 2024]
+Finished job 8.
+15 of 69 steps (22%) done
+Submitted job 40 with external jobid 'Submitted batch job 7593367'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_041.png
+    jobid: 26
+    wildcards: sample=Leaf, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7593368'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_191.png
+    jobid: 41
+    wildcards: sample=Leaf, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7593369'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_051.png
+    jobid: 27
+    wildcards: sample=Leaf, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7593370'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_211.png
+    jobid: 43
+    wildcards: sample=Leaf, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 43 with external jobid 'Submitted batch job 7593371'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_071.png
+    jobid: 29
+    wildcards: sample=Leaf, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7593374'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_091.png
+    jobid: 31
+    wildcards: sample=Leaf, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7593375'.
+
+[Wed May  8 09:19:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_231.png
+    jobid: 45
+    wildcards: sample=Leaf, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 7593376'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_111.png
+    jobid: 33
+    wildcards: sample=Leaf, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 33 with external jobid 'Submitted batch job 7593377'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_131.png
+    jobid: 35
+    wildcards: sample=Leaf, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 35 with external jobid 'Submitted batch job 7593378'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_171.png
+    jobid: 39
+    wildcards: sample=Leaf, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 39 with external jobid 'Submitted batch job 7593379'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_101.png
+    jobid: 32
+    wildcards: sample=Leaf, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7593380'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_061.png
+    jobid: 28
+    wildcards: sample=Leaf, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7593381'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_201.png
+    jobid: 42
+    wildcards: sample=Leaf, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 42 with external jobid 'Submitted batch job 7593383'.
+
+[Wed May  8 09:20:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_081.png
+    jobid: 30
+    wildcards: sample=Leaf, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7593386'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_221.png
+    jobid: 44
+    wildcards: sample=Leaf, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 7593388'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_141.png
+    jobid: 36
+    wildcards: sample=Leaf, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 36 with external jobid 'Submitted batch job 7593389'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_021.png
+    jobid: 24
+    wildcards: sample=Leaf, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7593390'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_001.png
+    jobid: 21
+    wildcards: sample=Leaf, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7593391'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_151.png
+    jobid: 37
+    wildcards: sample=Leaf, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 7593392'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_011.png
+    jobid: 23
+    wildcards: sample=Leaf, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7593393'.
+
+[Wed May  8 09:20:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_031.png
+    jobid: 25
+    wildcards: sample=Leaf, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7593394'.
+[Wed May  8 09:20:12 2024]
+Finished job 11.
+16 of 69 steps (23%) done
+
+[Wed May  8 09:20:12 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_121.png
+    jobid: 34
+    wildcards: sample=Leaf, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 34 with external jobid 'Submitted batch job 7593417'.
+[Wed May  8 09:21:36 2024]
+Finished job 55.
+17 of 69 steps (25%) done
+[Wed May  8 09:21:36 2024]
+Finished job 69.
+18 of 69 steps (26%) done
+[Wed May  8 09:21:37 2024]
+Finished job 49.
+19 of 69 steps (28%) done
+[Wed May  8 09:21:37 2024]
+Finished job 63.
+20 of 69 steps (29%) done
+[Wed May  8 09:21:37 2024]
+Finished job 56.
+21 of 69 steps (30%) done
+[Wed May  8 09:21:37 2024]
+Finished job 70.
+22 of 69 steps (32%) done
+[Wed May  8 09:21:38 2024]
+Finished job 64.
+23 of 69 steps (33%) done
+[Wed May  8 09:21:38 2024]
+Finished job 50.
+24 of 69 steps (35%) done
+[Wed May  8 09:21:38 2024]
+Finished job 57.
+25 of 69 steps (36%) done
+[Wed May  8 09:21:38 2024]
+Finished job 71.
+26 of 69 steps (38%) done
+[Wed May  8 09:21:38 2024]
+Finished job 58.
+27 of 69 steps (39%) done
+[Wed May  8 09:21:51 2024]
+Finished job 51.
+28 of 69 steps (41%) done
+[Wed May  8 09:21:51 2024]
+Finished job 65.
+29 of 69 steps (42%) done
+[Wed May  8 09:21:51 2024]
+Finished job 52.
+30 of 69 steps (43%) done
+[Wed May  8 09:21:51 2024]
+Finished job 66.
+31 of 69 steps (45%) done
+[Wed May  8 09:21:52 2024]
+Finished job 59.
+32 of 69 steps (46%) done
+[Wed May  8 09:21:52 2024]
+Finished job 53.
+33 of 69 steps (48%) done
+[Wed May  8 09:21:52 2024]
+Finished job 67.
+34 of 69 steps (49%) done
+[Wed May  8 09:21:52 2024]
+Finished job 60.
+35 of 69 steps (51%) done
+[Wed May  8 09:21:52 2024]
+Finished job 54.
+36 of 69 steps (52%) done
+[Wed May  8 09:21:52 2024]
+Finished job 68.
+37 of 69 steps (54%) done
+[Wed May  8 09:21:52 2024]
+Finished job 47.
+38 of 69 steps (55%) done
+[Wed May  8 09:21:52 2024]
+Finished job 61.
+39 of 69 steps (57%) done
+[Wed May  8 09:21:52 2024]
+Finished job 62.
+40 of 69 steps (58%) done
+
+[Wed May  8 09:21:52 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/Root.mp4
+    jobid: 73
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 73 with external jobid 'Submitted batch job 7593652'.
+
+[Wed May  8 09:21:52 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/Root.gif
+    jobid: 46
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid 'Submitted batch job 7593653'.
+[Wed May  8 09:22:03 2024]
+Finished job 38.
+41 of 69 steps (59%) done
+[Wed May  8 09:22:03 2024]
+Finished job 40.
+42 of 69 steps (61%) done
+[Wed May  8 09:22:03 2024]
+Finished job 26.
+43 of 69 steps (62%) done
+[Wed May  8 09:22:03 2024]
+Finished job 41.
+44 of 69 steps (64%) done
+[Wed May  8 09:22:03 2024]
+Finished job 27.
+45 of 69 steps (65%) done
+[Wed May  8 09:22:04 2024]
+Finished job 43.
+46 of 69 steps (67%) done
+[Wed May  8 09:22:15 2024]
+Finished job 46.
+47 of 69 steps (68%) done
+[Wed May  8 09:22:16 2024]
+Finished job 29.
+48 of 69 steps (70%) done
+[Wed May  8 09:22:16 2024]
+Finished job 31.
+49 of 69 steps (71%) done
+[Wed May  8 09:22:27 2024]
+Finished job 73.
+50 of 69 steps (72%) done
+[Wed May  8 09:23:12 2024]
+Finished job 45.
+51 of 69 steps (74%) done
+[Wed May  8 09:23:12 2024]
+Finished job 33.
+52 of 69 steps (75%) done
+[Wed May  8 09:23:23 2024]
+Finished job 35.
+53 of 69 steps (77%) done
+[Wed May  8 09:23:23 2024]
+Finished job 39.
+54 of 69 steps (78%) done
+[Wed May  8 09:23:23 2024]
+Finished job 32.
+55 of 69 steps (80%) done
+[Wed May  8 09:23:23 2024]
+Finished job 28.
+56 of 69 steps (81%) done
+[Wed May  8 09:23:23 2024]
+Finished job 42.
+57 of 69 steps (83%) done
+[Wed May  8 09:23:23 2024]
+Finished job 30.
+58 of 69 steps (84%) done
+[Wed May  8 09:23:23 2024]
+Finished job 44.
+59 of 69 steps (86%) done
+[Wed May  8 09:23:23 2024]
+Finished job 36.
+60 of 69 steps (87%) done
+[Wed May  8 09:23:23 2024]
+Finished job 24.
+61 of 69 steps (88%) done
+[Wed May  8 09:23:24 2024]
+Finished job 21.
+62 of 69 steps (90%) done
+[Wed May  8 09:23:24 2024]
+Finished job 37.
+63 of 69 steps (91%) done
+[Wed May  8 09:23:24 2024]
+Finished job 23.
+64 of 69 steps (93%) done
+[Wed May  8 09:23:34 2024]
+Finished job 34.
+65 of 69 steps (94%) done
+[Wed May  8 09:23:34 2024]
+Finished job 25.
+66 of 69 steps (96%) done
+
+[Wed May  8 09:23:34 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/Leaf.mp4
+    jobid: 72
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 72 with external jobid 'Submitted batch job 7593863'.
+
+[Wed May  8 09:23:34 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/Leaf.gif
+    jobid: 20
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7593864'.
+[Wed May  8 09:24:04 2024]
+Finished job 72.
+67 of 69 steps (97%) done
+[Wed May  8 09:24:04 2024]
+Finished job 20.
+68 of 69 steps (99%) done
+
+[Wed May  8 09:24:04 2024]
+localrule all:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr1/chr1.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr2/chr2.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr3/chr3.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr4/chr4.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr5/chr5.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/chrs/chr6/chr6.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr1/chr1.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr2/chr2.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr3/chr3.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr4/chr4.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr5/chr5.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/chrs/chr6/chr6.pml, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/Leaf.gif, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/Root.gif, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Leaf/Leaf.mp4, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/03.gif/Root/Root.mp4
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Wed May  8 09:24:04 2024]
+Finished job 0.
+69 of 69 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-08T091859.823623.snakemake.log

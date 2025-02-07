@@ -1,0 +1,49 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+pml          3              1              1
+total        3              1              1
+
+
+[Wed Apr 24 09:48:32 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    jobid: 71
+    wildcards: sample=AG
+    resources: tmpdir=/tmp
+
+Submitted job 71 with external jobid 'Submitted batch job 7171777'.
+
+[Wed Apr 24 09:48:33 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    jobid: 38
+    wildcards: sample=AC
+    resources: tmpdir=/tmp
+
+Submitted job 38 with external jobid 'Submitted batch job 7171778'.
+
+[Wed Apr 24 09:48:33 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    jobid: 5
+    wildcards: sample=AA
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7171779'.
+[Wed Apr 24 09:49:12 2024]
+Finished job 71.
+1 of 109 steps (1%) done
+[Wed Apr 24 09:49:13 2024]
+Finished job 38.
+2 of 109 steps (2%) done
+[Wed Apr 24 09:49:13 2024]
+Finished job 5.
+3 of 109 steps (3%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-04-24T094822.478562.snakemake.log

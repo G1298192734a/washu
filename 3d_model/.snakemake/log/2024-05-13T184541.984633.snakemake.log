@@ -1,0 +1,505 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom        2              1              1
+gif          2              1              1
+png         48              1              1
+total       53              1              1
+
+
+[Mon May 13 18:45:46 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_140.png
+    jobid: 42
+    wildcards: sample=Bs168, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 42 with external jobid 'Submitted batch job 7699197'.
+
+[Mon May 13 18:45:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_110.png
+    jobid: 14
+    wildcards: sample=Delta-abrB, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7699198'.
+
+[Mon May 13 18:45:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_080.png
+    jobid: 36
+    wildcards: sample=Bs168, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 36 with external jobid 'Submitted batch job 7699199'.
+
+[Mon May 13 18:45:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_190.png
+    jobid: 22
+    wildcards: sample=Delta-abrB, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7699200'.
+
+[Mon May 13 18:45:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_050.png
+    jobid: 8
+    wildcards: sample=Delta-abrB, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7699201'.
+
+[Mon May 13 18:45:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_220.png
+    jobid: 50
+    wildcards: sample=Bs168, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 50 with external jobid 'Submitted batch job 7699202'.
+
+[Mon May 13 18:45:48 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/chrs/chr1/chr1_2.png
+    jobid: 1
+    wildcards: sample=Delta-abrB, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7699203'.
+
+[Mon May 13 18:45:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_120.png
+    jobid: 15
+    wildcards: sample=Delta-abrB, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7699204'.
+
+[Mon May 13 18:45:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_010.png
+    jobid: 29
+    wildcards: sample=Bs168, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7699205'.
+
+[Mon May 13 18:45:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_150.png
+    jobid: 43
+    wildcards: sample=Bs168, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 43 with external jobid 'Submitted batch job 7699206'.
+
+[Mon May 13 18:45:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_040.png
+    jobid: 7
+    wildcards: sample=Delta-abrB, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7699207'.
+
+[Mon May 13 18:45:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_230.png
+    jobid: 51
+    wildcards: sample=Bs168, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 7699208'.
+
+[Mon May 13 18:45:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_200.png
+    jobid: 23
+    wildcards: sample=Delta-abrB, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7699209'.
+
+[Mon May 13 18:45:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_090.png
+    jobid: 37
+    wildcards: sample=Bs168, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 7699210'.
+
+[Mon May 13 18:45:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_060.png
+    jobid: 9
+    wildcards: sample=Delta-abrB, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7699211'.
+
+[Mon May 13 18:45:50 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/chrs/chr1/chr1_2.png
+    jobid: 2
+    wildcards: sample=Bs168, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7699212'.
+
+[Mon May 13 18:45:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_130.png
+    jobid: 16
+    wildcards: sample=Delta-abrB, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7699213'.
+
+[Mon May 13 18:45:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_020.png
+    jobid: 30
+    wildcards: sample=Bs168, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7699214'.
+
+[Mon May 13 18:45:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_160.png
+    jobid: 44
+    wildcards: sample=Bs168, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 7699215'.
+
+[Mon May 13 18:45:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_070.png
+    jobid: 10
+    wildcards: sample=Delta-abrB, batch=070
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7699216'.
+
+[Mon May 13 18:45:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_210.png
+    jobid: 24
+    wildcards: sample=Delta-abrB, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7699217'.
+
+[Mon May 13 18:45:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_100.png
+    jobid: 38
+    wildcards: sample=Bs168, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 38 with external jobid 'Submitted batch job 7699218'.
+
+[Mon May 13 18:45:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    jobid: 52
+    wildcards: sample=Bs168, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 7699219'.
+
+[Mon May 13 18:45:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_140.png
+    jobid: 17
+    wildcards: sample=Delta-abrB, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7699220'.
+
+[Mon May 13 18:45:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_030.png
+    jobid: 31
+    wildcards: sample=Bs168, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7699221'.
+
+[Mon May 13 18:45:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_170.png
+    jobid: 45
+    wildcards: sample=Bs168, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 7699222'.
+
+[Mon May 13 18:45:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_080.png
+    jobid: 11
+    wildcards: sample=Delta-abrB, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7699223'.
+
+[Mon May 13 18:45:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_220.png
+    jobid: 25
+    wildcards: sample=Delta-abrB, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7699224'.
+
+[Mon May 13 18:45:53 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_110.png
+    jobid: 39
+    wildcards: sample=Bs168, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 39 with external jobid 'Submitted batch job 7699225'.
+
+[Mon May 13 18:45:53 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_180.png
+    jobid: 21
+    wildcards: sample=Delta-abrB, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7699226'.
+
+[Mon May 13 18:45:53 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_010.png
+    jobid: 4
+    wildcards: sample=Delta-abrB, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 7699227'.
+
+[Mon May 13 18:45:53 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_150.png
+    jobid: 18
+    wildcards: sample=Delta-abrB, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7699228'.
+
+[Mon May 13 18:45:54 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_040.png
+    jobid: 32
+    wildcards: sample=Bs168, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7699229'.
+
+[Mon May 13 18:45:54 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_070.png
+    jobid: 35
+    wildcards: sample=Bs168, batch=070
+    resources: tmpdir=/tmp
+
+Submitted job 35 with external jobid 'Submitted batch job 7699230'.
+
+[Mon May 13 18:45:54 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_180.png
+    jobid: 46
+    wildcards: sample=Bs168, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid 'Submitted batch job 7699231'.
+
+[Mon May 13 18:45:54 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_090.png
+    jobid: 12
+    wildcards: sample=Delta-abrB, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7699232'.
+
+[Mon May 13 18:45:54 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_230.png
+    jobid: 26
+    wildcards: sample=Delta-abrB, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7699233'.
+
+[Mon May 13 18:45:55 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_120.png
+    jobid: 40
+    wildcards: sample=Bs168, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 7699234'.
+
+[Mon May 13 18:45:55 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_020.png
+    jobid: 5
+    wildcards: sample=Delta-abrB, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7699235'.
+
+[Mon May 13 18:45:55 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_160.png
+    jobid: 19
+    wildcards: sample=Delta-abrB, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 7699236'.
+
+[Mon May 13 18:45:55 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_050.png
+    jobid: 33
+    wildcards: sample=Bs168, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 33 with external jobid 'Submitted batch job 7699237'.
+
+[Mon May 13 18:45:56 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_190.png
+    jobid: 47
+    wildcards: sample=Bs168, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 7699238'.
+
+[Mon May 13 18:45:56 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_100.png
+    jobid: 13
+    wildcards: sample=Delta-abrB, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7699239'.
+
+[Mon May 13 18:45:56 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    jobid: 27
+    wildcards: sample=Delta-abrB, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7699240'.
+
+[Mon May 13 18:45:56 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_130.png
+    jobid: 41
+    wildcards: sample=Bs168, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7699241'.
+
+[Mon May 13 18:45:56 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_030.png
+    jobid: 6
+    wildcards: sample=Delta-abrB, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7699242'.
+
+[Mon May 13 18:45:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_170.png
+    jobid: 20
+    wildcards: sample=Delta-abrB, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7699243'.
+
+[Mon May 13 18:45:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_210.png
+    jobid: 49
+    wildcards: sample=Bs168, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 49 with external jobid 'Submitted batch job 7699244'.
+[Mon May 13 18:47:21 2024]
+Finished job 1.
+1 of 53 steps (2%) done
+
+[Mon May 13 18:47:21 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_200.png
+    jobid: 48
+    wildcards: sample=Bs168, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 48 with external jobid 'Submitted batch job 7699246'.

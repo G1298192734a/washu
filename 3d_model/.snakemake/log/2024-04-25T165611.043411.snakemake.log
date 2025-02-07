@@ -1,0 +1,412 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 72
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+gif          3              1              1
+mp4          3              1              1
+png         25              1              1
+total       32              1              1
+
+
+[Thu Apr 25 16:56:18 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_020.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_020.png
+    jobid: 150
+    wildcards: sample=AC, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 150 with external jobid 'Submitted batch job 7192092'.
+
+[Thu Apr 25 16:56:18 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_014.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_014.png
+    jobid: 144
+    wildcards: sample=AC, batch=014
+    resources: tmpdir=/tmp
+
+Submitted job 144 with external jobid 'Submitted batch job 7192093'.
+
+[Thu Apr 25 16:56:18 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_021.png
+    jobid: 151
+    wildcards: sample=AC, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 151 with external jobid 'Submitted batch job 7192095'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_015.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_015.png
+    jobid: 145
+    wildcards: sample=AC, batch=015
+    resources: tmpdir=/tmp
+
+Submitted job 145 with external jobid 'Submitted batch job 7192096'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_022.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_022.png
+    jobid: 152
+    wildcards: sample=AC, batch=022
+    resources: tmpdir=/tmp
+
+Submitted job 152 with external jobid 'Submitted batch job 7192097'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_002.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_002.png
+    jobid: 132
+    wildcards: sample=AC, batch=002
+    resources: tmpdir=/tmp
+
+Submitted job 132 with external jobid 'Submitted batch job 7192098'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_016.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_016.png
+    jobid: 146
+    wildcards: sample=AC, batch=016
+    resources: tmpdir=/tmp
+
+Submitted job 146 with external jobid 'Submitted batch job 7192099'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_011.png
+    jobid: 167
+    wildcards: sample=AG, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 167 with external jobid 'Submitted batch job 7192100'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_023.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_023.png
+    jobid: 153
+    wildcards: sample=AC, batch=023
+    resources: tmpdir=/tmp
+
+Submitted job 153 with external jobid 'Submitted batch job 7192101'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_003.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_003.png
+    jobid: 133
+    wildcards: sample=AC, batch=003
+    resources: tmpdir=/tmp
+
+Submitted job 133 with external jobid 'Submitted batch job 7192102'.
+
+[Thu Apr 25 16:56:19 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_017.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_017.png
+    jobid: 147
+    wildcards: sample=AC, batch=017
+    resources: tmpdir=/tmp
+
+Submitted job 147 with external jobid 'Submitted batch job 7192103'.
+
+[Thu Apr 25 16:56:20 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/pngs/fig_011.png
+    jobid: 115
+    wildcards: sample=AA, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 115 with external jobid 'Submitted batch job 7192104'.
+
+[Thu Apr 25 16:56:20 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_024.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_024.png
+    jobid: 154
+    wildcards: sample=AC, batch=024
+    resources: tmpdir=/tmp
+
+Submitted job 154 with external jobid 'Submitted batch job 7192105'.
+
+[Thu Apr 25 16:56:20 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pmls/gif_012.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_012.png
+    jobid: 168
+    wildcards: sample=AG, batch=012
+    resources: tmpdir=/tmp
+
+Submitted job 168 with external jobid 'Submitted batch job 7192106'.
+
+[Thu Apr 25 16:56:20 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_004.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_004.png
+    jobid: 134
+    wildcards: sample=AC, batch=004
+    resources: tmpdir=/tmp
+
+Submitted job 134 with external jobid 'Submitted batch job 7192107'.
+
+[Thu Apr 25 16:56:20 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_018.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_018.png
+    jobid: 148
+    wildcards: sample=AC, batch=018
+    resources: tmpdir=/tmp
+
+Submitted job 148 with external jobid 'Submitted batch job 7192108'.
+
+[Thu Apr 25 16:56:20 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pmls/gif_013.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_013.png
+    jobid: 169
+    wildcards: sample=AG, batch=013
+    resources: tmpdir=/tmp
+
+Submitted job 169 with external jobid 'Submitted batch job 7192110'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_011.png
+    jobid: 141
+    wildcards: sample=AC, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 141 with external jobid 'Submitted batch job 7192111'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_005.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_005.png
+    jobid: 135
+    wildcards: sample=AC, batch=005
+    resources: tmpdir=/tmp
+
+Submitted job 135 with external jobid 'Submitted batch job 7192112'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_019.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_019.png
+    jobid: 149
+    wildcards: sample=AC, batch=019
+    resources: tmpdir=/tmp
+
+Submitted job 149 with external jobid 'Submitted batch job 7192113'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_021.png
+    jobid: 177
+    wildcards: sample=AG, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 177 with external jobid 'Submitted batch job 7192114'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_012.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_012.png
+    jobid: 142
+    wildcards: sample=AC, batch=012
+    resources: tmpdir=/tmp
+
+Submitted job 142 with external jobid 'Submitted batch job 7192115'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pmls/gif_014.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_014.png
+    jobid: 170
+    wildcards: sample=AG, batch=014
+    resources: tmpdir=/tmp
+
+Submitted job 170 with external jobid 'Submitted batch job 7192116'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pmls/gif_015.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_015.png
+    jobid: 171
+    wildcards: sample=AG, batch=015
+    resources: tmpdir=/tmp
+
+Submitted job 171 with external jobid 'Submitted batch job 7192117'.
+
+[Thu Apr 25 16:56:21 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pmls/gif_013.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_013.png
+    jobid: 143
+    wildcards: sample=AC, batch=013
+    resources: tmpdir=/tmp
+
+Submitted job 143 with external jobid 'Submitted batch job 7192118'.
+[Thu Apr 25 18:05:59 2024]
+Error in rule png:
+    jobid: 150
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_020.png
+    cluster_jobid: Submitted batch job 7192092
+
+Error executing rule png on cluster (jobid: 150, external: Submitted batch job 7192092, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.150.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 18:27:02 2024]
+Error in rule png:
+    jobid: 132
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_002.png
+    cluster_jobid: Submitted batch job 7192098
+
+Error executing rule png on cluster (jobid: 132, external: Submitted batch job 7192098, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.132.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 18:28:03 2024]
+Error in rule png:
+    jobid: 141
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_011.png
+    cluster_jobid: Submitted batch job 7192111
+
+Error executing rule png on cluster (jobid: 141, external: Submitted batch job 7192111, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.141.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job png since they might be corrupted:
+/work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_011.png
+[Thu Apr 25 18:31:27 2024]
+Error in rule png:
+    jobid: 149
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_019.png
+    cluster_jobid: Submitted batch job 7192113
+
+Error executing rule png on cluster (jobid: 149, external: Submitted batch job 7192113, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.149.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job png since they might be corrupted:
+/work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_019.png
+[Thu Apr 25 18:31:39 2024]
+Error in rule png:
+    jobid: 142
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_012.png
+    cluster_jobid: Submitted batch job 7192115
+
+Error executing rule png on cluster (jobid: 142, external: Submitted batch job 7192115, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.142.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job png since they might be corrupted:
+/work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_012.png
+[Thu Apr 25 18:34:26 2024]
+Finished job 144.
+1 of 32 steps (3%) done
+[Thu Apr 25 18:34:49 2024]
+Finished job 152.
+2 of 32 steps (6%) done
+[Thu Apr 25 18:36:29 2024]
+Finished job 151.
+3 of 32 steps (9%) done
+[Thu Apr 25 18:36:40 2024]
+Finished job 145.
+4 of 32 steps (12%) done
+[Thu Apr 25 18:50:37 2024]
+Error in rule png:
+    jobid: 133
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_003.png
+    cluster_jobid: Submitted batch job 7192102
+
+Error executing rule png on cluster (jobid: 133, external: Submitted batch job 7192102, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.133.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 18:52:06 2024]
+Error in rule png:
+    jobid: 167
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_011.png
+    cluster_jobid: Submitted batch job 7192100
+
+Error executing rule png on cluster (jobid: 167, external: Submitted batch job 7192100, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.167.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 18:58:09 2024]
+Finished job 153.
+5 of 32 steps (16%) done
+[Thu Apr 25 19:00:55 2024]
+Error in rule png:
+    jobid: 134
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_004.png
+    cluster_jobid: Submitted batch job 7192107
+
+Error executing rule png on cluster (jobid: 134, external: Submitted batch job 7192107, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.134.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 19:01:17 2024]
+Finished job 154.
+6 of 32 steps (19%) done
+[Thu Apr 25 19:02:34 2024]
+Finished job 146.
+7 of 32 steps (22%) done
+[Thu Apr 25 19:06:25 2024]
+Error in rule png:
+    jobid: 168
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_012.png
+    cluster_jobid: Submitted batch job 7192106
+
+Error executing rule png on cluster (jobid: 168, external: Submitted batch job 7192106, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.168.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 19:08:47 2024]
+Error in rule png:
+    jobid: 115
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/pngs/fig_011.png
+    cluster_jobid: Submitted batch job 7192104
+
+Error executing rule png on cluster (jobid: 115, external: Submitted batch job 7192104, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.115.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 19:11:27 2024]
+Finished job 147.
+8 of 32 steps (25%) done
+[Thu Apr 25 19:12:47 2024]
+Finished job 148.
+9 of 32 steps (28%) done
+[Thu Apr 25 19:17:28 2024]
+Error in rule png:
+    jobid: 135
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_005.png
+    cluster_jobid: Submitted batch job 7192112
+
+Error executing rule png on cluster (jobid: 135, external: Submitted batch job 7192112, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.135.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 19:23:48 2024]
+Error in rule png:
+    jobid: 169
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_013.png
+    cluster_jobid: Submitted batch job 7192110
+
+Error executing rule png on cluster (jobid: 169, external: Submitted batch job 7192110, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.169.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 19:28:49 2024]
+Error in rule png:
+    jobid: 170
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_014.png
+    cluster_jobid: Submitted batch job 7192116
+
+Error executing rule png on cluster (jobid: 170, external: Submitted batch job 7192116, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.170.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 19:29:59 2024]
+Error in rule png:
+    jobid: 143
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_013.png
+    cluster_jobid: Submitted batch job 7192118
+
+Error executing rule png on cluster (jobid: 143, external: Submitted batch job 7192118, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.143.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job png since they might be corrupted:
+/work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_013.png
+[Thu Apr 25 19:35:30 2024]
+Error in rule png:
+    jobid: 177
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_021.png
+    cluster_jobid: Submitted batch job 7192114
+
+Error executing rule png on cluster (jobid: 177, external: Submitted batch job 7192114, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.177.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 25 20:24:23 2024]
+Error in rule png:
+    jobid: 171
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_015.png
+    cluster_jobid: Submitted batch job 7192117
+
+Error executing rule png on cluster (jobid: 171, external: Submitted batch job 7192117, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.g85az3jt/snakejob.png.171.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-04-25T165611.043411.snakemake.log

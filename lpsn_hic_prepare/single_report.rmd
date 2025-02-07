@@ -1,0 +1,71 @@
+---
+output:
+    html_document:
+        css: css/styles.css
+        df_print: paged
+        fig_caption: true
+        toc: true
+        toc_depth: 3
+        toc_float: true
+        number_sections: yes
+        includes:
+            in_header: css/header.html
+---
+
+```{r, echo=FALSE}
+library(DT)
+library(htmltools)
+library(bookdown)
+library(slickR)
+library(yaml)
+library(knitr)
+library(kableExtra)
+library(fraserReport)
+```
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE,warning = FALSE)
+
+```
+
+<script>
+function foldbutton(id) {
+    var x = document.getElementById(id);
+    console.log(id)
+    console.log(x)
+    if (x.style.display=="none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+---
+title: <center><strong>`r meta()$title`</strong></center>
+documentclass: book
+biliography: [src/book.bib]
+csl: src/cell.csl
+---
+
+`r tb(file.path(meta()$report_outdir, "table/contract_info.txt"))`
+
+## TAD结构分析
+
+TAD（Topologically Associating Domains）是拓扑相关结构域，是染色体在空间结构中基本的组织形式。一般情况下，TAD区域内部的互作频率显著高于毗邻的两个TAD区域之间的互作频率， 且TAD边界富含启动子相关转录因子、转录起始位点、管家基因、tRNA genes和SINEs等，对于维持TAD结构的稳定性具有重要作用（Dixon et al., 2012）。
+
+### TAD结构图
+
+根据一定分辨率的单染色体互作矩阵，使用Insulation Score方法计算得到TAD边界（Crane et al., 2015）。Insulation Score反映参考基因组上每个bin两侧间的互作情况，如某个bin的Insulation Score较两侧低，说明该bin两侧间存在互作隔绝，则该bin会被识别成TAD边界。
+
+这里，根据`r as.integer(meta()$tad_res)/1000`kb分辨率的单染色体互作矩阵，采用Insulation Score的方法分析TAD，得到每条染色体的TAD边界，则两个TAD边界间的区域为一个TAD。
+
+各样品`r as.integer(meta()$tad_res)/1000`kb分辨率的单染色体TAD展示图如下（染色体上随机选取一段距离进行展示）：
+ 
+```{r echo=F,fig.asp=0.001}
+slide(file.path(meta()$report_outdir, "figure/05.TAD/Display"), title="TAD展示图", suffix=".png", subtitle=TRUE)
+```
+
+`r annot(c("图上半部分：随机从染色体上选取的一段区域的Hi-C互作热图；", "图下半部分：该区域对应的insulation score，极低值点对应TAD boundary。"))`
+

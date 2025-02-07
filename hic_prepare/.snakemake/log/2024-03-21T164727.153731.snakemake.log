@@ -1,0 +1,85 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+all                  1              1              1
+single_report       20              1              1
+total               21              1              1
+
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmTuEQ/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmTuEQ/01.hic/08.report/work.sh
+    jobid: 14
+    wildcards: project=whfs-xs-232026-01, sample=BmTuEQ
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BBmZJ/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BBmZJ/01.hic/08.report/work.sh
+    jobid: 1
+    wildcards: project=whfs-xs-232026-01, sample=BBmZJ
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmXingH/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmXingH/01.hic/08.report/work.sh
+    jobid: 16
+    wildcards: project=whfs-xs-232026-01, sample=BmXingH
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmD9L/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmD9L/01.hic/08.report/work.sh
+    jobid: 8
+    wildcards: project=whfs-xs-232026-01, sample=BmD9L
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDZ/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDZ/01.hic/08.report/work.sh
+    jobid: 10
+    wildcards: project=whfs-xs-232026-01, sample=BmDZ
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm732/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm732/01.hic/08.report/work.sh
+    jobid: 3
+    wildcards: project=whfs-xs-232026-01, sample=Bm732
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmXiaF/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmXiaF/01.hic/08.report/work.sh
+    jobid: 15
+    wildcards: project=whfs-xs-232026-01, sample=BmXiaF
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm54A/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm54A/01.hic/08.report/work.sh
+    jobid: 2
+    wildcards: project=whfs-xs-232026-01, sample=Bm54A
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYanBai/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYanBai/01.hic/08.report/work.sh
+    jobid: 17
+    wildcards: project=whfs-xs-232026-01, sample=BmYanBai
+    resources: tmpdir=/tmp
+
+[Thu Mar 21 16:47:33 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDongF/01.hic/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDongF/01.hic/08.report/work.sh
+    jobid: 9
+    wildcards: project=whfs-xs-232026-01, sample=BmDongF
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/.snakemake/log/2024-03-21T164727.153731.snakemake.log

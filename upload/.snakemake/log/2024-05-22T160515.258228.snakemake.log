@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+genome        1              1              1
+total         1              1              1
+
+
+[Wed May 22 16:05:24 2024]
+rule genome:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/00.longest_gtf/genome_mRNA_genename.gtf
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/01.genome/genome
+    jobid: 1
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/log/2024-05-22T160515.258228.snakemake.log

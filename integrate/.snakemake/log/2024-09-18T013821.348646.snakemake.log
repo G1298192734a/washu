@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+minus       13              1              1
+total       14              1              1
+
+
+[Wed Sep 18 01:38:28 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr2.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/AC-25_vs_AC-34.chr2.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/AC-25_vs_AC-34_chr2_zscore_minus.cool
+    jobid: 4
+    wildcards: diff=AC-25_vs_AC-34, chr=chr2
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-09-18T013821.348646.snakemake.log

@@ -1,0 +1,98 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+fill_pre        1              1              1
+matrix          3              1              1
+pastis          3              1              1
+total           7              1              1
+
+
+[Fri May 24 16:31:21 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/TD_60MM12h/TD_60MM12h_filled_matrix.txt
+    jobid: 10
+    wildcards: sample=TD_60MM12h
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7921705'.
+
+[Fri May 24 16:31:21 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/TD_MM6h/TD_MM6h_filled_matrix.txt
+    jobid: 3
+    wildcards: sample=TD_MM6h
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7921706'.
+
+[Fri May 24 16:31:21 2024]
+rule fill_pre:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/bins.bed
+    jobid: 4
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 7921707'.
+
+[Fri May 24 16:31:21 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/TD_60MM6h/TD_60MM6h_filled_matrix.txt
+    jobid: 7
+    wildcards: sample=TD_60MM6h
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7921708'.
+[Fri May 24 16:58:23 2024]
+Finished job 10.
+1 of 86 steps (1%) done
+[Fri May 24 16:59:03 2024]
+Finished job 3.
+2 of 86 steps (2%) done
+[Fri May 24 17:00:23 2024]
+Finished job 4.
+3 of 86 steps (3%) done
+
+[Fri May 24 17:00:23 2024]
+rule pastis:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/TD_MM6h/TD_MM6h_filled_matrix.txt, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/bins.bed
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    jobid: 2
+    wildcards: sample=TD_MM6h
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7922214'.
+
+[Fri May 24 17:00:23 2024]
+rule pastis:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/TD_60MM12h/TD_60MM12h_filled_matrix.txt, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/bins.bed
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    jobid: 9
+    wildcards: sample=TD_60MM12h
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7922215'.
+[Fri May 24 17:01:33 2024]
+Finished job 7.
+4 of 86 steps (5%) done
+
+[Fri May 24 17:01:33 2024]
+rule pastis:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/TD_60MM6h/TD_60MM6h_filled_matrix.txt, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/01.matrix_fill/bins.bed
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    jobid: 6
+    wildcards: sample=TD_60MM6h
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7922244'.
+[Fri May 24 17:16:05 2024]
+Finished job 2.
+5 of 86 steps (6%) done
+[Fri May 24 17:16:05 2024]
+Finished job 9.
+6 of 86 steps (7%) done
+[Fri May 24 17:16:05 2024]
+Finished job 6.
+7 of 86 steps (8%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-24T163119.028578.snakemake.log

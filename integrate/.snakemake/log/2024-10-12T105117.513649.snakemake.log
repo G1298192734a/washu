@@ -1,0 +1,76 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+atac_bw                1              1              1
+cpt_atac               1              1              1
+cpt_motif              1              1              1
+cpt_switch_atac        1              1              1
+loop_peak              1              1              1
+tad_peak               1              1              1
+total                  7              1              1
+
+
+[Sat Oct 12 10:52:21 2024]
+rule cpt_atac:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/00.merg_bed
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/01.compartment_AB_peak/work.sh
+    jobid: 8
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 10151506'.
+
+[Sat Oct 12 10:52:22 2024]
+rule loop_peak:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/01.diff_tsv
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/05.loop_peak/work.sh
+    jobid: 15
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 10151507'.
+
+[Sat Oct 12 10:52:22 2024]
+rule cpt_switch_atac:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/01.diff_tsv
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/02.compartment_AB_switch_peak/work.sh
+    jobid: 10
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 10151508'.
+
+[Sat Oct 12 10:52:22 2024]
+rule atac_bw:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/01.QC/01.analysis/CTCF-test/CTCF-test.CPM.bw, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/01.QC/01.analysis/CTCF-control/CTCF-control.CPM.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/02.cpm_bw
+    jobid: 14
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 10151509'.
+[Sat Oct 12 10:53:11 2024]
+Error in rule cpt_atac:
+    jobid: 8
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/01.compartment_AB_peak/work.sh (check log file(s) for error message)
+    cluster_jobid: Submitted batch job 10151506
+
+Error executing rule cpt_atac on cluster (jobid: 8, external: Submitted batch job 10151506, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.qfr5alt7/snakejob.cpt_atac.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sat Oct 12 10:53:21 2024]
+Error in rule cpt_switch_atac:
+    jobid: 10
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/02.compartment_AB_switch_peak/work.sh (check log file(s) for error message)
+    cluster_jobid: Submitted batch job 10151508
+
+Error executing rule cpt_switch_atac on cluster (jobid: 10, external: Submitted batch job 10151508, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.qfr5alt7/snakejob.cpt_switch_atac.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sat Oct 12 10:53:31 2024]
+Error in rule loop_peak:
+    jobid: 15
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/05.loop_peak/work.sh (check log file(s) for error message)
+    cluster_jobid: Submitted batch job 10151507
+
+Error executing rule loop_peak on cluster (jobid: 15, external: Submitted batch job 10151507, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.qfr5alt7/snakejob.loop_peak.15.sh). For error details see the cluster log and the log files of the involved rule(s).

@@ -1,0 +1,210 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+HiC                1              1              1
+RNA                1              1              1
+all                1              1              1
+enrich             1              1              1
+enrich_sh          1              1              1
+hic_yaml           1              1              1
+qc                 4              1              1
+qc_sh              4              1              1
+rawdata            1              1              1
+rawdata_sh         4              1              1
+ref                1              1              1
+ref_sh             1              1              1
+report_yaml        1              1              1
+total             22              1              1
+
+
+[Tue Mar 19 15:12:05 2024]
+rule report_yaml:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/05.HiC/report.yaml
+    jobid: 11
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule rawdata:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/work.sh
+    jobid: 2
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule qc:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/02.qc/Delta-abrB-2_qc.sh
+    jobid: 4
+    wildcards: sample=Delta-abrB-2
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule qc:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/02.qc/Bs168-2_qc.sh
+    jobid: 6
+    wildcards: sample=Bs168-2
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule enrich:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/03.enrich/work.sh
+    jobid: 8
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule hic_yaml:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/05.HiC/conf.yaml
+    jobid: 10
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule ref:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/00.ref/work.sh
+    jobid: 1
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule qc:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/02.qc/Delta-abrB-1_qc.sh
+    jobid: 3
+    wildcards: sample=Delta-abrB-1
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule qc:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/02.qc/Bs168-1_qc.sh
+    jobid: 5
+    wildcards: sample=Bs168-1
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:05 2024]
+rule RNA:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/04.RNA/work.sh
+    jobid: 7
+    resources: tmpdir=/tmp
+
+touch /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/04.RNA/work.sh
+[Tue Mar 19 15:12:06 2024]
+Finished job 7.
+1 of 22 steps (5%) done
+
+[Tue Mar 19 15:12:06 2024]
+rule HiC:
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/05.HiC/work.sh, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/05.HiC/report.sh
+    jobid: 9
+    resources: tmpdir=/tmp
+
+[Tue Mar 19 15:12:14 2024]
+Finished job 11.
+2 of 22 steps (9%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 3.
+3 of 22 steps (14%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 10.
+4 of 22 steps (18%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 1.
+5 of 22 steps (23%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 8.
+6 of 22 steps (27%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 6.
+7 of 22 steps (32%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 4.
+8 of 22 steps (36%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 2.
+9 of 22 steps (41%) done
+[Tue Mar 19 15:12:14 2024]
+Finished job 9.
+10 of 22 steps (45%) done
+
+[Tue Mar 19 15:12:14 2024]
+rule ref_sh:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/00.ref/work.sh
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/00.ref/asm904v1.mrna.fasta
+    jobid: 12
+    resources: tmpdir=/tmp
+
+cd /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/00.ref && bash work.sh
+
+[Tue Mar 19 15:12:14 2024]
+rule rawdata_sh:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/work.sh
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Bs168-1_2.fq.gz
+    jobid: 18
+    wildcards: sample=Bs168-1
+    resources: tmpdir=/tmp
+
+cd /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata && bash work.sh
+
+[Tue Mar 19 15:12:14 2024]
+rule rawdata_sh:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/work.sh
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Bs168-2_2.fq.gz
+    jobid: 20
+    wildcards: sample=Bs168-2
+    resources: tmpdir=/tmp
+
+cd /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata && bash work.sh
+[Tue Mar 19 15:12:14 2024]
+
+Finished job 5.
+[Tue Mar 19 15:12:14 2024]
+11 of 22 steps (50%) done
+rule rawdata_sh:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/work.sh
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Delta-abrB-1_2.fq.gz
+    jobid: 14
+    wildcards: sample=Delta-abrB-1
+    resources: tmpdir=/tmp
+
+cd /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata && bash work.sh
+
+[Tue Mar 19 15:12:14 2024]
+rule rawdata_sh:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/work.sh
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Delta-abrB-2_2.fq.gz
+    jobid: 16
+    wildcards: sample=Delta-abrB-2
+    resources: tmpdir=/tmp
+
+cd /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata && bash work.sh
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 65 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/hic_pre.snake.py:
+Job Missing files after 5 seconds:
+/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/00.ref/asm904v1.mrna.fasta
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 12 completed successfully, but some output files are missing. 12
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 105 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/hic_pre.snake.py:
+Job Missing files after 5 seconds:
+/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Bs168-1_2.fq.gz
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 18 completed successfully, but some output files are missing. 18
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 105 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/hic_pre.snake.py:
+Job Missing files after 5 seconds:
+/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Delta-abrB-2_2.fq.gz
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 16 completed successfully, but some output files are missing. 16
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 105 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/hic_pre.snake.py:
+Job Missing files after 5 seconds:
+/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Delta-abrB-1_2.fq.gz
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 14 completed successfully, but some output files are missing. 14
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 105 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/hic_pre.snake.py:
+Job Missing files after 5 seconds:
+/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/check_circos/240033_kcybgj_20240319/01.rawdata/Bs168-2_2.fq.gz
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 20 completed successfully, but some output files are missing. 20
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2024-03-19T151153.741609.snakemake.log

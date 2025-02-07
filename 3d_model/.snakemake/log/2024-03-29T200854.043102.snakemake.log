@@ -1,0 +1,63 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 2
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+gif          2              1              1
+mp4          2              1              1
+total        4              1              1
+
+
+[Fri Mar 29 20:09:00 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/Delta-abrB.gif
+    jobid: 11
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 6701466'.
+
+[Fri Mar 29 20:09:00 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/Delta-abrB.mp4
+    jobid: 13
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 6701467'.
+[Fri Mar 29 20:10:00 2024]
+Finished job 11.
+1 of 6 steps (17%) done
+
+[Fri Mar 29 20:10:00 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/Bs168.gif
+    jobid: 12
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+[Fri Mar 29 20:10:00 2024]
+Finished job 13.
+2 of 6 steps (33%) done
+Submitted job 12 with external jobid 'Submitted batch job 6701473'.
+
+[Fri Mar 29 20:10:00 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/Bs168.mp4
+    jobid: 14
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 6701474'.
+[Fri Mar 29 20:10:40 2024]
+Finished job 12.
+3 of 6 steps (50%) done
+[Fri Mar 29 20:10:40 2024]
+Finished job 14.
+4 of 6 steps (67%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-03-29T200854.043102.snakemake.log

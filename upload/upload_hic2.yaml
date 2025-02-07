@@ -1,0 +1,11 @@
+DIR: analysis20240626_washu
+washu_dir: 231070_human
+# 同目录下有gff
+FAI: /work/frasergen/3D/share/ref/Animal/hg19_refseq/HiC/genome.fa.fai
+HiC: /work/frasergen/backup/3d/project/Interactome/231070-01_zhongshan_human_20231127/04.Hi-C
+YAML: 
+    - /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_software.yaml
+    - /work/frasergen/backup/3d/project/Interactome/231070-01_zhongshan_human_20231127/04.Hi-C/GSC-S1R9/ICE_pip.yaml
+    - /work/frasergen/backup/3d/project/Interactome/231070-01_zhongshan_human_20231127/04.Hi-C/GSC-untreated/ICE_pip.yaml
+    - /work/frasergen/backup/3d/project/Interactome/231070-01_zhongshan_human_20231127/04.Hi-C/multi_report/multi_sample_report.yaml
+

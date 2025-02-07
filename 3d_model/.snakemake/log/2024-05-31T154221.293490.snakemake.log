@@ -1,0 +1,79 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+fill_pre        1              1              1
+matrix          2              1              1
+pastis          2              1              1
+total           5              1              1
+
+
+[Fri May 31 15:42:24 2024]
+rule matrix:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/MH-zm/MH-zm_filled_matrix.txt
+    jobid: 3
+    wildcards: sample=MH-zm
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 8075162'.
+
+[Fri May 31 15:42:32 2024]
+rule fill_pre:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/bins.bed
+    jobid: 4
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 8075163'.
+
+[Fri May 31 15:42:32 2024]
+rule matrix:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/MH-1402/MH-1402_filled_matrix.txt
+    jobid: 32
+    wildcards: sample=MH-1402
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 8075165'.
+[Fri May 31 15:42:44 2024]
+Finished job 4.
+1 of 108 steps (1%) done
+[Fri May 31 16:15:36 2024]
+Finished job 32.
+2 of 108 steps (2%) done
+
+[Fri May 31 16:15:36 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/MH-1402/MH-1402_filled_matrix.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/bins.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/02.3d_model/MH-1402/MH-1402.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/02.3d_model/MH-1402/MH-1402.pml
+    jobid: 31
+    wildcards: sample=MH-1402
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 8075559'.
+[Fri May 31 16:17:36 2024]
+Finished job 3.
+3 of 108 steps (3%) done
+
+[Fri May 31 16:17:36 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/MH-zm/MH-zm_filled_matrix.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/01.matrix_fill/bins.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/02.3d_model/MH-zm/MH-zm.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/02.3d_model/MH-zm/MH-zm.pml
+    jobid: 2
+    wildcards: sample=MH-zm
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 8075567'.
+[Fri May 31 19:38:11 2024]
+Finished job 31.
+4 of 108 steps (4%) done
+[Fri May 31 20:10:23 2024]
+Error in rule pastis:
+    jobid: 2
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/02.3d_model/MH-zm/MH-zm.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_chr20_3d_model_20240531/02.3d_model/MH-zm/MH-zm.pml
+    cluster_jobid: Submitted batch job 8075567
+
+Error executing rule pastis on cluster (jobid: 2, external: Submitted batch job 8075567, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.w_351_zo/snakejob.pastis.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-31T154221.293490.snakemake.log

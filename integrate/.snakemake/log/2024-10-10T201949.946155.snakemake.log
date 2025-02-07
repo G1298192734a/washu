@@ -1,0 +1,127 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+cpt_atac               2              1              1
+cpt_motif              2              1              1
+cpt_switch_atac        2              1              1
+loop_peak              2              1              1
+tad_peak               2              1              1
+total                 11              1              1
+
+
+[Thu Oct 10 20:20:00 2024]
+rule loop_peak:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27ac/05.loop_peak/work.sh
+    jobid: 21
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27ac
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 10111327'.
+
+[Thu Oct 10 20:20:00 2024]
+rule cpt_switch_atac:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27me3/02.compartment_AB_switch_peak/work.sh
+    jobid: 13
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27me3
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 10111328'.
+
+[Thu Oct 10 20:20:00 2024]
+rule cpt_atac:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27ac/01.compartment_AB_peak/work.sh
+    jobid: 9
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27ac
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 10111329'.
+
+[Thu Oct 10 20:20:00 2024]
+rule tad_peak:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27ac/04.tad_peak/work.sh
+    jobid: 18
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27ac
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 10111330'.
+
+[Thu Oct 10 20:20:00 2024]
+rule cpt_switch_atac:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27ac/02.compartment_AB_switch_peak/work.sh
+    jobid: 12
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27ac
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 10111331'.
+
+[Thu Oct 10 20:20:00 2024]
+rule loop_peak:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27me3/05.loop_peak/work.sh
+    jobid: 22
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27me3
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 10111332'.
+
+[Thu Oct 10 20:20:00 2024]
+rule cpt_atac:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27me3/01.compartment_AB_peak/work.sh
+    jobid: 10
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27me3
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 10111333'.
+
+[Thu Oct 10 20:20:00 2024]
+rule tad_peak:
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27me3/04.tad_peak/work.sh
+    jobid: 19
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27me3
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 10111334'.
+[Thu Oct 10 20:24:00 2024]
+Finished job 21.
+1 of 11 steps (9%) done
+[Thu Oct 10 20:24:50 2024]
+Finished job 13.
+2 of 11 steps (18%) done
+
+[Thu Oct 10 20:24:50 2024]
+rule cpt_motif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27me3/02.compartment_AB_switch_peak/work.sh
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27me3/03.compartment_AB_peak_motif/work.sh
+    jobid: 16
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27me3
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 10111559'.
+[Thu Oct 10 20:26:00 2024]
+Finished job 9.
+3 of 11 steps (27%) done
+[Thu Oct 10 20:27:10 2024]
+Finished job 12.
+4 of 11 steps (36%) done
+
+[Thu Oct 10 20:27:10 2024]
+rule cpt_motif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27ac/02.compartment_AB_switch_peak/work.sh
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_H3K27ac/03.compartment_AB_peak_motif/work.sh
+    jobid: 15
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_H3K27ac
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 10111644'.
+[Thu Oct 10 20:28:20 2024]
+Finished job 22.
+5 of 11 steps (45%) done
+[Thu Oct 10 20:29:21 2024]
+Finished job 10.
+6 of 11 steps (55%) done
+[Thu Oct 10 20:40:32 2024]
+Finished job 18.
+7 of 11 steps (64%) done

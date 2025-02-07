@@ -1,0 +1,159 @@
+import os,yaml,snakemake
+from pathlib import Path
+
+DIR=Path.cwd().resolve()
+HiC=Path(config.get("multi_sample_dir")).parent.joinpath("03.HiC")
+MINUS=config.get("sample_minus").split(",")
+
+cpt_res=config.get("compartment_res")
+tad_res=config.get("tad_res")
+loop_res=config.get("loop_res")
+
+gene=str(next(HiC.glob("01*/genome_gene.bed")))
+def gc(x):
+    return next(HiC.glob(f"05*/02*/{x}*{cpt_res}/*gc_gene.bed"))
+def tad(x):
+    return next(HiC.glob(f"06*/02*/{x}*{tad_res}/*gene-density"))
+def loop(x):
+    a=f"03*/{x}*{loop_res}/04*/*cis*bedpe" if config.get("loop")=="fithic" else f"02*/{x}/*bedpe"
+    return next(HiC.glob(f"07*/{a}"))
+def switch(x):
+    return next(HiC.parent.glob(f"04*/02*/{x}/*switch.xls"))
+def bw(x):
+    return ATAC.glob(f"bw/{x}/*bw")
+
+rule all:
+    input:
+        expand(DIR.joinpath("{minus}","HiC_RNA","work.sh"),minus=MINUS),
+        expand(DIR.joinpath("{minus}","HiC_ATAC","work.sh"),minus=MINUS) if config.get("ATAC_dir") else [],
+
+rule hic_rna:
+    output:
+        DIR.joinpath("{minus}","HiC_RNA","work.sh"),
+    params:
+        "/public/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_rnaseq/compartment.r",
+        "/public/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_rnaseq/tad.r",
+    run:
+        RNA=Path(*output)
+        CMT,TAD=map(RNA.parent.joinpath,("01.compartment_RNA","02.TAD_RNA"))
+        CMT.mkdir(parents=True,exist_ok=True)
+        TAD.mkdir(parents=True,exist_ok=True)
+
+        biorep=next(DIR.glob(f"02*/{wildcards.minus}*biorep*"))
+        fpkm=next(DIR.glob(f"02*/{wildcards.minus}*before*"))
+
+        treat,control=wildcards.minus.split(".minus.")
+        script=rf"""#!/usr/bin/sh
+fc=1
+fdr=0.05
+awk -v fc=$fc -v fdr=$fdr -v FS="\t" -v OFS="\t" 'NR==1{{for(i=1;i<=NF;i++){{if($i=="logFC"){{col1=i}} else if($i=="FDR"){{col2=i}}}};print $0;next}}{{if(($col1>-fc && $col1<fc) || $col2>fdr) $col1="0.0";print$0}}' {fpkm} > {fpkm.name} && bash 01.compartment_RNA/work.sh && bash 02.TAD_RNA/work.sh
+        """
+        open(*output,"w").write(script)
+        script=rf"""#!/usr/bin/sh
+module load R/3.6.3 bedtools
+Rscript {params[0]} \
+    --genebed {gene} \
+    --splname1 {control} \
+    --splname2 {treat} \
+    --compartment1 {gc(control)} \
+    --compartment2 {gc(treat)} \
+    --switch {switch(wildcards.minus)} \
+    --before_filter {fpkm.name} \
+    --rna_biorep {biorep} \
+    --outpfix {{0}}
+        """.format(CMT.joinpath(f"{control}_vs_{treat}"))
+        open(CMT.joinpath("work.sh"),"w").write(script)
+        script=rf"""#!/usr/bin/sh
+module load R/3.6.3 bedtools
+Rscript {params[1]} \
+    --genebed {gene} \
+    --splname1 {control} \
+    --splname2 {treat} \
+    --tad1 {tad(control)} \
+    --tad2 {tad(treat)} \
+    --before_filter {fpkm.name} \
+    --rna_biorep {biorep} \
+    --outpfix {{0}}
+        """.format(TAD.joinpath(f"{control}_vs_{treat}"))
+        open(TAD.joinpath("work.sh"),"w").write(script)
+
+rule hic_atac:
+    output:
+        DIR.joinpath("{minus}","HiC_ATAC","work.sh"),
+    params:
+        "/public/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_peak/cptmt_peak.r",
+        "/work/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_peak/cptmt_diffpeak.r",
+        "/work/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_peak/generate_motif.py",
+        "/work/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_peak/tad_diffpeak.py",
+        "/work/frasergen/3D/pipeline/Interactome/multi_omics/HiC3.0/hic_peak/loop_diffpeak.py",
+        "/work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/get_atac.py",
+        bw2bdg="/public/frasergen/PUB/software/UCSCTOOLS/bigWigToBedGraph",
+        bdg2bw="/public/frasergen/PUB/software/UCSCTOOLS/bedGraphToBigWig",
+        ana=config.get("ATAC_dir"),
+    run: 
+        ATAC=Path(*output).parent
+        analysis=Path(params.ana)
+        treat,control=wildcards.minus.split(".minus.")
+        yaml=analysis.joinpath("project.yaml")
+        script=rf"""#!/usr/bin/sh 
+### {yaml}
+echo -e "HiC\tATAC and prefix
+{"{0}".join((wildcards.minus,treat,control))}" > hic_atac.txt
+#python3 {params[5]} hic_atac.txt {analysis}
+#bash 01*/work.sh && bash 02*/work.sh && bash 03*/work.sh
+#bash 04*/work.sh && mv *tad_heatmap* 04.tad_peak
+#bash 05*/work.sh && mv *DP* 05.loop_peak
+        """.format(r"\t\n")
+        open(*output,"w").write(script)
+        dirs=(
+            "01.compartment_AB_peak","02.compartment_AB_switch_peak","bw",
+            "03.compartment_AB_peak_motif","04.tad_peak","05.loop_peak",
+        )
+        CMT,SWITCH,BW,MOTIF,TAD,LOOP=map(ATAC.joinpath,dirs)
+        for i in (CMT,SWITCH,BW,MOTIF,TAD,LOOP):
+            i.mkdir(parents=True,exist_ok=True)
+        f=lambda x:f"""#!/usr/bin/sh
+/public/frasergen/PUB/software/R/R-3.6.3/bin/Rscript {params[0]} --samplename {x} --compartment {gc(x)} --peak {ATAC.joinpath(x)}.merge_peak.bed --outdir {CMT}"""
+        with open(CMT.joinpath("work.sh"),"w") as OUT:
+            print(*map(f,(treat,control)),sep="\n",file=OUT)
+
+        script=f"""#!/usr/bin/bash
+#run cpt DAR
+/public/frasergen/PUB/software/R/R-3.6.3/bin/Rscript {params[1]} --splname1 {control} --splname2 {treat} --compartment1 {gc(control)} --compartment2 {gc(treat)} --switch {switch(wildcards.minus)} --diff_peak {ATAC.joinpath(wildcards.minus)}_diff.tsv --outpfix {{0}}
+        """.format(SWITCH.joinpath(f"{control}_vs_{treat}-compartment-switch"))
+        open(SWITCH.joinpath("work.sh"),"w").write(script)
+
+        motif=next(filter(lambda x:x.startswith("MEME"),open(yaml))).split()[1]
+        script=rf"""#!/usr/bin/bash
+awk 'NR==1{{print $0;next}}$4 == "A2B"|| $4 =="B2A"' {SWITCH.joinpath(wildcards.minus)}-compartment-switch.switch_DiffPeak.xls > {MOTIF.joinpath(wildcards.minus)}-compartment-switch.switch_DiffPeak.xls
+    
+/public/frasergen/PUB/software/python/Python-3.7.7/bin/python3 {params[2]} --inref {gene[:-9]}.fa --switch_diffpeak {MOTIF.joinpath(wildcards.minus)}-compartment-switch.switch_DiffPeak.xls --control_fa {ATAC.joinpath("merge_peak.fa")} --jaspar {motif} --diff {control}_vs_{treat} --outdir {MOTIF}
+        """
+        open(MOTIF.joinpath("work.sh"),"w").write(script)
+
+        script=rf"""#!/usr/bin/bash
+t=$(ls bw/{treat}/*bw)
+t_n=$(ls bw/{treat}/*bw|xargs -n1 -I [] basename [] .bw)
+c=$(ls bw/{control}/*bw)
+c_n=$(ls bw/{control}/*bw|xargs -n1 -I [] basename [] .bw)
+module load deeptools
+/public/frasergen/PUB/software/python/Python-3.7.7/bin/python3 {params[3]} --splname1 {control} --splname2 {treat} --tad1 {tad(control)} --tad2 {tad(treat)} --bw1 $t --bw1_names $t_n --bw2 $c --bw2_names $c_n --outpfix {{0}}
+        """.format(TAD.joinpath(f"{control}_vs_{treat}_tad"))
+        open(TAD.joinpath("work.sh"),"w").write(script)
+
+        script=f"""#!/usr/bin/bash
+/public/frasergen/PUB/software/python/Python-3.7.7/bin/python3 {params[4]} --genebed {gene} --splname1 {control} --splname2 {treat} --loop1 {loop(control)} --loop2 {loop(treat)} --diff_peak {ATAC.joinpath(wildcards.minus)}_diff.tsv --outpfix {{0}}
+        """.format(f"{control}_vs_{treat}_loop_dar")
+        open(LOOP.joinpath("work.sh"),"w").write(script)
+
+        script=f"""#!/usr/bin/bash
+for i in */*bw;do
+j=$(basename $i .bw)
+cat <<END >>script.sh
+{params.bw2bdg} $i stdout|perl -pe 'if(/chr7/){{last}}'|sort -k1,1 -k2,2n > $j.bdg && unlink $i && {params.bdg2bw} $j.bdg {{gene[:-9]}}.fa.fai ${{i:0:-3}}.bw && rm $j.bdg
+END
+#/public/frasergen/PUB/software/python/Python-3.7.10/bin/python3 /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/get_subscript.py --insh script.sh nrows 1
+done
+        """
+        open(BW.joinpath("work.sh"),"w").write(script)
+

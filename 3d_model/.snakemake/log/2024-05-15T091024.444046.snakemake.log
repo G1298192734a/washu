@@ -1,0 +1,3 @@
+NameError in line 124 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py:
+name 'params' is not defined
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py", line 124, in <module>

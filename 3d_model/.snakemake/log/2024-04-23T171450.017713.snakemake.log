@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+pml          1              1              1
+total        1              1              1
+
+
+[Tue Apr 23 17:15:01 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    jobid: 3
+    wildcards: sample=AA
+    resources: tmpdir=/tmp
+
+[Tue Apr 23 17:15:49 2024]
+Finished job 3.
+1 of 46 steps (2%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-04-23T171450.017713.snakemake.log

@@ -1,0 +1,22 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm794/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm794/01.hic/work.sh
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm796/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm796/01.hic/work.sh
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm871/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm871/01.hic/work.sh
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmLanX10/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmLanX10/01.hic/work.sh
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmSu16/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmSu16/01.hic/work.sh
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYun7BxA/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYun7BxA/01.hic/work.sh
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYun8BxA/01.hic/single_sample.yaml
+/work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYun8BxA/01.hic/work.sh

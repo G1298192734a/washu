@@ -1,0 +1,155 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+merge_z         1              1              1
+modify_x        1              1              1
+modify_y        1              1              1
+rotate_x        9              1              1
+rotate_z        9              1              1
+total          21              1              1
+
+Select jobs to execute...
+
+[Thu May 16 09:51:01 2024]
+rule modify_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_000.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_002.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_003.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_004.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_005.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_006.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_007.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/rotate_y_008.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    jobid: 4
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:05 2024]
+Finished job 4.
+1 of 59 steps (2%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:05 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_002.png
+    jobid: 15
+    wildcards: sample=H-CK-599, batch1=002
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:05 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_000.png
+    jobid: 3
+    wildcards: sample=H-CK-599, batch1=000
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:22 2024]
+Finished job 15.
+2 of 59 steps (3%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:22 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_004.png
+    jobid: 17
+    wildcards: sample=H-CK-599, batch1=004
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:22 2024]
+Finished job 3.
+3 of 59 steps (5%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:22 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_006.png
+    jobid: 19
+    wildcards: sample=H-CK-599, batch1=006
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:32 2024]
+Finished job 19.
+4 of 59 steps (7%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:32 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_008.png
+    jobid: 21
+    wildcards: sample=H-CK-599, batch1=008
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:32 2024]
+Finished job 17.
+5 of 59 steps (8%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:32 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_007.png
+    jobid: 20
+    wildcards: sample=H-CK-599, batch1=007
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:42 2024]
+Finished job 21.
+6 of 59 steps (10%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:42 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_001.png
+    jobid: 14
+    wildcards: sample=H-CK-599, batch1=001
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:42 2024]
+Finished job 20.
+7 of 59 steps (12%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:42 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_005.png
+    jobid: 18
+    wildcards: sample=H-CK-599, batch1=005
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:51 2024]
+Finished job 18.
+8 of 59 steps (14%) done
+Select jobs to execute...
+
+[Thu May 16 09:51:51 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_003.png
+    jobid: 16
+    wildcards: sample=H-CK-599, batch1=003
+    resources: tmpdir=/tmp
+
+[Thu May 16 09:51:52 2024]
+Finished job 14.
+9 of 59 steps (15%) done
+[Thu May 16 09:52:01 2024]
+Finished job 16.
+10 of 59 steps (17%) done
+Select jobs to execute...
+
+[Thu May 16 09:52:01 2024]
+rule modify_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_000.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_002.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_003.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_004.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_005.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_006.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_007.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_008.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_y/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/H-CK-599.pml
+    jobid: 2
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-05-16T095100.136172.snakemake.log

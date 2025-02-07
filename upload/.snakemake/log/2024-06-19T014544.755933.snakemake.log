@@ -1,0 +1,3 @@
+TypeError in line 81 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake.py:
+params() argument after * must be an iterable, not function
+  File "/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake.py", line 81, in <module>

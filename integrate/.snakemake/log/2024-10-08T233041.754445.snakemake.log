@@ -1,0 +1,4 @@
+AttributeError in line 42 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py:
+'str' object has no attribute 'diff'
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 46, in <module>
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 42, in get_deg

@@ -1,0 +1,261 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 20
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+ref_sh       20              1              1
+total        21              1              1
+
+
+[Tue Mar 19 21:03:52 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmSu16/00.ref/BmSu16.mrna.fasta
+    jobid: 14
+    wildcards: project=whfs-xs-232026-01, sample=BmSu16
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 6559665'.
+
+[Tue Mar 19 21:03:52 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmD9L/00.ref/BmD9L.mrna.fasta
+    jobid: 8
+    wildcards: project=whfs-xs-232026-01, sample=BmD9L
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 6559666'.
+
+[Tue Mar 19 21:03:52 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmTuEQ/00.ref/BmTuEQ.mrna.fasta
+    jobid: 15
+    wildcards: project=whfs-xs-232026-01, sample=BmTuEQ
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 6559667'.
+
+[Tue Mar 19 21:03:52 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BBmZJ/00.ref/BBmZJ.mrna.fasta
+    jobid: 1
+    wildcards: project=whfs-xs-232026-01, sample=BBmZJ
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 6559668'.
+
+[Tue Mar 19 21:03:52 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDongF/00.ref/BmDongF.mrna.fasta
+    jobid: 9
+    wildcards: project=whfs-xs-232026-01, sample=BmDongF
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 6559669'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm54A/00.ref/Bm54A.mrna.fasta
+    jobid: 2
+    wildcards: project=whfs-xs-232026-01, sample=Bm54A
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 6559670'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmXiaF/00.ref/BmXiaF.mrna.fasta
+    jobid: 16
+    wildcards: project=whfs-xs-232026-01, sample=BmXiaF
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 6559671'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDZ/00.ref/BmDZ.mrna.fasta
+    jobid: 10
+    wildcards: project=whfs-xs-232026-01, sample=BmDZ
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 6559672'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm732/00.ref/Bm732.mrna.fasta
+    jobid: 3
+    wildcards: project=whfs-xs-232026-01, sample=Bm732
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 6559673'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmXingH/00.ref/BmXingH.mrna.fasta
+    jobid: 17
+    wildcards: project=whfs-xs-232026-01, sample=BmXingH
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 6559674'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmHanDZ/00.ref/BmHanDZ.mrna.fasta
+    jobid: 11
+    wildcards: project=whfs-xs-232026-01, sample=BmHanDZ
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 6559675'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm794/00.ref/Bm794.mrna.fasta
+    jobid: 4
+    wildcards: project=whfs-xs-232026-01, sample=Bm794
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 6559676'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYanBai/00.ref/BmYanBai.mrna.fasta
+    jobid: 18
+    wildcards: project=whfs-xs-232026-01, sample=BmYanBai
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 6559677'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmLanX10/00.ref/BmLanX10.mrna.fasta
+    jobid: 12
+    wildcards: project=whfs-xs-232026-01, sample=BmLanX10
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 6559678'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYun7BxA/00.ref/BmYun7BxA.mrna.fasta
+    jobid: 19
+    wildcards: project=whfs-xs-232026-01, sample=BmYun7BxA
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 6559679'.
+
+[Tue Mar 19 21:03:53 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm796/00.ref/Bm796.mrna.fasta
+    jobid: 5
+    wildcards: project=whfs-xs-232026-01, sample=Bm796
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 6559680'.
+
+[Tue Mar 19 21:03:54 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmQiuB/00.ref/BmQiuB.mrna.fasta
+    jobid: 13
+    wildcards: project=whfs-xs-232026-01, sample=BmQiuB
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 6559681'.
+
+[Tue Mar 19 21:03:54 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm871/00.ref/Bm871.mrna.fasta
+    jobid: 6
+    wildcards: project=whfs-xs-232026-01, sample=Bm871
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 6559682'.
+
+[Tue Mar 19 21:03:54 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmYun8BxA/00.ref/BmYun8BxA.mrna.fasta
+    jobid: 20
+    wildcards: project=whfs-xs-232026-01, sample=BmYun8BxA
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 6559683'.
+
+[Tue Mar 19 21:03:54 2024]
+rule ref_sh:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_Bm872/00.ref/Bm872.mrna.fasta
+    jobid: 7
+    wildcards: project=whfs-xs-232026-01, sample=Bm872
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 6559684'.
+[Tue Mar 19 21:04:26 2024]
+Error in rule ref_sh:
+    jobid: 8
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmD9L/00.ref/BmD9L.mrna.fasta
+    cluster_jobid: Submitted batch job 6559666
+
+Error executing rule ref_sh on cluster (jobid: 8, external: Submitted batch job 6559666, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/.snakemake/tmp.bdlfjui5/snakejob.ref_sh.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Mar 19 21:04:26 2024]
+Error in rule ref_sh:
+    jobid: 10
+    output: /work/frasergen/3D/work/shaojie/script/HiC/PGT/whfs-xs-232026-01/whfs-xs-232026-01_BmDZ/00.ref/BmDZ.mrna.fasta
+    cluster_jobid: Submitted batch job 6559672
+
+Error executing rule ref_sh on cluster (jobid: 10, external: Submitted batch job 6559672, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/.snakemake/tmp.bdlfjui5/snakejob.ref_sh.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Mar 20 01:04:03 2024]
+Finished job 9.
+1 of 21 steps (5%) done
+[Wed Mar 20 01:04:58 2024]
+Finished job 3.
+2 of 21 steps (10%) done
+[Wed Mar 20 01:05:09 2024]
+Finished job 1.
+3 of 21 steps (14%) done
+[Wed Mar 20 01:05:09 2024]
+Finished job 16.
+4 of 21 steps (19%) done
+[Wed Mar 20 01:05:31 2024]
+Finished job 15.
+5 of 21 steps (24%) done
+[Wed Mar 20 01:08:16 2024]
+Finished job 2.
+6 of 21 steps (29%) done
+[Wed Mar 20 01:09:44 2024]
+Finished job 14.
+7 of 21 steps (33%) done
+[Wed Mar 20 01:10:51 2024]
+Finished job 17.
+8 of 21 steps (38%) done
+[Wed Mar 20 01:12:30 2024]
+Finished job 11.
+9 of 21 steps (43%) done
+[Wed Mar 20 01:29:32 2024]
+Finished job 4.
+10 of 21 steps (48%) done
+[Wed Mar 20 01:41:03 2024]
+Finished job 18.
+11 of 21 steps (52%) done
+[Wed Mar 20 01:45:44 2024]
+Finished job 19.
+12 of 21 steps (57%) done
+[Wed Mar 20 01:49:34 2024]
+Finished job 12.
+13 of 21 steps (62%) done
+[Wed Mar 20 01:55:35 2024]
+Finished job 13.
+14 of 21 steps (67%) done
+[Wed Mar 20 01:59:15 2024]
+Finished job 5.
+15 of 21 steps (71%) done
+[Wed Mar 20 02:10:36 2024]
+Finished job 6.
+16 of 21 steps (76%) done
+[Wed Mar 20 02:16:36 2024]
+Finished job 20.
+17 of 21 steps (81%) done
+[Wed Mar 20 02:20:36 2024]
+Finished job 7.
+18 of 21 steps (86%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/.snakemake/log/2024-03-19T210336.636276.snakemake.log

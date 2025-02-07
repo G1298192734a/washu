@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+genome         1              1              1
+get_gtf        1              1              1
+total          2              1              1
+
+
+[Tue Jun 18 15:30:41 2024]
+rule get_gtf:
+    output: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/00.longest_gtf/InteracGhirsutum_mRNA_genename.gtf
+    jobid: 2
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

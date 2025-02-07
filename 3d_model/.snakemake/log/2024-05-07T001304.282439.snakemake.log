@@ -1,0 +1,417 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+chrom            1              1              1
+gif              1              1              1
+mp4              1              1              1
+pastis           1              1              1
+pml              1              1              1
+png             24              1              1
+split_pml        1              1              1
+total           31              1              1
+
+
+[Tue May  7 00:13:13 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/01.matrix_fill/bin.bed, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/01.matrix_fill/Slividans_1326/Slividans_1326_corrected_matrix.txt
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pdb
+    jobid: 3
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7568076'.
+[Tue May  7 00:24:03 2024]
+Finished job 3.
+1 of 31 steps (3%) done
+
+[Tue May  7 00:24:03 2024]
+rule pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pdb
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pml
+    jobid: 2
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7568102'.
+[Tue May  7 00:24:54 2024]
+Finished job 2.
+2 of 31 steps (6%) done
+
+[Tue May  7 00:24:54 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/chrs/chr1/chr1.pml
+    jobid: 1
+    wildcards: sample=Slividans_1326, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7568105'.
+
+[Tue May  7 00:24:54 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_231.pml
+    jobid: 8
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7568106'.
+[Tue May  7 00:25:04 2024]
+Finished job 8.
+3 of 31 steps (10%) done
+
+[Tue May  7 00:25:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_051.png
+    jobid: 13
+    wildcards: sample=Slividans_1326, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7568107'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_191.png
+    jobid: 27
+    wildcards: sample=Slividans_1326, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7568108'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_131.png
+    jobid: 21
+    wildcards: sample=Slividans_1326, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7568109'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_001.png
+    jobid: 7
+    wildcards: sample=Slividans_1326, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7568110'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_061.png
+    jobid: 14
+    wildcards: sample=Slividans_1326, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7568111'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_201.png
+    jobid: 28
+    wildcards: sample=Slividans_1326, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7568112'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_141.png
+    jobid: 22
+    wildcards: sample=Slividans_1326, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7568113'.
+
+[Tue May  7 00:25:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_071.png
+    jobid: 15
+    wildcards: sample=Slividans_1326, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7568114'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_211.png
+    jobid: 29
+    wildcards: sample=Slividans_1326, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7568115'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_011.png
+    jobid: 9
+    wildcards: sample=Slividans_1326, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7568116'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_151.png
+    jobid: 23
+    wildcards: sample=Slividans_1326, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7568117'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_081.png
+    jobid: 16
+    wildcards: sample=Slividans_1326, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7568118'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_221.png
+    jobid: 30
+    wildcards: sample=Slividans_1326, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7568119'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_021.png
+    jobid: 10
+    wildcards: sample=Slividans_1326, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7568120'.
+
+[Tue May  7 00:25:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_161.png
+    jobid: 24
+    wildcards: sample=Slividans_1326, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7568121'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_091.png
+    jobid: 17
+    wildcards: sample=Slividans_1326, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7568122'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_231.png
+    jobid: 31
+    wildcards: sample=Slividans_1326, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7568123'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_031.png
+    jobid: 11
+    wildcards: sample=Slividans_1326, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7568124'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_171.png
+    jobid: 25
+    wildcards: sample=Slividans_1326, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7568125'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_101.png
+    jobid: 18
+    wildcards: sample=Slividans_1326, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7568126'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_041.png
+    jobid: 12
+    wildcards: sample=Slividans_1326, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7568127'.
+
+[Tue May  7 00:25:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_181.png
+    jobid: 26
+    wildcards: sample=Slividans_1326, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7568128'.
+
+[Tue May  7 00:25:08 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_111.png
+    jobid: 19
+    wildcards: sample=Slividans_1326, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 7568129'.
+[Tue May  7 00:25:27 2024]
+Finished job 1.
+4 of 31 steps (13%) done
+
+[Tue May  7 00:25:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_121.png
+    jobid: 20
+    wildcards: sample=Slividans_1326, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7568130'.
+[Tue May  7 00:25:52 2024]
+Finished job 11.
+5 of 31 steps (16%) done
+[Tue May  7 00:25:52 2024]
+Finished job 25.
+6 of 31 steps (19%) done
+[Tue May  7 00:26:05 2024]
+Finished job 19.
+7 of 31 steps (23%) done
+[Tue May  7 00:26:16 2024]
+Finished job 18.
+8 of 31 steps (26%) done
+[Tue May  7 00:26:16 2024]
+Finished job 12.
+9 of 31 steps (29%) done
+[Tue May  7 00:26:17 2024]
+Finished job 26.
+10 of 31 steps (32%) done
+[Tue May  7 00:26:38 2024]
+Finished job 20.
+11 of 31 steps (35%) done
+[Tue May  7 00:28:28 2024]
+Finished job 13.
+12 of 31 steps (39%) done
+[Tue May  7 00:28:28 2024]
+Finished job 27.
+13 of 31 steps (42%) done
+[Tue May  7 00:28:28 2024]
+Finished job 21.
+14 of 31 steps (45%) done
+[Tue May  7 00:28:28 2024]
+Finished job 7.
+15 of 31 steps (48%) done
+[Tue May  7 00:28:28 2024]
+Finished job 28.
+16 of 31 steps (52%) done
+[Tue May  7 00:28:39 2024]
+Finished job 14.
+17 of 31 steps (55%) done
+[Tue May  7 00:28:39 2024]
+Finished job 22.
+18 of 31 steps (58%) done
+[Tue May  7 00:28:50 2024]
+Finished job 15.
+19 of 31 steps (61%) done
+[Tue May  7 00:28:50 2024]
+Finished job 29.
+20 of 31 steps (65%) done
+[Tue May  7 00:28:50 2024]
+Finished job 9.
+21 of 31 steps (68%) done
+[Tue May  7 00:28:50 2024]
+Finished job 23.
+22 of 31 steps (71%) done
+[Tue May  7 00:28:50 2024]
+Finished job 16.
+23 of 31 steps (74%) done
+[Tue May  7 00:28:51 2024]
+Finished job 30.
+24 of 31 steps (77%) done
+[Tue May  7 00:28:51 2024]
+Finished job 10.
+25 of 31 steps (81%) done
+[Tue May  7 00:28:51 2024]
+Finished job 24.
+26 of 31 steps (84%) done
+[Tue May  7 00:28:51 2024]
+Finished job 17.
+27 of 31 steps (87%) done
+[Tue May  7 00:28:51 2024]
+Finished job 31.
+28 of 31 steps (90%) done
+
+[Tue May  7 00:28:51 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/Slividans_1326.mp4
+    jobid: 32
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7568139'.
+
+[Tue May  7 00:28:51 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/Slividans_1326.gif
+    jobid: 6
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7568140'.
+[Tue May  7 00:30:11 2024]
+Finished job 6.
+29 of 31 steps (94%) done
+[Tue May  7 00:30:22 2024]
+Finished job 32.
+30 of 31 steps (97%) done
+
+[Tue May  7 00:30:22 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/Slividans_1326.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/03.gif/Slividans_1326/Slividans_1326.mp4
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Tue May  7 00:30:22 2024]
+Finished job 0.
+31 of 31 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-07T001304.282439.snakemake.log

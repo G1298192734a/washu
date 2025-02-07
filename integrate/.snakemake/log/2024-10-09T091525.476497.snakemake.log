@@ -1,0 +1,7 @@
+FileNotFoundError in line 9 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py:
+[Errno 2] No such file or directory: '/work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/genome_gene.bed'
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 9, in <module>
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/site-packages/pandas/core/generic.py", line 3482, in to_csv
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/site-packages/pandas/io/formats/csvs.py", line 243, in save
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle

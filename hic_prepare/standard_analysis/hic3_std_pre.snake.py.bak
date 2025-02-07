@@ -1,0 +1,341 @@
+#/usr/bin/env python3
+# -*- coding: utf-8 -*-
+import os
+from pathlib import Path
+import yaml
+import time
+
+DIR=os.path.abspath(config["DIR"])
+project=f"whfs-xs-{os.path.basename(config['DIR']).split('_',1)[0]}"
+dirnames=("00.ref","01.rawdata","02.RNA_ATAC","03.HiC","04.HiC_diff",)
+REF,RAW,RNA,HIC,DIFF=map(lambda x:os.path.join(DIR,x),dirnames)
+SAMPLE,DATANAME=map(lambda x:config.get(x).split(","),("SAMPLE","DATANAME"))
+GENOME,kingdom,platform=map(config.get,("GENOME","kingdom","library"))
+MINUS=config.get("MINUS").split(",")
+group=[j for i in MINUS for j in i.split(".minus.")]
+GROUP=sorted(set(group),key=group.index) if group else SAMPLE
+step=len(SAMPLE)//len(GROUP)
+
+RNA=Path(RNA)
+dirs=("01.genome_gene_express","02.diff_gene_express","03.BAM_2_coverage")
+fpkm,deg,bam=map(lambda x:RNA.joinpath(x),dirs)
+
+jaspar_dict={
+    "a":"JASPAR2022_CORE_vertebrates_non-redundant_v2.meme",
+    "p":"JASPAR2022_CORE_plants_non-redundant_v2.meme",
+    "f":"JASPAR2022_CORE_fungi_non-redundant_v2.meme",
+}
+
+soft_config = yaml.load(open(config["PRE_SOFT_YAML"], "r"), Loader=yaml.FullLoader)
+config = {**config, **soft_config}
+date=time.strftime("%Y%m%d")
+
+rule all:
+    input:
+        os.path.join(REF,"work.sh"),
+        os.path.join(RAW,"work.sh"),
+        os.path.join(RNA,"work.sh"),
+        os.path.join(HIC,"work.sh"),
+        os.path.join(DIFF,"work.sh"),
+        os.path.join(HIC,"08.report","work.sh"),
+        os.path.join(DIFF,"05.multi_report","work.sh"),
+#        os.path.join(REF,GENOME+".mrna.fasta"),
+#        os.path.join(RAW,"md5sum.txt"),
+
+rule ref:
+    output:
+        os.path.join(REF,"work.sh"),
+    params:
+        "/public/frasergen/3D/pipeline/Interactome/hic3_workflow/scripts/parallel_fimo.py",
+        get_map=config["get_map"],
+        prepare=config["ref_prepare"],
+        jaspar=os.path.join(config["jaspar_db"],jaspar_dict[kingdom]),
+    run:
+        script=f"""#!/usr/bin/bash
+
+# 准备参考和注释
+ fa= #raw fasta
+gff= #raw gff
+  p= #chrom pattern
+  s= #sort pattern
+  j={params.jaspar} # fimo
+
+# 生成mapfile
+export PATH=/public/frasergen/PUB/software/python/Python-3.7.7/bin:$PATH
+python3 {params.get_map} $fa "$p" "$s"
+
+# ref prepare process
+module load gffread/0.12.6
+bash {params.prepare} $fa $gff mapfile.txt {GENOME}
+#python3 {params[0]} --infasta {GENOME}.fasta --meme_db $j --outdir ./
+        """
+        open(*output,"w").write(script)
+
+rule ref_sh:
+    input:
+        os.path.join(REF,"work.sh")
+    output:
+        os.path.join(REF,f"{GENOME}.mrna.fasta"),
+    run:
+        shell(f"cd {REF} && bash work.sh")
+
+rule rawdata:
+    output:
+        os.path.join(RAW,"work.sh"),
+    params:
+        get_rawdata=config["get_rawdata"],
+        get_sub=config["get_sub"],
+        data_storage=config.get("data_storage"),
+    run:
+        main=f"{project}_HiC_submit_{date}"
+        sub="{00.rawdata,01.report,02.result}"
+        f=lambda x:os.path.join(params.data_storage,project,main,*x)
+        data_dir,submit_dir,data=map(f,(
+            ["00.rawdata"], [sub], ["00*","*gz"],
+        ))
+        script=f"""#!/usr/bin/sh
+
+# 准备数据路径
+x=数据源导出.xlsx #默认从系统中下载数据文档
+mkdir -p {submit_dir}
+export PATH=/public/frasergen/PUB/software/python/Python-3.7.10/bin:$PATH
+python3 {params.get_rawdata} $x
+
+# 拆分脚本
+python3 {params.get_sub} --insh cp.sh numsign
+
+## 生成备份数据 md5
+#cat *md5.txt > md5.txt && rm *_md5.txt
+#mv md5.txt *gz {data_dir} && ln -s {data} .
+
+## 验证原始数据 md5,需要在合并完成后再次投递
+#md5sum -c md5sum.txt > check.txt
+        """
+        open(*output,"w").write(script)
+
+rule cp_sh:
+    input:
+        os.path.join(RAW,"work.sh")
+    output:
+        os.path.join(RAW,"md5sum.txt"),
+    run:
+        shell(f"cd {RAW} && bash work.sh")
+
+rule rna:
+    output:
+        os.path.join(RNA,"work.sh"),
+        os.path.join(fpkm,"work.sh"),
+        os.path.join(deg,"work.sh"),
+        os.path.join(bam,"work.sh"),
+    params:
+        fpkm_pre=config["fpkm_pre"],
+        fpkm=config["fpkm"],
+        logfc=config["logfc"],
+        integrate="/work/frasergen/3D/work/shaojie/script/HiC/integrate/integrate_snake.py",
+    run:
+        script=rf"""# whfs*/02*/gene.fpkm_matrix* whfs*/06*/genes/*known.DEG*
+rna_result=
+bam_result=
+
+unzip $rna_result
+cut -f1-4 {os.path.join(HIC,"01.ref","genome_gene.bed")} > genome_gene.bed
+# 准备RNA result <fpkm> <deg>
+echo -e "HiC\tRNA and prefix
+{"{0}".join(GROUP+MINUS)}" > hic_rna.txt
+#python3 {params.fpkm_pre} --mapfile hic_rna.txt --rna $(ls whfs*Result -d) --bam $bam_result && bash 01*/work.sh && bash 02*/work.sh
+
+# 多组学
+#snakemake -ps {params.integrate} --configfile ../04.HiC_diff/05.multi_report/report.yaml --cores 1 --cluster 'sbatch -p xhacexclu03,xhacexclu12,xhacexclu16 -n 1 -N 1 --cpus-per-task=1' --jobs 1
+        """.format("\\t\n")
+        open(RNA.joinpath("work.sh"),"w").write(script)
+
+        gene=RNA.joinpath("genome_gene.bed")
+        f=lambda x:rf"""#!/usr/bin/sh
+awk 'NR == FNR{{genes[$4];next}}{{if($1 in genes){{total=0;for(i=2;i<=NF;i++){{total += $i}} print $1 "\t" total/(NF-1)}}}}' {gene} {x}_gene_fpkm.xls > {x}.fpkm
+python {params.fpkm} --gene-bed {gene} --fpkm {x}.fpkm --gene-fpkm {x}.fpkm4washu
+        """
+        with open(fpkm.joinpath("work.sh"),"w") as OUT:
+            print(*map(f,map(fpkm.joinpath,GROUP)),sep="\n",file=OUT)
+
+        f=lambda x:rf"""#!/usr/bin/sh
+awk 'NR == FNR{{genes[$4];next}}{{if($1 in genes){{print $1 "\t" $9}}}}' {gene} {x}.known.DEG.xls > {x}.gene.LogFC
+python {params.logfc} --gene-bed {gene} --fpkm {x}.gene.LogFC --gene-fpkm {x}.WashU.gene.LogFC
+        """
+        with open(deg.joinpath("work.sh"),"w") as OUT:
+            print(*map(f,map(deg.joinpath,MINUS)),sep="\n",file=OUT)
+
+        script=f"""#!/bin/bash
+for i in */*bam;do
+j=$(basename $i .bam)
+cat <<END >>script.sh
+module load samtools/1.13 python/3.7.10
+samtools view -H $i|sed -e 's#Superscaffold#chr#g' |samtools reheader - $i > $j.rename.bam
+samtools index $j.rename.bam
+/public/frasergen/PUB/software/deepTools/deepTools-3.5.1/bin/bamCoverage -p 10 --bam $j.rename.bam --normalizeUsing RPKM --outFileName $j.bw && rm *bam*
+END
+#bamCoverage --normalizeUsing RPKM --binSize 50 --numberOfProcessors 16 -b $j.rename.bam -o $j.bw
+#/public/frasergen/PUB/software/python/Python-3.7.10/bin/python3 /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/get_subscript.py --insh script.sh nrows 4
+done
+        """
+        open(bam.joinpath("work.sh"),"w").write(script)
+
+rule single:
+    output:
+        yaml=os.path.join(HIC,"single_sample.yaml"),
+        sh=os.path.join(HIC,"work.sh"),
+    params:
+        maps=os.path.join(REF,"mapfile_hic.txt"),
+        prefix=os.path.join(REF,GENOME),
+        hic3=config["hic3"],
+        jaspar=os.path.join(config["jaspar_db"], jaspar_dict[kingdom]),
+        fimo=os.path.join(REF,"fimo.tsv"),
+    run:
+        script=f"""#!/usr/bin/sh
+module load bwa/0.7.17 samtools/1.12 python/3.7.10 snakemake perl/5.34.0 circos R/3.6.3 gcc/9.2.0 bedtools
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/public/frasergen/PUB/software/hicexplorer/HiCExplorer-3.7.2/hdf5/lib
+#python3 /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/get_kegg.py {GENOME} --species {kingdom}
+# nohup投递
+snakemake -ps {params.hic3} --configfile single_sample.yaml --cores 32 --cluster 'sbatch -p xhacexclu12,xhacexclu16,xhacexclu03 -n 1 -N 1 --cpus-per-task=8' --jobs 4 --until aln_pair
+        """
+        open(output.sh,"w").write(script)
+        yaml=f"""reference: {params.prefix}.fasta
+gene_bed: {params.prefix}_gene.bed
+chrom_map: {params.maps}
+gene_mrna: {params.prefix}.gene2mark
+mrna_fa: {params.prefix}.mrna.fasta
+jaspar_db: {params.jaspar}
+genome_motif: {params.fimo}
+# species choose from 'animal, plant, fungi, bacteria'
+species: {kingdom}
+platform: {platform}
+samplenames: {','.join(GROUP)}
+resolution:
+    basic: 5000
+    genome: 100000,200000
+    compartment: 100000
+    tad: 40000
+    loop: 5000,10000,20000
+    reproduce: 200000
+        """
+        from itertools import chain
+        rawdatas=list()
+        f=lambda x:(os.path.join(f"- {RAW}",f"{x}_R{i}.fq.gz") for i in (1,2))
+        for i,j in zip(range(0,len(SAMPLE),step),GROUP):
+            a=((f"{p}:",*f(q.replace("-","_"))) for p,q in zip(SAMPLE[i:i+step],DATANAME[i:i+step]))
+            rawdatas+=(f"{j}:",*(f"    {p}" for p in chain.from_iterable(a)))
+
+        with open(output.yaml,"w") as YAML:
+            print(yaml,*rawdatas,sep="\n",file=YAML)
+
+rule diff:
+    output:
+        yaml=os.path.join(DIFF,"multi_sample.yaml"),
+        sh=os.path.join(DIFF,"work.sh"),
+    params:
+        hic=os.path.join(HIC),
+        biorep=config["hic3_biorep"],
+        biorep1=config["hic3_biorep1"],
+    run:
+        script=f"""#!/usr/bin/sh
+module load bwa/0.7.17 samtools/1.12 python/3.7.10 snakemake perl/5.34.0 circos R/3.6.3 gcc/9.2.0
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/public/frasergen/PUB/software/hicexplorer/HiCExplorer-3.7.2/hdf5/lib
+export R_LIBS=/public/frasergen/3D/work/wanghao/R_pkgs_add_on/20231006.R-4.2.1_clusterProfiler
+snakemake -ps {params.biorep1} --configfile multi_sample.yaml --cores 8 --cluster 'sbatch -p xhacexclu03,xhacexclu12,xhacexclu16 -n 1 -N 1 --cpus-per-task=8' --jobs 1 --until diff_matrix
+#snakemake -ps {params.biorep1.replace("biorep","biorep1")} --configfile multi_sample.yaml --cores 12 --cluster 'sbatch -p xhacexclu03,xhacexclu12,xhacexclu16 -n 1 -N 1 --cpus-per-task=1' --jobs 12
+#snakemake -ps {params.biorep} --configfile multi_sample.yaml --cores 12 --cluster 'sbatch -p xhacexclu03,xhacexclu12,xhacexclu16 -n 1 -N 1 --cpus-per-task=1' --jobs 12
+        """
+        open(output.sh,"w").write(script)
+        yaml=f"""single_sample_dir: {params.hic}
+# 对照，实验
+sample_order: {','.join(GROUP)}
+# 实验.minus.对照
+sample_minus: {','.join(MINUS)}
+genome_res: 200000
+compartment_res: 100000
+tad_res: 40000
+loop_res: 5000
+        """
+        open(output.yaml,"w").write(yaml)
+
+rule single_report:
+    output:
+        yaml=os.path.join(HIC,"08.report","report.yaml"),
+        sh=os.path.join(HIC,"08.report","work.sh"),
+    params:
+        single_pre=config["single_pre"],
+        single_report=config["single_report"],
+        title=config["TITLE"],
+        species=config["SPECIES"],
+        loop=config["LOOP"],
+    run:
+        yaml=f"""contract: {project}
+title: {params.title}
+species: {params.species}
+reference: {GENOME}
+library: Hi-C 2.0建库，内切酶MboI，{platform} PE150测序
+chrom_num: 2n=
+genome_size:  bp
+compartment: cooltools
+tad: cooltools
+loop: {params.loop}
+basic_res: 5000
+genome_res: 100000
+reproduce_res: 200000
+compartment_res: 100000
+tad_res: 40000
+loop_res: 5000
+report_outdir: prepare_report
+        """
+        samples=list()
+        for i,j in zip(range(0,len(SAMPLE),step),GROUP):
+            samples.append(f"    - {j}: "+",".join(SAMPLE[i:i+step]))
+        with open(output.yaml,"w") as YAML:
+            print(yaml,"samplenames:",*samples,sep="\n",file=YAML)
+        script=f"""#!/usr/bin/bash
+
+#配置文件必须命名为report.yaml
+export PATH=/public/frasergen/PUB/software/python/Python-3.7.7/bin/:$PATH
+python3 {params.single_pre} --indir {HIC} --yaml_file report.yaml
+export PATH=/public/frasergen/PUB/software/Anaconda/anaconda3-3d/envs/report/bin/:$PATH
+{params.single_report}
+zip -r {project}_single_report_{date}.zip prepare_report single_sample_report.html
+zip -r {project}_single_result_{date}.zip result
+        """
+        open(output.sh,"w").write(script)
+
+rule diff_report:
+    output:
+        yaml=os.path.join(DIFF,"05.multi_report","report.yaml"),
+        sh=os.path.join(DIFF,"05.multi_report","work.sh"),
+    params:
+        multi_pre=config["multi_pre"],
+        multi_report=config["multi_report"],
+        title=config["TITLE"],
+        loop=config["LOOP"],
+    run:
+        yaml=f"""contract: {project}
+title: {params.title}
+sample_minus: {",".join(MINUS)}
+genome_res: 200000
+compartment_res: 100000
+tad_res: 40000
+loop_res: 5000
+loop: {params.loop}
+report_outdir: prepare_report
+multi_sample_dir: {DIFF}
+ATAC_dir: 
+        """
+        open(output.yaml,"w").write(yaml)
+        script=f"""#!/usr/bin/bash
+
+#配置文件必须命名为report.yaml
+export PATH=/public/frasergen/PUB/software/python/Python-3.7.7/bin/:$PATH
+python3 {params.multi_pre} --indir {DIFF} --yaml_file report.yaml
+export PATH=/public/frasergen/PUB/software/Anaconda/anaconda3-3d/envs/report/bin/:$PATH
+{params.multi_report}
+zip -r {project}_multi_report_{date}.zip prepare_report multi_sample_report.html
+zip -r {project}_multi_result_{date}.zip result
+        """
+        open(output.sh,"w").write(script)
+
+

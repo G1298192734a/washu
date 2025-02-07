@@ -1,0 +1,76 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+all                  1              1              1
+diff                 1              1              1
+diff_report          1              1              1
+rawdata              1              1              1
+single               1              1              1
+single_report        1              1              1
+total                6              1              1
+
+
+[Fri Oct 11 16:21:00 2024]
+rule diff:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/04.HiC_diff/multi_sample.yaml, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/04.HiC_diff/work.sh
+    jobid: 5
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 16:21:11 2024]
+Finished job 5.
+1 of 6 steps (17%) done
+
+[Fri Oct 11 16:21:11 2024]
+rule rawdata:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/01.rawdata/work.sh
+    jobid: 2
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 16:21:22 2024]
+Finished job 2.
+2 of 6 steps (33%) done
+
+[Fri Oct 11 16:21:22 2024]
+rule single:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/03.HiC/single_sample.yaml, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/03.HiC/work.sh
+    jobid: 4
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 16:21:39 2024]
+Finished job 4.
+3 of 6 steps (50%) done
+
+[Fri Oct 11 16:21:39 2024]
+rule single_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/03.HiC/08.report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/03.HiC/08.report/work.sh
+    jobid: 6
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 16:21:49 2024]
+Finished job 6.
+4 of 6 steps (67%) done
+
+[Fri Oct 11 16:21:49 2024]
+rule diff_report:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/04.HiC_diff/05.multi_report/report.yaml, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/04.HiC_diff/05.multi_report/work.sh
+    jobid: 7
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 16:22:00 2024]
+Finished job 7.
+5 of 6 steps (83%) done
+
+[Fri Oct 11 16:22:00 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/00.ref/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/01.rawdata/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/02.personal/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/03.HiC/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/04.HiC_diff/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/03.HiC/08.report/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/241206_paotong_20240930/04.HiC_diff/05.multi_report/work.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 16:22:00 2024]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/.snakemake/log/2024-10-11T162051.357286.snakemake.log

@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+result        1              1              1
+total         2              1              1
+
+
+[Mon Oct 14 23:35:25 2024]
+rule result:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/01.compartment_RNA/Done, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/02.TAD_RNA/Done
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/whfs-xs-231661_HiC_ATAC_RNA
+    jobid: 8
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 10173072'.
+[Mon Oct 14 23:35:45 2024]
+Finished job 8.
+1 of 2 steps (50%) done
+
+[Mon Oct 14 23:35:45 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/01.genome_gene_express/CapHiC-control.fpkm4washu, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/01.genome_gene_express/CapHiC-test.fpkm4washu, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control.WashU.gene.LogFC, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/03.BAM_2_coverage/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/01.compartment_RNA/Done, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/02.TAD_RNA/Done, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/whfs-xs-231661_HiC_ATAC_RNA
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Mon Oct 14 23:35:45 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-10-14T233516.479302.snakemake.log

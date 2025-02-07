@@ -1,0 +1,6 @@
+ValueError in line 157 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py:
+'=' alignment not allowed in string format specifier
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py", line 157, in <module>
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/string.py", line 190, in vformat
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/string.py", line 243, in _vformat
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/string.py", line 260, in format_field

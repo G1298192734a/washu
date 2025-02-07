@@ -1,0 +1,63 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 3
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+multi            1              1              1
+single           2              1              1
+transform        1              1              1
+total            5              1              1
+
+
+[Wed May 22 15:09:17 2024]
+rule single:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9, /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9/work.sh
+    jobid: 4
+    wildcards: spl=GSC-S1R9
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 7898973'.
+
+[Wed May 22 15:09:18 2024]
+rule single:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-untreated, /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-untreated/work.sh
+    jobid: 5
+    wildcards: spl=GSC-untreated
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7898974'.
+
+[Wed May 22 15:09:19 2024]
+rule multi:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9_vs_GSC-untreated, /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9_vs_GSC-untreated/work.sh
+    jobid: 6
+    wildcards: minus=GSC-S1R9_vs_GSC-untreated
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7898975'.
+[Wed May 22 15:10:47 2024]
+Error in rule single:
+    jobid: 4
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9, /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9/work.sh
+    cluster_jobid: Submitted batch job 7898973
+
+Error executing rule single on cluster (jobid: 4, external: Submitted batch job 7898973, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/tmp.fdzr2er0/snakejob.single.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 22 15:10:47 2024]
+Error in rule single:
+    jobid: 5
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-untreated, /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-untreated/work.sh
+    cluster_jobid: Submitted batch job 7898974
+
+Error executing rule single on cluster (jobid: 5, external: Submitted batch job 7898974, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/tmp.fdzr2er0/snakejob.single.5.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 22 15:10:47 2024]
+Error in rule multi:
+    jobid: 6
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9_vs_GSC-untreated, /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/analysis_washu_20240521/GSC-S1R9_vs_GSC-untreated/work.sh
+    cluster_jobid: Submitted batch job 7898975
+
+Error executing rule multi on cluster (jobid: 6, external: Submitted batch job 7898975, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/tmp.fdzr2er0/snakejob.multi.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/log/2024-05-22T150915.857859.snakemake.log

@@ -1,0 +1,12 @@
+Fai: /work/frasergen/backup/3d/project/Interactome/230513_shandaxijun_20230704/05.Hi-C/01.ref/Vulgatibacter_sp.fa.fai
+# /work/frasergen/backup/3d/project/Interactome
+Dir: analysis_3d_model_20240614
+Res: 5000
+Heatmap:
+    SDU102_48h:
+    - /work/frasergen/backup/3d/project/Interactome/230513_shandaxijun_20230704/05.Hi-C/04.map/SDU102_48h/Vulgatibacter_sp/Vulgatibacter_sp-all-MboI-5k_ICed.hm
+    SDU102_24h:
+    - /work/frasergen/backup/3d/project/Interactome/230513_shandaxijun_20230704/05.Hi-C/04.map/SDU102_24h/Vulgatibacter_sp/Vulgatibacter_sp-all-MboI-5k_ICed.hm
+Software_yaml: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_soft.yaml
+
+

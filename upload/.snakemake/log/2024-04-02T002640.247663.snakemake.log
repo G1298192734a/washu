@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+all            1              1              1
+get_gtf        1              1              1
+total          2              1              1
+
+Select jobs to execute...
+
+[Tue Apr  2 00:26:41 2024]
+rule get_gtf:
+    input: /work/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/00.ref/01.ref_prepare/jizhuaqi.gff
+    output: analysis_washu_20240402/00.longest_gtf/work.sh
+    jobid: 1
+    resources: tmpdir=/tmp
+
+[Tue Apr  2 00:26:44 2024]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Tue Apr  2 00:26:44 2024]
+localrule all:
+    input: analysis_washu_20240402/00.longest_gtf/work.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Tue Apr  2 00:26:44 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-04-02T002640.247663.snakemake.log

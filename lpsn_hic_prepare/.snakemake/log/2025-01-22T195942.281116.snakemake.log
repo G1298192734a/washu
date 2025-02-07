@@ -1,0 +1,70 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+all            1              1              1
+rna_bam        4              1              1
+total          5              1              1
+
+
+[Wed Jan 22 19:59:54 2025]
+rule rna_bam:
+    input: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121/RT0-2.sort.bam
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-2.sort.SiteDepth.gz
+    jobid: 5
+    wildcards: depth=/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-2.sort.SiteDepth.gz
+    resources: tmpdir=/tmp
+
+[Wed Jan 22 20:00:31 2025]
+Finished job 5.
+1 of 5 steps (20%) done
+
+[Wed Jan 22 20:00:31 2025]
+rule rna_bam:
+    input: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121/RT0-1.sort.bam
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-1.sort.SiteDepth.gz
+    jobid: 4
+    wildcards: depth=/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-1.sort.SiteDepth.gz
+    resources: tmpdir=/tmp
+
+[Wed Jan 22 20:01:05 2025]
+Finished job 4.
+2 of 5 steps (40%) done
+
+[Wed Jan 22 20:01:05 2025]
+rule rna_bam:
+    input: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121/RT48-1.sort.bam
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT48-1.sort.SiteDepth.gz
+    jobid: 6
+    wildcards: depth=/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT48-1.sort.SiteDepth.gz
+    resources: tmpdir=/tmp
+
+[Wed Jan 22 20:01:37 2025]
+Finished job 6.
+3 of 5 steps (60%) done
+
+[Wed Jan 22 20:01:37 2025]
+rule rna_bam:
+    input: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121/RT48-2.sort.bam
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT48-2.sort.SiteDepth.gz
+    jobid: 7
+    wildcards: depth=/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT48-2.sort.SiteDepth.gz
+    resources: tmpdir=/tmp
+
+[Wed Jan 22 20:02:09 2025]
+Finished job 7.
+4 of 5 steps (80%) done
+
+[Wed Jan 22 20:02:09 2025]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT48.fpkm4washu, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT0.fpkm4washu, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/02.diff_gene_express/HT0.minus.HT48.WashU.gene.LogFC, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-1.sort.SiteDepth.gz, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-2.sort.SiteDepth.gz, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT48-1.sort.SiteDepth.gz, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT48-2.sort.SiteDepth.gz
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Wed Jan 22 20:02:09 2025]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2025-01-22T195942.281116.snakemake.log

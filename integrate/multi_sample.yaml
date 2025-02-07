@@ -1,0 +1,11 @@
+single_sample_dir: /work/frasergen/backup/3d/project/Interactome/231062-02_sbuffalo/03.HiC
+multi_sample_dir: /work/frasergen/backup/3d/project/Interactome/231062-02_sbuffalo/04.HiC_diff
+# 对照，实验
+sample_order: B2023,A2023
+# 实验.minus.对照
+sample_minus: B2023.minus.A2023
+genome_res: 200000
+compartment_res: 100000
+tad_res: 40000
+loop_res: 5000
+ATAC_DIFF: /public/frasergen/backup/3d/project/ATAC/2023/231062-02_shuiniu/Bigdata_analysis_20240304/02.Diff

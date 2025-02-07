@@ -1,0 +1,63 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+compt_rna        1              1              1
+cpt_motif        1              1              1
+tad_rna          1              1              1
+total            4              1              1
+
+
+[Thu Oct 10 16:59:45 2024]
+rule compt_rna:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control.DEseq2.before-filter.xls
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control_biorep.txt
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/01.compartment_RNA/work.sh
+    jobid: 6
+    wildcards: diff=CapHiC-test.minus.CapHiC-control
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 10101914'.
+
+[Thu Oct 10 16:59:45 2024]
+rule cpt_motif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/02.compartment_AB_switch_peak/work.sh
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/03.compartment_AB_peak_motif/work.sh
+    jobid: 10
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 10101915'.
+[Thu Oct 10 17:15:26 2024]
+Finished job 6.
+1 of 4 steps (25%) done
+
+[Thu Oct 10 17:15:26 2024]
+rule tad_rna:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control.DEseq2.before-filter.xls, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control_biorep.txt
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/02.TAD_RNA/work.sh
+    jobid: 7
+    wildcards: diff=CapHiC-test.minus.CapHiC-control
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 10102626'.
+[Thu Oct 10 17:16:36 2024]
+Finished job 7.
+2 of 4 steps (50%) done
+[Thu Oct 10 18:13:51 2024]
+Finished job 10.
+3 of 4 steps (75%) done
+
+[Thu Oct 10 18:13:51 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/01.genome_gene_express/CapHiC-control.fpkm4washu, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/01.genome_gene_express/CapHiC-test.fpkm4washu, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/02.diff_gene_express/CapHiC-test.minus.CapHiC-control.WashU.gene.LogFC, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/03.BAM_2_coverage/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/01.compartment_RNA/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/01.compartment_RNA/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_RNA/02.TAD_RNA/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/01.compartment_AB_peak/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/02.compartment_AB_switch_peak/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/03.compartment_AB_peak_motif/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/04.tad_peak/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/05.loop_peak/work.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Thu Oct 10 18:13:51 2024]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-10-10T165914.547689.snakemake.log

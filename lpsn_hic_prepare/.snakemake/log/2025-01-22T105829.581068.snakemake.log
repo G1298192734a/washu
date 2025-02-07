@@ -1,0 +1,3 @@
+KeyError in line 69 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/integrate_snake.py:
+'RNA_bam'
+  File "/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/integrate_snake.py", line 69, in <module>

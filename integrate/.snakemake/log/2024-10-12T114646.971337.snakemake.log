@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+cpt_motif        1              1              1
+tad_peak         1              1              1
+total            3              1              1
+
+
+[Sat Oct 12 11:47:16 2024]
+rule cpt_motif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/02.compartment_AB_switch_peak/work.sh
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/03.compartment_AB_peak_motif/work.sh
+    jobid: 12
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 10151943'.
+
+[Sat Oct 12 11:47:16 2024]
+rule tad_peak:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/02.cpm_bw
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/04.tad_peak/work.sh
+    jobid: 13
+    wildcards: diff=CapHiC-test.minus.CapHiC-control, atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 10151944'.
+[Sat Oct 12 11:48:46 2024]
+Error in rule tad_peak:
+    jobid: 13
+    log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/01.integrate/CapHiC-test.minus.CapHiC-control/HiC_CUT_CTCF/04.tad_peak/work.sh (check log file(s) for error message)
+    cluster_jobid: Submitted batch job 10151944
+
+Error executing rule tad_peak on cluster (jobid: 13, external: Submitted batch job 10151944, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.vcj83zpr/snakejob.tad_peak.13.sh). For error details see the cluster log and the log files of the involved rule(s).

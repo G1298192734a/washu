@@ -1,0 +1,2549 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 72
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+chrom           60              1              1
+gif              5              1              1
+mp4              5              1              1
+png            120              1              1
+split_pml        5              1              1
+total          196              1              1
+
+
+[Fri May 10 14:11:11 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr9/chr9.pml
+    jobid: 13
+    wildcards: sample=H-CK-599, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7660765'.
+
+[Fri May 10 14:11:11 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr4/chr4.pml
+    jobid: 83
+    wildcards: sample=H-Salt-076, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 83 with external jobid 'Submitted batch job 7660766'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr8/chr8.pml
+    jobid: 27
+    wildcards: sample=H-CK-F1, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7660767'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr5/chr5.pml
+    jobid: 69
+    wildcards: sample=H-Salt-F1, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 69 with external jobid 'Submitted batch job 7660768'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr6/chr6.pml
+    jobid: 55
+    wildcards: sample=H-Salt-599, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 55 with external jobid 'Submitted batch job 7660769'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr3/chr3.pml
+    jobid: 7
+    wildcards: sample=H-CK-599, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7660770'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr2/chr2.pml
+    jobid: 21
+    wildcards: sample=H-CK-F1, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7660771'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr1/chr1.pml
+    jobid: 77
+    wildcards: sample=H-Salt-076, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 77 with external jobid 'Submitted batch job 7660772'.
+
+[Fri May 10 14:11:12 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr12/chr12.pml
+    jobid: 91
+    wildcards: sample=H-Salt-076, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 91 with external jobid 'Submitted batch job 7660773'.
+
+[Fri May 10 14:11:13 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr9/chr9.pml
+    jobid: 28
+    wildcards: sample=H-CK-F1, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7660774'.
+
+[Fri May 10 14:11:13 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_231.pml
+    jobid: 224
+    wildcards: sample=H-Salt-076
+    resources: tmpdir=/tmp
+
+Submitted job 224 with external jobid 'Submitted batch job 7660775'.
+
+[Fri May 10 14:11:13 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr10/chr10.pml
+    jobid: 14
+    wildcards: sample=H-CK-599, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7660776'.
+
+[Fri May 10 14:11:13 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr7/chr7.pml
+    jobid: 56
+    wildcards: sample=H-Salt-599, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 56 with external jobid 'Submitted batch job 7660777'.
+
+[Fri May 10 14:11:13 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr6/chr6.pml
+    jobid: 70
+    wildcards: sample=H-Salt-F1, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 70 with external jobid 'Submitted batch job 7660778'.
+
+[Fri May 10 14:11:14 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr5/chr5.pml
+    jobid: 84
+    wildcards: sample=H-Salt-076, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 84 with external jobid 'Submitted batch job 7660779'.
+
+[Fri May 10 14:11:14 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr4/chr4.pml
+    jobid: 8
+    wildcards: sample=H-CK-599, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7660780'.
+
+[Fri May 10 14:11:14 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_231.pml
+    jobid: 120
+    wildcards: sample=H-CK-F1
+    resources: tmpdir=/tmp
+
+Submitted job 120 with external jobid 'Submitted batch job 7660781'.
+
+[Fri May 10 14:11:14 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr3/chr3.pml
+    jobid: 22
+    wildcards: sample=H-CK-F1, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7660782'.
+
+[Fri May 10 14:11:14 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr10/chr10.pml
+    jobid: 29
+    wildcards: sample=H-CK-F1, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7660783'.
+
+[Fri May 10 14:11:15 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr11/chr11.pml
+    jobid: 15
+    wildcards: sample=H-CK-599, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7660784'.
+
+[Fri May 10 14:11:15 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr8/chr8.pml
+    jobid: 57
+    wildcards: sample=H-Salt-599, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 57 with external jobid 'Submitted batch job 7660785'.
+
+[Fri May 10 14:11:15 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr7/chr7.pml
+    jobid: 71
+    wildcards: sample=H-Salt-F1, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 71 with external jobid 'Submitted batch job 7660786'.
+
+[Fri May 10 14:11:15 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr6/chr6.pml
+    jobid: 85
+    wildcards: sample=H-Salt-076, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 85 with external jobid 'Submitted batch job 7660787'.
+
+[Fri May 10 14:11:15 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr2/chr2.pml
+    jobid: 51
+    wildcards: sample=H-Salt-599, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 7660788'.
+
+[Fri May 10 14:11:15 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr5/chr5.pml
+    jobid: 9
+    wildcards: sample=H-CK-599, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7660789'.
+
+[Fri May 10 14:11:16 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr4/chr4.pml
+    jobid: 23
+    wildcards: sample=H-CK-F1, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7660790'.
+
+[Fri May 10 14:11:16 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_231.pml
+    jobid: 198
+    wildcards: sample=H-Salt-F1
+    resources: tmpdir=/tmp
+
+Submitted job 198 with external jobid 'Submitted batch job 7660791'.
+
+[Fri May 10 14:11:16 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr11/chr11.pml
+    jobid: 30
+    wildcards: sample=H-CK-F1, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7660792'.
+
+[Fri May 10 14:11:16 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr12/chr12.pml
+    jobid: 16
+    wildcards: sample=H-CK-599, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7660793'.
+
+[Fri May 10 14:11:16 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr1/chr1.pml
+    jobid: 1
+    wildcards: sample=H-CK-599, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7660794'.
+
+[Fri May 10 14:11:16 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr9/chr9.pml
+    jobid: 58
+    wildcards: sample=H-Salt-599, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 58 with external jobid 'Submitted batch job 7660795'.
+
+[Fri May 10 14:11:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr8/chr8.pml
+    jobid: 72
+    wildcards: sample=H-Salt-F1, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 72 with external jobid 'Submitted batch job 7660796'.
+
+[Fri May 10 14:11:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr7/chr7.pml
+    jobid: 86
+    wildcards: sample=H-Salt-076, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 86 with external jobid 'Submitted batch job 7660797'.
+
+[Fri May 10 14:11:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr1/chr1.pml
+    jobid: 62
+    wildcards: sample=H-Salt-F1, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid 'Submitted batch job 7660798'.
+
+[Fri May 10 14:11:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr3/chr3.pml
+    jobid: 52
+    wildcards: sample=H-Salt-599, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 7660799'.
+
+[Fri May 10 14:11:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr6/chr6.pml
+    jobid: 10
+    wildcards: sample=H-CK-599, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7660800'.
+
+[Fri May 10 14:11:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr5/chr5.pml
+    jobid: 24
+    wildcards: sample=H-CK-F1, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7660801'.
+
+[Fri May 10 14:11:18 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr2/chr2.pml
+    jobid: 66
+    wildcards: sample=H-Salt-F1, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 66 with external jobid 'Submitted batch job 7660802'.
+
+[Fri May 10 14:11:18 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_231.pml
+    jobid: 94
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+Submitted job 94 with external jobid 'Submitted batch job 7660803'.
+
+[Fri May 10 14:11:18 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr11/chr11.pml
+    jobid: 90
+    wildcards: sample=H-Salt-076, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 90 with external jobid 'Submitted batch job 7660804'.
+
+[Fri May 10 14:11:18 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr12/chr12.pml
+    jobid: 31
+    wildcards: sample=H-CK-F1, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7660805'.
+
+[Fri May 10 14:11:18 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr1/chr1.pml
+    jobid: 17
+    wildcards: sample=H-CK-F1, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7660806'.
+
+[Fri May 10 14:11:18 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr10/chr10.pml
+    jobid: 59
+    wildcards: sample=H-Salt-599, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 59 with external jobid 'Submitted batch job 7660807'.
+
+[Fri May 10 14:11:19 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr9/chr9.pml
+    jobid: 73
+    wildcards: sample=H-Salt-F1, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 73 with external jobid 'Submitted batch job 7660808'.
+
+[Fri May 10 14:11:19 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr8/chr8.pml
+    jobid: 87
+    wildcards: sample=H-Salt-076, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 87 with external jobid 'Submitted batch job 7660809'.
+
+[Fri May 10 14:11:19 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr4/chr4.pml
+    jobid: 53
+    wildcards: sample=H-Salt-599, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 53 with external jobid 'Submitted batch job 7660810'.
+
+[Fri May 10 14:11:20 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr7/chr7.pml
+    jobid: 11
+    wildcards: sample=H-CK-599, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7660811'.
+
+[Fri May 10 14:11:20 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr6/chr6.pml
+    jobid: 25
+    wildcards: sample=H-CK-F1, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7660812'.
+
+[Fri May 10 14:11:21 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr3/chr3.pml
+    jobid: 67
+    wildcards: sample=H-Salt-F1, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 67 with external jobid 'Submitted batch job 7660813'.
+
+[Fri May 10 14:11:21 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr2/chr2.pml
+    jobid: 81
+    wildcards: sample=H-Salt-076, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 81 with external jobid 'Submitted batch job 7660814'.
+
+[Fri May 10 14:11:22 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr2/chr2.pml
+    jobid: 6
+    wildcards: sample=H-CK-599, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7660815'.
+
+[Fri May 10 14:11:22 2024]
+rule split_pml:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/png.txt, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_001.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_011.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_021.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_031.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_041.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_051.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_061.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_071.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_081.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_091.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_101.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_111.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_121.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_131.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_141.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_151.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_161.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_171.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_181.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_191.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_201.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_211.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_221.pml, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_231.pml
+    jobid: 172
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 172 with external jobid 'Submitted batch job 7660816'.
+
+[Fri May 10 14:11:23 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr11/chr11.pml
+    jobid: 60
+    wildcards: sample=H-Salt-599, chrom=chr11
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:23 2024]
+Finished job 224.
+1 of 196 steps (1%) done
+Submitted job 60 with external jobid 'Submitted batch job 7660817'.
+
+[Fri May 10 14:11:23 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr10/chr10.pml
+    jobid: 74
+    wildcards: sample=H-Salt-F1, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 74 with external jobid 'Submitted batch job 7660818'.
+
+[Fri May 10 14:11:24 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr9/chr9.pml
+    jobid: 88
+    wildcards: sample=H-Salt-076, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 88 with external jobid 'Submitted batch job 7660819'.
+
+[Fri May 10 14:11:25 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr5/chr5.pml
+    jobid: 54
+    wildcards: sample=H-Salt-599, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 54 with external jobid 'Submitted batch job 7660820'.
+
+[Fri May 10 14:11:25 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr8/chr8.pml
+    jobid: 12
+    wildcards: sample=H-CK-599, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7660821'.
+
+[Fri May 10 14:11:25 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr7/chr7.pml
+    jobid: 26
+    wildcards: sample=H-CK-F1, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7660822'.
+
+[Fri May 10 14:11:26 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr4/chr4.pml
+    jobid: 68
+    wildcards: sample=H-Salt-F1, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 68 with external jobid 'Submitted batch job 7660823'.
+
+[Fri May 10 14:11:26 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr3/chr3.pml
+    jobid: 82
+    wildcards: sample=H-Salt-076, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 82 with external jobid 'Submitted batch job 7660824'.
+
+[Fri May 10 14:11:27 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr1/chr1.pml
+    jobid: 47
+    wildcards: sample=H-Salt-599, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 7660825'.
+
+[Fri May 10 14:11:27 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr12/chr12.pml
+    jobid: 61
+    wildcards: sample=H-Salt-599, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 61 with external jobid 'Submitted batch job 7660826'.
+
+[Fri May 10 14:11:28 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr11/chr11.pml
+    jobid: 75
+    wildcards: sample=H-Salt-F1, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 75 with external jobid 'Submitted batch job 7660827'.
+
+[Fri May 10 14:11:29 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr10/chr10.pml
+    jobid: 89
+    wildcards: sample=H-Salt-076, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 89 with external jobid 'Submitted batch job 7660828'.
+
+[Fri May 10 14:11:29 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr12/chr12.pml
+    jobid: 76
+    wildcards: sample=H-Salt-F1, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 76 with external jobid 'Submitted batch job 7660829'.
+
+[Fri May 10 14:11:29 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_101.png
+    jobid: 234
+    wildcards: sample=H-Salt-076, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 234 with external jobid 'Submitted batch job 7660830'.
+
+[Fri May 10 14:11:30 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_081.png
+    jobid: 232
+    wildcards: sample=H-Salt-076, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 232 with external jobid 'Submitted batch job 7660831'.
+
+[Fri May 10 14:11:30 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_211.png
+    jobid: 245
+    wildcards: sample=H-Salt-076, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 245 with external jobid 'Submitted batch job 7660832'.
+
+[Fri May 10 14:11:31 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_071.png
+    jobid: 231
+    wildcards: sample=H-Salt-076, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 231 with external jobid 'Submitted batch job 7660833'.
+
+[Fri May 10 14:11:32 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_091.png
+    jobid: 233
+    wildcards: sample=H-Salt-076, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 233 with external jobid 'Submitted batch job 7660834'.
+
+[Fri May 10 14:11:32 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_231.png
+    jobid: 247
+    wildcards: sample=H-Salt-076, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 247 with external jobid 'Submitted batch job 7660835'.
+
+[Fri May 10 14:11:32 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_161.png
+    jobid: 240
+    wildcards: sample=H-Salt-076, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 240 with external jobid 'Submitted batch job 7660836'.
+
+[Fri May 10 14:11:33 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_221.png
+    jobid: 246
+    wildcards: sample=H-Salt-076, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 246 with external jobid 'Submitted batch job 7660837'.
+[Fri May 10 14:11:37 2024]
+Finished job 13.
+2 of 196 steps (1%) done
+
+[Fri May 10 14:11:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_061.png
+    jobid: 230
+    wildcards: sample=H-Salt-076, batch=061
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:37 2024]
+Finished job 83.
+3 of 196 steps (2%) done
+[Fri May 10 14:11:37 2024]
+Finished job 27.
+4 of 196 steps (2%) done
+[Fri May 10 14:11:37 2024]
+Finished job 69.
+5 of 196 steps (3%) done
+Submitted job 230 with external jobid 'Submitted batch job 7660838'.
+[Fri May 10 14:11:37 2024]
+Finished job 55.
+6 of 196 steps (3%) done
+
+[Fri May 10 14:11:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_171.png
+    jobid: 241
+    wildcards: sample=H-Salt-076, batch=171
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:38 2024]
+Finished job 7.
+7 of 196 steps (4%) done
+[Fri May 10 14:11:38 2024]
+Finished job 21.
+8 of 196 steps (4%) done
+[Fri May 10 14:11:38 2024]
+Finished job 77.
+9 of 196 steps (5%) done
+Submitted job 241 with external jobid 'Submitted batch job 7660839'.
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_191.png
+    jobid: 243
+    wildcards: sample=H-Salt-076, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 243 with external jobid 'Submitted batch job 7660840'.
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_051.png
+    jobid: 229
+    wildcards: sample=H-Salt-076, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 229 with external jobid 'Submitted batch job 7660841'.
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_111.png
+    jobid: 235
+    wildcards: sample=H-Salt-076, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 235 with external jobid 'Submitted batch job 7660842'.
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_041.png
+    jobid: 228
+    wildcards: sample=H-Salt-076, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 228 with external jobid 'Submitted batch job 7660843'.
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_201.png
+    jobid: 244
+    wildcards: sample=H-Salt-076, batch=201
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:38 2024]
+Finished job 91.
+10 of 196 steps (5%) done
+Submitted job 244 with external jobid 'Submitted batch job 7660844'.
+[Fri May 10 14:11:38 2024]
+Finished job 28.
+11 of 196 steps (6%) done
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_181.png
+    jobid: 242
+    wildcards: sample=H-Salt-076, batch=181
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:38 2024]
+Finished job 14.
+12 of 196 steps (6%) done
+[Fri May 10 14:11:38 2024]
+Finished job 56.
+13 of 196 steps (7%) done
+Submitted job 242 with external jobid 'Submitted batch job 7660845'.
+[Fri May 10 14:11:38 2024]
+Finished job 70.
+14 of 196 steps (7%) done
+
+[Fri May 10 14:11:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_131.png
+    jobid: 237
+    wildcards: sample=H-Salt-076, batch=131
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:39 2024]
+Finished job 84.
+15 of 196 steps (8%) done
+Submitted job 237 with external jobid 'Submitted batch job 7660846'.
+[Fri May 10 14:11:39 2024]
+
+Finished job 8.
+[Fri May 10 14:11:39 2024]
+16 of 196 steps (8%) done
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_011.png
+    jobid: 225
+    wildcards: sample=H-Salt-076, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 225 with external jobid 'Submitted batch job 7660847'.
+
+[Fri May 10 14:11:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_151.png
+    jobid: 239
+    wildcards: sample=H-Salt-076, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 239 with external jobid 'Submitted batch job 7660848'.
+
+[Fri May 10 14:11:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_031.png
+    jobid: 227
+    wildcards: sample=H-Salt-076, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 227 with external jobid 'Submitted batch job 7660849'.
+
+[Fri May 10 14:11:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_141.png
+    jobid: 238
+    wildcards: sample=H-Salt-076, batch=141
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:40 2024]
+Finished job 120.
+17 of 196 steps (9%) done
+[Fri May 10 14:11:40 2024]
+Finished job 22.
+18 of 196 steps (9%) done
+[Fri May 10 14:11:40 2024]
+Finished job 29.
+19 of 196 steps (10%) done
+[Fri May 10 14:11:40 2024]
+Finished job 15.
+20 of 196 steps (10%) done
+[Fri May 10 14:11:40 2024]
+Finished job 57.
+21 of 196 steps (11%) done
+[Fri May 10 14:11:40 2024]
+Finished job 71.
+22 of 196 steps (11%) done
+[Fri May 10 14:11:40 2024]
+Finished job 85.
+23 of 196 steps (12%) done
+[Fri May 10 14:11:40 2024]
+Finished job 51.
+24 of 196 steps (12%) done
+[Fri May 10 14:11:40 2024]
+Finished job 9.
+25 of 196 steps (13%) done
+[Fri May 10 14:11:40 2024]
+Finished job 23.
+26 of 196 steps (13%) done
+Submitted job 238 with external jobid 'Submitted batch job 7660850'.
+
+[Fri May 10 14:11:40 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_161.png
+    jobid: 136
+    wildcards: sample=H-CK-F1, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 136 with external jobid 'Submitted batch job 7660851'.
+
+[Fri May 10 14:11:40 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_121.png
+    jobid: 236
+    wildcards: sample=H-Salt-076, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 236 with external jobid 'Submitted batch job 7660852'.
+
+[Fri May 10 14:11:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_001.png
+    jobid: 223
+    wildcards: sample=H-Salt-076, batch=001
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:42 2024]
+Finished job 198.
+27 of 196 steps (14%) done
+Submitted job 223 with external jobid 'Submitted batch job 7660853'.
+
+[Fri May 10 14:11:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_051.png
+    jobid: 125
+    wildcards: sample=H-CK-F1, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 125 with external jobid 'Submitted batch job 7660854'.
+
+[Fri May 10 14:11:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_191.png
+    jobid: 139
+    wildcards: sample=H-CK-F1, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 139 with external jobid 'Submitted batch job 7660855'.
+
+[Fri May 10 14:11:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_211.png
+    jobid: 141
+    wildcards: sample=H-CK-F1, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 141 with external jobid 'Submitted batch job 7660856'.
+
+[Fri May 10 14:11:43 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_071.png
+    jobid: 127
+    wildcards: sample=H-CK-F1, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 127 with external jobid 'Submitted batch job 7660857'.
+
+[Fri May 10 14:11:43 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_221.png
+    jobid: 142
+    wildcards: sample=H-CK-F1, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 142 with external jobid 'Submitted batch job 7660858'.
+
+[Fri May 10 14:11:44 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_081.png
+    jobid: 128
+    wildcards: sample=H-CK-F1, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 128 with external jobid 'Submitted batch job 7660859'.
+
+[Fri May 10 14:11:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_061.png
+    jobid: 126
+    wildcards: sample=H-CK-F1, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 126 with external jobid 'Submitted batch job 7660860'.
+
+[Fri May 10 14:11:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_201.png
+    jobid: 140
+    wildcards: sample=H-CK-F1, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 140 with external jobid 'Submitted batch job 7660861'.
+
+[Fri May 10 14:11:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_021.png
+    jobid: 226
+    wildcards: sample=H-Salt-076, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 226 with external jobid 'Submitted batch job 7660862'.
+
+[Fri May 10 14:11:46 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_231.png
+    jobid: 143
+    wildcards: sample=H-CK-F1, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 143 with external jobid 'Submitted batch job 7660863'.
+[Fri May 10 14:11:57 2024]
+Finished job 25.
+28 of 196 steps (14%) done
+
+[Fri May 10 14:11:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_091.png
+    jobid: 129
+    wildcards: sample=H-CK-F1, batch=091
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:57 2024]
+Finished job 67.
+29 of 196 steps (15%) done
+[Fri May 10 14:11:57 2024]
+Finished job 81.
+30 of 196 steps (15%) done
+[Fri May 10 14:11:57 2024]
+Finished job 6.
+31 of 196 steps (16%) done
+Submitted job 129 with external jobid 'Submitted batch job 7660864'.
+[Fri May 10 14:11:58 2024]
+Finished job 172.
+32 of 196 steps (16%) done
+[Fri May 10 14:11:58 2024]
+Finished job 60.
+33 of 196 steps (17%) done
+
+[Fri May 10 14:11:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_231.png
+    jobid: 195
+    wildcards: sample=H-Salt-599, batch=231
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:58 2024]
+Finished job 30.
+34 of 196 steps (17%) done
+[Fri May 10 14:11:58 2024]
+Finished job 16.
+35 of 196 steps (18%) done
+Submitted job 195 with external jobid 'Submitted batch job 7660865'.
+
+[Fri May 10 14:11:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_091.png
+    jobid: 181
+    wildcards: sample=H-Salt-599, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 181 with external jobid 'Submitted batch job 7660866'.
+
+[Fri May 10 14:11:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_171.png
+    jobid: 189
+    wildcards: sample=H-Salt-599, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 189 with external jobid 'Submitted batch job 7660867'.
+
+[Fri May 10 14:11:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_101.png
+    jobid: 182
+    wildcards: sample=H-Salt-599, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 182 with external jobid 'Submitted batch job 7660868'.
+
+[Fri May 10 14:11:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_041.png
+    jobid: 176
+    wildcards: sample=H-Salt-599, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 176 with external jobid 'Submitted batch job 7660869'.
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_181.png
+    jobid: 190
+    wildcards: sample=H-Salt-599, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 190 with external jobid 'Submitted batch job 7660870'.
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_111.png
+    jobid: 183
+    wildcards: sample=H-Salt-599, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 183 with external jobid 'Submitted batch job 7660871'.
+[Fri May 10 14:11:59 2024]
+Finished job 1.
+36 of 196 steps (18%) done
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_051.png
+    jobid: 177
+    wildcards: sample=H-Salt-599, batch=051
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:59 2024]
+Finished job 58.
+37 of 196 steps (19%) done
+[Fri May 10 14:11:59 2024]
+Finished job 72.
+38 of 196 steps (19%) done
+[Fri May 10 14:11:59 2024]
+Finished job 86.
+39 of 196 steps (20%) done
+Submitted job 177 with external jobid 'Submitted batch job 7660872'.
+[Fri May 10 14:11:59 2024]
+Finished job 62.
+40 of 196 steps (20%) done
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_061.png
+    jobid: 178
+    wildcards: sample=H-Salt-599, batch=061
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:59 2024]
+Finished job 52.
+41 of 196 steps (21%) done
+[Fri May 10 14:11:59 2024]
+Finished job 10.
+42 of 196 steps (21%) done
+[Fri May 10 14:11:59 2024]
+Finished job 24.
+43 of 196 steps (22%) done
+Submitted job 178 with external jobid 'Submitted batch job 7660873'.
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_071.png
+    jobid: 179
+    wildcards: sample=H-Salt-599, batch=071
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:11:59 2024]
+Finished job 66.
+44 of 196 steps (22%) done
+Submitted job 179 with external jobid 'Submitted batch job 7660874'.
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_201.png
+    jobid: 192
+    wildcards: sample=H-Salt-599, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 192 with external jobid 'Submitted batch job 7660875'.
+
+[Fri May 10 14:11:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_191.png
+    jobid: 191
+    wildcards: sample=H-Salt-599, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 191 with external jobid 'Submitted batch job 7660876'.
+[Fri May 10 14:12:00 2024]
+Finished job 94.
+45 of 196 steps (23%) done
+[Fri May 10 14:12:00 2024]
+Finished job 90.
+46 of 196 steps (23%) done
+
+[Fri May 10 14:12:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_081.png
+    jobid: 180
+    wildcards: sample=H-Salt-599, batch=081
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:00 2024]
+Finished job 31.
+47 of 196 steps (24%) done
+[Fri May 10 14:12:00 2024]
+Finished job 17.
+48 of 196 steps (24%) done
+[Fri May 10 14:12:00 2024]
+Finished job 59.
+49 of 196 steps (25%) done
+Submitted job 180 with external jobid 'Submitted batch job 7660877'.
+
+[Fri May 10 14:12:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_221.png
+    jobid: 194
+    wildcards: sample=H-Salt-599, batch=221
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:00 2024]
+Finished job 73.
+50 of 196 steps (26%) done
+[Fri May 10 14:12:00 2024]
+Finished job 87.
+51 of 196 steps (26%) done
+[Fri May 10 14:12:00 2024]
+Finished job 53.
+52 of 196 steps (27%) done
+Submitted job 194 with external jobid 'Submitted batch job 7660878'.
+
+[Fri May 10 14:12:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_031.png
+    jobid: 175
+    wildcards: sample=H-Salt-599, batch=031
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:00 2024]
+Finished job 11.
+53 of 196 steps (27%) done
+Submitted job 175 with external jobid 'Submitted batch job 7660879'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_211.png
+    jobid: 193
+    wildcards: sample=H-Salt-599, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 193 with external jobid 'Submitted batch job 7660880'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_161.png
+    jobid: 188
+    wildcards: sample=H-Salt-599, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 188 with external jobid 'Submitted batch job 7660881'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_131.png
+    jobid: 185
+    wildcards: sample=H-Salt-599, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 185 with external jobid 'Submitted batch job 7660882'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_001.png
+    jobid: 171
+    wildcards: sample=H-Salt-599, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 171 with external jobid 'Submitted batch job 7660883'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_011.png
+    jobid: 173
+    wildcards: sample=H-Salt-599, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 173 with external jobid 'Submitted batch job 7660884'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_151.png
+    jobid: 187
+    wildcards: sample=H-Salt-599, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 187 with external jobid 'Submitted batch job 7660885'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_171.png
+    jobid: 137
+    wildcards: sample=H-CK-F1, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 137 with external jobid 'Submitted batch job 7660886'.
+
+[Fri May 10 14:12:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_121.png
+    jobid: 184
+    wildcards: sample=H-Salt-599, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 184 with external jobid 'Submitted batch job 7660887'.
+
+[Fri May 10 14:12:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_141.png
+    jobid: 186
+    wildcards: sample=H-Salt-599, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 186 with external jobid 'Submitted batch job 7660888'.
+
+[Fri May 10 14:12:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_021.png
+    jobid: 174
+    wildcards: sample=H-Salt-599, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 174 with external jobid 'Submitted batch job 7660889'.
+[Fri May 10 14:12:14 2024]
+Finished job 230.
+54 of 196 steps (28%) done
+
+[Fri May 10 14:12:14 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_101.png
+    jobid: 130
+    wildcards: sample=H-CK-F1, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 130 with external jobid 'Submitted batch job 7660890'.
+[Fri May 10 14:12:17 2024]
+Finished job 74.
+55 of 196 steps (28%) done
+
+[Fri May 10 14:12:17 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_041.png
+    jobid: 124
+    wildcards: sample=H-CK-F1, batch=041
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:17 2024]
+Finished job 88.
+56 of 196 steps (29%) done
+Submitted job 124 with external jobid 'Submitted batch job 7660891'.
+
+[Fri May 10 14:12:17 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_181.png
+    jobid: 138
+    wildcards: sample=H-CK-F1, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 138 with external jobid 'Submitted batch job 7660892'.
+[Fri May 10 14:12:17 2024]
+Finished job 54.
+57 of 196 steps (29%) done
+
+[Fri May 10 14:12:17 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_111.png
+    jobid: 131
+    wildcards: sample=H-CK-F1, batch=111
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:18 2024]
+Finished job 12.
+58 of 196 steps (30%) done
+[Fri May 10 14:12:18 2024]
+Finished job 26.
+59 of 196 steps (30%) done
+[Fri May 10 14:12:18 2024]
+Finished job 68.
+60 of 196 steps (31%) done
+[Fri May 10 14:12:18 2024]
+Finished job 82.
+61 of 196 steps (31%) done
+Submitted job 131 with external jobid 'Submitted batch job 7660894'.
+[Fri May 10 14:12:18 2024]
+Finished job 47.
+62 of 196 steps (32%) done
+
+[Fri May 10 14:12:18 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_021.png
+    jobid: 122
+    wildcards: sample=H-CK-F1, batch=021
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:18 2024]
+Finished job 61.
+63 of 196 steps (32%) done
+[Fri May 10 14:12:18 2024]
+Finished job 75.
+64 of 196 steps (33%) done
+[Fri May 10 14:12:18 2024]
+Finished job 89.
+65 of 196 steps (33%) done
+Submitted job 122 with external jobid 'Submitted batch job 7660895'.
+
+[Fri May 10 14:12:18 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_131.png
+    jobid: 133
+    wildcards: sample=H-CK-F1, batch=131
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:18 2024]
+Finished job 76.
+66 of 196 steps (34%) done
+Submitted job 133 with external jobid 'Submitted batch job 7660896'.
+
+[Fri May 10 14:12:18 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_011.png
+    jobid: 121
+    wildcards: sample=H-CK-F1, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 121 with external jobid 'Submitted batch job 7660897'.
+
+[Fri May 10 14:12:18 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_151.png
+    jobid: 135
+    wildcards: sample=H-CK-F1, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 135 with external jobid 'Submitted batch job 7660898'.
+
+[Fri May 10 14:12:18 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_141.png
+    jobid: 134
+    wildcards: sample=H-CK-F1, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 134 with external jobid 'Submitted batch job 7660899'.
+
+[Fri May 10 14:12:18 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_121.png
+    jobid: 132
+    wildcards: sample=H-CK-F1, batch=121
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:19 2024]
+Finished job 234.
+67 of 196 steps (34%) done
+[Fri May 10 14:12:19 2024]
+Finished job 232.
+68 of 196 steps (35%) done
+[Fri May 10 14:12:19 2024]
+Finished job 245.
+69 of 196 steps (35%) done
+Submitted job 132 with external jobid 'Submitted batch job 7660900'.
+
+[Fri May 10 14:12:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_031.png
+    jobid: 123
+    wildcards: sample=H-CK-F1, batch=031
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:19 2024]
+Finished job 231.
+70 of 196 steps (36%) done
+[Fri May 10 14:12:19 2024]
+Finished job 233.
+71 of 196 steps (36%) done
+[Fri May 10 14:12:19 2024]
+Finished job 247.
+72 of 196 steps (37%) done
+Submitted job 123 with external jobid 'Submitted batch job 7660901'.
+
+[Fri May 10 14:12:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_041.png
+    jobid: 202
+    wildcards: sample=H-Salt-F1, batch=041
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:19 2024]
+Finished job 240.
+73 of 196 steps (37%) done
+[Fri May 10 14:12:19 2024]
+Finished job 246.
+74 of 196 steps (38%) done
+Submitted job 202 with external jobid 'Submitted batch job 7660902'.
+
+[Fri May 10 14:12:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_001.png
+    jobid: 119
+    wildcards: sample=H-CK-F1, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 119 with external jobid 'Submitted batch job 7660903'.
+
+[Fri May 10 14:12:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_081.png
+    jobid: 206
+    wildcards: sample=H-Salt-F1, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 206 with external jobid 'Submitted batch job 7660904'.
+
+[Fri May 10 14:12:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_111.png
+    jobid: 209
+    wildcards: sample=H-Salt-F1, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 209 with external jobid 'Submitted batch job 7660905'.
+
+[Fri May 10 14:12:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_061.png
+    jobid: 204
+    wildcards: sample=H-Salt-F1, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 204 with external jobid 'Submitted batch job 7660906'.
+
+[Fri May 10 14:12:20 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_051.png
+    jobid: 203
+    wildcards: sample=H-Salt-F1, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 203 with external jobid 'Submitted batch job 7660907'.
+
+[Fri May 10 14:12:20 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_191.png
+    jobid: 217
+    wildcards: sample=H-Salt-F1, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 217 with external jobid 'Submitted batch job 7660908'.
+
+[Fri May 10 14:12:20 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_071.png
+    jobid: 205
+    wildcards: sample=H-Salt-F1, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 205 with external jobid 'Submitted batch job 7660911'.
+
+[Fri May 10 14:12:20 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_211.png
+    jobid: 219
+    wildcards: sample=H-Salt-F1, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 219 with external jobid 'Submitted batch job 7660914'.
+
+[Fri May 10 14:12:20 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_201.png
+    jobid: 218
+    wildcards: sample=H-Salt-F1, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 218 with external jobid 'Submitted batch job 7660916'.
+[Fri May 10 14:12:31 2024]
+Finished job 129.
+75 of 196 steps (38%) done
+
+[Fri May 10 14:12:31 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_221.png
+    jobid: 220
+    wildcards: sample=H-Salt-F1, batch=221
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:31 2024]
+Finished job 195.
+76 of 196 steps (39%) done
+[Fri May 10 14:12:31 2024]
+Finished job 181.
+77 of 196 steps (39%) done
+Submitted job 220 with external jobid 'Submitted batch job 7660922'.
+
+[Fri May 10 14:12:31 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_091.png
+    jobid: 207
+    wildcards: sample=H-Salt-F1, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 207 with external jobid 'Submitted batch job 7660923'.
+
+[Fri May 10 14:12:31 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_181.png
+    jobid: 216
+    wildcards: sample=H-Salt-F1, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 216 with external jobid 'Submitted batch job 7660924'.
+[Fri May 10 14:12:34 2024]
+Finished job 241.
+78 of 196 steps (40%) done
+
+[Fri May 10 14:12:34 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_231.png
+    jobid: 221
+    wildcards: sample=H-Salt-F1, batch=231
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:34 2024]
+Finished job 243.
+79 of 196 steps (40%) done
+[Fri May 10 14:12:34 2024]
+Finished job 229.
+80 of 196 steps (41%) done
+[Fri May 10 14:12:34 2024]
+Finished job 235.
+81 of 196 steps (41%) done
+Submitted job 221 with external jobid 'Submitted batch job 7660925'.
+[Fri May 10 14:12:34 2024]
+Finished job 228.
+82 of 196 steps (42%) done
+
+[Fri May 10 14:12:34 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_161.png
+    jobid: 214
+    wildcards: sample=H-Salt-F1, batch=161
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:34 2024]
+Finished job 244.
+83 of 196 steps (42%) done
+[Fri May 10 14:12:34 2024]
+Finished job 242.
+84 of 196 steps (43%) done
+[Fri May 10 14:12:34 2024]
+Finished job 237.
+85 of 196 steps (43%) done
+Submitted job 214 with external jobid 'Submitted batch job 7660926'.
+
+[Fri May 10 14:12:34 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_171.png
+    jobid: 215
+    wildcards: sample=H-Salt-F1, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 215 with external jobid 'Submitted batch job 7660927'.
+
+[Fri May 10 14:12:34 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_101.png
+    jobid: 208
+    wildcards: sample=H-Salt-F1, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 208 with external jobid 'Submitted batch job 7660928'.
+
+[Fri May 10 14:12:34 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_131.png
+    jobid: 211
+    wildcards: sample=H-Salt-F1, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 211 with external jobid 'Submitted batch job 7660929'.
+
+[Fri May 10 14:12:34 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_141.png
+    jobid: 212
+    wildcards: sample=H-Salt-F1, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 212 with external jobid 'Submitted batch job 7660930'.
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_011.png
+    jobid: 199
+    wildcards: sample=H-Salt-F1, batch=011
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:35 2024]
+Finished job 225.
+86 of 196 steps (44%) done
+Submitted job 199 with external jobid 'Submitted batch job 7660931'.
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_151.png
+    jobid: 213
+    wildcards: sample=H-Salt-F1, batch=151
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:35 2024]
+Finished job 239.
+87 of 196 steps (44%) done
+[Fri May 10 14:12:35 2024]
+Finished job 227.
+88 of 196 steps (45%) done
+[Fri May 10 14:12:35 2024]
+Finished job 238.
+89 of 196 steps (45%) done
+Submitted job 213 with external jobid 'Submitted batch job 7660932'.
+[Fri May 10 14:12:35 2024]
+Finished job 136.
+90 of 196 steps (46%) done
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_171.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_171.png
+    jobid: 111
+    wildcards: sample=H-CK-599, batch=171
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:35 2024]
+Finished job 236.
+91 of 196 steps (46%) done
+[Fri May 10 14:12:35 2024]
+Finished job 223.
+92 of 196 steps (47%) done
+[Fri May 10 14:12:35 2024]
+Finished job 125.
+93 of 196 steps (47%) done
+Submitted job 111 with external jobid 'Submitted batch job 7660933'.
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_031.png
+    jobid: 201
+    wildcards: sample=H-Salt-F1, batch=031
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:35 2024]
+Finished job 139.
+94 of 196 steps (48%) done
+[Fri May 10 14:12:35 2024]
+Finished job 141.
+95 of 196 steps (48%) done
+Submitted job 201 with external jobid 'Submitted batch job 7660934'.
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_111.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_111.png
+    jobid: 105
+    wildcards: sample=H-CK-599, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 105 with external jobid 'Submitted batch job 7660935'.
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_181.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_181.png
+    jobid: 112
+    wildcards: sample=H-CK-599, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 112 with external jobid 'Submitted batch job 7660936'.
+
+[Fri May 10 14:12:35 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_021.png
+    jobid: 200
+    wildcards: sample=H-Salt-F1, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 200 with external jobid 'Submitted batch job 7660937'.
+
+[Fri May 10 14:12:36 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_191.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_191.png
+    jobid: 113
+    wildcards: sample=H-CK-599, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 113 with external jobid 'Submitted batch job 7660938'.
+
+[Fri May 10 14:12:36 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_051.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_051.png
+    jobid: 99
+    wildcards: sample=H-CK-599, batch=051
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:36 2024]
+Finished job 127.
+96 of 196 steps (49%) done
+[Fri May 10 14:12:36 2024]
+Finished job 142.
+97 of 196 steps (49%) done
+[Fri May 10 14:12:36 2024]
+Finished job 128.
+98 of 196 steps (50%) done
+Submitted job 99 with external jobid 'Submitted batch job 7660939'.
+
+[Fri May 10 14:12:36 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_001.png
+    jobid: 197
+    wildcards: sample=H-Salt-F1, batch=001
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:36 2024]
+Finished job 126.
+99 of 196 steps (51%) done
+[Fri May 10 14:12:36 2024]
+Finished job 140.
+100 of 196 steps (51%) done
+[Fri May 10 14:12:36 2024]
+Submitted job 197 with external jobid 'Submitted batch job 7660940'.
+Finished job 226.
+101 of 196 steps (52%) done
+
+[Fri May 10 14:12:36 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_041.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_041.png
+    jobid: 98
+    wildcards: sample=H-CK-599, batch=041
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:36 2024]
+Finished job 143.
+102 of 196 steps (52%) done
+Submitted job 98 with external jobid 'Submitted batch job 7660941'.
+
+[Fri May 10 14:12:36 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_121.png
+    jobid: 210
+    wildcards: sample=H-Salt-F1, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 210 with external jobid 'Submitted batch job 7660942'.
+
+[Fri May 10 14:12:36 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/H-Salt-076.gif
+    jobid: 222
+    wildcards: sample=H-Salt-076
+    resources: tmpdir=/tmp
+
+Submitted job 222 with external jobid 'Submitted batch job 7660943'.
+
+[Fri May 10 14:12:37 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/H-Salt-076.mp4
+    jobid: 253
+    wildcards: sample=H-Salt-076
+    resources: tmpdir=/tmp
+
+Submitted job 253 with external jobid 'Submitted batch job 7660944'.
+
+[Fri May 10 14:12:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_071.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_071.png
+    jobid: 101
+    wildcards: sample=H-CK-599, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 101 with external jobid 'Submitted batch job 7660945'.
+
+[Fri May 10 14:12:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_211.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_211.png
+    jobid: 115
+    wildcards: sample=H-CK-599, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 115 with external jobid 'Submitted batch job 7660946'.
+
+[Fri May 10 14:12:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_221.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_221.png
+    jobid: 116
+    wildcards: sample=H-CK-599, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 116 with external jobid 'Submitted batch job 7660947'.
+
+[Fri May 10 14:12:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_201.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_201.png
+    jobid: 114
+    wildcards: sample=H-CK-599, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 114 with external jobid 'Submitted batch job 7660948'.
+
+[Fri May 10 14:12:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_061.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_061.png
+    jobid: 100
+    wildcards: sample=H-CK-599, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 100 with external jobid 'Submitted batch job 7660949'.
+[Fri May 10 14:12:49 2024]
+Finished job 130.
+103 of 196 steps (53%) done
+
+[Fri May 10 14:12:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_161.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_161.png
+    jobid: 110
+    wildcards: sample=H-CK-599, batch=161
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:49 2024]
+Finished job 124.
+104 of 196 steps (53%) done
+[Fri May 10 14:12:49 2024]
+Finished job 138.
+105 of 196 steps (54%) done
+[Fri May 10 14:12:49 2024]
+Finished job 131.
+106 of 196 steps (54%) done
+Submitted job 110 with external jobid 'Submitted batch job 7660950'.
+[Fri May 10 14:12:49 2024]
+Finished job 122.
+107 of 196 steps (55%) done
+
+[Fri May 10 14:12:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_081.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_081.png
+    jobid: 102
+    wildcards: sample=H-CK-599, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 102 with external jobid 'Submitted batch job 7660951'.
+
+[Fri May 10 14:12:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_091.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_091.png
+    jobid: 103
+    wildcards: sample=H-CK-599, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 103 with external jobid 'Submitted batch job 7660952'.
+
+[Fri May 10 14:12:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_101.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_101.png
+    jobid: 104
+    wildcards: sample=H-CK-599, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 104 with external jobid 'Submitted batch job 7660953'.
+
+[Fri May 10 14:12:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_231.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_231.png
+    jobid: 117
+    wildcards: sample=H-CK-599, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 117 with external jobid 'Submitted batch job 7660954'.
+[Fri May 10 14:12:51 2024]
+Finished job 189.
+108 of 196 steps (55%) done
+
+[Fri May 10 14:12:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_141.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_141.png
+    jobid: 108
+    wildcards: sample=H-CK-599, batch=141
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:51 2024]
+Finished job 182.
+109 of 196 steps (56%) done
+[Fri May 10 14:12:51 2024]
+Finished job 176.
+110 of 196 steps (56%) done
+Submitted job 108 with external jobid 'Submitted batch job 7660955'.
+[Fri May 10 14:12:51 2024]
+Finished job 190.
+111 of 196 steps (57%) done
+
+[Fri May 10 14:12:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_021.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_021.png
+    jobid: 96
+    wildcards: sample=H-CK-599, batch=021
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:51 2024]
+Finished job 183.
+112 of 196 steps (57%) done
+[Fri May 10 14:12:51 2024]
+Finished job 177.
+113 of 196 steps (58%) done
+[Fri May 10 14:12:51 2024]
+Finished job 178.
+114 of 196 steps (58%) done
+Submitted job 96 with external jobid 'Submitted batch job 7660956'.
+
+[Fri May 10 14:12:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_031.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_031.png
+    jobid: 97
+    wildcards: sample=H-CK-599, batch=031
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:51 2024]
+Finished job 179.
+115 of 196 steps (59%) done
+[Fri May 10 14:12:51 2024]
+Finished job 192.
+116 of 196 steps (59%) done
+[Fri May 10 14:12:51 2024]
+Finished job 191.
+117 of 196 steps (60%) done
+Submitted job 97 with external jobid 'Submitted batch job 7660957'.
+
+[Fri May 10 14:12:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_131.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_131.png
+    jobid: 107
+    wildcards: sample=H-CK-599, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 107 with external jobid 'Submitted batch job 7660958'.
+
+[Fri May 10 14:12:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_011.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_011.png
+    jobid: 95
+    wildcards: sample=H-CK-599, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 95 with external jobid 'Submitted batch job 7660959'.
+
+[Fri May 10 14:12:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_151.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_151.png
+    jobid: 109
+    wildcards: sample=H-CK-599, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 109 with external jobid 'Submitted batch job 7660960'.
+
+[Fri May 10 14:12:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_121.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_121.png
+    jobid: 106
+    wildcards: sample=H-CK-599, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 106 with external jobid 'Submitted batch job 7660961'.
+[Fri May 10 14:12:52 2024]
+Finished job 180.
+118 of 196 steps (60%) done
+
+[Fri May 10 14:12:52 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_001.pml
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_001.png
+    jobid: 93
+    wildcards: sample=H-CK-599, batch=001
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:12:52 2024]
+Finished job 194.
+119 of 196 steps (61%) done
+[Fri May 10 14:12:52 2024]
+Finished job 175.
+120 of 196 steps (61%) done
+Submitted job 93 with external jobid 'Submitted batch job 7660962'.
+[Fri May 10 14:12:52 2024]
+Finished job 193.
+121 of 196 steps (62%) done
+[Fri May 10 14:12:52 2024]
+Finished job 188.
+122 of 196 steps (62%) done
+[Fri May 10 14:12:52 2024]
+Finished job 185.
+123 of 196 steps (63%) done
+[Fri May 10 14:12:52 2024]
+Finished job 171.
+124 of 196 steps (63%) done
+[Fri May 10 14:12:52 2024]
+Finished job 173.
+125 of 196 steps (64%) done
+[Fri May 10 14:12:52 2024]
+Finished job 187.
+126 of 196 steps (64%) done
+[Fri May 10 14:12:52 2024]
+Finished job 137.
+127 of 196 steps (65%) done
+[Fri May 10 14:12:53 2024]
+Finished job 184.
+128 of 196 steps (65%) done
+[Fri May 10 14:12:53 2024]
+Finished job 186.
+129 of 196 steps (66%) done
+[Fri May 10 14:12:53 2024]
+Finished job 174.
+130 of 196 steps (66%) done
+
+[Fri May 10 14:12:53 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/H-Salt-599.gif
+    jobid: 170
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 170 with external jobid 'Submitted batch job 7660963'.
+
+[Fri May 10 14:12:53 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/H-Salt-599.mp4
+    jobid: 251
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 251 with external jobid 'Submitted batch job 7660964'.
+[Fri May 10 14:13:05 2024]
+Finished job 220.
+131 of 196 steps (67%) done
+[Fri May 10 14:13:05 2024]
+Finished job 207.
+132 of 196 steps (67%) done
+[Fri May 10 14:13:05 2024]
+Finished job 216.
+133 of 196 steps (68%) done
+[Fri May 10 14:13:05 2024]
+Finished job 221.
+134 of 196 steps (68%) done
+[Fri May 10 14:13:05 2024]
+Finished job 214.
+135 of 196 steps (69%) done
+[Fri May 10 14:13:06 2024]
+Finished job 215.
+136 of 196 steps (69%) done
+[Fri May 10 14:13:06 2024]
+Finished job 208.
+137 of 196 steps (70%) done
+[Fri May 10 14:13:06 2024]
+Finished job 211.
+138 of 196 steps (70%) done
+[Fri May 10 14:13:06 2024]
+Finished job 212.
+139 of 196 steps (71%) done
+[Fri May 10 14:13:06 2024]
+Finished job 199.
+140 of 196 steps (71%) done
+[Fri May 10 14:13:06 2024]
+Finished job 213.
+141 of 196 steps (72%) done
+[Fri May 10 14:13:07 2024]
+Finished job 111.
+142 of 196 steps (72%) done
+[Fri May 10 14:13:08 2024]
+Finished job 133.
+143 of 196 steps (73%) done
+[Fri May 10 14:13:08 2024]
+Finished job 121.
+144 of 196 steps (73%) done
+[Fri May 10 14:13:08 2024]
+Finished job 135.
+145 of 196 steps (74%) done
+[Fri May 10 14:13:08 2024]
+Finished job 134.
+146 of 196 steps (74%) done
+[Fri May 10 14:13:08 2024]
+Finished job 132.
+147 of 196 steps (75%) done
+[Fri May 10 14:13:08 2024]
+Finished job 123.
+148 of 196 steps (76%) done
+[Fri May 10 14:13:09 2024]
+Finished job 202.
+149 of 196 steps (76%) done
+[Fri May 10 14:13:09 2024]
+Finished job 119.
+150 of 196 steps (77%) done
+[Fri May 10 14:13:09 2024]
+Finished job 206.
+151 of 196 steps (77%) done
+
+[Fri May 10 14:13:09 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/H-CK-F1.mp4
+    jobid: 249
+    wildcards: sample=H-CK-F1
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:13:09 2024]
+Finished job 209.
+152 of 196 steps (78%) done
+[Fri May 10 14:13:09 2024]
+Finished job 204.
+153 of 196 steps (78%) done
+Submitted job 249 with external jobid 'Submitted batch job 7660965'.
+
+[Fri May 10 14:13:09 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/H-CK-F1.gif
+    jobid: 118
+    wildcards: sample=H-CK-F1
+    resources: tmpdir=/tmp
+
+Submitted job 118 with external jobid 'Submitted batch job 7660966'.
+[Fri May 10 14:13:09 2024]
+Finished job 203.
+154 of 196 steps (79%) done
+[Fri May 10 14:13:09 2024]
+Finished job 217.
+155 of 196 steps (79%) done
+[Fri May 10 14:13:09 2024]
+Finished job 205.
+156 of 196 steps (80%) done
+[Fri May 10 14:13:09 2024]
+Finished job 219.
+157 of 196 steps (80%) done
+[Fri May 10 14:13:10 2024]
+Finished job 218.
+158 of 196 steps (81%) done
+[Fri May 10 14:13:21 2024]
+Finished job 201.
+159 of 196 steps (81%) done
+[Fri May 10 14:13:21 2024]
+Finished job 105.
+160 of 196 steps (82%) done
+[Fri May 10 14:13:21 2024]
+Finished job 112.
+161 of 196 steps (82%) done
+[Fri May 10 14:13:22 2024]
+Finished job 200.
+162 of 196 steps (83%) done
+[Fri May 10 14:13:22 2024]
+Finished job 113.
+163 of 196 steps (83%) done
+[Fri May 10 14:13:22 2024]
+Finished job 99.
+164 of 196 steps (84%) done
+[Fri May 10 14:13:22 2024]
+Finished job 197.
+165 of 196 steps (84%) done
+[Fri May 10 14:13:22 2024]
+Finished job 98.
+166 of 196 steps (85%) done
+[Fri May 10 14:13:22 2024]
+Finished job 210.
+167 of 196 steps (85%) done
+[Fri May 10 14:13:22 2024]
+Finished job 253.
+168 of 196 steps (86%) done
+
+[Fri May 10 14:13:22 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/H-Salt-F1.mp4
+    jobid: 252
+    wildcards: sample=H-Salt-F1
+    resources: tmpdir=/tmp
+
+[Fri May 10 14:13:22 2024]
+Finished job 101.
+169 of 196 steps (86%) done
+[Fri May 10 14:13:22 2024]
+Finished job 115.
+170 of 196 steps (87%) done
+Submitted job 252 with external jobid 'Submitted batch job 7660976'.
+
+[Fri May 10 14:13:22 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/H-Salt-F1.gif
+    jobid: 196
+    wildcards: sample=H-Salt-F1
+    resources: tmpdir=/tmp
+
+Submitted job 196 with external jobid 'Submitted batch job 7660978'.
+[Fri May 10 14:13:23 2024]
+Finished job 116.
+171 of 196 steps (87%) done
+[Fri May 10 14:13:23 2024]
+Finished job 114.
+172 of 196 steps (88%) done
+[Fri May 10 14:13:23 2024]
+Finished job 100.
+173 of 196 steps (88%) done
+[Fri May 10 14:13:33 2024]
+Finished job 110.
+174 of 196 steps (89%) done
+[Fri May 10 14:13:33 2024]
+Finished job 102.
+175 of 196 steps (89%) done
+[Fri May 10 14:13:33 2024]
+Finished job 103.
+176 of 196 steps (90%) done
+[Fri May 10 14:13:33 2024]
+Finished job 104.
+177 of 196 steps (90%) done
+[Fri May 10 14:13:33 2024]
+Finished job 117.
+178 of 196 steps (91%) done
+[Fri May 10 14:13:33 2024]
+Finished job 108.
+179 of 196 steps (91%) done
+[Fri May 10 14:13:34 2024]
+Finished job 96.
+180 of 196 steps (92%) done
+[Fri May 10 14:13:34 2024]
+Finished job 97.
+181 of 196 steps (92%) done
+[Fri May 10 14:13:34 2024]
+Finished job 107.
+182 of 196 steps (93%) done
+[Fri May 10 14:13:34 2024]
+Finished job 95.
+183 of 196 steps (93%) done
+[Fri May 10 14:13:34 2024]
+Finished job 109.
+184 of 196 steps (94%) done
+[Fri May 10 14:13:34 2024]
+Finished job 106.
+185 of 196 steps (94%) done
+[Fri May 10 14:13:34 2024]
+Finished job 93.
+186 of 196 steps (95%) done
+[Fri May 10 14:13:34 2024]
+Finished job 222.
+187 of 196 steps (95%) done
+
+[Fri May 10 14:13:34 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/H-CK-599.mp4
+    jobid: 248
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+Submitted job 248 with external jobid 'Submitted batch job 7660980'.
+
+[Fri May 10 14:13:35 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_001.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_011.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_021.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_031.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_041.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_051.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_061.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_071.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_081.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_091.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_101.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_111.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_121.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_131.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_141.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_151.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_161.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_171.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_181.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_191.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_201.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_211.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_221.png, /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_231.png
+    output: /work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/H-CK-599.gif
+    jobid: 92
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+Submitted job 92 with external jobid 'Submitted batch job 7660981'.
+[Fri May 10 14:13:45 2024]
+Finished job 252.
+188 of 196 steps (96%) done
+[Fri May 10 14:13:45 2024]
+Finished job 196.
+189 of 196 steps (96%) done
+[Fri May 10 14:13:45 2024]
+Finished job 249.
+190 of 196 steps (97%) done
+[Fri May 10 14:13:45 2024]
+Finished job 118.
+191 of 196 steps (97%) done
+[Fri May 10 14:13:45 2024]
+Finished job 170.
+192 of 196 steps (98%) done
+[Fri May 10 14:13:45 2024]
+Finished job 251.
+193 of 196 steps (98%) done
+[Fri May 10 14:13:56 2024]
+Finished job 248.
+194 of 196 steps (99%) done
+[Fri May 10 14:13:56 2024]
+Finished job 92.
+195 of 196 steps (99%) done

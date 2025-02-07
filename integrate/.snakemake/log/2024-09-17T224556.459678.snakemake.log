@@ -1,0 +1,3 @@
+NameError in line 22 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/pgt_snake.py:
+name 'compt_res' is not defined
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/pgt_snake.py", line 22, in <module>

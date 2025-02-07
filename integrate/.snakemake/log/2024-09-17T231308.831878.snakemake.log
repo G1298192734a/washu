@@ -1,0 +1,71 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+compt         2              1              1
+single        2              1              1
+total         5              1              1
+
+
+[Tue Sep 17 23:13:16 2024]
+rule single:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/01.prepare/AC-25_40000.tad.cool
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-25_40k.balance.cool
+    jobid: 1
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+[Tue Sep 17 23:13:26 2024]
+Finished job 1.
+1 of 5 steps (20%) done
+
+[Tue Sep 17 23:13:26 2024]
+rule single:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/01.prepare/AC-34_40000.tad.cool
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-34_40k.balance.cool
+    jobid: 2
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+[Tue Sep 17 23:13:36 2024]
+Finished job 2.
+2 of 5 steps (40%) done
+
+[Tue Sep 17 23:13:36 2024]
+rule compt:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/05.compartment/02.PCA/AC-34_100000/AC-34_100000.gc_gene.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-34_100k_cpt.bed
+    jobid: 4
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+[Tue Sep 17 23:13:46 2024]
+Finished job 4.
+3 of 5 steps (60%) done
+
+[Tue Sep 17 23:13:46 2024]
+rule compt:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/05.compartment/02.PCA/AC-25_100000/AC-25_100000.gc_gene.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-25_100k_cpt.bed
+    jobid: 3
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+[Tue Sep 17 23:13:57 2024]
+Finished job 3.
+4 of 5 steps (80%) done
+
+[Tue Sep 17 23:13:57 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-25_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-34_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-25_100k_cpt.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-34_100k_cpt.bed
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Tue Sep 17 23:13:57 2024]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-09-17T231308.831878.snakemake.log

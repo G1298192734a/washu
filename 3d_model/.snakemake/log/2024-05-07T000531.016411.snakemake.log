@@ -1,0 +1,49 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+chrom            1              1              1
+gif              1              1              1
+matrix           1              1              1
+mp4              1              1              1
+pastis           1              1              1
+pml              1              1              1
+png             24              1              1
+split_pml        1              1              1
+total           32              1              1
+
+
+[Tue May  7 00:05:37 2024]
+rule matrix:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/01.matrix_fill/Slividans_1326/Slividans_1326_corrected_matrix.txt
+    jobid: 5
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7568061'.
+[Tue May  7 00:06:17 2024]
+Finished job 5.
+1 of 32 steps (3%) done
+
+[Tue May  7 00:06:17 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/01.matrix_fill/bin.bed, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/01.matrix_fill/Slividans_1326/Slividans_1326_corrected_matrix.txt
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pdb
+    jobid: 3
+    wildcards: sample=Slividans_1326
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7568062'.
+[Tue May  7 00:09:47 2024]
+Error in rule pastis:
+    jobid: 3
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/lianmeijun/02.3d_model/Slividans_1326/Slividans_1326.pdb
+    cluster_jobid: Submitted batch job 7568062
+
+Error executing rule pastis on cluster (jobid: 3, external: Submitted batch job 7568062, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.cvvpxfb1/snakejob.pastis.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-07T000531.016411.snakemake.log

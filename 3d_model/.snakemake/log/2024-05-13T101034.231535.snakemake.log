@@ -1,0 +1,699 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom        2              1              1
+gif          2              1              1
+png         48              1              1
+total       53              1              1
+
+
+[Mon May 13 10:10:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_150.png
+    jobid: 43
+    wildcards: sample=Bs168, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 43 with external jobid 'Submitted batch job 7691674'.
+
+[Mon May 13 10:10:38 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_120.png
+    jobid: 15
+    wildcards: sample=Delta-abrB, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7691675'.
+
+[Mon May 13 10:10:38 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/chrs/chr1/chr1_2.png
+    jobid: 1
+    wildcards: sample=Delta-abrB, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7691676'.
+
+[Mon May 13 10:10:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_010.png
+    jobid: 29
+    wildcards: sample=Bs168, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7691677'.
+
+[Mon May 13 10:10:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_060.png
+    jobid: 9
+    wildcards: sample=Delta-abrB, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7691678'.
+
+[Mon May 13 10:10:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_200.png
+    jobid: 23
+    wildcards: sample=Delta-abrB, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7691679'.
+
+[Mon May 13 10:10:39 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_090.png
+    jobid: 37
+    wildcards: sample=Bs168, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 7691680'.
+
+[Mon May 13 10:10:40 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_230.png
+    jobid: 51
+    wildcards: sample=Bs168, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 7691683'.
+
+[Mon May 13 10:10:40 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/chrs/chr1/chr1_2.png
+    jobid: 2
+    wildcards: sample=Bs168, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7691684'.
+
+[Mon May 13 10:10:40 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_130.png
+    jobid: 16
+    wildcards: sample=Delta-abrB, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7691685'.
+
+[Mon May 13 10:10:40 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_020.png
+    jobid: 30
+    wildcards: sample=Bs168, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7691686'.
+
+[Mon May 13 10:10:41 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_160.png
+    jobid: 44
+    wildcards: sample=Bs168, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 7691687'.
+
+[Mon May 13 10:10:41 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_050.png
+    jobid: 8
+    wildcards: sample=Delta-abrB, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7691688'.
+
+[Mon May 13 10:10:41 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_100.png
+    jobid: 38
+    wildcards: sample=Bs168, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 38 with external jobid 'Submitted batch job 7691689'.
+
+[Mon May 13 10:10:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_210.png
+    jobid: 24
+    wildcards: sample=Delta-abrB, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7691691'.
+
+[Mon May 13 10:10:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_070.png
+    jobid: 10
+    wildcards: sample=Delta-abrB, batch=070
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7691692'.
+
+[Mon May 13 10:10:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_240.png
+    jobid: 52
+    wildcards: sample=Bs168, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 7691693'.
+
+[Mon May 13 10:10:42 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_140.png
+    jobid: 17
+    wildcards: sample=Delta-abrB, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7691694'.
+
+[Mon May 13 10:10:43 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_030.png
+    jobid: 31
+    wildcards: sample=Bs168, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7691695'.
+
+[Mon May 13 10:10:43 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_170.png
+    jobid: 45
+    wildcards: sample=Bs168, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 7691696'.
+
+[Mon May 13 10:10:43 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_080.png
+    jobid: 11
+    wildcards: sample=Delta-abrB, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7691697'.
+
+[Mon May 13 10:10:44 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_220.png
+    jobid: 25
+    wildcards: sample=Delta-abrB, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7691698'.
+
+[Mon May 13 10:10:44 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_110.png
+    jobid: 39
+    wildcards: sample=Bs168, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 39 with external jobid 'Submitted batch job 7691700'.
+
+[Mon May 13 10:10:44 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_010.png
+    jobid: 4
+    wildcards: sample=Delta-abrB, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 7691701'.
+
+[Mon May 13 10:10:44 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_150.png
+    jobid: 18
+    wildcards: sample=Delta-abrB, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7691702'.
+
+[Mon May 13 10:10:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_040.png
+    jobid: 32
+    wildcards: sample=Bs168, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7691703'.
+
+[Mon May 13 10:10:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_180.png
+    jobid: 46
+    wildcards: sample=Bs168, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid 'Submitted batch job 7691704'.
+
+[Mon May 13 10:10:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_090.png
+    jobid: 12
+    wildcards: sample=Delta-abrB, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7691705'.
+
+[Mon May 13 10:10:45 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_230.png
+    jobid: 26
+    wildcards: sample=Delta-abrB, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7691706'.
+
+[Mon May 13 10:10:46 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_120.png
+    jobid: 40
+    wildcards: sample=Bs168, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 7691707'.
+
+[Mon May 13 10:10:46 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_020.png
+    jobid: 5
+    wildcards: sample=Delta-abrB, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7691709'.
+
+[Mon May 13 10:10:46 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_160.png
+    jobid: 19
+    wildcards: sample=Delta-abrB, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 7691711'.
+
+[Mon May 13 10:10:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_050.png
+    jobid: 33
+    wildcards: sample=Bs168, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 33 with external jobid 'Submitted batch job 7691712'.
+
+[Mon May 13 10:10:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_190.png
+    jobid: 47
+    wildcards: sample=Bs168, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 7691713'.
+
+[Mon May 13 10:10:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_190.png
+    jobid: 22
+    wildcards: sample=Delta-abrB, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7691715'.
+
+[Mon May 13 10:10:47 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_100.png
+    jobid: 13
+    wildcards: sample=Delta-abrB, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7691716'.
+
+[Mon May 13 10:10:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_240.png
+    jobid: 27
+    wildcards: sample=Delta-abrB, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7691717'.
+
+[Mon May 13 10:10:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_130.png
+    jobid: 41
+    wildcards: sample=Bs168, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7691718'.
+
+[Mon May 13 10:10:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_220.png
+    jobid: 50
+    wildcards: sample=Bs168, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 50 with external jobid 'Submitted batch job 7691719'.
+
+[Mon May 13 10:10:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_030.png
+    jobid: 6
+    wildcards: sample=Delta-abrB, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7691721'.
+
+[Mon May 13 10:10:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_170.png
+    jobid: 20
+    wildcards: sample=Delta-abrB, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7691722'.
+
+[Mon May 13 10:10:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_060.png
+    jobid: 34
+    wildcards: sample=Bs168, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 34 with external jobid 'Submitted batch job 7691723'.
+
+[Mon May 13 10:10:49 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_200.png
+    jobid: 48
+    wildcards: sample=Bs168, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 48 with external jobid 'Submitted batch job 7691724'.
+
+[Mon May 13 10:10:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_110.png
+    jobid: 14
+    wildcards: sample=Delta-abrB, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7691725'.
+
+[Mon May 13 10:10:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_140.png
+    jobid: 42
+    wildcards: sample=Bs168, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 42 with external jobid 'Submitted batch job 7691726'.
+
+[Mon May 13 10:10:50 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_040.png
+    jobid: 7
+    wildcards: sample=Delta-abrB, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7691727'.
+
+[Mon May 13 10:10:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_180.png
+    jobid: 21
+    wildcards: sample=Delta-abrB, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7691729'.
+
+[Mon May 13 10:10:51 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_080.png
+    jobid: 36
+    wildcards: sample=Bs168, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 36 with external jobid 'Submitted batch job 7691730'.
+[Mon May 13 10:11:29 2024]
+Finished job 1.
+1 of 53 steps (2%) done
+
+[Mon May 13 10:11:29 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_070.png
+    jobid: 35
+    wildcards: sample=Bs168, batch=070
+    resources: tmpdir=/tmp
+
+[Mon May 13 10:11:29 2024]
+Finished job 2.
+2 of 53 steps (4%) done
+Submitted job 35 with external jobid 'Submitted batch job 7691753'.
+
+[Mon May 13 10:11:30 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_210.png
+    jobid: 49
+    wildcards: sample=Bs168, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 49 with external jobid 'Submitted batch job 7691754'.
+[Mon May 13 10:14:20 2024]
+Finished job 25.
+3 of 53 steps (6%) done
+[Mon May 13 10:14:21 2024]
+Finished job 36.
+4 of 53 steps (8%) done
+[Mon May 13 10:14:32 2024]
+Finished job 14.
+5 of 53 steps (9%) done
+[Mon May 13 10:14:32 2024]
+Finished job 43.
+6 of 53 steps (11%) done
+[Mon May 13 10:14:32 2024]
+Finished job 15.
+7 of 53 steps (13%) done
+[Mon May 13 10:14:32 2024]
+Finished job 29.
+8 of 53 steps (15%) done
+[Mon May 13 10:14:32 2024]
+Finished job 9.
+9 of 53 steps (17%) done
+[Mon May 13 10:14:32 2024]
+Finished job 23.
+10 of 53 steps (19%) done
+[Mon May 13 10:14:32 2024]
+Finished job 37.
+11 of 53 steps (21%) done
+[Mon May 13 10:14:32 2024]
+Finished job 51.
+12 of 53 steps (23%) done
+[Mon May 13 10:14:33 2024]
+Finished job 16.
+13 of 53 steps (25%) done
+[Mon May 13 10:14:33 2024]
+Finished job 30.
+14 of 53 steps (26%) done
+[Mon May 13 10:14:33 2024]
+Finished job 44.
+15 of 53 steps (28%) done
+[Mon May 13 10:14:33 2024]
+Finished job 8.
+16 of 53 steps (30%) done
+[Mon May 13 10:14:33 2024]
+Finished job 38.
+17 of 53 steps (32%) done
+[Mon May 13 10:14:33 2024]
+Finished job 24.
+18 of 53 steps (34%) done
+[Mon May 13 10:14:33 2024]
+Finished job 10.
+19 of 53 steps (36%) done
+[Mon May 13 10:14:33 2024]
+Finished job 17.
+20 of 53 steps (38%) done
+[Mon May 13 10:14:33 2024]
+Finished job 31.
+21 of 53 steps (40%) done
+[Mon May 13 10:14:34 2024]
+Finished job 45.
+22 of 53 steps (42%) done
+[Mon May 13 10:14:34 2024]
+Finished job 11.
+23 of 53 steps (43%) done
+[Mon May 13 10:14:34 2024]
+Finished job 39.
+24 of 53 steps (45%) done
+[Mon May 13 10:14:34 2024]
+Finished job 4.
+25 of 53 steps (47%) done
+[Mon May 13 10:14:34 2024]
+Finished job 18.
+26 of 53 steps (49%) done
+[Mon May 13 10:14:34 2024]
+Finished job 12.
+27 of 53 steps (51%) done
+[Mon May 13 10:14:34 2024]
+Finished job 26.
+28 of 53 steps (53%) done
+[Mon May 13 10:14:35 2024]
+Finished job 40.
+29 of 53 steps (55%) done
+[Mon May 13 10:14:35 2024]
+Finished job 5.
+30 of 53 steps (57%) done
+[Mon May 13 10:14:35 2024]
+Finished job 19.
+31 of 53 steps (58%) done
+[Mon May 13 10:14:36 2024]
+Finished job 42.
+32 of 53 steps (60%) done
+[Mon May 13 10:14:36 2024]
+Finished job 7.
+33 of 53 steps (62%) done
+[Mon May 13 10:14:36 2024]
+Finished job 21.
+34 of 53 steps (64%) done
+[Mon May 13 10:14:46 2024]
+Finished job 47.
+35 of 53 steps (66%) done
+[Mon May 13 10:14:46 2024]
+Finished job 22.
+36 of 53 steps (68%) done
+[Mon May 13 10:14:46 2024]
+Finished job 13.
+37 of 53 steps (70%) done
+[Mon May 13 10:14:46 2024]
+Finished job 27.
+38 of 53 steps (72%) done
+[Mon May 13 10:14:46 2024]
+Finished job 41.
+39 of 53 steps (74%) done
+[Mon May 13 10:14:47 2024]
+Finished job 50.
+40 of 53 steps (75%) done
+[Mon May 13 10:14:47 2024]
+Finished job 6.
+41 of 53 steps (77%) done
+[Mon May 13 10:14:47 2024]
+Finished job 20.
+42 of 53 steps (79%) done
+
+[Mon May 13 10:14:47 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_010.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_020.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_030.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_040.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_050.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_060.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_070.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_080.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_090.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_100.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_110.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_120.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_130.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_140.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_150.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_160.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_170.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_180.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_190.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_200.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_210.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_220.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_230.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/Delta-abrB.gif, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/Delta-abrB.mp4
+    jobid: 3
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7691794'.
+[Mon May 13 10:14:47 2024]
+Finished job 34.
+43 of 53 steps (81%) done
+[Mon May 13 10:14:47 2024]
+Finished job 48.
+44 of 53 steps (83%) done
+[Mon May 13 10:14:47 2024]
+Finished job 52.
+45 of 53 steps (85%) done
+[Mon May 13 10:14:47 2024]
+Finished job 32.
+46 of 53 steps (87%) done
+[Mon May 13 10:14:47 2024]
+Finished job 46.
+47 of 53 steps (89%) done
+[Mon May 13 10:14:47 2024]
+Finished job 33.
+48 of 53 steps (91%) done
+[Mon May 13 10:15:18 2024]
+Finished job 35.
+49 of 53 steps (92%) done
+[Mon May 13 10:15:18 2024]
+Finished job 49.
+50 of 53 steps (94%) done
+
+[Mon May 13 10:15:18 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_010.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_020.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_030.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_040.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_050.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_060.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_070.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_080.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_090.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_100.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_110.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_120.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_130.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_140.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_150.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_160.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_170.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_180.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_190.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_200.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_210.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_220.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_230.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/Bs168.gif, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/Bs168.mp4
+    jobid: 28
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7691798'.
+[Mon May 13 10:15:28 2024]
+Finished job 3.
+51 of 53 steps (96%) done
+[Mon May 13 10:15:58 2024]
+Finished job 28.
+52 of 53 steps (98%) done
+
+[Mon May 13 10:15:58 2024]
+localrule all:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/chrs/chr1/chr1_2.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/chrs/chr1/chr1_2.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Delta-abrB/Delta-abrB.gif, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240430/240033_kcybgj_20240510/03.gif/Bs168/Bs168.gif
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Mon May 13 10:15:58 2024]
+Finished job 0.
+53 of 53 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-13T101034.231535.snakemake.log

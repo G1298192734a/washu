@@ -1,0 +1,739 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom        3              1              1
+gif          3              1              1
+png         72              1              1
+total       79              1              1
+
+
+[Sat May 25 13:09:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_050.png
+    jobid: 41
+    wildcards: sample=TD_60MM6h, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7937378'.
+
+[Sat May 25 13:09:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_190.png
+    jobid: 55
+    wildcards: sample=TD_60MM6h, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 55 with external jobid 'Submitted batch job 7937379'.
+
+[Sat May 25 13:09:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_080.png
+    jobid: 69
+    wildcards: sample=TD_60MM12h, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 69 with external jobid 'Submitted batch job 7937380'.
+
+[Sat May 25 13:09:57 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_220.png
+    jobid: 83
+    wildcards: sample=TD_60MM12h, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 83 with external jobid 'Submitted batch job 7937381'.
+
+[Sat May 25 13:09:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_130.png
+    jobid: 49
+    wildcards: sample=TD_60MM6h, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 49 with external jobid 'Submitted batch job 7937382'.
+
+[Sat May 25 13:09:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_020.png
+    jobid: 63
+    wildcards: sample=TD_60MM12h, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 63 with external jobid 'Submitted batch job 7937383'.
+
+[Sat May 25 13:09:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_160.png
+    jobid: 77
+    wildcards: sample=TD_60MM12h, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 77 with external jobid 'Submitted batch job 7937384'.
+
+[Sat May 25 13:09:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_060.png
+    jobid: 42
+    wildcards: sample=TD_60MM6h, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 42 with external jobid 'Submitted batch job 7937385'.
+
+[Sat May 25 13:09:58 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_200.png
+    jobid: 56
+    wildcards: sample=TD_60MM6h, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 56 with external jobid 'Submitted batch job 7937386'.
+
+[Sat May 25 13:09:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_090.png
+    jobid: 70
+    wildcards: sample=TD_60MM12h, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 70 with external jobid 'Submitted batch job 7937387'.
+
+[Sat May 25 13:09:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_230.png
+    jobid: 84
+    wildcards: sample=TD_60MM12h, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 84 with external jobid 'Submitted batch job 7937388'.
+
+[Sat May 25 13:09:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_010.png
+    jobid: 62
+    wildcards: sample=TD_60MM12h, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid 'Submitted batch job 7937389'.
+
+[Sat May 25 13:09:59 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/chrs/chr1/chr1_2.png
+    jobid: 8
+    wildcards: sample=TD_60MM12h, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7937390'.
+
+[Sat May 25 13:10:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_030.png
+    jobid: 64
+    wildcards: sample=TD_60MM12h, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 64 with external jobid 'Submitted batch job 7937391'.
+
+[Sat May 25 13:10:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_170.png
+    jobid: 78
+    wildcards: sample=TD_60MM12h, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 78 with external jobid 'Submitted batch job 7937392'.
+
+[Sat May 25 13:10:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_140.png
+    jobid: 50
+    wildcards: sample=TD_60MM6h, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 50 with external jobid 'Submitted batch job 7937393'.
+
+[Sat May 25 13:10:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_070.png
+    jobid: 43
+    wildcards: sample=TD_60MM6h, batch=070
+    resources: tmpdir=/tmp
+
+Submitted job 43 with external jobid 'Submitted batch job 7937394'.
+
+[Sat May 25 13:10:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_210.png
+    jobid: 57
+    wildcards: sample=TD_60MM6h, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 57 with external jobid 'Submitted batch job 7937395'.
+
+[Sat May 25 13:10:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_100.png
+    jobid: 71
+    wildcards: sample=TD_60MM12h, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 71 with external jobid 'Submitted batch job 7937396'.
+
+[Sat May 25 13:10:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_240.png
+    jobid: 85
+    wildcards: sample=TD_60MM12h, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 85 with external jobid 'Submitted batch job 7937397'.
+
+[Sat May 25 13:10:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_010.png
+    jobid: 37
+    wildcards: sample=TD_60MM6h, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 7937398'.
+
+[Sat May 25 13:10:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_150.png
+    jobid: 51
+    wildcards: sample=TD_60MM6h, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 7937399'.
+
+[Sat May 25 13:10:01 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_040.png
+    jobid: 65
+    wildcards: sample=TD_60MM12h, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 65 with external jobid 'Submitted batch job 7937400'.
+
+[Sat May 25 13:10:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_180.png
+    jobid: 79
+    wildcards: sample=TD_60MM12h, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 79 with external jobid 'Submitted batch job 7937401'.
+
+[Sat May 25 13:10:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_080.png
+    jobid: 44
+    wildcards: sample=TD_60MM6h, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 7937402'.
+
+[Sat May 25 13:10:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_220.png
+    jobid: 58
+    wildcards: sample=TD_60MM6h, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 58 with external jobid 'Submitted batch job 7937403'.
+
+[Sat May 25 13:10:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_110.png
+    jobid: 72
+    wildcards: sample=TD_60MM12h, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 72 with external jobid 'Submitted batch job 7937404'.
+
+[Sat May 25 13:10:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_120.png
+    jobid: 48
+    wildcards: sample=TD_60MM6h, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 48 with external jobid 'Submitted batch job 7937405'.
+
+[Sat May 25 13:10:03 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_020.png
+    jobid: 38
+    wildcards: sample=TD_60MM6h, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 38 with external jobid 'Submitted batch job 7937406'.
+
+[Sat May 25 13:10:03 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_160.png
+    jobid: 52
+    wildcards: sample=TD_60MM6h, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 7937407'.
+
+[Sat May 25 13:10:03 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_050.png
+    jobid: 66
+    wildcards: sample=TD_60MM12h, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 66 with external jobid 'Submitted batch job 7937408'.
+
+[Sat May 25 13:10:03 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_190.png
+    jobid: 80
+    wildcards: sample=TD_60MM12h, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 80 with external jobid 'Submitted batch job 7937409'.
+
+[Sat May 25 13:10:03 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_090.png
+    jobid: 45
+    wildcards: sample=TD_60MM6h, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 7937410'.
+
+[Sat May 25 13:10:04 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_230.png
+    jobid: 59
+    wildcards: sample=TD_60MM6h, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 59 with external jobid 'Submitted batch job 7937412'.
+
+[Sat May 25 13:10:04 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_120.png
+    jobid: 73
+    wildcards: sample=TD_60MM12h, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 73 with external jobid 'Submitted batch job 7937413'.
+
+[Sat May 25 13:10:04 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_030.png
+    jobid: 39
+    wildcards: sample=TD_60MM6h, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 39 with external jobid 'Submitted batch job 7937414'.
+
+[Sat May 25 13:10:04 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_170.png
+    jobid: 53
+    wildcards: sample=TD_60MM6h, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 53 with external jobid 'Submitted batch job 7937415'.
+
+[Sat May 25 13:10:04 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_060.png
+    jobid: 67
+    wildcards: sample=TD_60MM12h, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 67 with external jobid 'Submitted batch job 7937416'.
+
+[Sat May 25 13:10:05 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_200.png
+    jobid: 81
+    wildcards: sample=TD_60MM12h, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 81 with external jobid 'Submitted batch job 7937417'.
+
+[Sat May 25 13:10:05 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_100.png
+    jobid: 46
+    wildcards: sample=TD_60MM6h, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid 'Submitted batch job 7937418'.
+
+[Sat May 25 13:10:05 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_240.png
+    jobid: 60
+    wildcards: sample=TD_60MM6h, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 60 with external jobid 'Submitted batch job 7937419'.
+
+[Sat May 25 13:10:05 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_130.png
+    jobid: 74
+    wildcards: sample=TD_60MM12h, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 74 with external jobid 'Submitted batch job 7937420'.
+
+[Sat May 25 13:10:05 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_040.png
+    jobid: 40
+    wildcards: sample=TD_60MM6h, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 7937421'.
+
+[Sat May 25 13:10:06 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_180.png
+    jobid: 54
+    wildcards: sample=TD_60MM6h, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 54 with external jobid 'Submitted batch job 7937422'.
+
+[Sat May 25 13:10:06 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_070.png
+    jobid: 68
+    wildcards: sample=TD_60MM12h, batch=070
+    resources: tmpdir=/tmp
+
+Submitted job 68 with external jobid 'Submitted batch job 7937423'.
+
+[Sat May 25 13:10:06 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_210.png
+    jobid: 82
+    wildcards: sample=TD_60MM12h, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 82 with external jobid 'Submitted batch job 7937424'.
+
+[Sat May 25 13:10:06 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_140.png
+    jobid: 75
+    wildcards: sample=TD_60MM12h, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 75 with external jobid 'Submitted batch job 7937425'.
+
+[Sat May 25 13:10:06 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM12h/TD_60MM12h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM12h/pngs/fig_150.png
+    jobid: 76
+    wildcards: sample=TD_60MM12h, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 76 with external jobid 'Submitted batch job 7937426'.
+[Sat May 25 13:12:13 2024]
+Finished job 69.
+1 of 79 steps (1%) done
+
+[Sat May 25 13:12:13 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/pngs/fig_110.png
+    jobid: 47
+    wildcards: sample=TD_60MM6h, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 7937434'.
+[Sat May 25 13:13:09 2024]
+Finished job 55.
+2 of 79 steps (3%) done
+
+[Sat May 25 13:13:09 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_60MM6h/TD_60MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_60MM6h/chrs/chr1/chr1_2.png
+    jobid: 5
+    wildcards: sample=TD_60MM6h, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7937438'.
+[Sat May 25 13:13:23 2024]
+Finished job 41.
+3 of 79 steps (4%) done
+
+[Sat May 25 13:13:23 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_020.png
+    jobid: 13
+    wildcards: sample=TD_MM6h, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7937442'.
+[Sat May 25 13:14:19 2024]
+Finished job 83.
+4 of 79 steps (5%) done
+
+[Sat May 25 13:14:19 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_160.png
+    jobid: 27
+    wildcards: sample=TD_MM6h, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7937446'.
+[Sat May 25 13:16:11 2024]
+Finished job 49.
+5 of 79 steps (6%) done
+
+[Sat May 25 13:16:11 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_100.png
+    jobid: 21
+    wildcards: sample=TD_MM6h, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7937454'.
+[Sat May 25 13:16:25 2024]
+Finished job 63.
+6 of 79 steps (8%) done
+
+[Sat May 25 13:16:25 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_240.png
+    jobid: 35
+    wildcards: sample=TD_MM6h, batch=240
+    resources: tmpdir=/tmp
+
+[Sat May 25 13:16:26 2024]
+Finished job 77.
+7 of 79 steps (9%) done
+Submitted job 35 with external jobid 'Submitted batch job 7937456'.
+
+[Sat May 25 13:16:26 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_030.png
+    jobid: 14
+    wildcards: sample=TD_MM6h, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7937457'.
+[Sat May 25 13:18:33 2024]
+Finished job 70.
+8 of 79 steps (10%) done
+
+[Sat May 25 13:18:33 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_170.png
+    jobid: 28
+    wildcards: sample=TD_MM6h, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7937462'.
+[Sat May 25 13:19:29 2024]
+Finished job 42.
+9 of 79 steps (11%) done
+
+[Sat May 25 13:19:29 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_110.png
+    jobid: 22
+    wildcards: sample=TD_MM6h, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7937467'.
+[Sat May 25 13:19:43 2024]
+Finished job 56.
+10 of 79 steps (13%) done
+
+[Sat May 25 13:19:43 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_130.png
+    jobid: 24
+    wildcards: sample=TD_MM6h, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7937469'.
+[Sat May 25 13:20:25 2024]
+Finished job 8.
+11 of 79 steps (14%) done
+
+[Sat May 25 13:20:25 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_090.png
+    jobid: 20
+    wildcards: sample=TD_MM6h, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7937470'.
+[Sat May 25 13:20:39 2024]
+Finished job 84.
+12 of 79 steps (15%) done
+
+[Sat May 25 13:20:39 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/chrs/chr1/chr1_2.png
+    jobid: 1
+    wildcards: sample=TD_MM6h, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7937471'.
+[Sat May 25 13:22:04 2024]
+Finished job 62.
+13 of 79 steps (16%) done
+
+[Sat May 25 13:22:04 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_150.png
+    jobid: 26
+    wildcards: sample=TD_MM6h, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7937477'.
+[Sat May 25 13:22:46 2024]
+Finished job 78.
+14 of 79 steps (18%) done
+
+[Sat May 25 13:22:46 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_010.png
+    jobid: 12
+    wildcards: sample=TD_MM6h, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7937481'.
+[Sat May 25 13:23:00 2024]
+Finished job 64.
+15 of 79 steps (19%) done
+
+[Sat May 25 13:23:00 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_210.png
+    jobid: 32
+    wildcards: sample=TD_MM6h, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7937482'.
+[Sat May 25 13:25:06 2024]
+Finished job 57.
+16 of 79 steps (20%) done
+
+[Sat May 25 13:25:06 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_180.png
+    jobid: 29
+    wildcards: sample=TD_MM6h, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7937489'.
+[Sat May 25 13:25:48 2024]
+Finished job 50.
+17 of 79 steps (22%) done
+
+[Sat May 25 13:25:48 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_040.png
+    jobid: 15
+    wildcards: sample=TD_MM6h, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7937491'.
+[Sat May 25 13:26:02 2024]
+Finished job 43.
+18 of 79 steps (23%) done
+
+[Sat May 25 13:26:02 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_060.png
+    jobid: 17
+    wildcards: sample=TD_MM6h, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7937494'.
+[Sat May 25 13:26:59 2024]
+Finished job 71.
+19 of 79 steps (24%) done
+
+[Sat May 25 13:26:59 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pdb, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/02.3d_model/TD_MM6h/TD_MM6h.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/06.personal/analysis_3D_model_20240524/03.gif/TD_MM6h/pngs/fig_200.png
+    jobid: 31
+    wildcards: sample=TD_MM6h, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7937496'.

@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+genome           1              1              1
+get_gtf          1              1              1
+transform        1              1              1
+total            4              1              1
+
+
+[Tue Apr 16 17:33:11 2024]
+rule transform:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/13.washu
+    output: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/test/240033_asm904v1
+    jobid: 3
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/log/2024-04-16T173249.851441.snakemake.log

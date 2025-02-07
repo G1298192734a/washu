@@ -1,0 +1,46 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+tad_bw        2              1              1
+total         3              1              1
+
+
+[Wed Sep 18 01:01:33 2024]
+rule tad_bw:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/AC-34.40000.score.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-34.40000.score.bw
+    jobid: 5
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 01:01:43 2024]
+Finished job 5.
+1 of 3 steps (33%) done
+
+[Wed Sep 18 01:01:43 2024]
+rule tad_bw:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/AC-25.40000.score.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-25.40000.score.bw
+    jobid: 6
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 01:01:53 2024]
+Finished job 6.
+2 of 3 steps (67%) done
+
+[Wed Sep 18 01:01:53 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-34_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-25_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-34_100k_cpt.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-25_100k_cpt.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-34.40000.score.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-25.40000.score.bw
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 01:01:53 2024]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-09-18T010126.442714.snakemake.log

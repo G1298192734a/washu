@@ -1,0 +1,11 @@
+Dir: RNA
+Gene_bed: /work/frasergen/backup/3d/project/Interactome/241791_lanxijun_20241121/05.HiC/01.ref/Chlorogloeopsis_fritschii.bed
+Fpkm: /work/frasergen/backup/3d/project/Interactome/241791_lanxijun_20241121/04.RNA/whfs-xs-241791_Result/03.exp/isoforms_rpkm.matrix.xls
+DEG: /work/frasergen/backup/3d/project/Interactome/241791_lanxijun_20241121/04.RNA/whfs-xs-241791_Result/04.diff/diff/RT0-vs-RT48.total.DEG.xls
+Spl_vs: RT0-vs-RT48
+Spls:
+  HT48: RT48
+  HT0: RT0
+RNA_bam: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121
+
+

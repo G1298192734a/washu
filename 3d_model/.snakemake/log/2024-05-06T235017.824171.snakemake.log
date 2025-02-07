@@ -1,0 +1,3 @@
+NameError in line 30 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake_test.py:
+name 'output' is not defined
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake_test.py", line 30, in <module>

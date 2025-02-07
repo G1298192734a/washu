@@ -1,0 +1,70 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 4
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+all               1              1              1
+genome            1              1              1
+get_gtf           1              1              1
+multi             1              1              1
+single            2              1              1
+single_pre        2              1              1
+transform         1              1              1
+total             9              1              1
+
+
+[Wed Jun 19 02:29:48 2024]
+rule get_gtf:
+    output: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/00.longest_gtf/Ghirsutum_mRNA_genename.gtf
+    jobid: 2
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 8317007'.
+
+[Wed Jun 19 02:29:48 2024]
+rule single_pre:
+    output: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/02.single_pre/D2R, /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/02.single_pre/D2R/work.sh
+    jobid: 5
+    wildcards: spl=D2R
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 8317008'.
+
+[Wed Jun 19 02:29:48 2024]
+rule single_pre:
+    output: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/02.single_pre/D8R, /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/02.single_pre/D8R/work.sh
+    jobid: 7
+    wildcards: spl=D8R
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 8317009'.
+
+[Wed Jun 19 02:29:49 2024]
+rule multi:
+    input: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/03.multi_pre/D8R.minus.D2R, /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/03.multi_pre/D8R.minus.D2R/work.sh
+    output: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/D8R.minus.D2R, /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/D8R.minus.D2R/work.sh
+    jobid: 8
+    wildcards: minus=D8R.minus.D2R
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 8317010'.
+[Wed Jun 19 02:30:08 2024]
+Error in rule multi:
+    jobid: 8
+    output: /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/D8R.minus.D2R, /work/frasergen/backup/3d/project/Interactome/232188_Gossypium_hirsutum/02.RNA_ATAC/analysis20240618_washu/D8R.minus.D2R/work.sh
+    cluster_jobid: Submitted batch job 8317010
+
+Error executing rule multi on cluster (jobid: 8, external: Submitted batch job 8317010, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/tmp.h10zg7hc/snakejob.multi.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Jun 19 02:31:38 2024]
+Finished job 5.
+1 of 9 steps (11%) done
+[Wed Jun 19 02:31:38 2024]
+Finished job 7.
+2 of 9 steps (22%) done
+[Wed Jun 19 02:39:59 2024]
+Finished job 2.
+3 of 9 steps (33%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/.snakemake/log/2024-06-19T022946.404843.snakemake.log

@@ -1,0 +1,820 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+compt            2              1              1
+loop             2              1              1
+merge_tad       13              1              1
+minus           13              1              1
+pgt              1              1              1
+single           2              1              1
+tad             26              1              1
+tad_bw           2              1              1
+total           62              1              1
+
+
+[Thu Sep 19 00:29:08 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr8.TAD.bed
+    jobid: 40
+    wildcards: spl=AC-34, chr=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 9753056'.
+
+[Thu Sep 19 00:29:08 2024]
+rule compt:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/05.compartment/02.PCA/AC-25_100000/AC-25_100000.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-25_100k.bw
+    jobid: 17
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 9753057'.
+
+[Thu Sep 19 00:29:09 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr4.TAD.bed
+    jobid: 28
+    wildcards: spl=AC-34, chr=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 9753058'.
+
+[Thu Sep 19 00:29:09 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr1.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr1.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr1_zscore_minus.cool
+    jobid: 3
+    wildcards: diff=AC-25_vs_AC-34, chr=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 9753059'.
+
+[Thu Sep 19 00:29:09 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr13.TAD.bed
+    jobid: 55
+    wildcards: spl=AC-34, chr=chr13
+    resources: tmpdir=/tmp
+
+Submitted job 55 with external jobid 'Submitted batch job 9753060'.
+
+[Thu Sep 19 00:29:09 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr9.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr9.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr9_zscore_minus.cool
+    jobid: 11
+    wildcards: diff=AC-25_vs_AC-34, chr=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 9753061'.
+
+[Thu Sep 19 00:29:09 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr2.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr2.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr2_zscore_minus.cool
+    jobid: 4
+    wildcards: diff=AC-25_vs_AC-34, chr=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 9753062'.
+
+[Thu Sep 19 00:29:09 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr10.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr10.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr10_zscore_minus.cool
+    jobid: 12
+    wildcards: diff=AC-25_vs_AC-34, chr=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 9753063'.
+
+[Thu Sep 19 00:29:09 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr3.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr3.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr3_zscore_minus.cool
+    jobid: 5
+    wildcards: diff=AC-25_vs_AC-34, chr=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 9753064'.
+
+[Thu Sep 19 00:29:09 2024]
+rule tad_bw:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/AC-34.40000.score.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-34.40000.score.bw
+    jobid: 57
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+Submitted job 57 with external jobid 'Submitted batch job 9753065'.
+
+[Thu Sep 19 00:29:10 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr11.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr11.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr11_zscore_minus.cool
+    jobid: 13
+    wildcards: diff=AC-25_vs_AC-34, chr=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 9753066'.
+
+[Thu Sep 19 00:29:10 2024]
+rule tad_bw:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/AC-25.40000.score.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-25.40000.score.bw
+    jobid: 58
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+Submitted job 58 with external jobid 'Submitted batch job 9753067'.
+
+[Thu Sep 19 00:29:10 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr4.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr4.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr4_zscore_minus.cool
+    jobid: 6
+    wildcards: diff=AC-25_vs_AC-34, chr=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 9753068'.
+
+[Thu Sep 19 00:29:10 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr12.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr12.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr12_zscore_minus.cool
+    jobid: 14
+    wildcards: diff=AC-25_vs_AC-34, chr=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 9753069'.
+
+[Thu Sep 19 00:29:10 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr5.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr5.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr5_zscore_minus.cool
+    jobid: 7
+    wildcards: diff=AC-25_vs_AC-34, chr=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 9753070'.
+
+[Thu Sep 19 00:29:10 2024]
+rule loop:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/07.loops/02.mustache/AC-34/AC-34.combine.bedpe
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-34_cis.bedpe
+    jobid: 59
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+Submitted job 59 with external jobid 'Submitted batch job 9753071'.
+
+[Thu Sep 19 00:29:10 2024]
+rule single:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/01.prepare/AC-34_40000.tad.cool
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-34_40k.balance.cool
+    jobid: 1
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 9753072'.
+
+[Thu Sep 19 00:29:10 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr13.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr13.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr13_zscore_minus.cool
+    jobid: 15
+    wildcards: diff=AC-25_vs_AC-34, chr=chr13
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 9753073'.
+
+[Thu Sep 19 00:29:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr6.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr6.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr6_zscore_minus.cool
+    jobid: 8
+    wildcards: diff=AC-25_vs_AC-34, chr=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 9753074'.
+
+[Thu Sep 19 00:29:11 2024]
+rule loop:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/07.loops/02.mustache/AC-25/AC-25.combine.bedpe
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-25_cis.bedpe
+    jobid: 60
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+Submitted job 60 with external jobid 'Submitted batch job 9753075'.
+
+[Thu Sep 19 00:29:11 2024]
+rule single:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/01.prepare/AC-25_40000.tad.cool
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-25_40k.balance.cool
+    jobid: 2
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 9753076'.
+
+[Thu Sep 19 00:29:11 2024]
+rule compt:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/05.compartment/02.PCA/AC-34_100000/AC-34_100000.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-34_100k.bw
+    jobid: 16
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 9753077'.
+
+[Thu Sep 19 00:29:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr7.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr7.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr7_zscore_minus.cool
+    jobid: 9
+    wildcards: diff=AC-25_vs_AC-34, chr=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 9753078'.
+
+[Thu Sep 19 00:29:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr8.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr8.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr8_zscore_minus.cool
+    jobid: 10
+    wildcards: diff=AC-25_vs_AC-34, chr=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 9753079'.
+[Thu Sep 19 00:29:30 2024]
+Finished job 40.
+1 of 62 steps (2%) done
+
+[Thu Sep 19 00:29:30 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr9.TAD.bed
+    jobid: 43
+    wildcards: spl=AC-34, chr=chr9
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:30 2024]
+Finished job 17.
+2 of 62 steps (3%) done
+[Thu Sep 19 00:29:30 2024]
+Finished job 28.
+3 of 62 steps (5%) done
+[Thu Sep 19 00:29:30 2024]
+Finished job 55.
+4 of 62 steps (6%) done
+Submitted job 43 with external jobid 'Submitted batch job 9753080'.
+
+[Thu Sep 19 00:29:30 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr11.TAD.bed
+    jobid: 49
+    wildcards: spl=AC-34, chr=chr11
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:30 2024]
+Finished job 57.
+5 of 62 steps (8%) done
+Submitted job 49 with external jobid 'Submitted batch job 9753081'.
+
+[Thu Sep 19 00:29:30 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr2.TAD.bed
+    jobid: 22
+    wildcards: spl=AC-34, chr=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 9753082'.
+
+[Thu Sep 19 00:29:31 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr3.TAD.bed
+    jobid: 25
+    wildcards: spl=AC-34, chr=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 9753083'.
+
+[Thu Sep 19 00:29:31 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr7.TAD.bed
+    jobid: 37
+    wildcards: spl=AC-34, chr=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 9753084'.
+[Thu Sep 19 00:29:31 2024]
+Finished job 58.
+6 of 62 steps (10%) done
+
+[Thu Sep 19 00:29:31 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr1.TAD.bed
+    jobid: 19
+    wildcards: spl=AC-34, chr=chr1
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:31 2024]
+Finished job 59.
+7 of 62 steps (11%) done
+[Thu Sep 19 00:29:31 2024]
+Finished job 1.
+8 of 62 steps (13%) done
+Submitted job 19 with external jobid 'Submitted batch job 9753085'.
+[Thu Sep 19 00:29:31 2024]
+Finished job 60.
+9 of 62 steps (15%) done
+
+[Thu Sep 19 00:29:31 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr12.TAD.bed
+    jobid: 52
+    wildcards: spl=AC-34, chr=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 9753086'.
+
+[Thu Sep 19 00:29:32 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr5.TAD.bed
+    jobid: 31
+    wildcards: spl=AC-34, chr=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 9753087'.
+
+[Thu Sep 19 00:29:32 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr6.TAD.bed
+    jobid: 34
+    wildcards: spl=AC-34, chr=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 34 with external jobid 'Submitted batch job 9753088'.
+[Thu Sep 19 00:29:32 2024]
+Finished job 2.
+10 of 62 steps (16%) done
+
+[Thu Sep 19 00:29:32 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-34.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr10.TAD.bed
+    jobid: 46
+    wildcards: spl=AC-34, chr=chr10
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:32 2024]
+Finished job 16.
+11 of 62 steps (18%) done
+Submitted job 46 with external jobid 'Submitted batch job 9753089'.
+
+[Thu Sep 19 00:29:32 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr3.TAD.bed
+    jobid: 26
+    wildcards: spl=AC-25, chr=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 9753090'.
+[Thu Sep 19 00:29:42 2024]
+Finished job 43.
+12 of 62 steps (19%) done
+
+[Thu Sep 19 00:29:42 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr7.TAD.bed
+    jobid: 38
+    wildcards: spl=AC-25, chr=chr7
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:42 2024]
+Finished job 49.
+13 of 62 steps (21%) done
+[Thu Sep 19 00:29:42 2024]
+Finished job 22.
+14 of 62 steps (23%) done
+Submitted job 38 with external jobid 'Submitted batch job 9753091'.
+[Thu Sep 19 00:29:42 2024]
+Finished job 25.
+15 of 62 steps (24%) done
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr12.TAD.bed
+    jobid: 53
+    wildcards: spl=AC-25, chr=chr12
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:43 2024]
+Finished job 37.
+16 of 62 steps (26%) done
+[Thu Sep 19 00:29:43 2024]
+Finished job 19.
+17 of 62 steps (27%) done
+Submitted job 53 with external jobid 'Submitted batch job 9753092'.
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr6.TAD.bed
+    jobid: 35
+    wildcards: spl=AC-25, chr=chr6
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:43 2024]
+Finished job 52.
+18 of 62 steps (29%) done
+[Thu Sep 19 00:29:43 2024]
+Finished job 31.
+19 of 62 steps (31%) done
+Submitted job 35 with external jobid 'Submitted batch job 9753093'.
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr9.TAD.bed
+    jobid: 44
+    wildcards: spl=AC-25, chr=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 9753094'.
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr1.TAD.bed
+    jobid: 20
+    wildcards: spl=AC-25, chr=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 9753095'.
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr10.TAD.bed
+    jobid: 47
+    wildcards: spl=AC-25, chr=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 9753096'.
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr5.TAD.bed
+    jobid: 32
+    wildcards: spl=AC-25, chr=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 9753097'.
+
+[Thu Sep 19 00:29:43 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr11.TAD.bed
+    jobid: 50
+    wildcards: spl=AC-25, chr=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 50 with external jobid 'Submitted batch job 9753098'.
+[Thu Sep 19 00:29:45 2024]
+Finished job 46.
+20 of 62 steps (32%) done
+
+[Thu Sep 19 00:29:45 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr8.TAD.bed
+    jobid: 41
+    wildcards: spl=AC-25, chr=chr8
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:45 2024]
+Finished job 26.
+21 of 62 steps (34%) done
+Submitted job 41 with external jobid 'Submitted batch job 9753100'.
+
+[Thu Sep 19 00:29:45 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr4.TAD.bed
+    jobid: 29
+    wildcards: spl=AC-25, chr=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 9753101'.
+[Thu Sep 19 00:29:55 2024]
+Finished job 38.
+22 of 62 steps (35%) done
+
+[Thu Sep 19 00:29:55 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr13.TAD.bed
+    jobid: 56
+    wildcards: spl=AC-25, chr=chr13
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:55 2024]
+Finished job 53.
+23 of 62 steps (37%) done
+[Thu Sep 19 00:29:55 2024]
+Finished job 35.
+24 of 62 steps (39%) done
+[Thu Sep 19 00:29:55 2024]
+Finished job 44.
+25 of 62 steps (40%) done
+Submitted job 56 with external jobid 'Submitted batch job 9753102'.
+[Thu Sep 19 00:29:55 2024]
+Finished job 20.
+26 of 62 steps (42%) done
+[Thu Sep 19 00:29:55 2024]
+Finished job 47.
+27 of 62 steps (44%) done
+
+[Thu Sep 19 00:29:55 2024]
+rule tad:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/06.tad/02.cooltools/AC-25.40000/TAD_genome.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr2.TAD.bed
+    jobid: 23
+    wildcards: spl=AC-25, chr=chr2
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:55 2024]
+Finished job 32.
+28 of 62 steps (45%) done
+[Thu Sep 19 00:29:55 2024]
+Finished job 50.
+29 of 62 steps (47%) done
+Submitted job 23 with external jobid 'Submitted batch job 9753103'.
+
+[Thu Sep 19 00:29:55 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr9.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr9.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr9.merged.TAD.bed
+    jobid: 42
+    wildcards: diff=AC-25_vs_AC-34, chr=chr9
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:55 2024]
+Finished job 34.
+30 of 62 steps (48%) done
+[Thu Sep 19 00:29:55 2024]
+Finished job 3.
+31 of 62 steps (50%) done
+Submitted job 42 with external jobid 'Submitted batch job 9753104'.
+
+[Thu Sep 19 00:29:55 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr12.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr12.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr12.merged.TAD.bed
+    jobid: 51
+    wildcards: diff=AC-25_vs_AC-34, chr=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 9753105'.
+
+[Thu Sep 19 00:29:55 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr3.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr3.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr3.merged.TAD.bed
+    jobid: 24
+    wildcards: diff=AC-25_vs_AC-34, chr=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 9753106'.
+
+[Thu Sep 19 00:29:55 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr10.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr10.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr10.merged.TAD.bed
+    jobid: 45
+    wildcards: diff=AC-25_vs_AC-34, chr=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 9753107'.
+
+[Thu Sep 19 00:29:55 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr11.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr11.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr11.merged.TAD.bed
+    jobid: 48
+    wildcards: diff=AC-25_vs_AC-34, chr=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 48 with external jobid 'Submitted batch job 9753108'.
+
+[Thu Sep 19 00:29:56 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr5.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr5.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr5.merged.TAD.bed
+    jobid: 30
+    wildcards: diff=AC-25_vs_AC-34, chr=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 9753109'.
+
+[Thu Sep 19 00:29:56 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr6.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr6.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr6.merged.TAD.bed
+    jobid: 33
+    wildcards: diff=AC-25_vs_AC-34, chr=chr6
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:56 2024]
+Finished job 11.
+32 of 62 steps (52%) done
+Submitted job 33 with external jobid 'Submitted batch job 9753110'.
+
+[Thu Sep 19 00:29:56 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr7.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr7.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr7.merged.TAD.bed
+    jobid: 36
+    wildcards: diff=AC-25_vs_AC-34, chr=chr7
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:56 2024]
+Finished job 4.
+33 of 62 steps (53%) done
+[Thu Sep 19 00:29:56 2024]
+Finished job 12.
+34 of 62 steps (55%) done
+Submitted job 36 with external jobid 'Submitted batch job 9753111'.
+
+[Thu Sep 19 00:29:56 2024]
+rule pgt:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/01.PGT/AC-25_vs_AC-34/step01.target_region_plots.sh
+    jobid: 61
+    wildcards: diff=AC-25_vs_AC-34
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:56 2024]
+Finished job 5.
+35 of 62 steps (56%) done
+Submitted job 61 with external jobid 'Submitted batch job 9753112'.
+
+[Thu Sep 19 00:29:56 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr1.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr1.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr1.merged.TAD.bed
+    jobid: 18
+    wildcards: diff=AC-25_vs_AC-34, chr=chr1
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:56 2024]
+Finished job 13.
+36 of 62 steps (58%) done
+Submitted job 18 with external jobid 'Submitted batch job 9753113'.
+[Thu Sep 19 00:29:56 2024]
+Finished job 6.
+37 of 62 steps (60%) done
+[Thu Sep 19 00:29:56 2024]
+Finished job 14.
+38 of 62 steps (61%) done
+[Thu Sep 19 00:29:56 2024]
+Finished job 7.
+39 of 62 steps (63%) done
+[Thu Sep 19 00:29:56 2024]
+Finished job 15.
+40 of 62 steps (65%) done
+[Thu Sep 19 00:29:56 2024]
+Finished job 8.
+41 of 62 steps (66%) done
+[Thu Sep 19 00:29:57 2024]
+Finished job 9.
+42 of 62 steps (68%) done
+[Thu Sep 19 00:29:57 2024]
+Finished job 10.
+43 of 62 steps (69%) done
+[Thu Sep 19 00:29:57 2024]
+Finished job 41.
+44 of 62 steps (71%) done
+
+[Thu Sep 19 00:29:57 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr8.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr8.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr8.merged.TAD.bed
+    jobid: 39
+    wildcards: diff=AC-25_vs_AC-34, chr=chr8
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:29:57 2024]
+Finished job 29.
+45 of 62 steps (73%) done
+Submitted job 39 with external jobid 'Submitted batch job 9753114'.
+
+[Thu Sep 19 00:29:57 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr4.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr4.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr4.merged.TAD.bed
+    jobid: 27
+    wildcards: diff=AC-25_vs_AC-34, chr=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 9753115'.
+[Thu Sep 19 00:30:07 2024]
+Finished job 56.
+46 of 62 steps (74%) done
+
+[Thu Sep 19 00:30:07 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr13.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr13.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr13.merged.TAD.bed
+    jobid: 54
+    wildcards: diff=AC-25_vs_AC-34, chr=chr13
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:30:07 2024]
+Finished job 23.
+47 of 62 steps (76%) done
+[Thu Sep 19 00:30:07 2024]
+Finished job 42.
+48 of 62 steps (77%) done
+[Thu Sep 19 00:30:07 2024]
+Finished job 51.
+49 of 62 steps (79%) done
+Submitted job 54 with external jobid 'Submitted batch job 9753121'.
+[Thu Sep 19 00:30:07 2024]
+Finished job 24.
+50 of 62 steps (81%) done
+
+[Thu Sep 19 00:30:07 2024]
+rule merge_tad:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-34/corrected_chr2.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25/corrected_chr2.TAD.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr2.merged.TAD.bed
+    jobid: 21
+    wildcards: diff=AC-25_vs_AC-34, chr=chr2
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:30:07 2024]
+Finished job 45.
+51 of 62 steps (82%) done
+[Thu Sep 19 00:30:07 2024]
+Finished job 48.
+52 of 62 steps (84%) done
+Submitted job 21 with external jobid 'Submitted batch job 9753122'.
+[Thu Sep 19 00:30:07 2024]
+Finished job 30.
+53 of 62 steps (85%) done
+[Thu Sep 19 00:30:08 2024]
+Finished job 33.
+54 of 62 steps (87%) done
+[Thu Sep 19 00:30:08 2024]
+Finished job 36.
+55 of 62 steps (89%) done
+[Thu Sep 19 00:30:08 2024]
+Finished job 61.
+56 of 62 steps (90%) done
+[Thu Sep 19 00:30:08 2024]
+Finished job 18.
+57 of 62 steps (92%) done
+[Thu Sep 19 00:30:08 2024]
+Finished job 39.
+58 of 62 steps (94%) done
+[Thu Sep 19 00:30:08 2024]
+Finished job 27.
+59 of 62 steps (95%) done
+[Thu Sep 19 00:30:28 2024]
+Finished job 54.
+60 of 62 steps (97%) done
+[Thu Sep 19 00:30:29 2024]
+Finished job 21.
+61 of 62 steps (98%) done
+
+[Thu Sep 19 00:30:29 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-34_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-25_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr1_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr2_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr3_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr4_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr5_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr6_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr7_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr8_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr9_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr10_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr11_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr12_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr13_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-34_100k.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-25_100k.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr1.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr2.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr3.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr4.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr5.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr6.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr7.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr8.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr9.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr10.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr11.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr12.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr13.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-34.40000.score.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-25.40000.score.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-34_cis.bedpe, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-25_cis.bedpe, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/01.PGT/AC-25_vs_AC-34/step01.target_region_plots.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Thu Sep 19 00:30:29 2024]
+Finished job 0.
+62 of 62 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-09-19T002850.266621.snakemake.log

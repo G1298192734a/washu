@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules multi and single are ambiguous for the file analysis_washu_20240402/02.single_data/CapHiC-test-1/work.sh.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	multi: minus=analysis_washu_20240402/02.single_data/CapHiC-test-1
+	single: sample=analysis_washu_20240402/02.single_data/CapHiC-test-1
+Expected input files:
+	multi: 
+	single: Expected output files:
+	multi: analysis_washu_20240402/02.single_data/CapHiC-test-1/work.sh
+	single: analysis_washu_20240402/02.single_data/CapHiC-test-1/work.sh

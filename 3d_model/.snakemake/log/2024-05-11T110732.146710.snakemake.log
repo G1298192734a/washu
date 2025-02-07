@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+matrix        2              1              1
+pastis        2              1              1
+total         5              1              1
+
+
+[Sat May 11 11:07:33 2024]
+rule matrix:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/240033_kcybgj_20240510/01.matrix_fill/Bs168/Bs168_filled_matrix.txt
+    jobid: 4
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+InputFunctionException in line 35 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py:
+Error:
+  TypeError: 'odict_keys' object is not subscriptable
+Wildcards:
+  sample=Bs168
+Traceback:
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py", line 18, in get_hm

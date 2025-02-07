@@ -1,0 +1,492 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+modify_y        1              1              1
+rotate_y       36              1              1
+total          37              1              1
+
+
+[Sat May 18 08:46:09 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_013.png
+    jobid: 19
+    wildcards: sample=H-Salt-599, batch2=013
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 7802802'.
+
+[Sat May 18 08:46:09 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_020.png
+    jobid: 26
+    wildcards: sample=H-Salt-599, batch2=020
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7802803'.
+
+[Sat May 18 08:46:09 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_006.png
+    jobid: 12
+    wildcards: sample=H-Salt-599, batch2=006
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7802804'.
+
+[Sat May 18 08:46:09 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_034.png
+    jobid: 40
+    wildcards: sample=H-Salt-599, batch2=034
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 7802805'.
+
+[Sat May 18 08:46:10 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_014.png
+    jobid: 20
+    wildcards: sample=H-Salt-599, batch2=014
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7802806'.
+
+[Sat May 18 08:46:10 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_000.png
+    jobid: 6
+    wildcards: sample=H-Salt-599, batch2=000
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7802807'.
+
+[Sat May 18 08:46:10 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_028.png
+    jobid: 34
+    wildcards: sample=H-Salt-599, batch2=028
+    resources: tmpdir=/tmp
+
+Submitted job 34 with external jobid 'Submitted batch job 7802808'.
+
+[Sat May 18 08:46:10 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_007.png
+    jobid: 13
+    wildcards: sample=H-Salt-599, batch2=007
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7802809'.
+
+[Sat May 18 08:46:11 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_021.png
+    jobid: 27
+    wildcards: sample=H-Salt-599, batch2=021
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7802810'.
+
+[Sat May 18 08:46:11 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_035.png
+    jobid: 41
+    wildcards: sample=H-Salt-599, batch2=035
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7802811'.
+
+[Sat May 18 08:46:11 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_029.png
+    jobid: 35
+    wildcards: sample=H-Salt-599, batch2=029
+    resources: tmpdir=/tmp
+
+Submitted job 35 with external jobid 'Submitted batch job 7802812'.
+
+[Sat May 18 08:46:11 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_001.png
+    jobid: 7
+    wildcards: sample=H-Salt-599, batch2=001
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7802813'.
+
+[Sat May 18 08:46:12 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_015.png
+    jobid: 21
+    wildcards: sample=H-Salt-599, batch2=015
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7802814'.
+
+[Sat May 18 08:46:12 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_008.png
+    jobid: 14
+    wildcards: sample=H-Salt-599, batch2=008
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7802815'.
+
+[Sat May 18 08:46:12 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_022.png
+    jobid: 28
+    wildcards: sample=H-Salt-599, batch2=022
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7802816'.
+
+[Sat May 18 08:46:12 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_002.png
+    jobid: 8
+    wildcards: sample=H-Salt-599, batch2=002
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7802817'.
+
+[Sat May 18 08:46:13 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_016.png
+    jobid: 22
+    wildcards: sample=H-Salt-599, batch2=016
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7802818'.
+
+[Sat May 18 08:46:13 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_030.png
+    jobid: 36
+    wildcards: sample=H-Salt-599, batch2=030
+    resources: tmpdir=/tmp
+
+Submitted job 36 with external jobid 'Submitted batch job 7802819'.
+
+[Sat May 18 08:46:13 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_023.png
+    jobid: 29
+    wildcards: sample=H-Salt-599, batch2=023
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7802820'.
+
+[Sat May 18 08:46:13 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_009.png
+    jobid: 15
+    wildcards: sample=H-Salt-599, batch2=009
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7802821'.
+
+[Sat May 18 08:46:13 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_003.png
+    jobid: 9
+    wildcards: sample=H-Salt-599, batch2=003
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7802822'.
+
+[Sat May 18 08:46:14 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_017.png
+    jobid: 23
+    wildcards: sample=H-Salt-599, batch2=017
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7802823'.
+
+[Sat May 18 08:46:14 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_031.png
+    jobid: 37
+    wildcards: sample=H-Salt-599, batch2=031
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 7802824'.
+
+[Sat May 18 08:46:14 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_010.png
+    jobid: 16
+    wildcards: sample=H-Salt-599, batch2=010
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7802825'.
+
+[Sat May 18 08:46:14 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_024.png
+    jobid: 30
+    wildcards: sample=H-Salt-599, batch2=024
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7802826'.
+
+[Sat May 18 08:46:15 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_004.png
+    jobid: 10
+    wildcards: sample=H-Salt-599, batch2=004
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7802827'.
+
+[Sat May 18 08:46:15 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_018.png
+    jobid: 24
+    wildcards: sample=H-Salt-599, batch2=018
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7802828'.
+
+[Sat May 18 08:46:15 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_032.png
+    jobid: 38
+    wildcards: sample=H-Salt-599, batch2=032
+    resources: tmpdir=/tmp
+
+Submitted job 38 with external jobid 'Submitted batch job 7802829'.
+
+[Sat May 18 08:46:15 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_025.png
+    jobid: 31
+    wildcards: sample=H-Salt-599, batch2=025
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7802830'.
+
+[Sat May 18 08:46:16 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_011.png
+    jobid: 17
+    wildcards: sample=H-Salt-599, batch2=011
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7802831'.
+
+[Sat May 18 08:46:16 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_005.png
+    jobid: 11
+    wildcards: sample=H-Salt-599, batch2=005
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7802832'.
+
+[Sat May 18 08:46:16 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_019.png
+    jobid: 25
+    wildcards: sample=H-Salt-599, batch2=019
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7802833'.
+
+[Sat May 18 08:46:16 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_033.png
+    jobid: 39
+    wildcards: sample=H-Salt-599, batch2=033
+    resources: tmpdir=/tmp
+
+Submitted job 39 with external jobid 'Submitted batch job 7802834'.
+
+[Sat May 18 08:46:16 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_012.png
+    jobid: 18
+    wildcards: sample=H-Salt-599, batch2=012
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7802835'.
+
+[Sat May 18 08:46:17 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_026.png
+    jobid: 32
+    wildcards: sample=H-Salt-599, batch2=026
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7802836'.
+
+[Sat May 18 08:46:17 2024]
+rule rotate_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_027.png
+    jobid: 33
+    wildcards: sample=H-Salt-599, batch2=027
+    resources: tmpdir=/tmp
+
+Submitted job 33 with external jobid 'Submitted batch job 7802837'.
+[Sat May 18 08:46:59 2024]
+Finished job 35.
+1 of 122 steps (1%) done
+[Sat May 18 08:47:00 2024]
+Finished job 9.
+2 of 122 steps (2%) done
+[Sat May 18 08:47:00 2024]
+Finished job 23.
+3 of 122 steps (2%) done
+[Sat May 18 08:47:00 2024]
+Finished job 37.
+4 of 122 steps (3%) done
+[Sat May 18 08:47:00 2024]
+Finished job 30.
+5 of 122 steps (4%) done
+[Sat May 18 08:47:00 2024]
+Finished job 10.
+6 of 122 steps (5%) done
+[Sat May 18 08:47:00 2024]
+Finished job 24.
+7 of 122 steps (6%) done
+[Sat May 18 08:47:00 2024]
+Finished job 38.
+8 of 122 steps (7%) done
+[Sat May 18 08:47:00 2024]
+Finished job 31.
+9 of 122 steps (7%) done
+[Sat May 18 08:47:00 2024]
+Finished job 17.
+10 of 122 steps (8%) done
+[Sat May 18 08:47:01 2024]
+Finished job 11.
+11 of 122 steps (9%) done
+[Sat May 18 08:47:01 2024]
+Finished job 25.
+12 of 122 steps (10%) done
+[Sat May 18 08:47:01 2024]
+Finished job 39.
+13 of 122 steps (11%) done
+[Sat May 18 08:47:01 2024]
+Finished job 18.
+14 of 122 steps (11%) done
+[Sat May 18 08:47:01 2024]
+Finished job 32.
+15 of 122 steps (12%) done
+[Sat May 18 08:47:01 2024]
+Finished job 33.
+16 of 122 steps (13%) done
+[Sat May 18 08:47:11 2024]
+Finished job 19.
+17 of 122 steps (14%) done
+[Sat May 18 08:47:11 2024]
+Finished job 26.
+18 of 122 steps (15%) done
+[Sat May 18 08:47:11 2024]
+Finished job 12.
+19 of 122 steps (16%) done
+[Sat May 18 08:47:11 2024]
+Finished job 40.
+20 of 122 steps (16%) done
+[Sat May 18 08:47:11 2024]
+Finished job 20.
+21 of 122 steps (17%) done
+[Sat May 18 08:47:11 2024]
+Finished job 6.
+22 of 122 steps (18%) done
+[Sat May 18 08:47:11 2024]
+Finished job 34.
+23 of 122 steps (19%) done
+[Sat May 18 08:47:11 2024]
+Finished job 13.
+24 of 122 steps (20%) done
+[Sat May 18 08:47:12 2024]
+Finished job 27.
+25 of 122 steps (20%) done
+[Sat May 18 08:47:12 2024]
+Finished job 41.
+26 of 122 steps (21%) done
+[Sat May 18 08:47:12 2024]
+Finished job 7.
+27 of 122 steps (22%) done
+[Sat May 18 08:47:12 2024]
+Finished job 21.
+28 of 122 steps (23%) done
+[Sat May 18 08:47:12 2024]
+Finished job 14.
+29 of 122 steps (24%) done
+[Sat May 18 08:47:12 2024]
+Finished job 28.
+30 of 122 steps (25%) done
+[Sat May 18 08:47:12 2024]
+Finished job 8.
+31 of 122 steps (25%) done
+[Sat May 18 08:47:12 2024]
+Finished job 22.
+32 of 122 steps (26%) done
+[Sat May 18 08:47:13 2024]
+Finished job 36.
+33 of 122 steps (27%) done
+[Sat May 18 08:47:13 2024]
+Finished job 29.
+34 of 122 steps (28%) done
+[Sat May 18 08:47:13 2024]
+Finished job 15.
+35 of 122 steps (29%) done
+[Sat May 18 08:47:13 2024]
+Finished job 16.
+36 of 122 steps (30%) done
+
+[Sat May 18 08:47:13 2024]
+rule modify_y:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_000.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_002.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_003.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_004.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_005.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_006.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_007.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_008.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_009.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_010.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_012.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_013.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_014.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_015.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_016.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_017.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_018.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_019.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_020.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_022.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_023.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_024.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_025.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_026.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_027.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_028.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_029.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_030.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_032.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_033.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_034.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/rotate_y_035.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_y/H-Salt-599.pml
+    jobid: 5
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7802838'.
+[Sat May 18 08:47:23 2024]
+Finished job 5.
+37 of 122 steps (30%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-18T084607.170229.snakemake.log

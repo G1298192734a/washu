@@ -1,0 +1,361 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom        1              1              1
+gif          1              1              1
+png         24              1              1
+total       27              1              1
+
+
+[Fri Jun 14 16:27:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_190.png
+    jobid: 27
+    wildcards: sample=SDU102_48h, batch=190
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 8272411'.
+
+[Fri Jun 14 16:27:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_050.png
+    jobid: 13
+    wildcards: sample=SDU102_48h, batch=050
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 8272412'.
+
+[Fri Jun 14 16:27:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_130.png
+    jobid: 21
+    wildcards: sample=SDU102_48h, batch=130
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 8272413'.
+
+[Fri Jun 14 16:27:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_200.png
+    jobid: 28
+    wildcards: sample=SDU102_48h, batch=200
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 8272414'.
+
+[Fri Jun 14 16:27:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_060.png
+    jobid: 14
+    wildcards: sample=SDU102_48h, batch=060
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 8272415'.
+
+[Fri Jun 14 16:27:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_140.png
+    jobid: 22
+    wildcards: sample=SDU102_48h, batch=140
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 8272416'.
+
+[Fri Jun 14 16:27:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_070.png
+    jobid: 15
+    wildcards: sample=SDU102_48h, batch=070
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 8272417'.
+
+[Fri Jun 14 16:27:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_210.png
+    jobid: 29
+    wildcards: sample=SDU102_48h, batch=210
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 8272418'.
+
+[Fri Jun 14 16:27:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_010.png
+    jobid: 9
+    wildcards: sample=SDU102_48h, batch=010
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 8272419'.
+
+[Fri Jun 14 16:27:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_150.png
+    jobid: 23
+    wildcards: sample=SDU102_48h, batch=150
+    resources: tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 8272420'.
+
+[Fri Jun 14 16:27:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/chrs/chr1/chr1_2.png
+    jobid: 1
+    wildcards: sample=SDU102_48h, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 8272421'.
+
+[Fri Jun 14 16:27:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_080.png
+    jobid: 16
+    wildcards: sample=SDU102_48h, batch=080
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 8272422'.
+
+[Fri Jun 14 16:27:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_220.png
+    jobid: 30
+    wildcards: sample=SDU102_48h, batch=220
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 8272423'.
+
+[Fri Jun 14 16:27:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_020.png
+    jobid: 10
+    wildcards: sample=SDU102_48h, batch=020
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 8272424'.
+
+[Fri Jun 14 16:27:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_160.png
+    jobid: 24
+    wildcards: sample=SDU102_48h, batch=160
+    resources: tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 8272425'.
+
+[Fri Jun 14 16:27:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_090.png
+    jobid: 17
+    wildcards: sample=SDU102_48h, batch=090
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 8272426'.
+
+[Fri Jun 14 16:27:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_230.png
+    jobid: 31
+    wildcards: sample=SDU102_48h, batch=230
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 8272427'.
+
+[Fri Jun 14 16:27:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_030.png
+    jobid: 11
+    wildcards: sample=SDU102_48h, batch=030
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 8272428'.
+
+[Fri Jun 14 16:27:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_170.png
+    jobid: 25
+    wildcards: sample=SDU102_48h, batch=170
+    resources: tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 8272429'.
+
+[Fri Jun 14 16:27:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_100.png
+    jobid: 18
+    wildcards: sample=SDU102_48h, batch=100
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 8272430'.
+
+[Fri Jun 14 16:27:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_240.png
+    jobid: 32
+    wildcards: sample=SDU102_48h, batch=240
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 8272431'.
+
+[Fri Jun 14 16:27:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_040.png
+    jobid: 12
+    wildcards: sample=SDU102_48h, batch=040
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 8272432'.
+
+[Fri Jun 14 16:27:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_180.png
+    jobid: 26
+    wildcards: sample=SDU102_48h, batch=180
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 8272433'.
+
+[Fri Jun 14 16:27:08 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_110.png
+    jobid: 19
+    wildcards: sample=SDU102_48h, batch=110
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 8272434'.
+[Fri Jun 14 16:27:49 2024]
+Finished job 1.
+1 of 27 steps (4%) done
+
+[Fri Jun 14 16:27:49 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/02.3d_model/SDU102_48h/SDU102_48h.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_120.png
+    jobid: 20
+    wildcards: sample=SDU102_48h, batch=120
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 8272436'.
+[Fri Jun 14 16:29:37 2024]
+Finished job 27.
+2 of 27 steps (7%) done
+[Fri Jun 14 16:29:37 2024]
+Finished job 13.
+3 of 27 steps (11%) done
+[Fri Jun 14 16:29:37 2024]
+Finished job 14.
+4 of 27 steps (15%) done
+[Fri Jun 14 16:29:37 2024]
+Finished job 29.
+5 of 27 steps (19%) done
+[Fri Jun 14 16:29:38 2024]
+Finished job 30.
+6 of 27 steps (22%) done
+[Fri Jun 14 16:29:38 2024]
+Finished job 17.
+7 of 27 steps (26%) done
+[Fri Jun 14 16:29:38 2024]
+Finished job 25.
+8 of 27 steps (30%) done
+[Fri Jun 14 16:29:38 2024]
+Finished job 18.
+9 of 27 steps (33%) done
+[Fri Jun 14 16:29:39 2024]
+Finished job 12.
+10 of 27 steps (37%) done
+[Fri Jun 14 16:29:39 2024]
+Finished job 26.
+11 of 27 steps (41%) done
+[Fri Jun 14 16:29:39 2024]
+Finished job 19.
+12 of 27 steps (44%) done
+[Fri Jun 14 16:29:49 2024]
+Finished job 21.
+13 of 27 steps (48%) done
+[Fri Jun 14 16:29:49 2024]
+Finished job 28.
+14 of 27 steps (52%) done
+[Fri Jun 14 16:29:49 2024]
+Finished job 22.
+15 of 27 steps (56%) done
+[Fri Jun 14 16:29:49 2024]
+Finished job 15.
+16 of 27 steps (59%) done
+[Fri Jun 14 16:29:49 2024]
+Finished job 9.
+17 of 27 steps (63%) done
+[Fri Jun 14 16:29:49 2024]
+Finished job 23.
+18 of 27 steps (67%) done
+[Fri Jun 14 16:29:50 2024]
+Finished job 10.
+19 of 27 steps (70%) done
+[Fri Jun 14 16:29:50 2024]
+Finished job 24.
+20 of 27 steps (74%) done
+[Fri Jun 14 16:29:50 2024]
+Finished job 31.
+21 of 27 steps (78%) done
+[Fri Jun 14 16:29:50 2024]
+Finished job 11.
+22 of 27 steps (81%) done
+[Fri Jun 14 16:29:50 2024]
+Finished job 32.
+23 of 27 steps (85%) done
+[Fri Jun 14 16:30:00 2024]
+Finished job 16.
+24 of 27 steps (89%) done
+[Fri Jun 14 16:31:10 2024]
+Finished job 20.
+25 of 27 steps (93%) done
+
+[Fri Jun 14 16:31:11 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_010.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_020.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_030.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_040.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_050.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_060.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_070.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_080.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_090.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_100.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_110.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_120.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_130.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_140.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_150.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_160.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_170.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_180.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_190.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_200.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_210.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_220.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_230.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/pngs/fig_240.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/SDU102_48h.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/SDU102_48h.mp4
+    jobid: 8
+    wildcards: sample=SDU102_48h
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 8272449'.
+[Fri Jun 14 16:33:21 2024]
+Finished job 8.
+26 of 27 steps (96%) done
+
+[Fri Jun 14 16:33:21 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/chrs/chr1/chr1_2.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_24h/chrs/chr1/chr1_2.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_48h/SDU102_48h.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_3d_model_20240614/03.gif/SDU102_24h/SDU102_24h.gif
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri Jun 14 16:33:21 2024]
+Finished job 0.
+27 of 27 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-06-14T162700.650546.snakemake.log

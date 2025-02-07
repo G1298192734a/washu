@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+report_yaml        1              1              1
+total              2              1              1
+
+
+[Sat Mar 16 11:24:08 2024]
+rule report_yaml:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/report.yaml
+    jobid: 11
+    resources: tmpdir=/tmp
+
+[Sat Mar 16 11:24:18 2024]
+Finished job 11.
+1 of 2 steps (50%) done
+
+[Sat Mar 16 11:24:18 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/00.ref/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/01.rawdata/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/02.qc/Delta-abrB-1_qc.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/02.qc/Delta-abrB-2_qc.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/02.qc/Bs168-1_qc.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/02.qc/Bs168-2_qc.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/04.RNA/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/03.enrich/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/report.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/conf.yaml, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/report.yaml
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Sat Mar 16 11:24:18 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2024-03-16T112402.589319.snakemake.log

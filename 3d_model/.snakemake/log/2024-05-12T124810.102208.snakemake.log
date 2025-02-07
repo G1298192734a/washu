@@ -1,0 +1,3 @@
+AttributeError in line 97 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py:
+'Rules' object has no attribute 'pastis'
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py", line 97, in <module>

@@ -1,0 +1,11 @@
+Dir: analysis_PGT_20241015
+HiC: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C
+Fai: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/00.ref/01.ref_prepare/fanqie.fasta.fai
+YAML: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/05.multi_report/report.yaml
+BW:
+  RNA:
+  - /work/frasergen/backup/3d/project/Interactome/241308_xiaoshu_20240819/02.RNA_ATAC/analysis_PGT_circos_3D_20240915/00.PGT/analysis_PGT_20240920/00.prepare_data/07.bw/rename_bw/34dpa-1.bw
+  - /work/frasergen/backup/3d/project/Interactome/241308_xiaoshu_20240819/02.RNA_ATAC/analysis_PGT_circos_3D_20240915/00.PGT/analysis_PGT_20240920/00.prepare_data/07.bw/rename_bw/25dpa-1.bw
+  ATAC:
+  - 00.prepare_data/07.bw/rename_bw/AC-34-1.CPM.bw
+  - 00.prepare_data/07.bw/rename_bw/AC-25-1.CPM.bw

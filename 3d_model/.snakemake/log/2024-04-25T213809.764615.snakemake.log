@@ -1,0 +1,3 @@
+WildcardError in line 182 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py:
+No values given for wildcard 'sample'.
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py", line 182, in <module>

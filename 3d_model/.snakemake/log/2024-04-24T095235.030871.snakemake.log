@@ -1,0 +1,838 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom       96              1              1
+gif          3              1              1
+mp4          3              1              1
+png          3              1              1
+total      106              1              1
+
+
+[Wed Apr 24 09:52:43 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr3/chr3.pml
+    jobid: 40
+    wildcards: sample=AC, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 7171810'.
+
+[Wed Apr 24 09:52:43 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr8/chr8.pml
+    jobid: 12
+    wildcards: sample=AA, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7171811'.
+
+[Wed Apr 24 09:52:43 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr27/chr27.pml
+    jobid: 97
+    wildcards: sample=AG, chrom=chr27
+    resources: tmpdir=/tmp
+
+Submitted job 97 with external jobid 'Submitted batch job 7171812'.
+
+[Wed Apr 24 09:52:44 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr10/chr10.pml
+    jobid: 14
+    wildcards: sample=AA, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7171813'.
+
+[Wed Apr 24 09:52:44 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr5/chr5.pml
+    jobid: 42
+    wildcards: sample=AC, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 42 with external jobid 'Submitted batch job 7171814'.
+
+[Wed Apr 24 09:52:44 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr29/chr29.pml
+    jobid: 99
+    wildcards: sample=AG, chrom=chr29
+    resources: tmpdir=/tmp
+
+Submitted job 99 with external jobid 'Submitted batch job 7171815'.
+
+[Wed Apr 24 09:52:44 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr30/chr30.pml
+    jobid: 100
+    wildcards: sample=AG, chrom=chr30
+    resources: tmpdir=/tmp
+
+Submitted job 100 with external jobid 'Submitted batch job 7171816'.
+
+[Wed Apr 24 09:52:44 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr4/chr4.pml
+    jobid: 41
+    wildcards: sample=AC, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7171817'.
+
+[Wed Apr 24 09:52:44 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr9/chr9.pml
+    jobid: 13
+    wildcards: sample=AA, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7171818'.
+
+[Wed Apr 24 09:52:45 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr28/chr28.pml
+    jobid: 98
+    wildcards: sample=AG, chrom=chr28
+    resources: tmpdir=/tmp
+
+Submitted job 98 with external jobid 'Submitted batch job 7171819'.
+[Wed Apr 24 09:53:04 2024]
+Finished job 40.
+1 of 106 steps (1%) done
+
+[Wed Apr 24 09:53:04 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr6/chr6.pml
+    jobid: 43
+    wildcards: sample=AC, chrom=chr6
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:04 2024]
+Finished job 12.
+2 of 106 steps (2%) done
+[Wed Apr 24 09:53:04 2024]
+Finished job 97.
+3 of 106 steps (3%) done
+Submitted job 43 with external jobid 'Submitted batch job 7171822'.
+[Wed Apr 24 09:53:04 2024]
+Finished job 14.
+4 of 106 steps (4%) done
+
+[Wed Apr 24 09:53:04 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr11/chr11.pml
+    jobid: 15
+    wildcards: sample=AA, chrom=chr11
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:04 2024]
+Finished job 42.
+5 of 106 steps (5%) done
+[Wed Apr 24 09:53:04 2024]
+Finished job 99.
+6 of 106 steps (6%) done
+Submitted job 15 with external jobid 'Submitted batch job 7171823'.
+
+[Wed Apr 24 09:53:04 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr12/chr12.pml
+    jobid: 16
+    wildcards: sample=AA, chrom=chr12
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:04 2024]
+Finished job 100.
+7 of 106 steps (7%) done
+[Wed Apr 24 09:53:04 2024]
+Finished job 41.
+8 of 106 steps (8%) done
+Submitted job 16 with external jobid 'Submitted batch job 7171824'.
+
+[Wed Apr 24 09:53:04 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr31/chr31.pml
+    jobid: 101
+    wildcards: sample=AG, chrom=chr31
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:04 2024]
+Finished job 13.
+9 of 106 steps (8%) done
+[Wed Apr 24 09:53:05 2024]
+Finished job 98.
+10 of 106 steps (9%) done
+Submitted job 101 with external jobid 'Submitted batch job 7171825'.
+
+[Wed Apr 24 09:53:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr13/chr13.pml
+    jobid: 17
+    wildcards: sample=AA, chrom=chr13
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7171826'.
+
+[Wed Apr 24 09:53:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr7/chr7.pml
+    jobid: 44
+    wildcards: sample=AC, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 7171827'.
+
+[Wed Apr 24 09:53:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr14/chr14.pml
+    jobid: 18
+    wildcards: sample=AA, chrom=chr14
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7171828'.
+
+[Wed Apr 24 09:53:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr9/chr9.pml
+    jobid: 46
+    wildcards: sample=AC, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid 'Submitted batch job 7171829'.
+
+[Wed Apr 24 09:53:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr32/chr32.pml
+    jobid: 102
+    wildcards: sample=AG, chrom=chr32
+    resources: tmpdir=/tmp
+
+Submitted job 102 with external jobid 'Submitted batch job 7171831'.
+
+[Wed Apr 24 09:53:05 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr8/chr8.pml
+    jobid: 45
+    wildcards: sample=AC, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 7171832'.
+[Wed Apr 24 09:53:26 2024]
+Finished job 43.
+11 of 106 steps (10%) done
+
+[Wed Apr 24 09:53:26 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/pngs/fig_240.png
+    jobid: 103
+    wildcards: sample=AA
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:26 2024]
+Finished job 15.
+12 of 106 steps (11%) done
+[Wed Apr 24 09:53:26 2024]
+Finished job 16.
+13 of 106 steps (12%) done
+[Wed Apr 24 09:53:26 2024]
+Finished job 101.
+14 of 106 steps (13%) done
+Submitted job 103 with external jobid 'Submitted batch job 7171839'.
+[Wed Apr 24 09:53:26 2024]
+Finished job 17.
+15 of 106 steps (14%) done
+
+[Wed Apr 24 09:53:26 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr15/chr15.pml
+    jobid: 19
+    wildcards: sample=AA, chrom=chr15
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:26 2024]
+Finished job 44.
+16 of 106 steps (15%) done
+[Wed Apr 24 09:53:27 2024]
+Finished job 18.
+17 of 106 steps (16%) done
+Submitted job 19 with external jobid 'Submitted batch job 7171840'.
+
+[Wed Apr 24 09:53:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr10/chr10.pml
+    jobid: 47
+    wildcards: sample=AC, chrom=chr10
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:27 2024]
+Finished job 46.
+18 of 106 steps (17%) done
+[Wed Apr 24 09:53:27 2024]
+Finished job 102.
+19 of 106 steps (18%) done
+[Wed Apr 24 09:53:27 2024]
+Finished job 45.
+20 of 106 steps (19%) done
+Submitted job 47 with external jobid 'Submitted batch job 7171841'.
+
+[Wed Apr 24 09:53:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/pngs/fig_240.png
+    jobid: 104
+    wildcards: sample=AC
+    resources: tmpdir=/tmp
+
+Submitted job 104 with external jobid 'Submitted batch job 7171842'.
+
+[Wed Apr 24 09:53:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr16/chr16.pml
+    jobid: 20
+    wildcards: sample=AA, chrom=chr16
+    resources: tmpdir=/tmp
+
+Submitted job 20 with external jobid 'Submitted batch job 7171843'.
+
+[Wed Apr 24 09:53:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr17/chr17.pml
+    jobid: 54
+    wildcards: sample=AC, chrom=chr17
+    resources: tmpdir=/tmp
+
+Submitted job 54 with external jobid 'Submitted batch job 7171844'.
+
+[Wed Apr 24 09:53:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr31/chr31.pml
+    jobid: 68
+    wildcards: sample=AC, chrom=chr31
+    resources: tmpdir=/tmp
+
+Submitted job 68 with external jobid 'Submitted batch job 7171845'.
+
+[Wed Apr 24 09:53:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr22/chr22.pml
+    jobid: 26
+    wildcards: sample=AA, chrom=chr22
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7171846'.
+
+[Wed Apr 24 09:53:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr12/chr12.pml
+    jobid: 82
+    wildcards: sample=AG, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 82 with external jobid 'Submitted batch job 7171847'.
+
+[Wed Apr 24 09:53:28 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr29/chr29.pml
+    jobid: 33
+    wildcards: sample=AA, chrom=chr29
+    resources: tmpdir=/tmp
+
+Submitted job 33 with external jobid 'Submitted batch job 7171848'.
+[Wed Apr 24 09:53:48 2024]
+Finished job 19.
+21 of 106 steps (20%) done
+
+[Wed Apr 24 09:53:48 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr11/chr11.pml
+    jobid: 48
+    wildcards: sample=AC, chrom=chr11
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:48 2024]
+Finished job 47.
+22 of 106 steps (21%) done
+[Wed Apr 24 09:53:48 2024]
+Finished job 20.
+23 of 106 steps (22%) done
+[Wed Apr 24 09:53:48 2024]
+Finished job 54.
+24 of 106 steps (23%) done
+Submitted job 48 with external jobid 'Submitted batch job 7171860'.
+[Wed Apr 24 09:53:48 2024]
+Finished job 68.
+25 of 106 steps (24%) done
+
+[Wed Apr 24 09:53:48 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr6/chr6.pml
+    jobid: 76
+    wildcards: sample=AG, chrom=chr6
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:49 2024]
+Finished job 26.
+26 of 106 steps (25%) done
+[Wed Apr 24 09:53:49 2024]
+Finished job 82.
+27 of 106 steps (25%) done
+[Wed Apr 24 09:53:49 2024]
+Finished job 33.
+28 of 106 steps (26%) done
+Submitted job 76 with external jobid 'Submitted batch job 7171861'.
+
+[Wed Apr 24 09:53:49 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr25/chr25.pml
+    jobid: 62
+    wildcards: sample=AC, chrom=chr25
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid 'Submitted batch job 7171862'.
+
+[Wed Apr 24 09:53:49 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/pngs/fig_240.png
+    jobid: 105
+    wildcards: sample=AG
+    resources: tmpdir=/tmp
+
+Submitted job 105 with external jobid 'Submitted batch job 7171864'.
+
+[Wed Apr 24 09:53:49 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr30/chr30.pml
+    jobid: 34
+    wildcards: sample=AA, chrom=chr30
+    resources: tmpdir=/tmp
+
+Submitted job 34 with external jobid 'Submitted batch job 7171865'.
+
+[Wed Apr 24 09:53:49 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr21/chr21.pml
+    jobid: 91
+    wildcards: sample=AG, chrom=chr21
+    resources: tmpdir=/tmp
+
+Submitted job 91 with external jobid 'Submitted batch job 7171866'.
+
+[Wed Apr 24 09:53:49 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr23/chr23.pml
+    jobid: 27
+    wildcards: sample=AA, chrom=chr23
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7171867'.
+
+[Wed Apr 24 09:53:49 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr18/chr18.pml
+    jobid: 55
+    wildcards: sample=AC, chrom=chr18
+    resources: tmpdir=/tmp
+
+Submitted job 55 with external jobid 'Submitted batch job 7171868'.
+[Wed Apr 24 09:53:59 2024]
+Finished job 62.
+29 of 106 steps (27%) done
+
+[Wed Apr 24 09:53:59 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr32/chr32.pml
+    jobid: 69
+    wildcards: sample=AC, chrom=chr32
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:53:59 2024]
+Finished job 55.
+30 of 106 steps (28%) done
+Submitted job 69 with external jobid 'Submitted batch job 7171873'.
+
+[Wed Apr 24 09:54:00 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr13/chr13.pml
+    jobid: 83
+    wildcards: sample=AG, chrom=chr13
+    resources: tmpdir=/tmp
+
+Submitted job 83 with external jobid 'Submitted batch job 7171874'.
+[Wed Apr 24 09:54:10 2024]
+Finished job 48.
+31 of 106 steps (29%) done
+
+[Wed Apr 24 09:54:10 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr5/chr5.pml
+    jobid: 75
+    wildcards: sample=AG, chrom=chr5
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:54:10 2024]
+Finished job 76.
+32 of 106 steps (30%) done
+[Wed Apr 24 09:54:10 2024]
+Finished job 34.
+33 of 106 steps (31%) done
+[Wed Apr 24 09:54:10 2024]
+Finished job 91.
+34 of 106 steps (32%) done
+Submitted job 75 with external jobid 'Submitted batch job 7171877'.
+[Wed Apr 24 09:54:10 2024]
+Finished job 27.
+35 of 106 steps (33%) done
+
+[Wed Apr 24 09:54:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr2/chr2.pml
+    jobid: 6
+    wildcards: sample=AA, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7171878'.
+
+[Wed Apr 24 09:54:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr12/chr12.pml
+    jobid: 49
+    wildcards: sample=AC, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 49 with external jobid 'Submitted batch job 7171879'.
+
+[Wed Apr 24 09:54:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr31/chr31.pml
+    jobid: 35
+    wildcards: sample=AA, chrom=chr31
+    resources: tmpdir=/tmp
+
+Submitted job 35 with external jobid 'Submitted batch job 7171880'.
+
+[Wed Apr 24 09:54:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr17/chr17.pml
+    jobid: 21
+    wildcards: sample=AA, chrom=chr17
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7171881'.
+[Wed Apr 24 09:54:21 2024]
+Finished job 69.
+36 of 106 steps (34%) done
+
+[Wed Apr 24 09:54:21 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr26/chr26.pml
+    jobid: 63
+    wildcards: sample=AC, chrom=chr26
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:54:21 2024]
+Finished job 83.
+37 of 106 steps (35%) done
+Submitted job 63 with external jobid 'Submitted batch job 7171883'.
+
+[Wed Apr 24 09:54:22 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr7/chr7.pml
+    jobid: 77
+    wildcards: sample=AG, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 77 with external jobid 'Submitted batch job 7171884'.
+[Wed Apr 24 09:54:32 2024]
+Finished job 75.
+38 of 106 steps (36%) done
+
+[Wed Apr 24 09:54:32 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr22/chr22.pml
+    jobid: 92
+    wildcards: sample=AG, chrom=chr22
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:54:32 2024]
+Finished job 6.
+39 of 106 steps (37%) done
+[Wed Apr 24 09:54:33 2024]
+Finished job 49.
+40 of 106 steps (38%) done
+[Wed Apr 24 09:54:33 2024]
+Finished job 35.
+41 of 106 steps (39%) done
+[Wed Apr 24 09:54:33 2024]
+Finished job 21.
+42 of 106 steps (40%) done
+[Wed Apr 24 09:54:33 2024]
+Finished job 63.
+43 of 106 steps (41%) done
+[Wed Apr 24 09:54:33 2024]
+Finished job 77.
+44 of 106 steps (42%) done
+Submitted job 92 with external jobid 'Submitted batch job 7171885'.
+
+[Wed Apr 24 09:54:34 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr16/chr16.pml
+    jobid: 86
+    wildcards: sample=AG, chrom=chr16
+    resources: tmpdir=/tmp
+
+Submitted job 86 with external jobid 'Submitted batch job 7171886'.
+
+[Wed Apr 24 09:54:34 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr1/chr1.pml
+    jobid: 70
+    wildcards: sample=AG, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 70 with external jobid 'Submitted batch job 7171887'.
+
+[Wed Apr 24 09:54:34 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr14/chr14.pml
+    jobid: 84
+    wildcards: sample=AG, chrom=chr14
+    resources: tmpdir=/tmp
+
+Submitted job 84 with external jobid 'Submitted batch job 7171888'.
+
+[Wed Apr 24 09:54:34 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr19/chr19.pml
+    jobid: 56
+    wildcards: sample=AC, chrom=chr19
+    resources: tmpdir=/tmp
+
+Submitted job 56 with external jobid 'Submitted batch job 7171889'.
+
+[Wed Apr 24 09:54:34 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr24/chr24.pml
+    jobid: 28
+    wildcards: sample=AA, chrom=chr24
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7171890'.
+
+[Wed Apr 24 09:54:34 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr13/chr13.pml
+    jobid: 50
+    wildcards: sample=AC, chrom=chr13
+    resources: tmpdir=/tmp
+
+Submitted job 50 with external jobid 'Submitted batch job 7171891'.
+[Wed Apr 24 09:54:43 2024]
+Finished job 92.
+45 of 106 steps (42%) done
+
+[Wed Apr 24 09:54:43 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr18/chr18.pml
+    jobid: 22
+    wildcards: sample=AA, chrom=chr18
+    resources: tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7171894'.
+[Wed Apr 24 09:54:54 2024]
+Finished job 86.
+46 of 106 steps (43%) done
+
+[Wed Apr 24 09:54:54 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr3/chr3.pml
+    jobid: 7
+    wildcards: sample=AA, chrom=chr3
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:54:55 2024]
+Finished job 70.
+47 of 106 steps (44%) done
+[Wed Apr 24 09:54:55 2024]
+Finished job 84.
+48 of 106 steps (45%) done
+[Wed Apr 24 09:54:55 2024]
+Finished job 56.
+49 of 106 steps (46%) done
+Submitted job 7 with external jobid 'Submitted batch job 7171895'.
+[Wed Apr 24 09:54:55 2024]
+Finished job 28.
+50 of 106 steps (47%) done
+
+[Wed Apr 24 09:54:55 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr8/chr8.pml
+    jobid: 78
+    wildcards: sample=AG, chrom=chr8
+    resources: tmpdir=/tmp
+
+[Wed Apr 24 09:54:55 2024]
+Finished job 50.
+51 of 106 steps (48%) done
+[Wed Apr 24 09:54:55 2024]
+Finished job 22.
+52 of 106 steps (49%) done
+Submitted job 78 with external jobid 'Submitted batch job 7171896'.
+
+[Wed Apr 24 09:54:55 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr27/chr27.pml
+    jobid: 64
+    wildcards: sample=AC, chrom=chr27
+    resources: tmpdir=/tmp
+
+Submitted job 64 with external jobid 'Submitted batch job 7171897'.
+
+[Wed Apr 24 09:54:55 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr23/chr23.pml
+    jobid: 93
+    wildcards: sample=AG, chrom=chr23
+    resources: tmpdir=/tmp
+
+Submitted job 93 with external jobid 'Submitted batch job 7171899'.
+
+[Wed Apr 24 09:54:55 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr32/chr32.pml
+    jobid: 36
+    wildcards: sample=AA, chrom=chr32
+    resources: tmpdir=/tmp
+
+Submitted job 36 with external jobid 'Submitted batch job 7171900'.
+
+[Wed Apr 24 09:54:55 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr25/chr25.pml
+    jobid: 29
+    wildcards: sample=AA, chrom=chr25
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7171901'.
+
+[Wed Apr 24 09:54:55 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr20/chr20.pml
+    jobid: 57
+    wildcards: sample=AC, chrom=chr20
+    resources: tmpdir=/tmp
+
+Submitted job 57 with external jobid 'Submitted batch job 7171902'.
+[Wed Apr 24 09:55:05 2024]
+Error in rule chrom:
+    jobid: 7
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr3/chr3.pml
+    cluster_jobid: Submitted batch job 7171895
+
+Error executing rule chrom on cluster (jobid: 7, external: Submitted batch job 7171895, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 09:55:16 2024]
+Error in rule chrom:
+    jobid: 78
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr8/chr8.pml
+    cluster_jobid: Submitted batch job 7171896
+
+Error executing rule chrom on cluster (jobid: 78, external: Submitted batch job 7171896, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.78.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 09:55:17 2024]
+Error in rule chrom:
+    jobid: 64
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr27/chr27.pml
+    cluster_jobid: Submitted batch job 7171897
+
+Error executing rule chrom on cluster (jobid: 64, external: Submitted batch job 7171897, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.64.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 09:55:17 2024]
+Error in rule chrom:
+    jobid: 93
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AG/chrs/chr23/chr23.pml
+    cluster_jobid: Submitted batch job 7171899
+
+Error executing rule chrom on cluster (jobid: 93, external: Submitted batch job 7171899, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.93.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 09:55:17 2024]
+Error in rule chrom:
+    jobid: 36
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr32/chr32.pml
+    cluster_jobid: Submitted batch job 7171900
+
+Error executing rule chrom on cluster (jobid: 36, external: Submitted batch job 7171900, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.36.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 09:55:17 2024]
+Error in rule chrom:
+    jobid: 29
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/chrs/chr25/chr25.pml
+    cluster_jobid: Submitted batch job 7171901
+
+Error executing rule chrom on cluster (jobid: 29, external: Submitted batch job 7171901, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.29.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 09:55:17 2024]
+Error in rule chrom:
+    jobid: 57
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AC/chrs/chr20/chr20.pml
+    cluster_jobid: Submitted batch job 7171902
+
+Error executing rule chrom on cluster (jobid: 57, external: Submitted batch job 7171902, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.hu10rguz/snakejob.chrom.57.sh). For error details see the cluster log and the log files of the involved rule(s).

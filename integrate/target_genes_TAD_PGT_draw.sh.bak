@@ -1,0 +1,477 @@
+#!/usr/bin/bash
+
+#draw TADs region per genes by PGT
+#2022.04.19
+#usage: sh .sh target_genes_TAD_change_near_10k.txt .fai
+#target_gene_file: chr start end protein_name
+
+#draw_region is the expanded region to draw , on each site;means half of the region to draw
+#draw_region=0
+draw_region=50000
+#draw_region=1000000
+
+#read fai file for chr length
+declare -A chr_length;
+while read -r -a line; do
+    #chr start end protein_name 
+    #echo $line
+    chr_length["${line[0]}"]=${line[1]}
+done < "$2"
+
+sample1="SPS"
+sample2="SUS"
+sample3="AUS"
+
+if [ ! -d "PGT_draw" ]; then mkdir PGT_draw; fi
+cd PGT_draw
+#read in target gene file
+while read -r -a line; do 
+    #make each genes work dir
+    if [ ! -d ${line[4]}_${line[5]} ]; then mkdir ${line[4]}_${line[5]}; fi
+    cd ${line[4]}_${line[5]}
+    #test TAD target region; avoid hit chr ends
+    if (( ${line[1]} - $draw_region < 0 )); then
+        draw_start=0
+        draw_end=$((draw_region * 2))
+    elif (( ${line[2]} + $draw_region > ${chr_length[${line[0]}]} )); then
+        draw_start=$(( ${chr_length[${line[0]}]} - $draw_region * 2 ))
+        draw_end=${chr_length[${line[0]}]} 
+    else
+        draw_start=$(( ${line[1]} - $draw_region ))
+        draw_end=$(( ${line[2]} + $draw_region ))
+    fi
+
+    #make track.ini file for PGT
+    #chr
+    chr_name=${line[0]}
+    #matrix1
+    #matrix1=/public/frasergen/3D/project/Interactome/02.personal/201183_Oleaginous_yeast/diff/03.TAD/33.diff_TAD_region_plot_by_PGT/00.data_prepare/02.matrix/${sample1}/cool_matrix/${chr_name}_heatmap_2k.cool
+    matrix1=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/01.cool_bychr/${sample1}_20k.balance.cool
+
+    #TAD1
+    tad1=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/04.tad/${sample1}/corrected_${chr_name}.TAD.bed
+    
+    #matrix2
+    matrix2=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/01.cool_bychr/${sample2}_20k.balance.cool
+
+    #TAD2
+    tad2=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/04.tad/${sample2}/corrected_${chr_name}.TAD.bed
+   
+    matrix3=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/01.cool_bychr/${sample3}_20k.balance.cool
+
+    #TAD2
+    tad3=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/04.tad/${sample3}/corrected_${chr_name}.TAD.bed
+    #minus_matrix
+    #minus_matrix=/work/frasergen/3D/project/Interactome/01.analysis/221425_apple/10.personal/analysis20230222/01.prepare_data/03.minus_matrix_cool/xu_vs_wsk/xu_vs_wsk_chr10_zscore_minus.cool
+    #minus_matrix=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/02.minus_matrix_cool/${sample1}.minus.${sample2}/${chr_name}_zscore_minus.cool
+
+    ##make target gene bed
+    #printf "%s\t%s\t%s\t%s\n" "${line[0]}" "${line[1]}" "${line[2]}" "${line[4]}_${line[5]}" > ${line[4]}_${line[5]}_gene.bed 
+    #gene_bed=${line[4]}_${line[5]}_gene.bed
+
+    ##make target gene bed
+    ##printf "%s\t%s\t%s\t%s\n" "${line[0]}" "${line[1]}" "${line[2]}" "${line[4]}_${line[5]}" > ${line[4]}_${line[5]}_gene.bed 
+    printf "%s\t%s\t%s\t%s\n" "${line[0]}" "${line[1]}" "${line[2]}" "${line[4]}" > ${line[4]}_gene.bed
+    gene_bed=${line[4]}_gene.bed
+
+    #gene gtf
+    #gene_gtf=/public/frasergen/backup/3d/project/Interactome/230804_mianhua_20230913/08.personal/analysis20231030_WashU_upload/00.genome/extract_longest_transcripts/mianhua_mRNA_genename.gtf
+#    gene_gtf=/public/frasergen/backup/3d/project/Interactome/220006_zebrafish/07.personal/batch06/02.analysis/analysis_HiC_aftersale_20240530/03_PGT/01.PGT/zebrafish_mRNA_genename.gtf
+    #gene_gtf=/work/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/01.PGT/jizhuaqi_mRNA_genename.gtf
+
+    #add target genes as bed
+    #gene_bed=/work/frasergen/3D/project/Interactome/01.analysis/221425_apple/10.personal/analysis20230222/01.prepare_data/04.target_pos/target.bed
+
+    #compartment
+    #cpt1=/work/frasergen/3D/project/Interactome/01.analysis/221425_apple/10.personal/analysis20230222/01.prepare_data/02.compartment/${sample1}/${sample1}_40k_cpt.bed
+    cpt1=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/03.compartment/${sample1}/${sample1}_100k_cpt.bed
+    
+    #cpt2=/work/frasergen/3D/project/Interactome/01.analysis/221425_apple/10.personal/analysis20230222/01.prepare_data/02.compartment/${sample2}/${sample2}_40k_cpt.bed
+    cpt2=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/03.compartment/${sample2}/${sample2}_100k_cpt.bed
+    cpt3=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/03.compartment/${sample3}/${sample3}_100k_cpt.bed
+
+    #parse links 
+    #arc links1; fithic loops
+    #zcat /public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/04.Hi-C/07.loops/03.fithic/${sample1}.10000/04.circos/${sample1}.cis.interact.gz | awk -v t_start=$draw_start -v t_end=$draw_end -v chr=${chr_name//chr} 'BEGIN{res=10000}{a1_s=$2 - res/2 ;a1_e=$2 + res/2;a2_s=$4 - res/2 ;a2_e=$4 + res/2;if( ($1 == chr && $3 == chr) &&  (a1_s <= t_end && a1_e >= t_start) && (a2_s <= t_end && a2_e >= t_start)){ print "chr" $1 "\t" a1_s  "\t" a1_e "\t" "chr" $3 "\t" a2_s  "\t" a2_e "\t" log($5)/log(10) } }'  > ${sample1}_${chr_name}_regional.arcs
+    #mustache loops
+    #awk -v t_start=$draw_start -v t_end=$draw_end -v chr=${chr_name} '{a1_s=$2 ;a1_e=$3 ;a2_s=$5;a2_e=$6;if( ($1 == chr && $4 == chr) &&  (a1_s <= t_end && a1_e >= t_start) && (a2_s <= t_end && a2_e >= t_start)){ print  $1 "\t" a1_s  "\t" a1_e "\t" $4 "\t" a2_s  "\t" a2_e "\t" log($7+1)/log(10) } }' /work/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/04.Hi-C/07.loops/02.mustache/${sample1}/${sample1}.combine.bedpe > ${sample1}_${chr_name}_regional.arcs
+
+    #arc links2;fithic loops
+    #zcat /public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/04.Hi-C/07.loops/03.fithic/${sample2}.10000/04.circos/${sample2}.cis.interact.gz | awk -v t_start=$draw_start -v t_end=$draw_end -v chr=${chr_name//chr} 'BEGIN{res=10000}{a1_s=$2 - res/2 ;a1_e=$2 + res/2;a2_s=$4 - res/2 ;a2_e=$4 + res/2;if( ($1 == chr && $3 == chr) &&  (a1_s <= t_end && a1_e >= t_start) && (a2_s <= t_end && a2_e >= t_start)){ print "chr" $1 "\t" a1_s  "\t" a1_e "\t" "chr" $3 "\t" a2_s  "\t" a2_e "\t" log($5)/log(10) } }' > ${sample2}_${chr_name}_regional.arcs
+
+    #mustache loops
+    #awk -v t_start=$draw_start -v t_end=$draw_end -v chr=${chr_name} '{a1_s=$2 ;a1_e=$3 ;a2_s=$5;a2_e=$6;if( ($1 == chr && $4 == chr) &&  (a1_s <= t_end && a1_e >= t_start) && (a2_s <= t_end && a2_e >= t_start)){ print  $1 "\t" a1_s  "\t" a1_e "\t" $4 "\t" a2_s  "\t" a2_e "\t" log($7+1)/log(10) } }' /work/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/04.Hi-C/07.loops/02.mustache/${sample2}/${sample2}.combine.bedpe > ${sample2}_${chr_name}_regional.arcs
+    #awk -v t_start=$draw_start -v t_end=$draw_end -v chr=${chr_name} '{a1_s=$2 ;a1_e=$3 ;a2_s=$5;a2_e=$6;if( ($1 == chr && $4 == chr) &&  (a1_s <= t_end && a1_e >= t_start) && (a2_s <= t_end && a2_e >= t_start)){ print  $1 "\t" a1_s  "\t" a1_e "\t" $4 "\t" a2_s  "\t" a2_e "\t" log($7+1)/log(10) } }' /work/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/04.Hi-C/07.loops/02.mustache/${sample3}/${sample3}.combine.bedpe > ${sample3}_${chr_name}_regional.arcs
+
+    #arcs1=/public/frasergen/3D/project/Interactome/01.analysis/221425_apple/10.personal/analysis20230220/01.target_region_loops/${sample1}/${sample1}_chr10_regional.arcs
+    arcs1=$(pwd)/${sample1}_${chr_name}_regional.arcs
+
+    #arc links2
+    arcs2=$(pwd)/${sample2}_${chr_name}_regional.arcs
+    arcs3=$(pwd)/${sample3}_${chr_name}_regional.arcs
+
+
+    #RNA bw1 -3
+    RNA_1=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/06.RNA_bw/${sample1}-1.bw
+    RNA_2=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/06.RNA_bw/${sample2}-1.bw
+    RNA_3=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/06.RNA_bw/${sample3}-1.bw
+    ATAC_1=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample1}-1_ATAC.bw
+    ATAC_2=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample2}-1_ATAC.bw
+    ATAC_3=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample3}-1_ATAC.bw
+
+#    #ATAC bw 1-3
+    ATAC_1_CG=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample1}-1.CG.bw
+    ATAC_2_CG=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample2}-1.CG.bw
+    ATAC_3_CG=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample3}-1.CG.bw
+    ATAC_1_CHH=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample1}-1.CHH.bw
+    ATAC_2_CHH=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample2}-1.CHH.bw
+    ATAC_3_CHH=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample3}-1.CHH.bw
+    ATAC_1_CHG=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample1}-1.CHG.bw
+    ATAC_2_CHG=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample2}-1.CHG.bw
+    ATAC_3_CHG=/public/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/07.personal/analysis_20240702_Hi-C_RNA_WGBS_PGT/00.prepare_data/07.ATAC_bw/${sample3}-1.CHG.bw
+
+
+    #write to
+    backslash="\\"
+    tracks=$(cat <<- END_HEREDOC
+	[ hicmatrix ]
+	file = ${matrix1}
+	#depth = 200000
+	#depth = 500000
+	#depth = 400000
+	depth = 40000
+	#depth = 900000
+	title = ${sample1}
+	#transform = log1p
+	transform = -log
+	file_type = hic_matrix
+	#show_masked_bins = false
+	show_masked_bins = true
+	colormap = RdYlBu
+	height = 8
+	
+	[ tads ]
+	file = ${tad1}
+	display = triangles
+	border_color = black
+	#border_color = red
+	color = none
+	line_width = 1.5
+	overlay_previous = share-y
+	height = 8
+	
+	[spacer]
+	height = 0.1
+	
+	[ hicmatrix ]
+	file = ${matrix2}
+	#depth = 200000
+	#depth = 500000
+	#depth = 400000
+	depth = 40000
+	#depth = 800000
+	#depth = 900000
+	title = ${sample2}
+	#transform = log1p
+	transform = -log
+	file_type = hic_matrix
+	#show_masked_bins = false
+	show_masked_bins = true
+	colormap = RdYlBu
+	height = 8
+	
+	[ tads ]
+	file = ${tad2}
+	display = triangles
+	border_color = black
+	#border_color = red
+	color = none
+	line_width = 1.5
+	overlay_previous = share-y
+	#height = 5
+	height = 8
+	
+	[spacer]
+	height = 0.1
+	
+	[ hicmatrix ]
+	file = ${matrix3}
+	#depth = 200000
+	#depth = 500000
+	#depth = 400000
+	depth = 40000
+	#depth = 800000
+	#depth = 900000
+	title = ${sample3}
+	#transform = log1p
+	transform = -log
+	file_type = hic_matrix
+	#show_masked_bins = false
+	show_masked_bins = true
+	colormap = RdYlBu
+	height = 8
+	
+	[ tads ]
+	file = ${tad3}
+	display = triangles
+	border_color = black
+	#border_color = red
+	color = none
+	line_width = 1.5
+	overlay_previous = share-y
+	#height = 5
+	height = 8
+	
+	[spacer]
+	
+	[bed genes]
+	file = ${gene_bed}
+	height = 1
+	fontsize = 15
+	style = flybase
+	color = green
+	title = target region
+	
+	[spacer]
+	height = 0.5
+	
+	[cpt1]
+	file = ${cpt1}
+	height = 1.5
+	title = ${sample1} comparment A/B
+	min_value = -1
+	max_value = 1
+	color = red
+	negative_color = blue
+	file_type = bedgraph
+	
+	[spacer]
+	height = 1.2
+	
+	[cpt2]
+	file = ${cpt2}
+	height = 1.5
+	title = ${sample2} comparment A/B
+	min_value = -1
+	max_value = 1
+	color = red
+	negative_color = blue
+	file_type = bedgraph
+	
+	[spacer]
+	height = 1.2
+	
+	[cpt3]
+	file = ${cpt3}
+	height = 1.5
+	title = ${sample3} comparment A/B
+	min_value = -1
+	max_value = 1
+	color = red
+	negative_color = blue
+	file_type = bedgraph
+	
+	[spacer]
+	height = 0.5
+	
+	[A RNA_mut_1 bw]
+	file = ${RNA_1}
+	height =1.5
+	title = ${sample1}_1 RNA
+	min_value = 0
+	max_value = 5000
+	color = #dfc27d
+	file_type = bigwig
+	
+	[A RNA_wt_1 bw]
+	file = ${RNA_2}
+	height =1.5
+	title = ${sample2}_1 RNA
+	min_value = 0
+	max_value = 5000
+	color = #80cdc1
+	file_type = bigwig
+	
+	[A RNA_mut_1 bw]
+	file = ${RNA_3}
+	height =1.5
+	title = ${sample3}_1 RNA
+	min_value = 0
+	max_value = 5000
+	color = #f08080
+	file_type = bigwig
+	
+	[spacer]
+	height = 0.5
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_1}
+	height =1.5
+	title = ${sample1}_1 ATAC
+	min_value = 0
+	max_value = 1.5
+	color = #dfc27d
+	file_type = bigwig
+	
+	[A ATAC_wt_1 bw]
+	file = ${ATAC_2}
+	height =1.5
+	title = ${sample2}_1 ATAC
+	min_value = 0
+	max_value = 1.5
+	color = #80cdc1
+	file_type = bigwig
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_3}
+	height =1.5
+	title = ${sample3}_1 ATAC
+	min_value = 0
+	max_value = 1.5
+	color = #f08080
+	file_type = bigwig
+	
+	[A ATAC_wt_1 bw]
+	file = ${ATAC_1_CG}
+	height =1.5
+	title = ${sample1}_1 CG WGBS
+	min_value = 0
+	max_value = 2
+	color = #dfc27d
+	file_type = bigwig
+	
+	[A ATAC_wt_1 bw]
+	file = ${ATAC_2_CG}
+	height =1.5
+	title = ${sample2}_1 CG WGBS
+	min_value = 0
+	max_value = 2
+	color = #80cdc1
+	file_type = bigwig
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_3_CG}
+	height =1.5
+	title = ${sample3}_1 CG WGBS
+	min_value = 0
+	max_value = 2
+	color = #f08080
+	file_type = bigwig
+	
+	[spacer]
+	height = 0.1
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_1_CHG}
+	height =1.5
+	title = ${sample1}_1 CHG WGBS
+	min_value = 0
+	max_value = 2
+	color = #dfc27d
+	file_type = bigwig
+	
+	[A ATAC_wt_1 bw]
+	file = ${ATAC_2_CHG}
+	height =1.5
+	title = ${sample2}_1 CHG WGBS
+	min_value = 0
+	max_value = 2
+	color = #80cdc1
+	file_type = bigwig
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_3_CHG}
+	height =1.5
+	title = ${sample3}_1 CHG WGBS
+	min_value = 0
+	max_value = 2
+	color = #f08080
+	file_type = bigwig
+	
+	[spacer]
+	height = 0.1
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_1_CHH}
+	height =1.5
+	title = ${sample1}_1 CHH WGBS
+	min_value = 0
+	max_value = 1.2
+	color = #dfc27d
+	file_type = bigwig
+	
+	[A ATAC_wt_1 bw]
+	file = ${ATAC_2_CHH}
+	height =1.5
+	title = ${sample2}_1 CHH WGBS
+	min_value = 0
+	max_value = 1.2
+	color = #80cdc1
+	file_type = bigwig
+	
+	[A ATAC_mut_1 bw]
+	file = ${ATAC_3_CHH}
+	height =1.5
+	title = ${sample3}_1 CHH WGBS
+	min_value = 0
+	max_value = 1.2
+	color = #f08080
+	file_type = bigwig
+	
+	[spacer]
+	height = 0.5
+	
+	[arcs1]
+	file = ${arcs1}
+	title = ${sample1} contacts
+	height = 5
+	#color = Blues
+	color = RdYlBu
+	line_width = 1.5
+	#min_value = 1.1
+	#min_value = 100
+	[hlines]
+	height = 0.3
+	show_data_range = false
+	y_values = -0.3, 0.3
+	file_type = hlines
+	[arcs2]
+	file = ${arcs2}
+	title = ${sample2} contacts
+	height = 5
+	#color = Reds
+	color = RdYlBu
+	line_width = 1.5
+	#min_value = 100
+	[hlines]
+	height = 0.3
+	show_data_range = false
+	y_values = -0.3, 0.3
+	file_type = hlines
+	[arcs3]
+	file = ${arcs3}
+	title = ${sample3} contacts
+	height = 5
+	#color = Reds
+	color = RdYlBu
+	line_width = 1.5
+	#min_value = 100
+	
+	[x-axis]
+	END_HEREDOC
+	)
+	printf "%s" "${tracks}" > track_100k.ini
+	cmd=$(cat <<- END_DOC
+	#!/usr/bin/bash
+	/public/frasergen/3D/work/wanghao/mamba/PGT-3.9/bin/pyGenomeTracks --tracks track_100k.ini --trackLabelFraction 0.08 --region ${chr_name}:${draw_start}-${draw_end} -o ${line[4]}_${line[5]}_100k.png --height 60 --width 50 --dpi 300
+	/public/frasergen/3D/work/wanghao/mamba/PGT-3.9/bin/pyGenomeTracks --tracks track_100k.ini --trackLabelFraction 0.08 --region ${chr_name}:${draw_start}-${draw_end} -o ${line[4]}_${line[5]}_100k.pdf --height 60  --width 50 --dpi 300
+	#/public/frasergen/3D/work/wanghao/myconda/stripenn/bin/python /public/frasergen/backup/3d/project/Interactome/211600_mianyang/09.personal/Hi-C_integrate_plots_20230906/02.heatmap_matrix_plot/matrix_draw_subplots.py -c1 /public/frasergen/backup/3d/project/Interactome/211600_mianyang/09.personal/Hi-C_integrate_plots_20230906/00.prepare_data/02.PGT_prepare/01.cool_bychr/${sample1}/${sample1}_${chr_name}.cool -c2 /public/frasergen/backup/3d/project/Interactome/211600_mianyang/09.personal/Hi-C_integrate_plots_20230906/00.prepare_data/02.PGT_prepare/01.cool_bychr/${sample2}/${sample2}_${chr_name}.cool -r 20000 -c ${chr_name} -s ${draw_start} -e ${draw_end} -s1 $sample1 -s2 $sample2 -b False
+	END_DOC
+	)
+    printf "%s" "${cmd}" > PGT_draw.sh
+    sh PGT_draw.sh && echo ${sample}_${line[4]}_${line[5]} "PGT draw done"
+    #plot subplot matrix
+    
+    cd ..
+done < "$1" 
+

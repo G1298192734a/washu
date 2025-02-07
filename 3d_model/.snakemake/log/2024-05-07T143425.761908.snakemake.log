@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+pml          2              1              1
+total        2              1              1
+
+
+[Tue May  7 14:34:32 2024]
+rule pml:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pdb
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pml
+    jobid: 2
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7577903'.
+
+[Tue May  7 14:34:32 2024]
+rule pml:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pdb
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pml
+    jobid: 12
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7577904'.
+[Tue May  7 14:34:52 2024]
+Finished job 2.
+1 of 69 steps (1%) done
+[Tue May  7 14:34:52 2024]
+Finished job 12.
+2 of 69 steps (3%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-07T143425.761908.snakemake.log

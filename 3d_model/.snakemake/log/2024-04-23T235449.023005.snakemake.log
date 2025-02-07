@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+pastis        3              1              1
+pml           3              1              1
+total         6              1              1
+
+
+[Tue Apr 23 23:54:58 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/01.matrix_fill/AA
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AA/AA.pdb
+    jobid: 1
+    wildcards: sample=AA
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7165256'.
+
+[Tue Apr 23 23:54:58 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/01.matrix_fill/AC
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pdb
+    jobid: 2
+    wildcards: sample=AC
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7165257'.
+
+[Tue Apr 23 23:54:58 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/01.matrix_fill/AG
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pdb
+    jobid: 3
+    wildcards: sample=AG
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7165258'.
+[Tue Apr 23 23:58:48 2024]
+Error in rule pastis:
+    jobid: 2
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AC/AC.pdb
+    cluster_jobid: Submitted batch job 7165257
+
+Error executing rule pastis on cluster (jobid: 2, external: Submitted batch job 7165257, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.jfja51o5/snakejob.pastis.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Apr 23 23:58:48 2024]
+Error in rule pastis:
+    jobid: 3
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/02.3d_model/AG/AG.pdb
+    cluster_jobid: Submitted batch job 7165258
+
+Error executing rule pastis on cluster (jobid: 3, external: Submitted batch job 7165258, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.jfja51o5/snakejob.pastis.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 24 00:04:08 2024]
+Finished job 1.
+1 of 112 steps (1%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-04-23T235449.023005.snakemake.log

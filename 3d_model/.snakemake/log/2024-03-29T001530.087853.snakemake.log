@@ -1,0 +1,142 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 4
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom        2              1              1
+gif          2              1              1
+mp4          2              1              1
+pml          1              1              1
+png          2              1              1
+total       10              1              1
+
+
+[Fri Mar 29 00:15:37 2024]
+rule pml:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    jobid: 6
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 6688300'.
+
+[Fri Mar 29 00:15:37 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/chrs/chr1/chr1.pml
+    jobid: 7
+    wildcards: sample=Bs168, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 6688302'.
+
+[Fri Mar 29 00:15:37 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    jobid: 10
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 6688303'.
+[Fri Mar 29 00:16:17 2024]
+Finished job 6.
+1 of 10 steps (10%) done
+
+[Fri Mar 29 00:16:17 2024]
+rule chrom:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/chrs/chr1/chr1.pml
+    jobid: 5
+    wildcards: sample=Delta-abrB, chrom=chr1
+    resources: tmpdir=/tmp
+
+[Fri Mar 29 00:16:17 2024]
+Finished job 7.
+2 of 10 steps (20%) done
+Submitted job 5 with external jobid 'Submitted batch job 6688344'.
+
+[Fri Mar 29 00:16:17 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    jobid: 9
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 6688345'.
+[Fri Mar 29 00:16:37 2024]
+Finished job 5.
+3 of 10 steps (30%) done
+[Fri Mar 29 00:38:39 2024]
+Finished job 9.
+4 of 10 steps (40%) done
+
+[Fri Mar 29 00:38:39 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/Delta-abrB.gif
+    jobid: 11
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 6688747'.
+
+[Fri Mar 29 00:38:39 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/Delta-abrB.mp4
+    jobid: 13
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 6688748'.
+[Fri Mar 29 00:39:09 2024]
+Finished job 11.
+5 of 10 steps (50%) done
+[Fri Mar 29 00:39:19 2024]
+Finished job 13.
+6 of 10 steps (60%) done
+[Fri Mar 29 00:46:40 2024]
+Finished job 10.
+7 of 10 steps (70%) done
+
+[Fri Mar 29 00:46:40 2024]
+rule gif:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/Bs168.gif
+    jobid: 12
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 6688796'.
+
+[Fri Mar 29 00:46:40 2024]
+rule mp4:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/Bs168.mp4
+    jobid: 14
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 6688797'.
+[Fri Mar 29 00:47:20 2024]
+Finished job 14.
+8 of 10 steps (80%) done
+[Fri Mar 29 00:47:30 2024]
+Finished job 12.
+9 of 10 steps (90%) done
+
+[Fri Mar 29 00:47:30 2024]
+localrule all:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/01.matrix_fill/Delta-abrB/work.sh, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/01.matrix_fill/Bs168/work.sh, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pdb, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/chrs/chr1/chr1.pml, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/chrs/chr1/chr1.pml, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/Delta-abrB.gif, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/Bs168.gif, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/Delta-abrB.mp4, /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/Bs168.mp4
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri Mar 29 00:47:30 2024]
+Finished job 0.
+10 of 10 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-03-29T001530.087853.snakemake.log

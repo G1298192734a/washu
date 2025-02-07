@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+all            1              1              1
+rawdata        1              1              1
+total          2              1              1
+
+
+[Thu Mar 14 16:11:00 2024]
+rule rawdata:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/01.rawdata/work.sh
+    jobid: 2
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2024-03-14T161053.516688.snakemake.log

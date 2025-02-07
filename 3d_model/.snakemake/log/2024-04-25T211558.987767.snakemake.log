@@ -1,0 +1,5 @@
+Wildcard constraints in inputs are ignored. (rule: png)
+Building DAG of jobs...
+WildcardError in line 178 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py:
+Wildcards in input files cannot be determined from output files:
+'batch'

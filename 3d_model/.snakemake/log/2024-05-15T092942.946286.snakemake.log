@@ -1,0 +1,319 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 48
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+merge_z         1              1              1
+rotate_z       18              1              1
+total          19              1              1
+
+
+[Wed May 15 09:29:55 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_011.png
+    jobid: 12
+    wildcards: sample=H-CK-599, batch1=011
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7726726'.
+
+[Wed May 15 09:29:55 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_013.png
+    jobid: 14
+    wildcards: sample=H-CK-599, batch1=013
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7726727'.
+
+[Wed May 15 09:29:55 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_014.png
+    jobid: 15
+    wildcards: sample=H-CK-599, batch1=014
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7726728'.
+
+[Wed May 15 09:29:55 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_002.png
+    jobid: 3
+    wildcards: sample=H-CK-599, batch1=002
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7726729'.
+
+[Wed May 15 09:29:56 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_016.png
+    jobid: 17
+    wildcards: sample=H-CK-599, batch1=016
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7726732'.
+
+[Wed May 15 09:29:56 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_004.png
+    jobid: 5
+    wildcards: sample=H-CK-599, batch1=004
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7726733'.
+
+[Wed May 15 09:29:56 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_018.png
+    jobid: 19
+    wildcards: sample=H-CK-599, batch1=018
+    resources: tmpdir=/tmp
+
+Submitted job 19 with external jobid 'Submitted batch job 7726735'.
+
+[Wed May 15 09:29:56 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_006.png
+    jobid: 7
+    wildcards: sample=H-CK-599, batch1=006
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7726736'.
+
+[Wed May 15 09:29:57 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_008.png
+    jobid: 9
+    wildcards: sample=H-CK-599, batch1=008
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7726737'.
+
+[Wed May 15 09:29:57 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_010.png
+    jobid: 11
+    wildcards: sample=H-CK-599, batch1=010
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7726738'.
+
+[Wed May 15 09:29:57 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_012.png
+    jobid: 13
+    wildcards: sample=H-CK-599, batch1=012
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7726739'.
+
+[Wed May 15 09:29:57 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_015.png
+    jobid: 16
+    wildcards: sample=H-CK-599, batch1=015
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7726740'.
+
+[Wed May 15 09:29:58 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_001.png
+    jobid: 2
+    wildcards: sample=H-CK-599, batch1=001
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 7726741'.
+
+[Wed May 15 09:29:58 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_003.png
+    jobid: 4
+    wildcards: sample=H-CK-599, batch1=003
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 7726742'.
+
+[Wed May 15 09:29:58 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_017.png
+    jobid: 18
+    wildcards: sample=H-CK-599, batch1=017
+    resources: tmpdir=/tmp
+
+Submitted job 18 with external jobid 'Submitted batch job 7726743'.
+
+[Wed May 15 09:29:58 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_007.png
+    jobid: 8
+    wildcards: sample=H-CK-599, batch1=007
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7726744'.
+
+[Wed May 15 09:29:59 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_005.png
+    jobid: 6
+    wildcards: sample=H-CK-599, batch1=005
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7726745'.
+
+[Wed May 15 09:29:59 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_009.png
+    jobid: 10
+    wildcards: sample=H-CK-599, batch1=009
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7726746'.
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 12
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_011.png
+    cluster_jobid: Submitted batch job 7726726
+
+Error executing rule rotate_z on cluster (jobid: 12, external: Submitted batch job 7726726, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.12.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 14
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_013.png
+    cluster_jobid: Submitted batch job 7726727
+
+Error executing rule rotate_z on cluster (jobid: 14, external: Submitted batch job 7726727, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.14.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 15
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_014.png
+    cluster_jobid: Submitted batch job 7726728
+
+Error executing rule rotate_z on cluster (jobid: 15, external: Submitted batch job 7726728, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.15.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 3
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_002.png
+    cluster_jobid: Submitted batch job 7726729
+
+Error executing rule rotate_z on cluster (jobid: 3, external: Submitted batch job 7726729, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 17
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_016.png
+    cluster_jobid: Submitted batch job 7726732
+
+Error executing rule rotate_z on cluster (jobid: 17, external: Submitted batch job 7726732, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.17.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 5
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_004.png
+    cluster_jobid: Submitted batch job 7726733
+
+Error executing rule rotate_z on cluster (jobid: 5, external: Submitted batch job 7726733, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.5.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 19
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_018.png
+    cluster_jobid: Submitted batch job 7726735
+
+Error executing rule rotate_z on cluster (jobid: 19, external: Submitted batch job 7726735, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.19.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 7
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_006.png
+    cluster_jobid: Submitted batch job 7726736
+
+Error executing rule rotate_z on cluster (jobid: 7, external: Submitted batch job 7726736, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:27 2024]
+Error in rule rotate_z:
+    jobid: 9
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_008.png
+    cluster_jobid: Submitted batch job 7726737
+
+Error executing rule rotate_z on cluster (jobid: 9, external: Submitted batch job 7726737, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 16
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_015.png
+    cluster_jobid: Submitted batch job 7726740
+
+Error executing rule rotate_z on cluster (jobid: 16, external: Submitted batch job 7726740, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.16.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 2
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_001.png
+    cluster_jobid: Submitted batch job 7726741
+
+Error executing rule rotate_z on cluster (jobid: 2, external: Submitted batch job 7726741, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 4
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_003.png
+    cluster_jobid: Submitted batch job 7726742
+
+Error executing rule rotate_z on cluster (jobid: 4, external: Submitted batch job 7726742, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 18
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_017.png
+    cluster_jobid: Submitted batch job 7726743
+
+Error executing rule rotate_z on cluster (jobid: 18, external: Submitted batch job 7726743, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.18.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 8
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_007.png
+    cluster_jobid: Submitted batch job 7726744
+
+Error executing rule rotate_z on cluster (jobid: 8, external: Submitted batch job 7726744, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 6
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_005.png
+    cluster_jobid: Submitted batch job 7726745
+
+Error executing rule rotate_z on cluster (jobid: 6, external: Submitted batch job 7726745, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:28 2024]
+Error in rule rotate_z:
+    jobid: 10
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_009.png
+    cluster_jobid: Submitted batch job 7726746
+
+Error executing rule rotate_z on cluster (jobid: 10, external: Submitted batch job 7726746, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:38 2024]
+Error in rule rotate_z:
+    jobid: 11
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_010.png
+    cluster_jobid: Submitted batch job 7726738
+
+Error executing rule rotate_z on cluster (jobid: 11, external: Submitted batch job 7726738, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed May 15 09:30:38 2024]
+Error in rule rotate_z:
+    jobid: 13
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_012.png
+    cluster_jobid: Submitted batch job 7726739
+
+Error executing rule rotate_z on cluster (jobid: 13, external: Submitted batch job 7726739, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.m3zu5pqj/snakejob.rotate_z.13.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-15T092942.946286.snakemake.log

@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 2
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+gif          2              1              1
+mp4          2              1              1
+png          2              1              1
+total        7              1              1
+
+
+[Fri Mar 29 14:26:07 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Delta-abrB/Delta-abrB.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Delta-abrB/pngs/fig_240.png
+    jobid: 9
+    wildcards: sample=Delta-abrB
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 6697217'.
+
+[Fri Mar 29 14:26:07 2024]
+rule png:
+    input: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/02.3d_model/Bs168/Bs168.pml
+    output: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/14.3d_model/03.gif/Bs168/pngs/fig_240.png
+    jobid: 10
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 6697218'.

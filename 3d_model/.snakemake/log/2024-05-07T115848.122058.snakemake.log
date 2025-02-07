@@ -1,0 +1,74 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+fill_pre        1              1              1
+matrix          2              1              1
+pastis          2              1              1
+total           5              1              1
+
+
+[Tue May  7 11:58:57 2024]
+rule fill_pre:
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/bin.bed
+    jobid: 2
+    resources: tmpdir=/tmp
+
+bedtools makewindows -g /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/03.HiC/01.ref/genome.fa.fai -w 100000 > /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/bin.bed
+Submitted job 2 with external jobid 'Submitted batch job 7577215'.
+
+[Tue May  7 11:58:57 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Leaf/Leaf_filled_matrix.txt
+    jobid: 3
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7577216'.
+
+[Tue May  7 11:58:57 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Root/Root_filled_matrix.txt
+    jobid: 5
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7577217'.
+[Tue May  7 11:59:47 2024]
+Finished job 2.
+1 of 74 steps (1%) done
+[Tue May  7 12:13:48 2024]
+Finished job 5.
+2 of 74 steps (3%) done
+
+[Tue May  7 12:13:48 2024]
+rule pastis:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/bin.bed, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Root/Root_filled_matrix.txt
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Root/Root.pdb
+    jobid: 4
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 7577386'.
+[Tue May  7 12:14:38 2024]
+Finished job 3.
+3 of 74 steps (4%) done
+
+[Tue May  7 12:14:38 2024]
+rule pastis:
+    input: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/bin.bed, /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Leaf/Leaf_filled_matrix.txt
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/02.3d_model/Leaf/Leaf.pdb
+    jobid: 1
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7577395'.
+[Tue May  7 13:25:33 2024]
+Finished job 4.
+4 of 74 steps (5%) done
+[Tue May  7 13:35:23 2024]
+Finished job 1.
+5 of 74 steps (7%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-07T115848.122058.snakemake.log

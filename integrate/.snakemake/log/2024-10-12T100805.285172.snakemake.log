@@ -1,0 +1,100 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job stats:
+job                count    min threads    max threads
+---------------  -------  -------------  -------------
+all                    1              1              1
+atac_bw                1              1              1
+atac_diff_tsv          1              1              1
+atac_merg_bed          1              1              1
+compt_rna              1              1              1
+cpt_atac               1              1              1
+cpt_motif              1              1              1
+cpt_switch_atac        1              1              1
+deg                    1              1              1
+fpkm                   2              1              1
+gbed                   1              1              1
+loop_peak              1              1              1
+rna_bw                 1              1              1
+tad_peak               1              1              1
+tad_rna                1              1              1
+total                 16              1              1
+
+
+[Sat Oct 12 10:08:17 2024]
+rule atac_bw:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/01.QC/01.analysis/CTCF-test/CTCF-test.CPM.bw, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/01.QC/01.analysis/CTCF-control/CTCF-control.CPM.bw
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/02.atac_bw
+    jobid: 14
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 10151256'.
+
+[Sat Oct 12 10:08:17 2024]
+rule rna_bw:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/03.BAM_2_coverage/work.sh
+    jobid: 5
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 10151257'.
+
+[Sat Oct 12 10:08:18 2024]
+rule atac_merg_bed:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/00.prepare/group_peak/CTCF-test.merge_peak.bed, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/00.prepare/group_peak/CTCF-control.merge_peak.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/00.merg_bed
+    jobid: 9
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 10151258'.
+
+[Sat Oct 12 10:08:18 2024]
+rule atac_diff_tsv:
+    input: /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/01.DP/CTCF-control-vs-CTCF-test/CTCF-control-vs-CTCF-test.DP.tsv, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/01.DP/CTCF-control-vs-CTCF-test/CTCF-control-vs-CTCF-test.Gain.DP.tsv, /work/frasergen/backup/3d/project/CUT/2024/231661_ren/CTCF/02.Diff/01.DP/CTCF-control-vs-CTCF-test/CTCF-control-vs-CTCF-test.Loss.DP.tsv
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/01.diff_tsv
+    jobid: 11
+    wildcards: atac=HiC_CUT_CTCF
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 10151259'.
+
+[Sat Oct 12 10:08:18 2024]
+rule gbed:
+    input: /work/frasergen/backup/3d/project/Interactome/231661_homo_sapiens_20240223/03.HiC/01.ref/genome_gene.bed
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/genome_gene.bed
+    jobid: 2
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 10151260'.
+[Sat Oct 12 10:08:57 2024]
+Error in rule atac_bw:
+    jobid: 14
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/02.atac_bw
+    cluster_jobid: Submitted batch job 10151256
+
+Error executing rule atac_bw on cluster (jobid: 14, external: Submitted batch job 10151256, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.xd_vq54q/snakejob.atac_bw.14.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sat Oct 12 10:08:57 2024]
+Finished job 5.
+1 of 16 steps (6%) done
+[Sat Oct 12 10:08:57 2024]
+Error in rule atac_merg_bed:
+    jobid: 9
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/00.merg_bed
+    cluster_jobid: Submitted batch job 10151258
+
+Error executing rule atac_merg_bed on cluster (jobid: 9, external: Submitted batch job 10151258, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.xd_vq54q/snakejob.atac_merg_bed.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sat Oct 12 10:08:58 2024]
+Error in rule atac_diff_tsv:
+    jobid: 11
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_HiC_ATAC_RNA/00.pre/HiC_CUT_CTCF_pre/01.diff_tsv
+    cluster_jobid: Submitted batch job 10151259
+
+Error executing rule atac_diff_tsv on cluster (jobid: 11, external: Submitted batch job 10151259, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/tmp.xd_vq54q/snakejob.atac_diff_tsv.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sat Oct 12 10:08:58 2024]
+Finished job 2.
+2 of 16 steps (12%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-10-12T100805.285172.snakemake.log

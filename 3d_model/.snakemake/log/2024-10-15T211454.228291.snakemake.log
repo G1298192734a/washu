@@ -1,0 +1,3 @@
+FileNotFoundError in line 16 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py:
+[Errno 2] No such file or directory: '/work/frasergen/backup/3d/project/Interactome/230513_shandaxijun_20230704/05.Hi-C/01.ref/Vulgatibacter_sp.fa.fai'
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py", line 16, in <module>

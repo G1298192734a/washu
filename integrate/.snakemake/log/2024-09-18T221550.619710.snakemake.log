@@ -1,0 +1,202 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 14
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+loop         2              1              1
+minus       13              1              1
+pgt          1              1              1
+total       17              1              1
+
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr12.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr12.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr12_zscore_minus.cool
+    jobid: 14
+    wildcards: diff=AC-25_vs_AC-34, chr=chr12
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule loop:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/07.loops/02.mustache/AC-34/AC-34.combine.bedpe
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-34_cis.bedpe
+    jobid: 58
+    wildcards: spl=AC-34
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr3.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr3.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr3_zscore_minus.cool
+    jobid: 5
+    wildcards: diff=AC-25_vs_AC-34, chr=chr3
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr5.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr5.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr5_zscore_minus.cool
+    jobid: 7
+    wildcards: diff=AC-25_vs_AC-34, chr=chr5
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr7.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr7.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr7_zscore_minus.cool
+    jobid: 9
+    wildcards: diff=AC-25_vs_AC-34, chr=chr7
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr9.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr9.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr9_zscore_minus.cool
+    jobid: 11
+    wildcards: diff=AC-25_vs_AC-34, chr=chr9
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr11.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr11.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr11_zscore_minus.cool
+    jobid: 13
+    wildcards: diff=AC-25_vs_AC-34, chr=chr11
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr13.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr13.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr13_zscore_minus.cool
+    jobid: 15
+    wildcards: diff=AC-25_vs_AC-34, chr=chr13
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr2.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr2.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr2_zscore_minus.cool
+    jobid: 4
+    wildcards: diff=AC-25_vs_AC-34, chr=chr2
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule loop:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/04.Hi-C/07.loops/02.mustache/AC-25/AC-25.combine.bedpe
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-25_cis.bedpe
+    jobid: 57
+    wildcards: spl=AC-25
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr4.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr4.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr4_zscore_minus.cool
+    jobid: 6
+    wildcards: diff=AC-25_vs_AC-34, chr=chr4
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr6.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr6.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr6_zscore_minus.cool
+    jobid: 8
+    wildcards: diff=AC-25_vs_AC-34, chr=chr6
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr8.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr8.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr8_zscore_minus.cool
+    jobid: 10
+    wildcards: diff=AC-25_vs_AC-34, chr=chr8
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:11 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr10.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr10.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr10_zscore_minus.cool
+    jobid: 12
+    wildcards: diff=AC-25_vs_AC-34, chr=chr10
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:19 2024]
+Finished job 58.
+1 of 17 steps (6%) done
+
+[Wed Sep 18 22:16:19 2024]
+rule minus:
+    input: /work/frasergen/backup/3d/project/Interactome/231492_fanqie_20231110/05.Hi-C_diff/01.diff_heatmap/02.bychr_diffhm/AC-34.minus.AC-25/AC-34.minus.AC-25/AC-34.minus.AC-25.chr1.matrix.gz
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr1.matrix, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr1_zscore_minus.cool
+    jobid: 3
+    wildcards: diff=AC-25_vs_AC-34, chr=chr1
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:19 2024]
+Finished job 57.
+2 of 17 steps (12%) done
+
+[Wed Sep 18 22:16:19 2024]
+rule pgt:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/01.PGT/AC-25_vs_AC-34/step01.target_region_plots.sh
+    jobid: 59
+    wildcards: diff=AC-25_vs_AC-34
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:16:26 2024]
+Finished job 59.
+3 of 17 steps (18%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 8.
+4 of 17 steps (24%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 10.
+5 of 17 steps (29%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 3.
+6 of 17 steps (35%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 13.
+7 of 17 steps (41%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 6.
+8 of 17 steps (47%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 15.
+9 of 17 steps (53%) done
+[Wed Sep 18 22:19:27 2024]
+Finished job 11.
+10 of 17 steps (59%) done
+[Wed Sep 18 22:19:28 2024]
+Finished job 5.
+11 of 17 steps (65%) done
+[Wed Sep 18 22:19:28 2024]
+Finished job 14.
+12 of 17 steps (71%) done
+[Wed Sep 18 22:19:28 2024]
+Finished job 12.
+13 of 17 steps (76%) done
+[Wed Sep 18 22:19:28 2024]
+Finished job 7.
+14 of 17 steps (82%) done
+[Wed Sep 18 22:19:28 2024]
+Finished job 9.
+15 of 17 steps (88%) done
+[Wed Sep 18 22:19:28 2024]
+Finished job 4.
+16 of 17 steps (94%) done
+
+[Wed Sep 18 22:19:28 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-25_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/01.cool_bychr/AC-34_40k.balance.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr1_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr2_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr3_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr4_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr5_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr6_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr7_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr8_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr9_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr10_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr11_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr12_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/02.minus_matrix_cool/AC-25_vs_AC-34/chr13_zscore_minus.cool, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-25_100k_cpt.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/03.compartment/AC-34_100k_cpt.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr1.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr2.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr3.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr4.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr5.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr6.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr7.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr8.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr9.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr10.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr11.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr12.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/04.tad/AC-25_vs_AC-34/corrected_chr13.merged.TAD.bed, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-25.40000.score.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/05.tad_scores/AC-34.40000.score.bw, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-25_cis.bedpe, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/00.prepare_data/06.loop/AC-34_cis.bedpe, /work/frasergen/3D/work/shaojie/script/HiC/integrate/analysis_PGT/01.PGT/AC-25_vs_AC-34/step01.target_region_plots.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Wed Sep 18 22:19:28 2024]
+Finished job 0.
+17 of 17 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/integrate/.snakemake/log/2024-09-18T221550.619710.snakemake.log

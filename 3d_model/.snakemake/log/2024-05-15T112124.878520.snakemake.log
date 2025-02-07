@@ -1,0 +1,146 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+merge_x         1              1              1
+rotate_x        9              1              1
+total          10              1              1
+
+Select jobs to execute...
+
+[Wed May 15 11:21:26 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_007.png
+    jobid: 29
+    wildcards: sample=H-CK-599, batch1=007
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7728319'.
+
+[Wed May 15 11:21:26 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_000.png
+    jobid: 22
+    wildcards: sample=H-CK-599, batch1=000
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 22 with external jobid 'Submitted batch job 7728320'.
+
+[Wed May 15 11:21:26 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_002.png
+    jobid: 24
+    wildcards: sample=H-CK-599, batch1=002
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 24 with external jobid 'Submitted batch job 7728321'.
+
+[Wed May 15 11:21:27 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_004.png
+    jobid: 26
+    wildcards: sample=H-CK-599, batch1=004
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7728322'.
+
+[Wed May 15 11:21:27 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_006.png
+    jobid: 28
+    wildcards: sample=H-CK-599, batch1=006
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7728323'.
+
+[Wed May 15 11:21:27 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_008.png
+    jobid: 30
+    wildcards: sample=H-CK-599, batch1=008
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7728324'.
+
+[Wed May 15 11:21:27 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_001.png
+    jobid: 23
+    wildcards: sample=H-CK-599, batch1=001
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 23 with external jobid 'Submitted batch job 7728325'.
+
+[Wed May 15 11:21:28 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_003.png
+    jobid: 25
+    wildcards: sample=H-CK-599, batch1=003
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 25 with external jobid 'Submitted batch job 7728326'.
+
+[Wed May 15 11:21:28 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_005.png
+    jobid: 27
+    wildcards: sample=H-CK-599, batch1=005
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7728327'.
+[Wed May 15 11:21:56 2024]
+Finished job 29.
+1 of 68 steps (1%) done
+[Wed May 15 11:21:56 2024]
+Finished job 22.
+2 of 68 steps (3%) done
+[Wed May 15 11:21:56 2024]
+Finished job 24.
+3 of 68 steps (4%) done
+[Wed May 15 11:21:56 2024]
+Finished job 28.
+4 of 68 steps (6%) done
+[Wed May 15 11:21:56 2024]
+Finished job 30.
+5 of 68 steps (7%) done
+[Wed May 15 11:21:56 2024]
+Finished job 23.
+6 of 68 steps (9%) done
+[Wed May 15 11:21:56 2024]
+Finished job 25.
+7 of 68 steps (10%) done
+[Wed May 15 11:21:56 2024]
+Finished job 27.
+8 of 68 steps (12%) done
+[Wed May 15 11:22:06 2024]
+Finished job 26.
+9 of 68 steps (13%) done
+Select jobs to execute...
+
+[Wed May 15 11:22:06 2024]
+rule merge_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_000.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_002.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_003.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_004.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_005.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_006.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_007.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_008.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/merge_x.png
+    jobid: 21
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+
+        export PATH=/public/frasergen/PUB/software/python/Python-3.7.7/bin:$PATH
+        python3 /public/frasergen/3D/pipeline/Interactome/hic3_workflow/scripts/figure_util.py combine_figure --out-image /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/merge_x.png --ncol 9 /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_000.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_001.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_002.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_003.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_004.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_005.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_006.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_007.png /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_x/rotate_x_008.png
+        
+Submitted job 21 with external jobid 'Submitted batch job 7728335'.
+[Wed May 15 11:22:16 2024]
+Finished job 21.
+10 of 68 steps (15%) done
+Complete log: .snakemake/log/2024-05-15T112124.878520.snakemake.log

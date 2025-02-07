@@ -1,0 +1,5 @@
+Building DAG of jobs...
+ChildIOException:
+File/directory is a child to another output:
+('/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240529/02.3d_model', result)
+('/work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240529/02.3d_model/01.matrix_fill/Bs168/Bs168_filled_matrix.txt', matrix)

@@ -1,0 +1,58 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 24
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+fill_pre        1              1              1
+matrix          2              1              1
+pastis          2              1              1
+total           5              1              1
+
+
+[Tue May  7 11:40:27 2024]
+rule fill_pre:
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/bin.bed
+    jobid: 2
+    resources: tmpdir=/tmp
+
+bedtools makewindows -g /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/03.HiC/01.ref/genome.fa.fai -w 100000 > /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/bin.bed
+Submitted job 2 with external jobid 'Submitted batch job 7577119'.
+
+[Tue May  7 11:40:27 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Leaf/Leaf_filled_matrix.txt
+    jobid: 3
+    wildcards: sample=Leaf
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 7577120'.
+
+[Tue May  7 11:40:27 2024]
+rule matrix:
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Root/Root_filled_matrix.txt
+    jobid: 5
+    wildcards: sample=Root
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 7577121'.
+[Tue May  7 11:41:17 2024]
+Finished job 2.
+1 of 74 steps (1%) done
+[Tue May  7 11:51:18 2024]
+Error in rule matrix:
+    jobid: 5
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Root/Root_filled_matrix.txt
+    cluster_jobid: Submitted batch job 7577121
+
+Error executing rule matrix on cluster (jobid: 5, external: Submitted batch job 7577121, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.l0mv5ex8/snakejob.matrix.5.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue May  7 11:52:08 2024]
+Error in rule matrix:
+    jobid: 3
+    output: /work/frasergen/backup/3d/project/Interactome/232385_Schizonepeta_tenuifolia/05.personal/analysis_3D_model_20240507/01.matrix_fill/Leaf/Leaf_filled_matrix.txt
+    cluster_jobid: Submitted batch job 7577120
+
+Error executing rule matrix on cluster (jobid: 3, external: Submitted batch job 7577120, jobscript: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/tmp.l0mv5ex8/snakejob.matrix.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-07T114021.049361.snakemake.log

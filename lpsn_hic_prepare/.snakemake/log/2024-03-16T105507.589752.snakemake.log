@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+hic_yaml           1              1              1
+report_yaml        1              1              1
+total              3              1              1
+
+
+[Sat Mar 16 10:55:14 2024]
+rule report_yaml:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/report.yaml
+    jobid: 11
+    resources: tmpdir=/tmp
+
+[Sat Mar 16 10:55:14 2024]
+rule hic_yaml:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/conf.yaml
+    jobid: 10
+    resources: tmpdir=/tmp
+
+[Sat Mar 16 10:55:23 2024]
+Finished job 11.
+1 of 3 steps (33%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2024-03-16T105507.589752.snakemake.log

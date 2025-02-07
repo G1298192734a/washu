@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+all            1              1              1
+rna_bam        4              1              1
+total          5              1              1
+
+
+[Wed Jan 22 17:34:20 2025]
+rule rna_bam:
+    input: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121/RT0-2.sort.bam
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-2.sort.SiteDepth.gz
+    jobid: 5
+    wildcards: depth=/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-2.sort.SiteDepth.gz
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2025-01-22T173408.020304.snakemake.log

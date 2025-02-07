@@ -1,0 +1,319 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+all                  1              1              1
+diff                 4              1              1
+diff_report          4              1              1
+rawdata              4              1              1
+ref                  4              1              1
+rna                  4              1              1
+single               4              1              1
+single_report        4              1              1
+total               29              1              1
+
+
+[Thu Oct 17 16:52:50 2024]
+rule diff_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/04.HiC_diff/05.multi_report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/04.HiC_diff/05.multi_report/work.sh
+    jobid: 27
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule single:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/03.HiC/single_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/03.HiC/work.sh
+    jobid: 13
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule ref:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/00.ref/work.sh
+    jobid: 2
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule rawdata:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/01.rawdata/work.sh
+    jobid: 7
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule single_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/03.HiC/08.report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/03.HiC/08.report/work.sh
+    jobid: 21
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule single_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/03.HiC/08.report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/03.HiC/08.report/work.sh
+    jobid: 22
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule single:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/03.HiC/single_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/03.HiC/work.sh
+    jobid: 14
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule diff_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/04.HiC_diff/05.multi_report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/04.HiC_diff/05.multi_report/work.sh
+    jobid: 28
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule diff:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/04.HiC_diff/multi_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/04.HiC_diff/work.sh
+    jobid: 20
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:52:50 2024]
+rule rawdata:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/01.rawdata/work.sh
+    jobid: 8
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:04 2024]
+Finished job 2.
+1 of 29 steps (3%) done
+[Thu Oct 17 16:54:04 2024]
+Finished job 13.
+2 of 29 steps (7%) done
+[Thu Oct 17 16:54:04 2024]
+Finished job 22.
+3 of 29 steps (10%) done
+[Thu Oct 17 16:54:04 2024]
+Finished job 7.
+4 of 29 steps (14%) done
+[Thu Oct 17 16:54:04 2024]
+Finished job 14.
+5 of 29 steps (17%) done
+
+[Thu Oct 17 16:54:04 2024]
+rule rna:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/02.RNA_result/work.sh
+    jobid: 10
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:04 2024]
+[Thu Oct 17 16:54:04 2024]
+Finished job 8.
+6 of 29 steps (21%) done
+rule single_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/03.HiC/08.report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/03.HiC/08.report/work.sh
+    jobid: 24
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:04 2024]
+rule rna:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/02.RNA_result/work.sh
+    jobid: 12
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:04 2024]
+Finished job 28.
+7 of 29 steps (24%) done
+
+[Thu Oct 17 16:54:04 2024]
+rule diff_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/04.HiC_diff/05.multi_report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/04.HiC_diff/05.multi_report/work.sh
+    jobid: 26
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:04 2024]
+Finished job 27.
+8 of 29 steps (28%) done
+
+[Thu Oct 17 16:54:04 2024]
+rule single:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/03.HiC/single_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/03.HiC/work.sh
+    jobid: 15
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:04 2024]
+Finished job 21.
+9 of 29 steps (31%) done
+[Thu Oct 17 16:54:04 2024]
+Finished job 20.
+10 of 29 steps (34%) done
+
+[Thu Oct 17 16:54:04 2024]
+rule diff:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/04.HiC_diff/multi_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/04.HiC_diff/work.sh
+    jobid: 17
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:05 2024]
+rule ref:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/00.ref/work.sh
+    jobid: 3
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:05 2024]
+rule diff:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/04.HiC_diff/multi_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/04.HiC_diff/work.sh
+    jobid: 19
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:05 2024]
+rule rawdata:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/01.rawdata/work.sh
+    jobid: 5
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:54:05 2024]
+rule single_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/03.HiC/08.report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/03.HiC/08.report/work.sh
+    jobid: 23
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:17 2024]
+Finished job 3.
+11 of 29 steps (38%) done
+
+[Thu Oct 17 16:55:17 2024]
+rule rna:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/02.RNA_result/work.sh
+    jobid: 9
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:17 2024]
+Finished job 15.
+12 of 29 steps (41%) done
+
+[Thu Oct 17 16:55:17 2024]
+rule rna:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/02.RNA_result/work.sh
+    jobid: 11
+    wildcards: genome=Can
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:17 2024]
+Finished job 5.
+13 of 29 steps (45%) done
+
+[Thu Oct 17 16:55:17 2024]
+rule diff_report:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/04.HiC_diff/05.multi_report/report.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/04.HiC_diff/05.multi_report/work.sh
+    jobid: 25
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:17 2024]
+Finished job 12.
+14 of 29 steps (48%) done
+
+[Thu Oct 17 16:55:17 2024]
+rule single:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/03.HiC/single_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/03.HiC/work.sh
+    jobid: 16
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:17 2024]
+Finished job 10.
+15 of 29 steps (52%) done
+[Thu Oct 17 16:55:17 2024]
+Finished job 26.
+16 of 29 steps (55%) done
+
+[Thu Oct 17 16:55:18 2024]
+rule ref:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/00.ref/work.sh
+    jobid: 1
+    wildcards: genome=Car
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:18 2024]
+rule ref:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/00.ref/work.sh
+    jobid: 4
+    wildcards: genome=Csi
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:18 2024]
+Finished job 17.
+17 of 29 steps (59%) done
+[Thu Oct 17 16:55:18 2024]
+Finished job 23.
+18 of 29 steps (62%) done
+[Thu Oct 17 16:55:18 2024]
+Finished job 19.
+19 of 29 steps (66%) done
+
+[Thu Oct 17 16:55:18 2024]
+rule diff:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/04.HiC_diff/multi_sample.yaml, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/04.HiC_diff/work.sh
+    jobid: 18
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:18 2024]
+rule rawdata:
+    output: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/01.rawdata/work.sh
+    jobid: 6
+    wildcards: genome=CHK
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:55:18 2024]
+Finished job 24.
+20 of 29 steps (69%) done
+[Thu Oct 17 16:56:15 2024]
+Finished job 9.
+21 of 29 steps (72%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 11.
+22 of 29 steps (76%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 16.
+23 of 29 steps (79%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 25.
+24 of 29 steps (83%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 18.
+25 of 29 steps (86%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 6.
+26 of 29 steps (90%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 1.
+27 of 29 steps (93%) done
+[Thu Oct 17 16:56:16 2024]
+Finished job 4.
+28 of 29 steps (97%) done
+
+[Thu Oct 17 16:56:16 2024]
+localrule all:
+    input: /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/00.ref/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/00.ref/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/00.ref/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/00.ref/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/01.rawdata/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/01.rawdata/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/01.rawdata/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/01.rawdata/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/02.RNA_result/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/02.RNA_result/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/02.RNA_result/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/02.RNA_result/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/03.HiC/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/03.HiC/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/03.HiC/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/03.HiC/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/04.HiC_diff/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/04.HiC_diff/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/04.HiC_diff/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/04.HiC_diff/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/03.HiC/08.report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/03.HiC/08.report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/03.HiC/08.report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/03.HiC/08.report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Car/04.HiC_diff/05.multi_report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/CHK/04.HiC_diff/05.multi_report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Can/04.HiC_diff/05.multi_report/work.sh, /work/frasergen/backup/3d/project/Interactome/230419_muli/02.self_reference/Csi/04.HiC_diff/05.multi_report/work.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Thu Oct 17 16:56:16 2024]
+Finished job 0.
+29 of 29 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/multi_standard/.snakemake/log/2024-10-17T165237.848665.snakemake.log

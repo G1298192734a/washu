@@ -1,0 +1,52 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+HiC                1              1              1
+all                1              1              1
+hic_yaml           1              1              1
+report_yaml        1              1              1
+total              4              1              1
+
+
+[Thu Apr 25 14:47:45 2024]
+rule hic_yaml:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/conf.yaml
+    jobid: 9
+    resources: tmpdir=/tmp
+
+[Thu Apr 25 14:47:45 2024]
+rule report_yaml:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/report.yaml
+    jobid: 10
+    resources: tmpdir=/tmp
+
+[Thu Apr 25 14:47:45 2024]
+rule HiC:
+    output: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/work.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/report.sh
+    jobid: 8
+    resources: tmpdir=/tmp
+
+[Thu Apr 25 14:47:56 2024]
+Finished job 10.
+1 of 4 steps (25%) done
+[Thu Apr 25 14:47:56 2024]
+Finished job 9.
+2 of 4 steps (50%) done
+[Thu Apr 25 14:47:56 2024]
+Finished job 8.
+3 of 4 steps (75%) done
+
+[Thu Apr 25 14:47:56 2024]
+localrule all:
+    input: /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/00.ref/work.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/01.rawdata/work.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/02.qc/TD_MM6h_qc.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/02.qc/TD_60MM6h_qc.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/02.qc/TD_60MM12h_qc.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/04.RNA/work.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/03.enrich/work.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/report.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/conf.yaml, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/05.HiC/report.yaml, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/00.ref/Halomonas.mrna.fasta, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/02.qc/TD_MM6h_trimming.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/02.qc/TD_60MM6h_trimming.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/02.qc/TD_60MM12h_trimming.sh, /work/frasergen/backup/3d/project/Interactome/240137_YanDanBaoJun_20240425/03.enrich/prepare/enrich_prepare.sh
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Thu Apr 25 14:47:56 2024]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2024-04-25T144734.188335.snakemake.log

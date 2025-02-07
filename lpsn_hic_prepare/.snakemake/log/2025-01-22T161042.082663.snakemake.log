@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules fpkm and rna_bam are ambiguous for the file /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT48.fpkm4washu.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	fpkm: spl=HT48
+	rna_bam: depth=/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT48.fpkm4washu
+Expected input files:
+	fpkm: /work/frasergen/backup/3d/project/Interactome/241791_lanxijun_20241121/04.RNA/whfs-xs-241791_Result/03.exp/isoforms_rpkm.matrix.xls /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/genome_gene.bed
+	rna_bam: /public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121Expected output files:
+	fpkm: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT48.fpkm /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT48.fpkm4washu
+	rna_bam: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/01.genome_gene_express/HT48.fpkm4washu

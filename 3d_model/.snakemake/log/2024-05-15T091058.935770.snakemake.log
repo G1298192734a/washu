@@ -1,0 +1,883 @@
+Building DAG of jobs...
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+merge_z         6              1              1
+rotate_z      108              1              1
+total         114              1              1
+
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_070.png
+    jobid: 27
+    wildcards: sample=H-CK-F1, batch1=070
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_020.png
+    jobid: 41
+    wildcards: sample=H-CK-076, batch1=020
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_060.png
+    jobid: 83
+    wildcards: sample=H-Salt-F1, batch1=060
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_150.png
+    jobid: 111
+    wildcards: sample=H-Salt-076, batch1=150
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_160.png
+    jobid: 55
+    wildcards: sample=H-CK-076, batch1=160
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_120.png
+    jobid: 13
+    wildcards: sample=H-CK-599, batch1=120
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_110.png
+    jobid: 69
+    wildcards: sample=H-Salt-599, batch1=110
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_010.png
+    jobid: 97
+    wildcards: sample=H-Salt-076, batch1=010
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_080.png
+    jobid: 28
+    wildcards: sample=H-CK-F1, batch1=080
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_030.png
+    jobid: 42
+    wildcards: sample=H-CK-076, batch1=030
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_070.png
+    jobid: 84
+    wildcards: sample=H-Salt-F1, batch1=070
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_160.png
+    jobid: 112
+    wildcards: sample=H-Salt-076, batch1=160
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_170.png
+    jobid: 56
+    wildcards: sample=H-CK-076, batch1=170
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_130.png
+    jobid: 14
+    wildcards: sample=H-CK-599, batch1=130
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_120.png
+    jobid: 70
+    wildcards: sample=H-Salt-599, batch1=120
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_020.png
+    jobid: 98
+    wildcards: sample=H-Salt-076, batch1=020
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_090.png
+    jobid: 29
+    wildcards: sample=H-CK-F1, batch1=090
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_040.png
+    jobid: 43
+    wildcards: sample=H-CK-076, batch1=040
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_010.png
+    jobid: 2
+    wildcards: sample=H-CK-599, batch1=010
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_080.png
+    jobid: 85
+    wildcards: sample=H-Salt-F1, batch1=080
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_170.png
+    jobid: 113
+    wildcards: sample=H-Salt-076, batch1=170
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_180.png
+    jobid: 57
+    wildcards: sample=H-CK-076, batch1=180
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_140.png
+    jobid: 15
+    wildcards: sample=H-CK-599, batch1=140
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_130.png
+    jobid: 71
+    wildcards: sample=H-Salt-599, batch1=130
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_030.png
+    jobid: 99
+    wildcards: sample=H-Salt-076, batch1=030
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_100.png
+    jobid: 30
+    wildcards: sample=H-CK-F1, batch1=100
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_050.png
+    jobid: 44
+    wildcards: sample=H-CK-076, batch1=050
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_180.png
+    jobid: 114
+    wildcards: sample=H-Salt-076, batch1=180
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_090.png
+    jobid: 86
+    wildcards: sample=H-Salt-F1, batch1=090
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_150.png
+    jobid: 16
+    wildcards: sample=H-CK-599, batch1=150
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_140.png
+    jobid: 72
+    wildcards: sample=H-Salt-599, batch1=140
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_040.png
+    jobid: 100
+    wildcards: sample=H-Salt-076, batch1=040
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_110.png
+    jobid: 31
+    wildcards: sample=H-CK-F1, batch1=110
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_020.png
+    jobid: 3
+    wildcards: sample=H-CK-599, batch1=020
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_060.png
+    jobid: 45
+    wildcards: sample=H-CK-076, batch1=060
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_100.png
+    jobid: 87
+    wildcards: sample=H-Salt-F1, batch1=100
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_010.png
+    jobid: 59
+    wildcards: sample=H-Salt-599, batch1=010
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_160.png
+    jobid: 17
+    wildcards: sample=H-CK-599, batch1=160
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_150.png
+    jobid: 73
+    wildcards: sample=H-Salt-599, batch1=150
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_050.png
+    jobid: 101
+    wildcards: sample=H-Salt-076, batch1=050
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_120.png
+    jobid: 32
+    wildcards: sample=H-CK-F1, batch1=120
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_070.png
+    jobid: 46
+    wildcards: sample=H-CK-076, batch1=070
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_030.png
+    jobid: 4
+    wildcards: sample=H-CK-599, batch1=030
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_110.png
+    jobid: 88
+    wildcards: sample=H-Salt-F1, batch1=110
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_020.png
+    jobid: 60
+    wildcards: sample=H-Salt-599, batch1=020
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_170.png
+    jobid: 18
+    wildcards: sample=H-CK-599, batch1=170
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_160.png
+    jobid: 74
+    wildcards: sample=H-Salt-599, batch1=160
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_060.png
+    jobid: 102
+    wildcards: sample=H-Salt-076, batch1=060
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_130.png
+    jobid: 33
+    wildcards: sample=H-CK-F1, batch1=130
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_040.png
+    jobid: 5
+    wildcards: sample=H-CK-599, batch1=040
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_080.png
+    jobid: 47
+    wildcards: sample=H-CK-076, batch1=080
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_120.png
+    jobid: 89
+    wildcards: sample=H-Salt-F1, batch1=120
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_030.png
+    jobid: 61
+    wildcards: sample=H-Salt-599, batch1=030
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_180.png
+    jobid: 19
+    wildcards: sample=H-CK-599, batch1=180
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_170.png
+    jobid: 75
+    wildcards: sample=H-Salt-599, batch1=170
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_070.png
+    jobid: 103
+    wildcards: sample=H-Salt-076, batch1=070
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_140.png
+    jobid: 34
+    wildcards: sample=H-CK-F1, batch1=140
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_130.png
+    jobid: 90
+    wildcards: sample=H-Salt-F1, batch1=130
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_040.png
+    jobid: 62
+    wildcards: sample=H-Salt-599, batch1=040
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_050.png
+    jobid: 6
+    wildcards: sample=H-CK-599, batch1=050
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_090.png
+    jobid: 48
+    wildcards: sample=H-CK-076, batch1=090
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_180.png
+    jobid: 76
+    wildcards: sample=H-Salt-599, batch1=180
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_080.png
+    jobid: 104
+    wildcards: sample=H-Salt-076, batch1=080
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_150.png
+    jobid: 35
+    wildcards: sample=H-CK-F1, batch1=150
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_060.png
+    jobid: 7
+    wildcards: sample=H-CK-599, batch1=060
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_100.png
+    jobid: 49
+    wildcards: sample=H-CK-076, batch1=100
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_140.png
+    jobid: 91
+    wildcards: sample=H-Salt-F1, batch1=140
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_050.png
+    jobid: 63
+    wildcards: sample=H-Salt-599, batch1=050
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_010.png
+    jobid: 21
+    wildcards: sample=H-CK-F1, batch1=010
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_090.png
+    jobid: 105
+    wildcards: sample=H-Salt-076, batch1=090
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_160.png
+    jobid: 36
+    wildcards: sample=H-CK-F1, batch1=160
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_110.png
+    jobid: 50
+    wildcards: sample=H-CK-076, batch1=110
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_070.png
+    jobid: 8
+    wildcards: sample=H-CK-599, batch1=070
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_150.png
+    jobid: 92
+    wildcards: sample=H-Salt-F1, batch1=150
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_060.png
+    jobid: 64
+    wildcards: sample=H-Salt-599, batch1=060
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_020.png
+    jobid: 22
+    wildcards: sample=H-CK-F1, batch1=020
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_010.png
+    jobid: 78
+    wildcards: sample=H-Salt-F1, batch1=010
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_100.png
+    jobid: 106
+    wildcards: sample=H-Salt-076, batch1=100
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_170.png
+    jobid: 37
+    wildcards: sample=H-CK-F1, batch1=170
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_080.png
+    jobid: 9
+    wildcards: sample=H-CK-599, batch1=080
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_120.png
+    jobid: 51
+    wildcards: sample=H-CK-076, batch1=120
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_160.png
+    jobid: 93
+    wildcards: sample=H-Salt-F1, batch1=160
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_070.png
+    jobid: 65
+    wildcards: sample=H-Salt-599, batch1=070
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_030.png
+    jobid: 23
+    wildcards: sample=H-CK-F1, batch1=030
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_020.png
+    jobid: 79
+    wildcards: sample=H-Salt-F1, batch1=020
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_110.png
+    jobid: 107
+    wildcards: sample=H-Salt-076, batch1=110
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_180.png
+    jobid: 38
+    wildcards: sample=H-CK-F1, batch1=180
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_090.png
+    jobid: 10
+    wildcards: sample=H-CK-599, batch1=090
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_130.png
+    jobid: 52
+    wildcards: sample=H-CK-076, batch1=130
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_170.png
+    jobid: 94
+    wildcards: sample=H-Salt-F1, batch1=170
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_080.png
+    jobid: 66
+    wildcards: sample=H-Salt-599, batch1=080
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_120.png
+    jobid: 108
+    wildcards: sample=H-Salt-076, batch1=120
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_040.png
+    jobid: 24
+    wildcards: sample=H-CK-F1, batch1=040
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_030.png
+    jobid: 80
+    wildcards: sample=H-Salt-F1, batch1=030
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_100.png
+    jobid: 11
+    wildcards: sample=H-CK-599, batch1=100
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_140.png
+    jobid: 53
+    wildcards: sample=H-CK-076, batch1=140
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_180.png
+    jobid: 95
+    wildcards: sample=H-Salt-F1, batch1=180
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_090.png
+    jobid: 67
+    wildcards: sample=H-Salt-599, batch1=090
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_050.png
+    jobid: 25
+    wildcards: sample=H-CK-F1, batch1=050
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_040.png
+    jobid: 81
+    wildcards: sample=H-Salt-F1, batch1=040
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_130.png
+    jobid: 109
+    wildcards: sample=H-Salt-076, batch1=130
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_010.png
+    jobid: 40
+    wildcards: sample=H-CK-076, batch1=010
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-599/rotate_z/rotate_z_110.png
+    jobid: 12
+    wildcards: sample=H-CK-599, batch1=110
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_150.png
+    jobid: 54
+    wildcards: sample=H-CK-076, batch1=150
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_z/rotate_z_100.png
+    jobid: 68
+    wildcards: sample=H-Salt-599, batch1=100
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-F1/rotate_z/rotate_z_060.png
+    jobid: 26
+    wildcards: sample=H-CK-F1, batch1=060
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-F1/rotate_z/rotate_z_050.png
+    jobid: 82
+    wildcards: sample=H-Salt-F1, batch1=050
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule rotate_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-076/rotate_z/rotate_z_140.png
+    jobid: 110
+    wildcards: sample=H-Salt-076, batch1=140
+    resources: tmpdir=/tmp
+
+[Wed May 15 09:11:01 2024]
+rule merge_z:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_010.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_020.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_030.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_040.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_050.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_060.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_070.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_080.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_090.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_100.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_110.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_120.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_130.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_140.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_150.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_160.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_170.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/rotate_z_180.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-CK-076/rotate_z/merge.png
+    jobid: 39
+    wildcards: sample=H-CK-076
+    resources: tmpdir=/tmp
+
+RuleException in line 116 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake.py:
+NameError: The name 'intput' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

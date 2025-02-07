@@ -1,0 +1,8 @@
+perl: /public/frasergen/3D/work/wanghao/myconda/AGAT/bin/perl
+longest_gtf: /public/frasergen/3D/work/wanghao/myconda/AGAT/bin/agat_sp_keep_longest_isoform.pl
+gffread: /public/frasergen/PUB/software/gffread/gffread-0.12.6/gffread
+genome_prepare: /public/frasergen/3D/work/shaojie/pipeline/ThreeDgenome/06.WashU_data_prepare/WashU_data_prepare.pl
+bychr: /public/frasergen/3D/work/wanghao/my_scripts/python/2023/202301/cool_2_bychr_dense/cool_to_2d_bychr.py
+single_prepare: /work/frasergen/3D/work/wanghao/pipeline/Hi-C-3.0_WashU_upload/upload_WashU_loop_as_mustache_ver/WashU_data_prepare_loop_mustache.pl
+multi_prepare: /work/frasergen/3D/work/wanghao/pipeline/Hi-C-3.0_WashU_upload/upload_WashU_loop_as_mustache_ver/WashU_data_prepare_loop_mustache.pl
+

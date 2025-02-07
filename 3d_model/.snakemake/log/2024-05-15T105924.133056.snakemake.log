@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count    min threads    max threads
+--------  -------  -------------  -------------
+merge_x         1              1              1
+rotate_x       54              1              1
+total          55              1              1
+
+Select jobs to execute...
+
+[Wed May 15 10:59:26 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_x/rotate_x_007.png
+    jobid: 155
+    wildcards: sample=H-Salt-599, batch1=007
+    resources: tmpdir=/tmp
+
+[Wed May 15 10:59:26 2024]
+rule rotate_x:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/231402_rice_20240510/02.3d_model/H-Salt-599/rotate_x/rotate_x_000.png
+    jobid: 148
+    wildcards: sample=H-Salt-599, batch1=000
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+pastis        1              1              1
+total         2              1              1
+
+
+[Sat May 11 16:25:35 2024]
+rule pastis:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/240033_kcybgj_20240510/01.matrix_fill/Bs168/Bs168_filled_matrix.txt
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/240033_kcybgj_20240510/02.3d_model/Bs168/work.sh
+    jobid: 3
+    wildcards: sample=Bs168
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-11T162534.154225.snakemake.log

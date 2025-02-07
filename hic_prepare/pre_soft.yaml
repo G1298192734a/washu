@@ -1,0 +1,31 @@
+python3: /public/frasergen/PUB/software/python/Python-3.7.10/bin/python3
+ref_prepare: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/ref_prepare.sh
+#/public/frasergen/3D/pipeline/Interactome/hic3_workflow/utils/ref_prepare.sh
+get_map: /public/frasergen/3D/work/shaojie/script/HiC/hic_prepare/get_map.py
+get_rawdata: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/get_rawdata.py
+get_sub: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/get_subscript.py
+hic3: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/hic3_workflow.py
+#/public/frasergen/3D/pipeline/Interactome/hic3_workflow/hic3_workflow.py
+single_pre: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/report/single_report_prepare.py
+single_report: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/report/single_sample_report
+multi_pre: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/report/multi_report_prepare.py
+multi_report: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/report/multi_sample_report
+hic3_biorep: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/hic3_biorep.py
+hic3_biorep1: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/hic3_biorep.py
+data_storage: /public/frasergen/backup/3d/data_storage/Interactome
+jaspar_db: /public/frasergen/PUB/software/meme/meme-5.5.5/database
+hic_util: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/scripts/hic3_util.py
+prepare_SG: /public/frasergen/3D/pipeline/Interactome/bacteria/hicare_v1/prepare_SG.py
+enrich_prepare: /public/frasergen/3D/pipeline/Interactome/animal/ice_pipe/script/enrich_prepare.py
+get_trim: /public/frasergen/3D/work/shaojie/pipeline/ThreeDgenome/data_trimming/NGS_data_trimming_new.py
+moniter: /public/frasergen/3D/pipeline/Hi-C_QC/small_QC/Monitor_SGE_v0.4.pl
+rmarkdown: /public/frasergen/3D/pipeline/PGA/snakemake/rmarkdown
+micro_report: /public/frasergen/3D/pipeline/Interactome/bacteria/hicare_v1/src/micro_report/Micro_report.py
+backup_bacteria: /public/frasergen/3D/pipeline/Interactome/bacteria/hicare_v1/src/micro_report/backup_bacteria.py
+# /public/frasergen/3D/pipeline/Interactome/bacteria/hicare_v1/src/micro_report/backup_bacteria.py
+motif_db: /public/frasergen/3D/pipeline/Interactome/bacteria/hicare_v1/database/motif_databases/PROKARYOTE/prodoric.new.meme
+figure_util: /public/frasergen/3D/pipeline/Interactome/hic3_workflow/scripts/figure_util.py
+fpkm_pre: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/standard_analysis/get_fpkm.py
+fpkm: /public/frasergen/3D/work/wanghao/pipeline/Hi-C_2.0_RNA_prepare/fpkm4washu_v1.0.py
+logfc: /public/frasergen/backup/3d/project/Interactome/200709-01_yangShu/03.RNA_result/01.genome_gene_express/fpkm4washu_v1.0.py
+

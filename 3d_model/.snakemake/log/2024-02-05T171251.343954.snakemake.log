@@ -1,0 +1,94 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+gif          2              1              1
+mp4          2              1              1
+png          2              1              1
+total        7              1              1
+
+
+[Mon Feb  5 17:12:55 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/xu/xu.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/pngs/fig_240.png
+    jobid: 41
+    wildcards: sample=xu
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 17:12:55 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/pngs/fig_240.png
+    jobid: 42
+    wildcards: sample=wsk
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 17:14:12 2024]
+Finished job 42.
+1 of 7 steps (14%) done
+
+[Mon Feb  5 17:14:12 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/pngs/fig_240.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/wsk.gif
+    jobid: 44
+    wildcards: sample=wsk
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 17:14:12 2024]
+Finished job 41.
+2 of 7 steps (29%) done
+
+[Mon Feb  5 17:14:12 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/pngs/fig_240.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/wsk.mp4
+    jobid: 46
+    wildcards: sample=wsk
+    resources: tmpdir=/tmp
+
+
+[Mon Feb  5 17:14:12 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/pngs/fig_240.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/xu.gif
+    jobid: 43
+    wildcards: sample=xu
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 17:14:12 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/pngs/fig_240.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/xu.mp4
+    jobid: 45
+    wildcards: sample=xu
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 17:14:32 2024]
+Finished job 45.
+3 of 7 steps (43%) done
+[Mon Feb  5 17:14:32 2024]
+Finished job 46.
+4 of 7 steps (57%) done
+[Mon Feb  5 17:14:35 2024]
+Finished job 43.
+5 of 7 steps (71%) done
+[Mon Feb  5 17:14:35 2024]
+Finished job 44.
+6 of 7 steps (86%) done
+
+[Mon Feb  5 17:14:35 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/01.matrix_fill/xu/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/01.matrix_fill/wsk/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/xu/xu.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pdb, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr13/chr13.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr14/chr14.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr15/chr15.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr16/chr16.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr17/chr17.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr13/chr13.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr14/chr14.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr15/chr15.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr16/chr16.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr17/chr17.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/xu/xu.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/pngs/fig_240.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/pngs/fig_240.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/xu.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/wsk.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/xu.mp4, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/wsk.mp4
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 17:14:35 2024]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-02-05T171251.343954.snakemake.log

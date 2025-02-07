@@ -1,0 +1,3 @@
+NameError in line 46 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py:
+name 'diff' is not defined
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 46, in <module>

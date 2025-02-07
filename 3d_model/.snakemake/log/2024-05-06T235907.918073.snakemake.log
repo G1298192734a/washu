@@ -1,0 +1,4 @@
+TypeError in line 34 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake_test.py:
+expected str, bytes or os.PathLike object, not function
+  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_snake_test.py", line 34, in <module>
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/posixpath.py", line 146, in basename

@@ -1,0 +1,21 @@
+#标准分析目录:/work/frasergen/backup/3d/project/Interactome
+DIR: /work/frasergen/backup/3d/project/Interactome/241441_Cladorrhinum_hyalocarpum_20250122
+
+#文件命名前缀
+GENOME: Arabidopsis_thaliana_chloroplast_AP000423
+
+#样本命名前缀顺序和minus一致
+SAMPLE: WT-1
+
+#数据命名前缀顺序和minus一致
+DATANAME: WT-YLT
+MINUS: WT-1.minus.WT-1
+
+#描述信息用到报告里
+species_info: 拟南芥叶绿体
+sample_info: 1个样本，无生物学重复
+ref_info: Arabidopsis thaliana chloroplast AP000423
+title: 北大拟南芥叶绿体Hi-C建库测序
+seq_method: Hi-C建库，内切酶MobI，BGI PE150测序
+
+PRE_SOFT_YAML: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/pre_soft.yaml

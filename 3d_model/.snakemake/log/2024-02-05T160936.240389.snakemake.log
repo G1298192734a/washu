@@ -1,0 +1,243 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+all          1              1              1
+chrom       34              1              1
+gif          2              1              1
+mp4          2              1              1
+png          2              1              1
+total       41              1              1
+
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr16/chr16.pml
+    jobid: 39
+    wildcards: sample=wsk, chrom=chr16
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr2/chr2.pml
+    jobid: 25
+    wildcards: sample=wsk, chrom=chr2
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr4/chr4.pml
+    jobid: 27
+    wildcards: sample=wsk, chrom=chr4
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr10/chr10.pml
+    jobid: 33
+    wildcards: sample=wsk, chrom=chr10
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr12/chr12.pml
+    jobid: 35
+    wildcards: sample=wsk, chrom=chr12
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr17/chr17.pml
+    jobid: 40
+    wildcards: sample=wsk, chrom=chr17
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr3/chr3.pml
+    jobid: 26
+    wildcards: sample=wsk, chrom=chr3
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr5/chr5.pml
+    jobid: 28
+    wildcards: sample=wsk, chrom=chr5
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr9/chr9.pml
+    jobid: 32
+    wildcards: sample=wsk, chrom=chr9
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:09:42 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr11/chr11.pml
+    jobid: 34
+    wildcards: sample=wsk, chrom=chr11
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 27.
+1 of 41 steps (2%) done
+[Mon Feb  5 16:10:16 2024]
+Finished job 39.
+2 of 41 steps (5%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/pngs/fig_240.png
+    jobid: 42
+    wildcards: sample=wsk
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr13/chr13.pml
+    jobid: 36
+    wildcards: sample=wsk, chrom=chr13
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 33.
+3 of 41 steps (7%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr6/chr6.pml
+    jobid: 29
+    wildcards: sample=wsk, chrom=chr6
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 25.
+4 of 41 steps (10%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr1/chr1.pml
+    jobid: 23
+    wildcards: sample=wsk, chrom=chr1
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 40.
+5 of 41 steps (12%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr14/chr14.pml
+    jobid: 37
+    wildcards: sample=wsk, chrom=chr14
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 32.
+6 of 41 steps (15%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr7/chr7.pml
+    jobid: 30
+    wildcards: sample=wsk, chrom=chr7
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 35.
+7 of 41 steps (17%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr15/chr15.pml
+    jobid: 38
+    wildcards: sample=wsk, chrom=chr15
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+Finished job 26.
+8 of 41 steps (20%) done
+[Mon Feb  5 16:10:16 2024]
+Finished job 28.
+9 of 41 steps (22%) done
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/wsk/wsk.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/wsk/chrs/chr8/chr8.pml
+    jobid: 31
+    wildcards: sample=wsk, chrom=chr8
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/xu/xu.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr6/chr6.pml
+    jobid: 11
+    wildcards: sample=xu, chrom=chr6
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:17 2024]
+Finished job 34.
+10 of 41 steps (24%) done
+
+[Mon Feb  5 16:10:17 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/02.3d_model/xu/xu.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/221425_apple/03.gif/xu/chrs/chr3/chr3.pml
+    jobid: 8
+    wildcards: sample=xu, chrom=chr3
+    resources: tmpdir=/tmp
+
+[Mon Feb  5 16:10:30 2024]
+Finished job 30.
+11 of 41 steps (27%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 29.
+12 of 41 steps (29%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 36.
+13 of 41 steps (32%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 37.
+14 of 41 steps (34%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 23.
+15 of 41 steps (37%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 38.
+16 of 41 steps (39%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 31.
+17 of 41 steps (41%) done
+[Mon Feb  5 16:10:31 2024]
+Finished job 11.
+18 of 41 steps (44%) done
+[Mon Feb  5 16:10:32 2024]
+Finished job 8.
+19 of 41 steps (46%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-02-05T160936.240389.snakemake.log

@@ -1,0 +1,9 @@
+TypeError in line 43 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py:
+decoding to str: need a bytes-like object, NoneType found
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 46, in <module>
+  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 43, in get_deg
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/re.py", line 194, in sub
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/re.py", line 311, in _subx
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/re.py", line 302, in _compile_repl
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/sre_parse.py", line 948, in parse_template
+  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/sre_parse.py", line 228, in __init__

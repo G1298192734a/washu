@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 189 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py:
+Missing input files for rule gif:
+/work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis20240419_3D_model/03.gif/AA/pngs/fig_001.png

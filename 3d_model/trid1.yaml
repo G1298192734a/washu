@@ -1,0 +1,14 @@
+Fai: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/01.ref/asm904v1.fa.fai
+# /work/frasergen/backup/3d/project/Interactome
+#Dir: /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/06.personal/analysis_aftersale_20240529/02.3d_model #/work/frasergen/backup/3d/project/Interactome/231402_rice_20231127/07.personal/analysis_20240510_Hi-C_3D_model
+Dir: analysis_3d_model_20241015
+Res: 5000
+Heatmap:
+    Bs168:
+    - /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/04.map/Bs168/asm904v1/asm904v1-all-MboI-5k_ICed.hm
+    Delta-abrB:
+    - /work/frasergen/backup/3d/project/Interactome/240033_kcybgj_20240313/04.HiC/04.map/Delta-abrB/asm904v1/asm904v1-all-MboI-5k_ICed.hm
+
+Software_yaml: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_soft.yaml
+
+

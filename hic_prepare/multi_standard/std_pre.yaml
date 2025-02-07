@@ -1,0 +1,26 @@
+#标准分析目录:/work/frasergen/backup/3d/project/Interactome
+DIR: /work/frasergen/backup/3d/project/Interactome/242812_xianggu_20241218
+#物种基因组描述信息用到报告里
+#依次物种信息、基因组信息、样本名、数据命名、比较组
+GENOME:
+  SP3: 
+  - 香菇 SP3
+  - SP3
+  - SP3
+  - SP3
+  - SP3.minus.SP3
+  SP30:
+  - 香菇 SP30
+  - SP30
+  - SP30
+  - SP30
+  - SP30.minus.SP30
+#animal, plant, fungi
+kingdom: f
+library: Illumina # Illumina or BGI
+#植物用fithic，动物用mustache
+LOOP: fithic
+TITLE: 北京市农林科学院2个香菇的Hi-C+ATAC-seq+RNA-seq数据采集和分析技术开发
+PRE_SOFT_YAML: /work/frasergen/3D/work/shaojie/script/HiC/hic_prepare/pre_soft.yaml
+
+

@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules multi_pre and multi are ambiguous for the file analysis_washu_20240402/03.multi_pre/CapHiC-test.minus.CapHiC-control/work.sh.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	multi_pre: minus=CapHiC-test.minus.CapHiC-control
+	multi: minus=analysis_washu_20240402/03.multi_pre/CapHiC-test.minus.CapHiC-control
+Expected input files:
+	multi_pre: 
+	multi: analysis_washu_20240402/03.multi_pre/analysis_washu_20240402/03.multi_pre/CapHiC-test.minus.CapHiC-control/work.shExpected output files:
+	multi_pre: analysis_washu_20240402/03.multi_pre/CapHiC-test.minus.CapHiC-control/work.sh
+	multi: analysis_washu_20240402/03.multi_pre/CapHiC-test.minus.CapHiC-control/work.sh

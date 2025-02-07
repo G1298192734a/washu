@@ -1,0 +1,3 @@
+Building DAG of jobs...
+PeriodicWildcardError in line 68 of /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/integrate_snake.py:
+The value .txt in wildcard depth is periodically repeated (/work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/03.BAM_2_coverage/RT0-1.sort.SiteDepth.gz.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt.txt). This would lead to an infinite recursion. To avoid this, e.g. restrict the wildcards in this rule to certain values.

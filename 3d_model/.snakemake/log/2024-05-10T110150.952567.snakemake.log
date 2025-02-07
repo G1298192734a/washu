@@ -1,0 +1,3067 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 72
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+chrom           72              1              1
+gif              6              1              1
+mp4              6              1              1
+png            144              1              1
+split_pml        6              1              1
+total          235              1              1
+
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr5/chr5.pml
+    jobid: 69
+    wildcards: sample=H-Salt-F1, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 69 with external jobid 'Submitted batch job 7660031'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr4/chr4.pml
+    jobid: 83
+    wildcards: sample=H-Salt-076, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 83 with external jobid 'Submitted batch job 7660032'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr7/chr7.pml
+    jobid: 41
+    wildcards: sample=H-CK-076, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 41 with external jobid 'Submitted batch job 7660033'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr6/chr6.pml
+    jobid: 55
+    wildcards: sample=H-Salt-599, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 55 with external jobid 'Submitted batch job 7660034'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr9/chr9.pml
+    jobid: 13
+    wildcards: sample=H-CK-599, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 13 with external jobid 'Submitted batch job 7660035'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr8/chr8.pml
+    jobid: 27
+    wildcards: sample=H-CK-F1, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 27 with external jobid 'Submitted batch job 7660036'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr3/chr3.pml
+    jobid: 7
+    wildcards: sample=H-CK-599, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 7660037'.
+
+[Fri May 10 11:02:06 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr1/chr1.pml
+    jobid: 77
+    wildcards: sample=H-Salt-076, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 77 with external jobid 'Submitted batch job 7660038'.
+
+[Fri May 10 11:02:07 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr12/chr12.pml
+    jobid: 91
+    wildcards: sample=H-Salt-076, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 91 with external jobid 'Submitted batch job 7660039'.
+
+[Fri May 10 11:02:07 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr8/chr8.pml
+    jobid: 42
+    wildcards: sample=H-CK-076, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 42 with external jobid 'Submitted batch job 7660040'.
+
+[Fri May 10 11:02:07 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr7/chr7.pml
+    jobid: 56
+    wildcards: sample=H-Salt-599, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 56 with external jobid 'Submitted batch job 7660041'.
+
+[Fri May 10 11:02:07 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr6/chr6.pml
+    jobid: 70
+    wildcards: sample=H-Salt-F1, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 70 with external jobid 'Submitted batch job 7660042'.
+
+[Fri May 10 11:02:07 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr5/chr5.pml
+    jobid: 84
+    wildcards: sample=H-Salt-076, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 84 with external jobid 'Submitted batch job 7660043'.
+
+[Fri May 10 11:02:07 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_231.pml
+    jobid: 224
+    wildcards: sample=H-Salt-076
+    resources: tmpdir=/tmp
+
+Submitted job 224 with external jobid 'Submitted batch job 7660044'.
+
+[Fri May 10 11:02:08 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr10/chr10.pml
+    jobid: 14
+    wildcards: sample=H-CK-599, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 14 with external jobid 'Submitted batch job 7660045'.
+
+[Fri May 10 11:02:08 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr9/chr9.pml
+    jobid: 28
+    wildcards: sample=H-CK-F1, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 28 with external jobid 'Submitted batch job 7660046'.
+
+[Fri May 10 11:02:08 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr4/chr4.pml
+    jobid: 8
+    wildcards: sample=H-CK-599, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 7660047'.
+
+[Fri May 10 11:02:08 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_231.pml
+    jobid: 120
+    wildcards: sample=H-CK-F1
+    resources: tmpdir=/tmp
+
+Submitted job 120 with external jobid 'Submitted batch job 7660048'.
+
+[Fri May 10 11:02:08 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr2/chr2.pml
+    jobid: 36
+    wildcards: sample=H-CK-076, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 36 with external jobid 'Submitted batch job 7660049'.
+
+[Fri May 10 11:02:08 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr9/chr9.pml
+    jobid: 43
+    wildcards: sample=H-CK-076, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 43 with external jobid 'Submitted batch job 7660050'.
+
+[Fri May 10 11:02:08 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr8/chr8.pml
+    jobid: 57
+    wildcards: sample=H-Salt-599, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 57 with external jobid 'Submitted batch job 7660051'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr7/chr7.pml
+    jobid: 71
+    wildcards: sample=H-Salt-F1, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 71 with external jobid 'Submitted batch job 7660052'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr6/chr6.pml
+    jobid: 85
+    wildcards: sample=H-Salt-076, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 85 with external jobid 'Submitted batch job 7660053'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr11/chr11.pml
+    jobid: 15
+    wildcards: sample=H-CK-599, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 15 with external jobid 'Submitted batch job 7660054'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr10/chr10.pml
+    jobid: 29
+    wildcards: sample=H-CK-F1, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 29 with external jobid 'Submitted batch job 7660055'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr5/chr5.pml
+    jobid: 9
+    wildcards: sample=H-CK-599, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 7660056'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr2/chr2.pml
+    jobid: 51
+    wildcards: sample=H-Salt-599, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 51 with external jobid 'Submitted batch job 7660057'.
+
+[Fri May 10 11:02:09 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr3/chr3.pml
+    jobid: 37
+    wildcards: sample=H-CK-076, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 37 with external jobid 'Submitted batch job 7660058'.
+
+[Fri May 10 11:02:10 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr9/chr9.pml
+    jobid: 58
+    wildcards: sample=H-Salt-599, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 58 with external jobid 'Submitted batch job 7660059'.
+
+[Fri May 10 11:02:10 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr10/chr10.pml
+    jobid: 44
+    wildcards: sample=H-CK-076, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 44 with external jobid 'Submitted batch job 7660060'.
+
+[Fri May 10 11:02:10 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr8/chr8.pml
+    jobid: 72
+    wildcards: sample=H-Salt-F1, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 72 with external jobid 'Submitted batch job 7660061'.
+
+[Fri May 10 11:02:10 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr7/chr7.pml
+    jobid: 86
+    wildcards: sample=H-Salt-076, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 86 with external jobid 'Submitted batch job 7660062'.
+
+[Fri May 10 11:02:10 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr1/chr1.pml
+    jobid: 1
+    wildcards: sample=H-CK-599, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 7660063'.
+
+[Fri May 10 11:02:11 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_231.pml
+    jobid: 198
+    wildcards: sample=H-Salt-F1
+    resources: tmpdir=/tmp
+
+Submitted job 198 with external jobid 'Submitted batch job 7660065'.
+
+[Fri May 10 11:02:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr12/chr12.pml
+    jobid: 16
+    wildcards: sample=H-CK-599, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 16 with external jobid 'Submitted batch job 7660066'.
+
+[Fri May 10 11:02:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr11/chr11.pml
+    jobid: 30
+    wildcards: sample=H-CK-F1, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 30 with external jobid 'Submitted batch job 7660067'.
+
+[Fri May 10 11:02:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr6/chr6.pml
+    jobid: 10
+    wildcards: sample=H-CK-599, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 7660068'.
+
+[Fri May 10 11:02:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr3/chr3.pml
+    jobid: 52
+    wildcards: sample=H-Salt-599, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 52 with external jobid 'Submitted batch job 7660069'.
+
+[Fri May 10 11:02:11 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr2/chr2.pml
+    jobid: 66
+    wildcards: sample=H-Salt-F1, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 66 with external jobid 'Submitted batch job 7660070'.
+
+[Fri May 10 11:02:12 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_231.pml
+    jobid: 94
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+Submitted job 94 with external jobid 'Submitted batch job 7660071'.
+
+[Fri May 10 11:02:12 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr4/chr4.pml
+    jobid: 38
+    wildcards: sample=H-CK-076, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 38 with external jobid 'Submitted batch job 7660072'.
+
+[Fri May 10 11:02:12 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_231.pml
+    jobid: 146
+    wildcards: sample=H-CK-076
+    resources: tmpdir=/tmp
+
+Submitted job 146 with external jobid 'Submitted batch job 7660073'.
+
+[Fri May 10 11:02:12 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr11/chr11.pml
+    jobid: 45
+    wildcards: sample=H-CK-076, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 45 with external jobid 'Submitted batch job 7660074'.
+
+[Fri May 10 11:02:13 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr10/chr10.pml
+    jobid: 59
+    wildcards: sample=H-Salt-599, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 59 with external jobid 'Submitted batch job 7660075'.
+
+[Fri May 10 11:02:14 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr9/chr9.pml
+    jobid: 73
+    wildcards: sample=H-Salt-F1, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 73 with external jobid 'Submitted batch job 7660076'.
+
+[Fri May 10 11:02:14 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr8/chr8.pml
+    jobid: 87
+    wildcards: sample=H-Salt-076, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 87 with external jobid 'Submitted batch job 7660077'.
+
+[Fri May 10 11:02:14 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr1/chr1.pml
+    jobid: 17
+    wildcards: sample=H-CK-F1, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 17 with external jobid 'Submitted batch job 7660078'.
+
+[Fri May 10 11:02:15 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr12/chr12.pml
+    jobid: 31
+    wildcards: sample=H-CK-F1, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 31 with external jobid 'Submitted batch job 7660079'.
+
+[Fri May 10 11:02:15 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr2/chr2.pml
+    jobid: 6
+    wildcards: sample=H-CK-599, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 7660080'.
+
+[Fri May 10 11:02:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr1/chr1.pml
+    jobid: 62
+    wildcards: sample=H-Salt-F1, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 62 with external jobid 'Submitted batch job 7660081'.
+
+[Fri May 10 11:02:16 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr7/chr7.pml
+    jobid: 11
+    wildcards: sample=H-CK-599, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 7660082'.
+
+[Fri May 10 11:02:17 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr4/chr4.pml
+    jobid: 53
+    wildcards: sample=H-Salt-599, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 53 with external jobid 'Submitted batch job 7660083'.
+
+[Fri May 10 11:02:17 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr3/chr3.pml
+    jobid: 67
+    wildcards: sample=H-Salt-F1, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 67 with external jobid 'Submitted batch job 7660084'.
+
+[Fri May 10 11:02:18 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr2/chr2.pml
+    jobid: 81
+    wildcards: sample=H-Salt-076, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 81 with external jobid 'Submitted batch job 7660085'.
+
+[Fri May 10 11:02:18 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr5/chr5.pml
+    jobid: 39
+    wildcards: sample=H-CK-076, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 39 with external jobid 'Submitted batch job 7660086'.
+
+[Fri May 10 11:02:19 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr12/chr12.pml
+    jobid: 46
+    wildcards: sample=H-CK-076, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 46 with external jobid 'Submitted batch job 7660087'.
+
+[Fri May 10 11:02:19 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr11/chr11.pml
+    jobid: 60
+    wildcards: sample=H-Salt-599, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 60 with external jobid 'Submitted batch job 7660088'.
+
+[Fri May 10 11:02:20 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr10/chr10.pml
+    jobid: 74
+    wildcards: sample=H-Salt-F1, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 74 with external jobid 'Submitted batch job 7660089'.
+
+[Fri May 10 11:02:21 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr9/chr9.pml
+    jobid: 88
+    wildcards: sample=H-Salt-076, chrom=chr9
+    resources: tmpdir=/tmp
+
+Submitted job 88 with external jobid 'Submitted batch job 7660090'.
+
+[Fri May 10 11:02:21 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr1/chr1.pml
+    jobid: 32
+    wildcards: sample=H-CK-076, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 32 with external jobid 'Submitted batch job 7660091'.
+
+[Fri May 10 11:02:21 2024]
+rule split_pml:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/png.txt, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_001.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_011.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_021.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_031.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_041.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_051.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_061.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_071.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_081.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_091.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_101.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_111.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_121.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_131.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_141.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_151.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_161.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_171.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_181.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_191.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_201.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_211.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_221.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_231.pml
+    jobid: 172
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 172 with external jobid 'Submitted batch job 7660092'.
+
+[Fri May 10 11:02:22 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-599/H-CK-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr8/chr8.pml
+    jobid: 12
+    wildcards: sample=H-CK-599, chrom=chr8
+    resources: tmpdir=/tmp
+
+Submitted job 12 with external jobid 'Submitted batch job 7660093'.
+
+[Fri May 10 11:02:22 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr5/chr5.pml
+    jobid: 54
+    wildcards: sample=H-Salt-599, chrom=chr5
+    resources: tmpdir=/tmp
+
+Submitted job 54 with external jobid 'Submitted batch job 7660094'.
+
+[Fri May 10 11:02:23 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr4/chr4.pml
+    jobid: 68
+    wildcards: sample=H-Salt-F1, chrom=chr4
+    resources: tmpdir=/tmp
+
+Submitted job 68 with external jobid 'Submitted batch job 7660095'.
+
+[Fri May 10 11:02:24 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr3/chr3.pml
+    jobid: 82
+    wildcards: sample=H-Salt-076, chrom=chr3
+    resources: tmpdir=/tmp
+
+Submitted job 82 with external jobid 'Submitted batch job 7660096'.
+
+[Fri May 10 11:02:24 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-076/H-CK-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr6/chr6.pml
+    jobid: 40
+    wildcards: sample=H-CK-076, chrom=chr6
+    resources: tmpdir=/tmp
+
+Submitted job 40 with external jobid 'Submitted batch job 7660097'.
+
+[Fri May 10 11:02:24 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr1/chr1.pml
+    jobid: 47
+    wildcards: sample=H-Salt-599, chrom=chr1
+    resources: tmpdir=/tmp
+
+Submitted job 47 with external jobid 'Submitted batch job 7660098'.
+
+[Fri May 10 11:02:25 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-599/H-Salt-599.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr12/chr12.pml
+    jobid: 61
+    wildcards: sample=H-Salt-599, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 61 with external jobid 'Submitted batch job 7660099'.
+
+[Fri May 10 11:02:25 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr11/chr11.pml
+    jobid: 75
+    wildcards: sample=H-Salt-F1, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 75 with external jobid 'Submitted batch job 7660100'.
+
+[Fri May 10 11:02:26 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr10/chr10.pml
+    jobid: 89
+    wildcards: sample=H-Salt-076, chrom=chr10
+    resources: tmpdir=/tmp
+
+Submitted job 89 with external jobid 'Submitted batch job 7660101'.
+
+[Fri May 10 11:02:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-F1/H-Salt-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr12/chr12.pml
+    jobid: 76
+    wildcards: sample=H-Salt-F1, chrom=chr12
+    resources: tmpdir=/tmp
+
+Submitted job 76 with external jobid 'Submitted batch job 7660102'.
+
+[Fri May 10 11:02:27 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-Salt-076/H-Salt-076.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr11/chr11.pml
+    jobid: 90
+    wildcards: sample=H-Salt-076, chrom=chr11
+    resources: tmpdir=/tmp
+
+Submitted job 90 with external jobid 'Submitted batch job 7660103'.
+[Fri May 10 11:02:29 2024]
+Finished job 69.
+1 of 235 steps (0.4%) done
+
+[Fri May 10 11:02:29 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr5/chr5.pml
+    jobid: 24
+    wildcards: sample=H-CK-F1, chrom=chr5
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:29 2024]
+Finished job 83.
+2 of 235 steps (1%) done
+[Fri May 10 11:02:29 2024]
+Finished job 41.
+3 of 235 steps (1%) done
+Submitted job 24 with external jobid 'Submitted batch job 7660104'.
+
+[Fri May 10 11:02:29 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr7/chr7.pml
+    jobid: 26
+    wildcards: sample=H-CK-F1, chrom=chr7
+    resources: tmpdir=/tmp
+
+Submitted job 26 with external jobid 'Submitted batch job 7660105'.
+
+[Fri May 10 11:02:30 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr2/chr2.pml
+    jobid: 21
+    wildcards: sample=H-CK-F1, chrom=chr2
+    resources: tmpdir=/tmp
+
+Submitted job 21 with external jobid 'Submitted batch job 7660106'.
+[Fri May 10 11:02:30 2024]
+Finished job 55.
+4 of 235 steps (2%) done
+
+[Fri May 10 11:02:30 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr6/chr6.pml
+    jobid: 25
+    wildcards: sample=H-CK-F1, chrom=chr6
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:30 2024]
+Finished job 13.
+5 of 235 steps (2%) done
+[Fri May 10 11:02:30 2024]
+Finished job 27.
+6 of 235 steps (3%) done
+[Fri May 10 11:02:30 2024]
+Finished job 7.
+7 of 235 steps (3%) done
+Submitted job 25 with external jobid 'Submitted batch job 7660107'.
+
+[Fri May 10 11:02:30 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr3/chr3.pml
+    jobid: 22
+    wildcards: sample=H-CK-F1, chrom=chr3
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:30 2024]
+Finished job 77.
+8 of 235 steps (3%) done
+[Fri May 10 11:02:30 2024]
+Finished job 91.
+9 of 235 steps (4%) done
+[Fri May 10 11:02:31 2024]
+Finished job 42.
+10 of 235 steps (4%) done
+Submitted job 22 with external jobid 'Submitted batch job 7660108'.
+
+[Fri May 10 11:02:31 2024]
+rule chrom:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/02.3d_model/H-CK-F1/H-CK-F1.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr4/chr4.pml
+    jobid: 23
+    wildcards: sample=H-CK-F1, chrom=chr4
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:31 2024]
+Finished job 56.
+11 of 235 steps (5%) done
+[Fri May 10 11:02:31 2024]
+Finished job 70.
+12 of 235 steps (5%) done
+[Fri May 10 11:02:31 2024]
+Finished job 84.
+13 of 235 steps (6%) done
+Submitted job 23 with external jobid 'Submitted batch job 7660109'.
+[Fri May 10 11:02:32 2024]
+Finished job 224.
+14 of 235 steps (6%) done
+[Fri May 10 11:02:32 2024]
+Finished job 14.
+15 of 235 steps (6%) done
+
+[Fri May 10 11:02:32 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_081.png
+    jobid: 232
+    wildcards: sample=H-Salt-076, batch=081
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:32 2024]
+Finished job 28.
+16 of 235 steps (7%) done
+[Fri May 10 11:02:32 2024]
+Finished job 8.
+17 of 235 steps (7%) done
+Submitted job 232 with external jobid 'Submitted batch job 7660110'.
+
+[Fri May 10 11:02:32 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_211.png
+    jobid: 245
+    wildcards: sample=H-Salt-076, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 245 with external jobid 'Submitted batch job 7660111'.
+
+[Fri May 10 11:02:32 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_071.png
+    jobid: 231
+    wildcards: sample=H-Salt-076, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 231 with external jobid 'Submitted batch job 7660112'.
+
+[Fri May 10 11:02:32 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_231.png
+    jobid: 247
+    wildcards: sample=H-Salt-076, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 247 with external jobid 'Submitted batch job 7660113'.
+
+[Fri May 10 11:02:33 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_091.png
+    jobid: 233
+    wildcards: sample=H-Salt-076, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 233 with external jobid 'Submitted batch job 7660114'.
+
+[Fri May 10 11:02:33 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_161.png
+    jobid: 240
+    wildcards: sample=H-Salt-076, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 240 with external jobid 'Submitted batch job 7660115'.
+
+[Fri May 10 11:02:33 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_201.png
+    jobid: 244
+    wildcards: sample=H-Salt-076, batch=201
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:33 2024]
+Finished job 120.
+18 of 235 steps (8%) done
+[Fri May 10 11:02:33 2024]
+Finished job 36.
+19 of 235 steps (8%) done
+[Fri May 10 11:02:33 2024]
+Finished job 43.
+20 of 235 steps (9%) done
+[Fri May 10 11:02:33 2024]
+Finished job 57.
+21 of 235 steps (9%) done
+[Fri May 10 11:02:33 2024]
+Finished job 71.
+22 of 235 steps (9%) done
+[Fri May 10 11:02:33 2024]
+Finished job 85.
+23 of 235 steps (10%) done
+[Fri May 10 11:02:33 2024]
+Finished job 15.
+24 of 235 steps (10%) done
+[Fri May 10 11:02:33 2024]
+Finished job 29.
+25 of 235 steps (11%) done
+[Fri May 10 11:02:33 2024]
+Finished job 9.
+26 of 235 steps (11%) done
+[Fri May 10 11:02:33 2024]
+Finished job 51.
+27 of 235 steps (11%) done
+[Fri May 10 11:02:34 2024]
+Finished job 37.
+28 of 235 steps (12%) done
+[Fri May 10 11:02:34 2024]
+Finished job 58.
+29 of 235 steps (12%) done
+Submitted job 244 with external jobid 'Submitted batch job 7660116'.
+
+[Fri May 10 11:02:34 2024]
+[Fri May 10 11:02:34 2024]
+Finished job 44.
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_221.png
+    jobid: 246
+    wildcards: sample=H-Salt-076, batch=221
+    resources: tmpdir=/tmp
+30 of 235 steps (13%) done
+
+[Fri May 10 11:02:34 2024]
+Finished job 72.
+31 of 235 steps (13%) done
+[Fri May 10 11:02:34 2024]
+Finished job 86.
+32 of 235 steps (14%) done
+[Fri May 10 11:02:34 2024]
+Finished job 1.
+33 of 235 steps (14%) done
+Submitted job 246 with external jobid 'Submitted batch job 7660117'.
+[Fri May 10 11:02:35 2024]
+Finished job 198.
+34 of 235 steps (14%) done
+[Fri May 10 11:02:35 2024]
+Finished job 16.
+35 of 235 steps (15%) done
+
+[Fri May 10 11:02:35 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_001.png
+    jobid: 223
+    wildcards: sample=H-Salt-076, batch=001
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:35 2024]
+Finished job 30.
+36 of 235 steps (15%) done
+[Fri May 10 11:02:35 2024]
+Finished job 10.
+37 of 235 steps (16%) done
+[Fri May 10 11:02:35 2024]
+Finished job 52.
+38 of 235 steps (16%) done
+[Fri May 10 11:02:35 2024]
+Finished job 66.
+39 of 235 steps (17%) done
+Submitted job 223 with external jobid 'Submitted batch job 7660118'.
+
+[Fri May 10 11:02:35 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_131.png
+    jobid: 237
+    wildcards: sample=H-Salt-076, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 237 with external jobid 'Submitted batch job 7660119'.
+
+[Fri May 10 11:02:35 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_111.png
+    jobid: 209
+    wildcards: sample=H-Salt-F1, batch=111
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:36 2024]
+Finished job 94.
+40 of 235 steps (17%) done
+[Fri May 10 11:02:36 2024]
+Finished job 38.
+41 of 235 steps (17%) done
+Submitted job 209 with external jobid 'Submitted batch job 7660120'.
+
+[Fri May 10 11:02:36 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_051.png
+    jobid: 203
+    wildcards: sample=H-Salt-F1, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 203 with external jobid 'Submitted batch job 7660121'.
+
+[Fri May 10 11:02:37 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_191.png
+    jobid: 217
+    wildcards: sample=H-Salt-F1, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 217 with external jobid 'Submitted batch job 7660122'.
+
+[Fri May 10 11:02:37 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_041.png
+    jobid: 202
+    wildcards: sample=H-Salt-F1, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 202 with external jobid 'Submitted batch job 7660123'.
+
+[Fri May 10 11:02:37 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_141.png
+    jobid: 238
+    wildcards: sample=H-Salt-076, batch=141
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:37 2024]
+Finished job 146.
+42 of 235 steps (18%) done
+[Fri May 10 11:02:37 2024]
+Finished job 45.
+43 of 235 steps (18%) done
+[Fri May 10 11:02:37 2024]
+Finished job 59.
+44 of 235 steps (19%) done
+[Fri May 10 11:02:37 2024]
+Finished job 73.
+45 of 235 steps (19%) done
+[Fri May 10 11:02:37 2024]
+Finished job 87.
+46 of 235 steps (20%) done
+[Fri May 10 11:02:37 2024]
+Finished job 17.
+47 of 235 steps (20%) done
+[Fri May 10 11:02:37 2024]
+Finished job 31.
+48 of 235 steps (20%) done
+[Fri May 10 11:02:37 2024]
+Finished job 46.
+49 of 235 steps (21%) done
+[Fri May 10 11:02:37 2024]
+Finished job 60.
+50 of 235 steps (21%) done
+[Fri May 10 11:02:37 2024]
+Finished job 74.
+51 of 235 steps (22%) done
+[Fri May 10 11:02:38 2024]
+Finished job 88.
+52 of 235 steps (22%) done
+Submitted job 238 with external jobid 'Submitted batch job 7660124'.
+
+[Fri May 10 11:02:38 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_061.png
+    jobid: 204
+    wildcards: sample=H-Salt-F1, batch=061
+    resources: tmpdir=/tmp
+[Fri May 10 11:02:38 2024]
+
+Finished job 32.
+53 of 235 steps (23%) done
+Submitted job 204 with external jobid 'Submitted batch job 7660125'.
+
+[Fri May 10 11:02:38 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_151.png
+    jobid: 239
+    wildcards: sample=H-Salt-076, batch=151
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:39 2024]
+Finished job 172.
+54 of 235 steps (23%) done
+[Fri May 10 11:02:39 2024]
+Finished job 12.
+55 of 235 steps (23%) done
+[Fri May 10 11:02:39 2024]
+Finished job 54.
+56 of 235 steps (24%) done
+[Fri May 10 11:02:39 2024]
+Finished job 68.
+57 of 235 steps (24%) done
+[Fri May 10 11:02:39 2024]
+Finished job 82.
+58 of 235 steps (25%) done
+Submitted job 239 with external jobid 'Submitted batch job 7660126'.
+
+[Fri May 10 11:02:39 2024]
+[Fri May 10 11:02:39 2024]
+Finished job 40.
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_011.png
+    jobid: 225
+    wildcards: sample=H-Salt-076, batch=011
+    resources: tmpdir=/tmp
+59 of 235 steps (25%) done
+
+[Fri May 10 11:02:39 2024]
+Finished job 47.
+60 of 235 steps (26%) done
+[Fri May 10 11:02:39 2024]
+Finished job 61.
+61 of 235 steps (26%) done
+Submitted job 225 with external jobid 'Submitted batch job 7660127'.
+
+[Fri May 10 11:02:39 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_021.png
+    jobid: 226
+    wildcards: sample=H-Salt-076, batch=021
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:39 2024]
+Finished job 89.
+62 of 235 steps (26%) done
+[Fri May 10 11:02:40 2024]
+Finished job 76.
+63 of 235 steps (27%) done
+[Fri May 10 11:02:40 2024]
+Finished job 90.
+64 of 235 steps (27%) done
+Submitted job 226 with external jobid 'Submitted batch job 7660128'.
+
+[Fri May 10 11:02:41 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_101.png
+    jobid: 234
+    wildcards: sample=H-Salt-076, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 234 with external jobid 'Submitted batch job 7660129'.
+
+[Fri May 10 11:02:41 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_031.png
+    jobid: 227
+    wildcards: sample=H-Salt-076, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 227 with external jobid 'Submitted batch job 7660130'.
+
+[Fri May 10 11:02:41 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_171.png
+    jobid: 241
+    wildcards: sample=H-Salt-076, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 241 with external jobid 'Submitted batch job 7660131'.
+
+[Fri May 10 11:02:41 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_111.png
+    jobid: 235
+    wildcards: sample=H-Salt-076, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 235 with external jobid 'Submitted batch job 7660132'.
+
+[Fri May 10 11:02:42 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_041.png
+    jobid: 228
+    wildcards: sample=H-Salt-076, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 228 with external jobid 'Submitted batch job 7660133'.
+
+[Fri May 10 11:02:42 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_181.png
+    jobid: 242
+    wildcards: sample=H-Salt-076, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 242 with external jobid 'Submitted batch job 7660134'.
+
+[Fri May 10 11:02:43 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_191.png
+    jobid: 243
+    wildcards: sample=H-Salt-076, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 243 with external jobid 'Submitted batch job 7660135'.
+
+[Fri May 10 11:02:43 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_051.png
+    jobid: 229
+    wildcards: sample=H-Salt-076, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 229 with external jobid 'Submitted batch job 7660136'.
+
+[Fri May 10 11:02:44 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_061.png
+    jobid: 230
+    wildcards: sample=H-Salt-076, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 230 with external jobid 'Submitted batch job 7660137'.
+
+[Fri May 10 11:02:44 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_231.png
+    jobid: 195
+    wildcards: sample=H-Salt-599, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 195 with external jobid 'Submitted batch job 7660138'.
+
+[Fri May 10 11:02:45 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_091.png
+    jobid: 181
+    wildcards: sample=H-Salt-599, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 181 with external jobid 'Submitted batch job 7660139'.
+
+[Fri May 10 11:02:45 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_031.png
+    jobid: 175
+    wildcards: sample=H-Salt-599, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 175 with external jobid 'Submitted batch job 7660140'.
+
+[Fri May 10 11:02:46 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_171.png
+    jobid: 189
+    wildcards: sample=H-Salt-599, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 189 with external jobid 'Submitted batch job 7660141'.
+
+[Fri May 10 11:02:46 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_101.png
+    jobid: 182
+    wildcards: sample=H-Salt-599, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 182 with external jobid 'Submitted batch job 7660142'.
+
+[Fri May 10 11:02:47 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_201.png
+    jobid: 218
+    wildcards: sample=H-Salt-F1, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 218 with external jobid 'Submitted batch job 7660144'.
+
+[Fri May 10 11:02:47 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_041.png
+    jobid: 176
+    wildcards: sample=H-Salt-599, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 176 with external jobid 'Submitted batch job 7660145'.
+
+[Fri May 10 11:02:48 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_181.png
+    jobid: 190
+    wildcards: sample=H-Salt-599, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 190 with external jobid 'Submitted batch job 7660146'.
+
+[Fri May 10 11:02:48 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_111.png
+    jobid: 183
+    wildcards: sample=H-Salt-599, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 183 with external jobid 'Submitted batch job 7660147'.
+
+[Fri May 10 11:02:49 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_071.png
+    jobid: 205
+    wildcards: sample=H-Salt-F1, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 205 with external jobid 'Submitted batch job 7660148'.
+
+[Fri May 10 11:02:49 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_211.png
+    jobid: 219
+    wildcards: sample=H-Salt-F1, batch=211
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:50 2024]
+Finished job 24.
+65 of 235 steps (28%) done
+[Fri May 10 11:02:50 2024]
+Finished job 26.
+66 of 235 steps (28%) done
+[Fri May 10 11:02:50 2024]
+Finished job 21.
+67 of 235 steps (29%) done
+[Fri May 10 11:02:50 2024]
+Finished job 25.
+68 of 235 steps (29%) done
+[Fri May 10 11:02:50 2024]
+Finished job 22.
+69 of 235 steps (29%) done
+[Fri May 10 11:02:50 2024]
+Finished job 23.
+70 of 235 steps (30%) done
+Submitted job 219 with external jobid 'Submitted batch job 7660149'.
+
+[Fri May 10 11:02:50 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_051.png
+    jobid: 177
+    wildcards: sample=H-Salt-599, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 177 with external jobid 'Submitted batch job 7660151'.
+
+[Fri May 10 11:02:51 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_191.png
+    jobid: 191
+    wildcards: sample=H-Salt-599, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 191 with external jobid 'Submitted batch job 7660152'.
+
+[Fri May 10 11:02:51 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_021.png
+    jobid: 174
+    wildcards: sample=H-Salt-599, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 174 with external jobid 'Submitted batch job 7660153'.
+
+[Fri May 10 11:02:51 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_081.png
+    jobid: 206
+    wildcards: sample=H-Salt-F1, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 206 with external jobid 'Submitted batch job 7660154'.
+
+[Fri May 10 11:02:52 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_221.png
+    jobid: 220
+    wildcards: sample=H-Salt-F1, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 220 with external jobid 'Submitted batch job 7660155'.
+
+[Fri May 10 11:02:52 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_061.png
+    jobid: 178
+    wildcards: sample=H-Salt-599, batch=061
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:02:52 2024]
+Finished job 6.
+71 of 235 steps (30%) done
+[Fri May 10 11:02:52 2024]
+Finished job 62.
+72 of 235 steps (31%) done
+[Fri May 10 11:02:52 2024]
+Finished job 11.
+73 of 235 steps (31%) done
+[Fri May 10 11:02:52 2024]
+Finished job 53.
+74 of 235 steps (31%) done
+[Fri May 10 11:02:53 2024]
+Finished job 67.
+75 of 235 steps (32%) done
+[Fri May 10 11:02:53 2024]
+Finished job 81.
+76 of 235 steps (32%) done
+[Fri May 10 11:02:53 2024]
+Finished job 39.
+77 of 235 steps (33%) done
+[Fri May 10 11:02:53 2024]
+Finished job 75.
+78 of 235 steps (33%) done
+Submitted job 178 with external jobid 'Submitted batch job 7660156'.
+
+[Fri May 10 11:02:53 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_201.png
+    jobid: 192
+    wildcards: sample=H-Salt-599, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 192 with external jobid 'Submitted batch job 7660157'.
+
+[Fri May 10 11:02:54 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_131.png
+    jobid: 185
+    wildcards: sample=H-Salt-599, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 185 with external jobid 'Submitted batch job 7660158'.
+
+[Fri May 10 11:02:54 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_181.png
+    jobid: 216
+    wildcards: sample=H-Salt-F1, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 216 with external jobid 'Submitted batch job 7660159'.
+
+[Fri May 10 11:02:54 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_071.png
+    jobid: 179
+    wildcards: sample=H-Salt-599, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 179 with external jobid 'Submitted batch job 7660160'.
+
+[Fri May 10 11:02:55 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_211.png
+    jobid: 193
+    wildcards: sample=H-Salt-599, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 193 with external jobid 'Submitted batch job 7660161'.
+
+[Fri May 10 11:02:55 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_161.png
+    jobid: 214
+    wildcards: sample=H-Salt-F1, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 214 with external jobid 'Submitted batch job 7660162'.
+
+[Fri May 10 11:02:56 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_141.png
+    jobid: 186
+    wildcards: sample=H-Salt-599, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 186 with external jobid 'Submitted batch job 7660163'.
+
+[Fri May 10 11:02:56 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_081.png
+    jobid: 180
+    wildcards: sample=H-Salt-599, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 180 with external jobid 'Submitted batch job 7660171'.
+
+[Fri May 10 11:02:58 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_221.png
+    jobid: 194
+    wildcards: sample=H-Salt-599, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 194 with external jobid 'Submitted batch job 7660174'.
+
+[Fri May 10 11:02:58 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_171.png
+    jobid: 215
+    wildcards: sample=H-Salt-F1, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 215 with external jobid 'Submitted batch job 7660178'.
+
+[Fri May 10 11:02:58 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_011.png
+    jobid: 173
+    wildcards: sample=H-Salt-599, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 173 with external jobid 'Submitted batch job 7660180'.
+
+[Fri May 10 11:02:58 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_151.png
+    jobid: 187
+    wildcards: sample=H-Salt-599, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 187 with external jobid 'Submitted batch job 7660181'.
+
+[Fri May 10 11:02:59 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_161.png
+    jobid: 188
+    wildcards: sample=H-Salt-599, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 188 with external jobid 'Submitted batch job 7660182'.
+
+[Fri May 10 11:02:59 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_101.png
+    jobid: 208
+    wildcards: sample=H-Salt-F1, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 208 with external jobid 'Submitted batch job 7660183'.
+
+[Fri May 10 11:03:00 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_121.png
+    jobid: 236
+    wildcards: sample=H-Salt-076, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 236 with external jobid 'Submitted batch job 7660184'.
+
+[Fri May 10 11:03:01 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_171.png
+    jobid: 111
+    wildcards: sample=H-CK-599, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 111 with external jobid 'Submitted batch job 7660185'.
+
+[Fri May 10 11:03:01 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_131.png
+    jobid: 211
+    wildcards: sample=H-Salt-F1, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 211 with external jobid 'Submitted batch job 7660186'.
+
+[Fri May 10 11:03:01 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_011.png
+    jobid: 199
+    wildcards: sample=H-Salt-F1, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 199 with external jobid 'Submitted batch job 7660187'.
+
+[Fri May 10 11:03:02 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_151.png
+    jobid: 213
+    wildcards: sample=H-Salt-F1, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 213 with external jobid 'Submitted batch job 7660188'.
+
+[Fri May 10 11:03:02 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_031.png
+    jobid: 201
+    wildcards: sample=H-Salt-F1, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 201 with external jobid 'Submitted batch job 7660189'.
+
+[Fri May 10 11:03:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_001.png
+    jobid: 171
+    wildcards: sample=H-Salt-599, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 171 with external jobid 'Submitted batch job 7660190'.
+
+[Fri May 10 11:03:03 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_091.png
+    jobid: 207
+    wildcards: sample=H-Salt-F1, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 207 with external jobid 'Submitted batch job 7660191'.
+
+[Fri May 10 11:03:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_231.png
+    jobid: 221
+    wildcards: sample=H-Salt-F1, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 221 with external jobid 'Submitted batch job 7660192'.
+
+[Fri May 10 11:03:04 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_121.png
+    jobid: 184
+    wildcards: sample=H-Salt-599, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 184 with external jobid 'Submitted batch job 7660193'.
+
+[Fri May 10 11:03:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_181.png
+    jobid: 112
+    wildcards: sample=H-CK-599, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 112 with external jobid 'Submitted batch job 7660194'.
+
+[Fri May 10 11:03:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_141.png
+    jobid: 212
+    wildcards: sample=H-Salt-F1, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 212 with external jobid 'Submitted batch job 7660195'.
+
+[Fri May 10 11:03:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_021.png
+    jobid: 200
+    wildcards: sample=H-Salt-F1, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 200 with external jobid 'Submitted batch job 7660196'.
+[Fri May 10 11:04:49 2024]
+Finished job 209.
+79 of 235 steps (34%) done
+
+[Fri May 10 11:04:49 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_071.png
+    jobid: 153
+    wildcards: sample=H-CK-076, batch=071
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:04:50 2024]
+Finished job 203.
+80 of 235 steps (34%) done
+[Fri May 10 11:04:50 2024]
+Finished job 217.
+81 of 235 steps (34%) done
+[Fri May 10 11:04:50 2024]
+Finished job 202.
+82 of 235 steps (35%) done
+Submitted job 153 with external jobid 'Submitted batch job 7660200'.
+
+[Fri May 10 11:04:50 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_211.png
+    jobid: 167
+    wildcards: sample=H-CK-076, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 167 with external jobid 'Submitted batch job 7660201'.
+
+[Fri May 10 11:04:50 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_111.png
+    jobid: 105
+    wildcards: sample=H-CK-599, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 105 with external jobid 'Submitted batch job 7660202'.
+
+[Fri May 10 11:04:50 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_121.png
+    jobid: 210
+    wildcards: sample=H-Salt-F1, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 210 with external jobid 'Submitted batch job 7660203'.
+[Fri May 10 11:04:52 2024]
+Finished job 175.
+83 of 235 steps (35%) done
+
+[Fri May 10 11:04:52 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_041.png
+    jobid: 98
+    wildcards: sample=H-CK-599, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 98 with external jobid 'Submitted batch job 7660204'.
+[Fri May 10 11:04:53 2024]
+Finished job 215.
+84 of 235 steps (36%) done
+
+[Fri May 10 11:04:53 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_081.png
+    jobid: 154
+    wildcards: sample=H-CK-076, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 154 with external jobid 'Submitted batch job 7660205'.
+[Fri May 10 11:05:05 2024]
+Finished job 212.
+85 of 235 steps (36%) done
+
+[Fri May 10 11:05:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_221.png
+    jobid: 168
+    wildcards: sample=H-CK-076, batch=221
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:05 2024]
+Finished job 200.
+86 of 235 steps (37%) done
+[Fri May 10 11:05:05 2024]
+Finished job 177.
+87 of 235 steps (37%) done
+Submitted job 168 with external jobid 'Submitted batch job 7660206'.
+
+[Fri May 10 11:05:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_161.png
+    jobid: 162
+    wildcards: sample=H-CK-076, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 162 with external jobid 'Submitted batch job 7660207'.
+
+[Fri May 10 11:05:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_191.png
+    jobid: 113
+    wildcards: sample=H-CK-599, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 113 with external jobid 'Submitted batch job 7660208'.
+[Fri May 10 11:05:05 2024]
+Finished job 191.
+88 of 235 steps (37%) done
+
+[Fri May 10 11:05:05 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_001.png
+    jobid: 197
+    wildcards: sample=H-Salt-F1, batch=001
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:06 2024]
+Finished job 174.
+89 of 235 steps (38%) done
+[Fri May 10 11:05:06 2024]
+Finished job 206.
+90 of 235 steps (38%) done
+Submitted job 197 with external jobid 'Submitted batch job 7660209'.
+[Fri May 10 11:05:06 2024]
+Finished job 220.
+91 of 235 steps (39%) done
+
+[Fri May 10 11:05:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_231.png
+    jobid: 169
+    wildcards: sample=H-CK-076, batch=231
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:06 2024]
+Finished job 178.
+92 of 235 steps (39%) done
+[Fri May 10 11:05:06 2024]
+Finished job 192.
+93 of 235 steps (40%) done
+[Fri May 10 11:05:06 2024]
+Finished job 216.
+94 of 235 steps (40%) done
+Submitted job 169 with external jobid 'Submitted batch job 7660210'.
+
+[Fri May 10 11:05:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_091.png
+    jobid: 155
+    wildcards: sample=H-CK-076, batch=091
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:06 2024]
+Finished job 179.
+95 of 235 steps (40%) done
+[Fri May 10 11:05:06 2024]
+Finished job 193.
+96 of 235 steps (41%) done
+Submitted job 155 with external jobid 'Submitted batch job 7660211'.
+
+[Fri May 10 11:05:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_051.png
+    jobid: 99
+    wildcards: sample=H-CK-599, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 99 with external jobid 'Submitted batch job 7660212'.
+
+[Fri May 10 11:05:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_041.png
+    jobid: 150
+    wildcards: sample=H-CK-076, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 150 with external jobid 'Submitted batch job 7660213'.
+
+[Fri May 10 11:05:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_171.png
+    jobid: 163
+    wildcards: sample=H-CK-076, batch=171
+    resources: tmpdir=/tmp
+
+Submitted job 163 with external jobid 'Submitted batch job 7660214'.
+
+[Fri May 10 11:05:06 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_061.png
+    jobid: 100
+    wildcards: sample=H-CK-599, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 100 with external jobid 'Submitted batch job 7660215'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_101.png
+    jobid: 156
+    wildcards: sample=H-CK-076, batch=101
+    resources: tmpdir=/tmp
+[Fri May 10 11:05:07 2024]
+
+Finished job 232.
+97 of 235 steps (41%) done
+[Fri May 10 11:05:07 2024]
+Finished job 231.
+98 of 235 steps (42%) done
+[Fri May 10 11:05:07 2024]
+Finished job 247.
+99 of 235 steps (42%) done
+Submitted job 156 with external jobid 'Submitted batch job 7660216'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_201.png
+    jobid: 114
+    wildcards: sample=H-CK-599, batch=201
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:07 2024]
+Finished job 233.
+100 of 235 steps (43%) done
+[Fri May 10 11:05:07 2024]
+Finished job 240.
+101 of 235 steps (43%) done
+Submitted job 114 with external jobid 'Submitted batch job 7660217'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_181.png
+    jobid: 164
+    wildcards: sample=H-CK-076, batch=181
+    resources: tmpdir=/tmp
+
+Submitted job 164 with external jobid 'Submitted batch job 7660218'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_211.png
+    jobid: 115
+    wildcards: sample=H-CK-599, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 115 with external jobid 'Submitted batch job 7660219'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_111.png
+    jobid: 157
+    wildcards: sample=H-CK-076, batch=111
+    resources: tmpdir=/tmp
+
+Submitted job 157 with external jobid 'Submitted batch job 7660220'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_071.png
+    jobid: 101
+    wildcards: sample=H-CK-599, batch=071
+    resources: tmpdir=/tmp
+
+Submitted job 101 with external jobid 'Submitted batch job 7660221'.
+
+[Fri May 10 11:05:07 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_101.png
+    jobid: 104
+    wildcards: sample=H-CK-599, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 104 with external jobid 'Submitted batch job 7660222'.
+[Fri May 10 11:05:08 2024]
+Finished job 204.
+102 of 235 steps (43%) done
+
+[Fri May 10 11:05:08 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_051.png
+    jobid: 151
+    wildcards: sample=H-CK-076, batch=051
+    resources: tmpdir=/tmp
+
+Submitted job 151 with external jobid 'Submitted batch job 7660223'.
+[Fri May 10 11:05:08 2024]
+Finished job 241.
+103 of 235 steps (44%) done
+
+[Fri May 10 11:05:08 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_191.png
+    jobid: 165
+    wildcards: sample=H-CK-076, batch=191
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:08 2024]
+Finished job 235.
+104 of 235 steps (44%) done
+[Fri May 10 11:05:08 2024]
+Finished job 228.
+105 of 235 steps (45%) done
+Submitted job 165 with external jobid 'Submitted batch job 7660224'.
+
+[Fri May 10 11:05:08 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_221.png
+    jobid: 116
+    wildcards: sample=H-CK-599, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 116 with external jobid 'Submitted batch job 7660225'.
+
+[Fri May 10 11:05:08 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_081.png
+    jobid: 102
+    wildcards: sample=H-CK-599, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 102 with external jobid 'Submitted batch job 7660226'.
+[Fri May 10 11:05:09 2024]
+Finished job 242.
+106 of 235 steps (45%) done
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_061.png
+    jobid: 152
+    wildcards: sample=H-CK-076, batch=061
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:09 2024]
+Finished job 243.
+107 of 235 steps (46%) done
+Submitted job 152 with external jobid 'Submitted batch job 7660227'.
+[Fri May 10 11:05:09 2024]
+Finished job 195.
+108 of 235 steps (46%) done
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_161.png
+    jobid: 110
+    wildcards: sample=H-CK-599, batch=161
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:09 2024]
+Finished job 181.
+109 of 235 steps (46%) done
+[Fri May 10 11:05:09 2024]
+Finished job 189.
+110 of 235 steps (47%) done
+[Fri May 10 11:05:09 2024]
+Finished job 182.
+111 of 235 steps (47%) done
+Submitted job 110 with external jobid 'Submitted batch job 7660228'.
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_201.png
+    jobid: 166
+    wildcards: sample=H-CK-076, batch=201
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:09 2024]
+Finished job 218.
+112 of 235 steps (48%) done
+[Fri May 10 11:05:09 2024]
+Finished job 176.
+113 of 235 steps (48%) done
+Submitted job 166 with external jobid 'Submitted batch job 7660229'.
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_031.png
+    jobid: 97
+    wildcards: sample=H-CK-599, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 97 with external jobid 'Submitted batch job 7660230'.
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_231.png
+    jobid: 117
+    wildcards: sample=H-CK-599, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 117 with external jobid 'Submitted batch job 7660231'.
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_091.png
+    jobid: 103
+    wildcards: sample=H-CK-599, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 103 with external jobid 'Submitted batch job 7660232'.
+
+[Fri May 10 11:05:09 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_151.png
+    jobid: 161
+    wildcards: sample=H-CK-076, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 161 with external jobid 'Submitted batch job 7660233'.
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_011.png
+    jobid: 147
+    wildcards: sample=H-CK-076, batch=011
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:10 2024]
+Finished job 190.
+114 of 235 steps (49%) done
+[Fri May 10 11:05:10 2024]
+Finished job 183.
+115 of 235 steps (49%) done
+[Fri May 10 11:05:10 2024]
+Finished job 205.
+116 of 235 steps (49%) done
+[Fri May 10 11:05:10 2024]
+Finished job 214.
+117 of 235 steps (50%) done
+Submitted job 147 with external jobid 'Submitted batch job 7660234'.
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_141.png
+    jobid: 108
+    wildcards: sample=H-CK-599, batch=141
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:10 2024]
+Finished job 180.
+118 of 235 steps (50%) done
+Submitted job 108 with external jobid 'Submitted batch job 7660235'.
+[Fri May 10 11:05:10 2024]
+Finished job 194.
+119 of 235 steps (51%) done
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_131.png
+    jobid: 107
+    wildcards: sample=H-CK-599, batch=131
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:10 2024]
+Finished job 173.
+120 of 235 steps (51%) done
+[Fri May 10 11:05:10 2024]
+Finished job 187.
+121 of 235 steps (51%) done
+Submitted job 107 with external jobid 'Submitted batch job 7660236'.
+[Fri May 10 11:05:10 2024]
+Finished job 188.
+122 of 235 steps (52%) done
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_021.png
+    jobid: 148
+    wildcards: sample=H-CK-076, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 148 with external jobid 'Submitted batch job 7660237'.
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_031.png
+    jobid: 149
+    wildcards: sample=H-CK-076, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 149 with external jobid 'Submitted batch job 7660238'.
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_021.png
+    jobid: 96
+    wildcards: sample=H-CK-599, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 96 with external jobid 'Submitted batch job 7660239'.
+
+[Fri May 10 11:05:10 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_131.png
+    jobid: 159
+    wildcards: sample=H-CK-076, batch=131
+    resources: tmpdir=/tmp
+
+Submitted job 159 with external jobid 'Submitted batch job 7660240'.
+
+[Fri May 10 11:05:11 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_011.png
+    jobid: 95
+    wildcards: sample=H-CK-599, batch=011
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:11 2024]
+Finished job 208.
+123 of 235 steps (52%) done
+Submitted job 95 with external jobid 'Submitted batch job 7660241'.
+
+[Fri May 10 11:05:11 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_151.png
+    jobid: 109
+    wildcards: sample=H-CK-599, batch=151
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:11 2024]
+Finished job 111.
+124 of 235 steps (53%) done
+[Fri May 10 11:05:11 2024]
+Finished job 211.
+125 of 235 steps (53%) done
+[Fri May 10 11:05:11 2024]
+Finished job 199.
+126 of 235 steps (54%) done
+[Fri May 10 11:05:11 2024]
+Finished job 213.
+127 of 235 steps (54%) done
+[Fri May 10 11:05:11 2024]
+Finished job 201.
+128 of 235 steps (54%) done
+[Fri May 10 11:05:11 2024]
+Finished job 171.
+129 of 235 steps (55%) done
+[Fri May 10 11:05:11 2024]
+Finished job 207.
+130 of 235 steps (55%) done
+[Fri May 10 11:05:11 2024]
+Finished job 221.
+131 of 235 steps (56%) done
+Submitted job 109 with external jobid 'Submitted batch job 7660242'.
+
+[Fri May 10 11:05:11 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_141.png
+    jobid: 160
+    wildcards: sample=H-CK-076, batch=141
+    resources: tmpdir=/tmp
+
+Submitted job 160 with external jobid 'Submitted batch job 7660243'.
+
+[Fri May 10 11:05:11 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_191.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_191.png
+    jobid: 139
+    wildcards: sample=H-CK-F1, batch=191
+    resources: tmpdir=/tmp
+
+Submitted job 139 with external jobid 'Submitted batch job 7660244'.
+
+[Fri May 10 11:05:12 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_051.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_051.png
+    jobid: 125
+    wildcards: sample=H-CK-F1, batch=051
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:12 2024]
+Finished job 184.
+132 of 235 steps (56%) done
+Submitted job 125 with external jobid 'Submitted batch job 7660245'.
+
+[Fri May 10 11:05:12 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_071.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_071.png
+    jobid: 127
+    wildcards: sample=H-CK-F1, batch=071
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:12 2024]
+Finished job 112.
+133 of 235 steps (57%) done
+Submitted job 127 with external jobid 'Submitted batch job 7660246'.
+
+[Fri May 10 11:05:12 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_211.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_211.png
+    jobid: 141
+    wildcards: sample=H-CK-F1, batch=211
+    resources: tmpdir=/tmp
+
+Submitted job 141 with external jobid 'Submitted batch job 7660247'.
+
+[Fri May 10 11:05:12 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_001.png
+    jobid: 93
+    wildcards: sample=H-CK-599, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 93 with external jobid 'Submitted batch job 7660248'.
+
+[Fri May 10 11:05:12 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_061.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_061.png
+    jobid: 126
+    wildcards: sample=H-CK-F1, batch=061
+    resources: tmpdir=/tmp
+
+Submitted job 126 with external jobid 'Submitted batch job 7660249'.
+
+[Fri May 10 11:05:12 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_201.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_201.png
+    jobid: 140
+    wildcards: sample=H-CK-F1, batch=201
+    resources: tmpdir=/tmp
+
+Submitted job 140 with external jobid 'Submitted batch job 7660250'.
+
+[Fri May 10 11:05:14 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_081.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_081.png
+    jobid: 128
+    wildcards: sample=H-CK-F1, batch=081
+    resources: tmpdir=/tmp
+
+Submitted job 128 with external jobid 'Submitted batch job 7660251'.
+
+[Fri May 10 11:05:14 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_121.png
+    jobid: 106
+    wildcards: sample=H-CK-599, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 106 with external jobid 'Submitted batch job 7660252'.
+
+[Fri May 10 11:05:14 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_221.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_221.png
+    jobid: 142
+    wildcards: sample=H-CK-F1, batch=221
+    resources: tmpdir=/tmp
+
+Submitted job 142 with external jobid 'Submitted batch job 7660253'.
+
+[Fri May 10 11:05:14 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_161.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_161.png
+    jobid: 136
+    wildcards: sample=H-CK-F1, batch=161
+    resources: tmpdir=/tmp
+
+Submitted job 136 with external jobid 'Submitted batch job 7660254'.
+[Fri May 10 11:05:26 2024]
+Finished job 219.
+134 of 235 steps (57%) done
+
+[Fri May 10 11:05:26 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_181.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_181.png
+    jobid: 138
+    wildcards: sample=H-CK-F1, batch=181
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:26 2024]
+Finished job 185.
+135 of 235 steps (57%) done
+[Fri May 10 11:05:26 2024]
+Finished job 245.
+136 of 235 steps (58%) done
+Submitted job 138 with external jobid 'Submitted batch job 7660256'.
+[Fri May 10 11:05:26 2024]
+Finished job 244.
+137 of 235 steps (58%) done
+
+[Fri May 10 11:05:26 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_231.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_231.png
+    jobid: 143
+    wildcards: sample=H-CK-F1, batch=231
+    resources: tmpdir=/tmp
+
+Submitted job 143 with external jobid 'Submitted batch job 7660257'.
+
+[Fri May 10 11:05:26 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_091.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_091.png
+    jobid: 129
+    wildcards: sample=H-CK-F1, batch=091
+    resources: tmpdir=/tmp
+
+Submitted job 129 with external jobid 'Submitted batch job 7660258'.
+
+[Fri May 10 11:05:26 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_041.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_041.png
+    jobid: 124
+    wildcards: sample=H-CK-F1, batch=041
+    resources: tmpdir=/tmp
+
+Submitted job 124 with external jobid 'Submitted batch job 7660259'.
+[Fri May 10 11:05:27 2024]
+Finished job 246.
+138 of 235 steps (59%) done
+
+[Fri May 10 11:05:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_111.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_111.png
+    jobid: 131
+    wildcards: sample=H-CK-F1, batch=111
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:27 2024]
+Finished job 223.
+139 of 235 steps (59%) done
+[Fri May 10 11:05:27 2024]
+Finished job 237.
+140 of 235 steps (60%) done
+[Fri May 10 11:05:27 2024]
+Finished job 238.
+141 of 235 steps (60%) done
+Submitted job 131 with external jobid 'Submitted batch job 7660260'.
+[Fri May 10 11:05:27 2024]
+Finished job 234.
+142 of 235 steps (60%) done
+
+[Fri May 10 11:05:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_171.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_171.png
+    jobid: 137
+    wildcards: sample=H-CK-F1, batch=171
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:27 2024]
+Finished job 229.
+143 of 235 steps (61%) done
+Submitted job 137 with external jobid 'Submitted batch job 7660261'.
+
+[Fri May 10 11:05:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_101.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_101.png
+    jobid: 130
+    wildcards: sample=H-CK-F1, batch=101
+    resources: tmpdir=/tmp
+
+Submitted job 130 with external jobid 'Submitted batch job 7660262'.
+
+[Fri May 10 11:05:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_001.png
+    jobid: 145
+    wildcards: sample=H-CK-076, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 145 with external jobid 'Submitted batch job 7660263'.
+
+[Fri May 10 11:05:27 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_121.png
+    jobid: 158
+    wildcards: sample=H-CK-076, batch=121
+    resources: tmpdir=/tmp
+
+Submitted job 158 with external jobid 'Submitted batch job 7660264'.
+
+[Fri May 10 11:05:28 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_021.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_021.png
+    jobid: 122
+    wildcards: sample=H-CK-F1, batch=021
+    resources: tmpdir=/tmp
+
+Submitted job 122 with external jobid 'Submitted batch job 7660265'.
+[Fri May 10 11:05:28 2024]
+Finished job 230.
+144 of 235 steps (61%) done
+
+[Fri May 10 11:05:28 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_131.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_131.png
+    jobid: 133
+    wildcards: sample=H-CK-F1, batch=131
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:05:28 2024]
+Finished job 186.
+145 of 235 steps (62%) done
+[Fri May 10 11:05:28 2024]
+Finished job 236.
+146 of 235 steps (62%) done
+Submitted job 133 with external jobid 'Submitted batch job 7660266'.
+
+[Fri May 10 11:05:28 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/H-Salt-599.gif
+    jobid: 170
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 170 with external jobid 'Submitted batch job 7660267'.
+
+[Fri May 10 11:05:28 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/H-Salt-599.mp4
+    jobid: 251
+    wildcards: sample=H-Salt-599
+    resources: tmpdir=/tmp
+
+Submitted job 251 with external jobid 'Submitted batch job 7660268'.
+[Fri May 10 11:05:44 2024]
+Finished job 239.
+147 of 235 steps (63%) done
+
+[Fri May 10 11:05:44 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_011.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_011.png
+    jobid: 121
+    wildcards: sample=H-CK-F1, batch=011
+    resources: tmpdir=/tmp
+
+Submitted job 121 with external jobid 'Submitted batch job 7660270'.
+[Fri May 10 11:05:45 2024]
+Finished job 227.
+148 of 235 steps (63%) done
+
+[Fri May 10 11:05:45 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_151.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_151.png
+    jobid: 135
+    wildcards: sample=H-CK-F1, batch=151
+    resources: tmpdir=/tmp
+
+Submitted job 135 with external jobid 'Submitted batch job 7660271'.
+[Fri May 10 11:05:57 2024]
+Finished job 170.
+149 of 235 steps (63%) done
+
+[Fri May 10 11:05:57 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_031.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_031.png
+    jobid: 123
+    wildcards: sample=H-CK-F1, batch=031
+    resources: tmpdir=/tmp
+
+Submitted job 123 with external jobid 'Submitted batch job 7660272'.
+[Fri May 10 11:06:02 2024]
+Finished job 225.
+150 of 235 steps (64%) done
+
+[Fri May 10 11:06:02 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_141.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_141.png
+    jobid: 134
+    wildcards: sample=H-CK-F1, batch=141
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:06:02 2024]
+Finished job 226.
+151 of 235 steps (64%) done
+Submitted job 134 with external jobid 'Submitted batch job 7660273'.
+
+[Fri May 10 11:06:02 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/H-Salt-076.gif
+    jobid: 222
+    wildcards: sample=H-Salt-076
+    resources: tmpdir=/tmp
+
+Submitted job 222 with external jobid 'Submitted batch job 7660274'.
+[Fri May 10 11:06:14 2024]
+Finished job 251.
+152 of 235 steps (65%) done
+
+[Fri May 10 11:06:14 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/H-Salt-076.mp4
+    jobid: 253
+    wildcards: sample=H-Salt-076
+    resources: tmpdir=/tmp
+
+Submitted job 253 with external jobid 'Submitted batch job 7660276'.
+[Fri May 10 11:06:47 2024]
+Finished job 253.
+153 of 235 steps (65%) done
+
+[Fri May 10 11:06:47 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_121.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_121.png
+    jobid: 132
+    wildcards: sample=H-CK-F1, batch=121
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:06:47 2024]
+Finished job 222.
+154 of 235 steps (66%) done
+Submitted job 132 with external jobid 'Submitted batch job 7660278'.
+
+[Fri May 10 11:06:48 2024]
+rule png:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pmls/gif_001.pml
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_001.png
+    jobid: 119
+    wildcards: sample=H-CK-F1, batch=001
+    resources: tmpdir=/tmp
+
+Submitted job 119 with external jobid 'Submitted batch job 7660279'.
+[Fri May 10 11:07:05 2024]
+Finished job 162.
+155 of 235 steps (66%) done
+[Fri May 10 11:07:06 2024]
+Finished job 197.
+156 of 235 steps (66%) done
+[Fri May 10 11:07:07 2024]
+Finished job 164.
+157 of 235 steps (67%) done
+[Fri May 10 11:07:10 2024]
+Finished job 153.
+158 of 235 steps (67%) done
+[Fri May 10 11:07:10 2024]
+Finished job 167.
+159 of 235 steps (68%) done
+[Fri May 10 11:07:11 2024]
+Finished job 210.
+160 of 235 steps (68%) done
+[Fri May 10 11:07:11 2024]
+Finished job 98.
+161 of 235 steps (69%) done
+
+[Fri May 10 11:07:11 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/H-Salt-F1.gif
+    jobid: 196
+    wildcards: sample=H-Salt-F1
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:07:11 2024]
+Finished job 154.
+162 of 235 steps (69%) done
+Submitted job 196 with external jobid 'Submitted batch job 7660281'.
+
+[Fri May 10 11:07:11 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/H-Salt-F1.mp4
+    jobid: 252
+    wildcards: sample=H-Salt-F1
+    resources: tmpdir=/tmp
+
+Submitted job 252 with external jobid 'Submitted batch job 7660282'.
+[Fri May 10 11:07:24 2024]
+Finished job 113.
+163 of 235 steps (69%) done
+[Fri May 10 11:07:24 2024]
+Finished job 169.
+164 of 235 steps (70%) done
+[Fri May 10 11:07:24 2024]
+Finished job 155.
+165 of 235 steps (70%) done
+[Fri May 10 11:07:24 2024]
+Finished job 99.
+166 of 235 steps (71%) done
+[Fri May 10 11:07:24 2024]
+Finished job 150.
+167 of 235 steps (71%) done
+[Fri May 10 11:07:24 2024]
+Finished job 163.
+168 of 235 steps (71%) done
+[Fri May 10 11:07:24 2024]
+Finished job 100.
+169 of 235 steps (72%) done
+[Fri May 10 11:07:24 2024]
+Finished job 156.
+170 of 235 steps (72%) done
+[Fri May 10 11:07:25 2024]
+Finished job 157.
+171 of 235 steps (73%) done
+[Fri May 10 11:07:25 2024]
+Finished job 151.
+172 of 235 steps (73%) done
+[Fri May 10 11:07:25 2024]
+Finished job 165.
+173 of 235 steps (74%) done
+[Fri May 10 11:07:25 2024]
+Finished job 102.
+174 of 235 steps (74%) done
+[Fri May 10 11:07:25 2024]
+Finished job 152.
+175 of 235 steps (74%) done
+[Fri May 10 11:07:25 2024]
+Finished job 110.
+176 of 235 steps (75%) done
+[Fri May 10 11:07:26 2024]
+Finished job 161.
+177 of 235 steps (75%) done
+[Fri May 10 11:07:26 2024]
+Finished job 108.
+178 of 235 steps (76%) done
+[Fri May 10 11:07:26 2024]
+Finished job 149.
+179 of 235 steps (76%) done
+[Fri May 10 11:07:27 2024]
+Finished job 159.
+180 of 235 steps (77%) done
+[Fri May 10 11:07:27 2024]
+Finished job 109.
+181 of 235 steps (77%) done
+[Fri May 10 11:07:27 2024]
+Finished job 160.
+182 of 235 steps (77%) done
+[Fri May 10 11:07:27 2024]
+Finished job 105.
+183 of 235 steps (78%) done
+[Fri May 10 11:07:27 2024]
+Finished job 141.
+184 of 235 steps (78%) done
+[Fri May 10 11:07:27 2024]
+Finished job 93.
+185 of 235 steps (79%) done
+[Fri May 10 11:07:28 2024]
+Finished job 128.
+186 of 235 steps (79%) done
+[Fri May 10 11:07:28 2024]
+Finished job 106.
+187 of 235 steps (80%) done
+[Fri May 10 11:07:28 2024]
+Finished job 142.
+188 of 235 steps (80%) done
+[Fri May 10 11:07:28 2024]
+Finished job 136.
+189 of 235 steps (80%) done
+[Fri May 10 11:07:39 2024]
+Finished job 124.
+190 of 235 steps (81%) done
+[Fri May 10 11:07:39 2024]
+Finished job 131.
+191 of 235 steps (81%) done
+[Fri May 10 11:07:39 2024]
+Finished job 137.
+192 of 235 steps (82%) done
+[Fri May 10 11:07:39 2024]
+Finished job 130.
+193 of 235 steps (82%) done
+[Fri May 10 11:07:39 2024]
+Finished job 145.
+194 of 235 steps (83%) done
+[Fri May 10 11:07:39 2024]
+Finished job 158.
+195 of 235 steps (83%) done
+[Fri May 10 11:07:39 2024]
+Finished job 122.
+196 of 235 steps (83%) done
+[Fri May 10 11:07:39 2024]
+Finished job 133.
+197 of 235 steps (84%) done
+[Fri May 10 11:07:40 2024]
+Finished job 114.
+198 of 235 steps (84%) done
+[Fri May 10 11:07:40 2024]
+Finished job 115.
+199 of 235 steps (85%) done
+[Fri May 10 11:07:40 2024]
+Finished job 101.
+200 of 235 steps (85%) done
+[Fri May 10 11:07:40 2024]
+Finished job 104.
+201 of 235 steps (86%) done
+[Fri May 10 11:07:40 2024]
+Finished job 116.
+202 of 235 steps (86%) done
+[Fri May 10 11:07:40 2024]
+Finished job 166.
+203 of 235 steps (86%) done
+[Fri May 10 11:07:40 2024]
+Finished job 97.
+204 of 235 steps (87%) done
+[Fri May 10 11:07:40 2024]
+Finished job 117.
+205 of 235 steps (87%) done
+[Fri May 10 11:07:40 2024]
+Finished job 103.
+206 of 235 steps (88%) done
+[Fri May 10 11:07:41 2024]
+Finished job 147.
+207 of 235 steps (88%) done
+[Fri May 10 11:07:41 2024]
+Finished job 107.
+208 of 235 steps (89%) done
+[Fri May 10 11:07:41 2024]
+Finished job 148.
+209 of 235 steps (89%) done
+[Fri May 10 11:07:41 2024]
+Finished job 96.
+210 of 235 steps (89%) done
+[Fri May 10 11:07:41 2024]
+Finished job 95.
+211 of 235 steps (90%) done
+
+[Fri May 10 11:07:41 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/H-CK-599.mp4
+    jobid: 248
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:07:41 2024]
+Finished job 125.
+212 of 235 steps (90%) done
+[Fri May 10 11:07:41 2024]
+Finished job 127.
+213 of 235 steps (91%) done
+[Fri May 10 11:07:42 2024]
+Finished job 126.
+214 of 235 steps (91%) done
+Submitted job 248 with external jobid 'Submitted batch job 7660288'.
+
+[Fri May 10 11:07:42 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/H-CK-599.gif
+    jobid: 92
+    wildcards: sample=H-CK-599
+    resources: tmpdir=/tmp
+
+Submitted job 92 with external jobid 'Submitted batch job 7660289'.
+[Fri May 10 11:07:52 2024]
+Finished job 196.
+215 of 235 steps (91%) done
+[Fri May 10 11:07:52 2024]
+Finished job 252.
+216 of 235 steps (92%) done
+[Fri May 10 11:07:53 2024]
+Finished job 129.
+217 of 235 steps (92%) done
+[Fri May 10 11:07:53 2024]
+Finished job 139.
+218 of 235 steps (93%) done
+[Fri May 10 11:07:53 2024]
+Finished job 140.
+219 of 235 steps (93%) done
+[Fri May 10 11:08:15 2024]
+Finished job 92.
+220 of 235 steps (94%) done
+[Fri May 10 11:08:25 2024]
+Finished job 168.
+221 of 235 steps (94%) done
+[Fri May 10 11:08:25 2024]
+Finished job 248.
+222 of 235 steps (94%) done
+
+[Fri May 10 11:08:25 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/H-CK-076.gif
+    jobid: 144
+    wildcards: sample=H-CK-076
+    resources: tmpdir=/tmp
+
+Submitted job 144 with external jobid 'Submitted batch job 7660290'.
+
+[Fri May 10 11:08:25 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/H-CK-076.mp4
+    jobid: 250
+    wildcards: sample=H-CK-076
+    resources: tmpdir=/tmp
+
+Submitted job 250 with external jobid 'Submitted batch job 7660291'.
+[Fri May 10 11:09:09 2024]
+Finished job 250.
+223 of 235 steps (95%) done
+[Fri May 10 11:09:30 2024]
+Finished job 144.
+224 of 235 steps (95%) done
+[Fri May 10 11:09:50 2024]
+Finished job 143.
+225 of 235 steps (96%) done
+[Fri May 10 11:10:20 2024]
+Finished job 135.
+226 of 235 steps (96%) done
+[Fri May 10 11:10:20 2024]
+Finished job 138.
+227 of 235 steps (97%) done
+[Fri May 10 11:10:40 2024]
+Finished job 121.
+228 of 235 steps (97%) done
+[Fri May 10 11:11:00 2024]
+Finished job 123.
+229 of 235 steps (97%) done
+[Fri May 10 11:11:00 2024]
+Finished job 134.
+230 of 235 steps (98%) done
+[Fri May 10 11:11:10 2024]
+Finished job 132.
+231 of 235 steps (98%) done
+[Fri May 10 11:11:21 2024]
+Finished job 119.
+232 of 235 steps (99%) done
+
+[Fri May 10 11:11:21 2024]
+rule mp4:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/H-CK-F1.mp4
+    jobid: 249
+    wildcards: sample=H-CK-F1
+    resources: tmpdir=/tmp
+
+Submitted job 249 with external jobid 'Submitted batch job 7660301'.
+
+[Fri May 10 11:11:21 2024]
+rule gif:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_001.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_011.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_021.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_031.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_041.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_051.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_061.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_071.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_081.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_091.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_101.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_111.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_121.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_131.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_141.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_151.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_161.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_171.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_181.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_191.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_201.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_211.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_221.png, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/pngs/fig_231.png
+    output: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/H-CK-F1.gif
+    jobid: 118
+    wildcards: sample=H-CK-F1
+    resources: tmpdir=/tmp
+
+Submitted job 118 with external jobid 'Submitted batch job 7660302'.
+[Fri May 10 11:12:01 2024]
+Finished job 249.
+233 of 235 steps (99%) done
+[Fri May 10 11:12:01 2024]
+Finished job 118.
+234 of 235 steps (99.6%) done
+
+[Fri May 10 11:12:01 2024]
+localrule all:
+    input: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr1/chr1.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr2/chr2.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr3/chr3.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr4/chr4.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr5/chr5.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr6/chr6.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr7/chr7.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr8/chr8.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr9/chr9.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr10/chr10.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr11/chr11.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/chrs/chr12/chr12.pml, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/H-CK-599.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/H-CK-F1.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/H-CK-076.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/H-Salt-599.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/H-Salt-F1.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/H-Salt-076.gif, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-599/H-CK-599.mp4, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-F1/H-CK-F1.mp4, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-CK-076/H-CK-076.mp4, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-599/H-Salt-599.mp4, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-F1/H-Salt-F1.mp4, /work/frasergen/3D/work/shaojie/script/HiC/3d_model/analysis_20240510_Hi-C_3D_model/03.gif/H-Salt-076/H-Salt-076.mp4
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri May 10 11:12:01 2024]
+Finished job 0.
+235 of 235 steps (100%) done
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/3d_model/.snakemake/log/2024-05-10T110150.952567.snakemake.log

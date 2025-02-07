@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+all            1              1              1
+get_gtf        1              1              1
+total          2              1              1
+
+
+[Tue Apr  2 00:16:02 2024]
+rule get_gtf:
+    input: /work/frasergen/backup/3d/project/Interactome/230192-01_jizhuaqi_20240109/00.ref/01.ref_prepare/jizhuaqi.gff
+    output: analysis_washu_20240402/00.longest_gtf/jizhuaqi_mRNA_genename.gtf
+    jobid: 1
+    wildcards: GENOME=jizhuaqi
+    resources: tmpdir=/tmp
+
+RuleException in line 14 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake.py:
+NameError: The name 'print $1,$2,$3,$4,$5,$6,$7,$8,$9 " " $13 "; " $12 " " $13 ";";next' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

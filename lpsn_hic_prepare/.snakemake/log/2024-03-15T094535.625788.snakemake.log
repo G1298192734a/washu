@@ -1,0 +1,58 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+HiC           1              1              1
+RNA           1              1              1
+all           1              1              1
+enrich        1              1              1
+qc            1              1              1
+yaml          1              1              1
+total         6              1              1
+
+
+[Fri Mar 15 09:45:43 2024]
+rule RNA:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/04.RNA/work.sh
+    jobid: 4
+    resources: tmpdir=/tmp
+
+touch /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/04.RNA/work.sh
+
+[Fri Mar 15 09:45:43 2024]
+rule HiC:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/work.sh, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/report.sh
+    jobid: 6
+    resources: tmpdir=/tmp
+
+[Fri Mar 15 09:45:43 2024]
+rule qc:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/02.qc/None_qc.sh
+    jobid: 3
+    wildcards: sample=None
+    resources: tmpdir=/tmp
+
+[Fri Mar 15 09:45:43 2024]
+rule enrich:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/03.enrich/work.sh
+    jobid: 5
+    resources: tmpdir=/tmp
+
+[Fri Mar 15 09:45:43 2024]
+rule yaml:
+    output: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/conf.yaml, /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/231062-02_sbuffalo/05.HiC/report.yaml
+    jobid: 7
+    resources: tmpdir=/tmp
+
+[Fri Mar 15 09:45:43 2024]
+Finished job 4.
+1 of 6 steps (17%) done
+[Fri Mar 15 09:45:54 2024]
+Finished job 3.
+2 of 6 steps (33%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /work/frasergen/3D/work/shaojie/script/HiC/lpsn_hic_prepare/.snakemake/log/2024-03-15T094535.625788.snakemake.log
