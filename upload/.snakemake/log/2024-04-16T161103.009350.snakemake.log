@@ -1,3 +1,0 @@
-TypeError in line 16 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake_test.py:
-'PosixPath' object is not iterable
-  File "/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake_test.py", line 16, in <module>

@@ -1,4 +1,0 @@
-AttributeError in line 20 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake.py:
-'list' object has no attribute 'keys'
-  File "/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake.py", line 21, in <module>
-  File "/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake.py", line 20, in <lambda>

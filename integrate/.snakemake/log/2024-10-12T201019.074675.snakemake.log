@@ -1,3 +1,0 @@
-TypeError in line 18 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/integrate_snake.py:
-'NoneType' object is not iterable
-  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/integrate_snake.py", line 18, in <module>

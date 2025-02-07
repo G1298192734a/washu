@@ -1,3 +1,0 @@
-FileNotFoundError in line 5 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py:
-[Errno 2] No such file or directory: '/work/frasergen/3D/project/Interactome/01.analysis/232291_lianmeijun_20240118/05.HiC/01.ref/Slividans_1326.fa.fai'
-  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model_test_snake.py", line 5, in <module>

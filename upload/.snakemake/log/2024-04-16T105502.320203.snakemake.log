@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 19 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake_test.py:
-Missing input files for rule all:
-/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/test/01.genome/240033_asm904v1/work.sh

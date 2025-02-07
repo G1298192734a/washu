@@ -1,6 +1,0 @@
-TypeError in line 6 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_hic2.0_snake.py:
-expected str, bytes or os.PathLike object, not NoneType
-  File "/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_hic2.0_snake.py", line 6, in <module>
-  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/pathlib.py", line 1027, in __new__
-  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/pathlib.py", line 674, in _from_parts
-  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/pathlib.py", line 658, in _parse_args

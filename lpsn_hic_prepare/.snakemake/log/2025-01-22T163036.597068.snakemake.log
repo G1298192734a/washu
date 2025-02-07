@@ -1,5 +1,0 @@
-Building DAG of jobs...
-ChildIOException:
-File/directory is a child to another output:
-('/public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121', rna_bam)
-('/public/frasergen/backup/rna/data_storage/whfs-xs-241791/whfs-xs-241791_bam_20250121/Chlor', rna_bam)

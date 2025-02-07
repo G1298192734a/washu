@@ -1,3 +1,0 @@
-TypeError in line 10 of /work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake_test.py:
-'str' object is not callable
-  File "/work/frasergen/3D/work/shaojie/script/HiC/washU/upload/upload_snake_test.py", line 10, in <module>

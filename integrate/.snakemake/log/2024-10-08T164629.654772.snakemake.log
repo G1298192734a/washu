@@ -1,4 +1,0 @@
-AttributeError in line 8 of /work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py:
-'DataFrame' object has no attribute 'tolist'
-  File "/work/frasergen/3D/work/shaojie/script/HiC/integrate/hic_rna_snake.py", line 8, in <module>
-  File "/public/frasergen/PUB/software/python/Python-3.7.10/lib/python3.7/site-packages/pandas/core/generic.py", line 5487, in __getattr__

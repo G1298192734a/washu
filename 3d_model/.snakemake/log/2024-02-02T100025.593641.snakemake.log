@@ -1,3 +1,0 @@
-NameError in line 22 of /work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model.snake.py:
-name 'sample' is not defined
-  File "/work/frasergen/3D/work/shaojie/script/HiC/3d_model/trid_model.snake.py", line 22, in <module>
