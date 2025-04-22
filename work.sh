@@ -1,5 +1,5 @@
-git config --global user.name G1298192734a
-git config --global user.mail shaojie@frasergen.com
+#git config --global user.name G1298192734a
+#git config --global user.mail shaojie@frasergen.com
 #ssh-keygen -t rsa -C shaojie@frasergen.com
 #gedit /work/home/fssj/.ssh/id_rsa.pub
 
